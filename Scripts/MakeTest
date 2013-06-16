@@ -1,0 +1,22 @@
+#Move to the scripts directory no matter where it is called from.
+_my_name=`basename $0`
+if [ "`echo $0 | cut -c1`" = "/" ]; then
+  _my_path=`dirname $0`
+else
+  _my_path=`pwd`/`echo $0 | sed -e s/$_my_name//`
+fi
+processed=`echo $_my_path | sed -e s/Scripts.*$/Scripts/g`
+cd $processed
+
+#Build the example
+mkdir -p ../Build
+echo "Building $1 with multiple compilers and options"
+
+#Compile against different compilers and options in background
+g++ -Wall -Wextra -Wno-unused-parameter -I../Source `./GetFreeTypeArguments` -pthread -o /dev/null ../Examples/$1.cpp &
+clang++ -std=c++0x -stdlib=libc++ -Wall -Wextra -I../Source -Wno-unused-parameter `./GetFreeTypeArguments` -pthread -o /dev/null ../Examples/$1.cpp &
+clang++ -std=c++98 -stdlib=libc++ -Wall -Wextra -I../Source -Wno-unused-parameter `./GetFreeTypeArguments` -pthread -o /dev/null ../Examples/$1.cpp &
+clang++ -Wall -Wextra -Wno-unused-parameter -I../Source `./GetFreeTypeArguments` -pthread -o /dev/null ../Examples/$1.cpp &
+
+#Main build
+g++ -Wall -Wextra -Wno-unused-parameter -I../Source `./GetFreeTypeArguments` -pthread -O3 -o ../Build/$1 ../Examples/$1.cpp

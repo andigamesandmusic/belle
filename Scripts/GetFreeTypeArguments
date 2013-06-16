@@ -1,0 +1,10 @@
+if [ -d /usr/local/include/freetype2 ]
+  then
+    echo "-I/usr/local/include/freetype2 -lfreetype -DBELLEBONNESAGE_WITH_FREETYPE"
+elif [ -d /usr/local/freetype2 ]
+  then
+    echo "-I/usr/local/freetype2 -lfreetype -DBELLEBONNESAGE_WITH_FREETYPE"
+elif [ -d /opt/local/include/freetype2 ]
+  then
+    echo "-I/opt/local/include/freetype2 -L/opt/local/lib -lfreetype -DBELLEBONNESAGE_WITH_FREETYPE"
+fi

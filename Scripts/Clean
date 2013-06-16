@@ -1,0 +1,17 @@
+#Move to the scripts directory no matter where it is called from.
+_my_name=`basename $0`
+if [ "`echo $0 | cut -c1`" = "/" ]; then
+  _my_path=`dirname $0`
+else
+  _my_path=`pwd`/`echo $0 | sed -e s/$_my_name//`
+fi
+processed=`echo $_my_path | sed -e s/Scripts.*$/Scripts/g`
+cd $processed
+
+#echo "Cleaning Build and Library"
+echo "Cleaning Build"
+cd ..
+rm -rf Build
+#rm -rf Library
+mkdir Build
+#mkdir Library
