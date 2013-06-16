@@ -32,11 +32,38 @@
   ==============================================================================
 */
 
-#ifndef BELLE_GRAPH_H
-#define BELLE_GRAPH_H
+#ifndef BELLE_GRAPH_UTILITY_H
+#define BELLE_GRAPH_UTILITY_H
 
-#include "Label.h"
 #include "Music.h"
-#include "Utility.h"
 
+namespace BELLE_NAMESPACE
+{
+  class Utility
+  {
+    public:
+    
+    /**Utility function to help visualize graphs. It uses the Graphviz DOT
+    utility to convert a DOT representation of the graph into a PNG image.*/
+    static void OpenGraphVisualization(const Music& m,
+      prim::String TempFile = "/tmp/prim_test.png")
+    {
+    #ifdef PRIM_WITH_SHELL
+      prim::String In, Out, Error;
+      //Pipe a DOT file to dot and get the result back as PNG.
+      prim::Shell::PipeInOut(prim::Shell::GetProcessOnPath("dot"),
+        m.ExportDOT(), Out, Error, "-Tpng");
+
+      //Write the PNG to the temp file.
+      prim::File::Write(TempFile, Out);
+  
+      //Open the PNG using the default application.
+      prim::Shell::PipeInOut(prim::Shell::GetProcessOnPath("open"),
+        In, Out, Error, TempFile);
+    #else
+      prim::c >> "PRIM_WITH_SHELL not enabled. Can not open 'dot'.";
+    #endif
+    }
+  };
+}
 #endif

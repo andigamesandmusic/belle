@@ -32,8 +32,8 @@
   ==============================================================================
 */
 
-#ifndef BELLE_GRAPH_BASE_H
-#define BELLE_GRAPH_BASE_H
+#ifndef BELLE_GRAPH_LABEL_H
+#define BELLE_GRAPH_LABEL_H
 
 namespace BELLE_NAMESPACE
 {
@@ -144,6 +144,24 @@ namespace BELLE_NAMESPACE
       }
       return s;
     }
+    
+    //-------------//
+    //Common Labels//
+    //-------------//
+    
+    static MusicLabel Instantwise()
+    {
+      MusicLabel L;
+      L.Set(mica::Type) = mica::Instantwise;
+      return L;
+    }
+    
+    static MusicLabel Partwise()
+    {
+      MusicLabel L;
+      L.Set(mica::Type) = mica::Partwise;
+      return L;
+    }
   };
   
   //Typedefs for music graphs, nodes, and edges.
@@ -151,112 +169,5 @@ namespace BELLE_NAMESPACE
   typedef prim::Pointer<prim::GraphT<MusicLabel>::Object> MusicNode;
   typedef prim::Pointer<const prim::GraphT<MusicLabel>::Object> ConstMusicEdge;
   typedef prim::Pointer<const prim::GraphT<MusicLabel>::Object> ConstMusicNode;
-
-  class MusicGraph : public prim::GraphT<MusicLabel>
-  {
-  public:
-    ///Converts the graph to a string.
-    operator prim::String() const
-    {
-      return (prim::String)(*(prim::GraphT<MusicLabel>*)this);
-    }
-  
-    ///Creates a new island.
-    MusicNode CreateIsland()
-    {
-      MusicNode i = Add();
-      i->Set(mica::Type) = mica::Island;
-      return i;
-    }
-  
-    ///Creates a new token.
-    MusicNode CreateToken(mica::Concept TokenType)
-    {
-      MusicNode t = Add();
-      t->Set(mica::Type) = mica::Token;
-      t->Set(mica::Kind) = TokenType;
-      return t;
-    }
-
-    ///Adds a token to an island.
-    void AddTokenToIsland(MusicNode Island, MusicNode Token)
-    {
-      Connect(Island, Token)->Set(mica::Type) = mica::Token;
-    }
-
-    ///Creates a barline token inside a new island and returns the island.
-    MusicNode CreateAndAddBarline(mica::Concept BarlineType = mica::StandardBarline)
-    {
-      MusicNode t = CreateToken(mica::Barline);
-      t->Set(mica::Value) = BarlineType;
-      MusicNode i = CreateIsland();
-      AddTokenToIsland(i, t);
-      return i;
-    }
-  
-    ///Creates a clef token inside a new island and returns the island.
-    MusicNode CreateAndAddClef(mica::Concept ClefType = mica::TrebleClef)
-    {
-      MusicNode t = CreateToken(mica::Clef);
-      t->Set(mica::Value) = ClefType;
-      MusicNode i = CreateIsland();
-      AddTokenToIsland(i, t);
-      return i;
-    }
-
-    /**Creates a key signature token inside a new island and returns the island.
-    Also allows an optional mode to be specified.*/
-    MusicNode CreateAndAddKeySignature(mica::Concept KeySignature,
-      mica::Concept Mode = mica::Undefined)
-    {
-      MusicNode t = CreateToken(mica::KeySignature);
-      t->Set(mica::Value) = KeySignature;
-      t->Set(mica::Mode) = Mode;
-      MusicNode i = CreateIsland();
-      AddTokenToIsland(i, t);
-      return i;
-    }
-
-    /**Creates time signature token inside a new island and returns the island.
-    This is just a regular time signature with a number of beats such as 4 and a
-    rhythm such as "1/4".*/
-    MusicNode CreateAndAddTimeSignature(prim::count Beats,
-      mica::Concept NoteValue)
-    {
-      MusicNode t = CreateToken(mica::TimeSignature);
-      t->Set(mica::Value) = mica::RegularTimeSignature;
-      t->Set(mica::Beats) = mica::Concept(prim::Ratio(Beats));
-      t->Set(mica::NoteValue) = NoteValue;
-      MusicNode i = CreateIsland();
-      AddTokenToIsland(i, t);
-      return i;
-    }
-  
-    ///Creates and returns a chord.
-    MusicNode CreateChord(mica::Concept NoteValue)
-    {
-      MusicNode t = CreateToken(mica::Chord);
-      t->Set(mica::NoteValue) = NoteValue;
-      return t;
-    }
-  
-    ///Adds the chord to a new island and returns that island.
-    MusicNode AddChordToNewIsland(MusicNode Chord)
-    {
-      MusicNode i = CreateIsland();
-      AddTokenToIsland(i, Chord);
-      return i;
-    }
-  
-    ///Creates note given the pitch, adds it to the chord, and returns note.
-    MusicNode CreateAndAddNote(MusicNode ChordToAddTo, mica::Concept Pitch)
-    {
-      MusicNode n = Add();
-      n->Set(mica::Type) = mica::Note;
-      n->Set(mica::Value) = Pitch;
-      Connect(ChordToAddTo, n)->Set(mica::Type) = mica::Note;
-      return n;
-    }
-  };
 }
 #endif

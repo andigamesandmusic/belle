@@ -68,7 +68,7 @@ as preprocessor defines to the compiler).*/
 
 //The prim.cc library -- https://github.com/burnson/prim.cc
 #ifndef PRIM_CC_LIBRARY
-#define PRIM_WITH_TIMER
+#define PRIM_WITH_SHELL
 #ifdef BELLE_COMPILE_INLINE
 #  define PRIM_COMPILE_INLINE
 #endif
