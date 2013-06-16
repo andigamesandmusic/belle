@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_PAINTERS_SVG_H
-#define BELLEBONNESAGE_PAINTERS_SVG_H
+#ifndef BELLE_PAINTERS_SVG_H
+#define BELLE_PAINTERS_SVG_H
 
-namespace bellebonnesage { namespace painters
+namespace BELLE_NAMESPACE { namespace painters
 {
   class SVG : public Painter
   {
@@ -79,7 +79,7 @@ namespace bellebonnesage { namespace painters
       prim::String SVG;
       SVG >> "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>";
       SVG >> "<!--Created with Belle, Bonne, Sage "
-        "(bellebonnesage::painters::SVG)-->";
+        "(belle::painters::SVG)-->";
       SVG++;
       SVG >> "<svg ";
       SVG >> "  xmlns=\"http://www.w3.org/2000/svg\"";

@@ -32,8 +32,8 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_CORE_H
-#define BELLEBONNESAGE_CORE_H
+#ifndef BELLE_CORE_H
+#define BELLE_CORE_H
 
 #include "Abstracts.h"
 #include "Colors.h"

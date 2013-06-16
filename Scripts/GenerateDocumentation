@@ -14,10 +14,10 @@ rm -rf ../Documentation/*
   ../Resources/Doxyfile > /dev/null
 mv ../Documentation/html/* ../Documentation/
 rm -rf ../Documentation/html
-cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebellebonnesage/g' > \
+cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebelle/g' > \
   ../Documentation/namespaces.html
 cp ../Documentation/namespaces.html ../Documentation/namespacemembers.html
 
-cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebellebonnesage/g' | \
+cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebelle/g' | \
   sed 's/html/html\#nested-classes/g'> \
   ../Documentation/annotated.html

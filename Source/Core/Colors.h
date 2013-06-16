@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_COLORS_H
-#define BELLEBONNESAGE_COLORS_H
+#ifndef BELLE_CORE_COLORS_H
+#define BELLE_CORE_COLORS_H
 
-namespace bellebonnesage {
+namespace BELLE_NAMESPACE {
 
   //Forward declarations
   struct Color;
@@ -454,7 +454,7 @@ namespace bellebonnesage {
     static const Color yellowgreen;
   };
   
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
+#ifdef BELLE_COMPILE_INLINE
   Color::operator ColorModels::RGB ()
   {
     //sRGB --> raw RGB//

@@ -32,73 +32,9 @@
   ==============================================================================
 */
 
-#define BELLE_COMPILE_INLINE
-#include "Belle.h"
+#ifndef BELLE_GRAPH_H
+#define BELLE_GRAPH_H
 
-//Use some namespaces to help with scoping.
-using namespace prim;
-using namespace belle;
-using namespace belle::painters;
-using namespace prim::planar;
+#include "Base.h"
 
-//Resource handle to the test image.
-Resource TestResource;
-
-//An example of deriving a Portfolio and Canvas.
-struct Score : public Portfolio
-{
-  struct Page : public Canvas
-  {
-    virtual void Paint(Painter& Painter, Portfolio& Portfolio)
-    {
-      //Tile the test image on the page.
-      for(prim::number i = 0; i <= 8; i++)
-      {
-        for(prim::number j = 0; j < 11; j++)
-        {
-          //Translate to the square at (i, j).
-          Painter.Translate(Vector(i, j));
-          
-          //Paint a one-inch block using the resource key.
-          Painter.Draw(TestResource, Vector(1.0, 1.0));
-          
-          //Revert the translation.
-          Painter.Revert();
-        }
-      }
-    }
-  };
-};
-
-int main()
-{
-  //Create a score.
-  Score MyScore;
-  
-  //Assign a JPEG file to the resource ID.
-  PDF::JPEGImage Test(TestResource, "../Resources/Test.jpg");
-  
-  //Add the JPEG image resource to the score.
-  MyScore.AddImageResource(Test);
-
-  //Add a page to the score.
-  MyScore.Canvases.Add() = new Score::Page;
-
-  //Set to letter landscape.
-  MyScore.Canvases.z()->Dimensions = Paper::Letter;
-
-  //Set the PDF-specific properties.
-  PDF::Properties PDFSpecificProperties;
-  PDFSpecificProperties.Filename = "Image.pdf";
-  
-  //Write the score to PDF.
-  MyScore.Create<PDF>(PDFSpecificProperties);
-
-  //Note success to console window.
-  c >> "Successfully wrote '" << PDFSpecificProperties.Filename << "'.";
-
-  //Add a blank line to the output.
-  c++;
-  
-  return 0;
-}
+#endif

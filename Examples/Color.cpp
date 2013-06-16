@@ -1,7 +1,7 @@
 /*
   ==============================================================================
 
-  Copyright 2007-2012 William Andrew Burnson. All rights reserved.
+  Copyright 2007-2013 William Andrew Burnson. All rights reserved.
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions are met:
@@ -24,10 +24,6 @@
   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  The views and conclusions contained in the software and documentation are
-  those of the authors and should not be interpreted as representing official
-  policies, either expressed or implied, of William Andrew Burnson.
-
   ------------------------------------------------------------------------------
 
   This file is part of Belle, Bonne, Sage --
@@ -36,14 +32,15 @@
   ==============================================================================
 */
 
-#define BELLEBONNESAGE_COMPILE_INLINE
-#include "BelleBonneSage.h"
+#define BELLE_COMPILE_INLINE
+#include "Belle.h"
 
 //Use some namespaces to help with scoping.
 using namespace prim;
-using namespace bellebonnesage;
-using namespace bellebonnesage::painters;
+using namespace belle;
+using namespace belle::painters;
 using namespace prim::planar;
+
 
 //An example of deriving a Portfolio and Canvas as Score and Score::Page
 struct Score : public Portfolio

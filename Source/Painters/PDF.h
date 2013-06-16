@@ -32,14 +32,14 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_PAINTERS_PDF_H
-#define BELLEBONNESAGE_PAINTERS_PDF_H
+#ifndef BELLE_PAINTERS_PDF_H
+#define BELLE_PAINTERS_PDF_H
 
-#ifdef BELLEBONNESAGE_WITH_ZLIB
+#ifdef BELLE_WITH_ZLIB
 #include <zlib.h>
 #endif
 
-namespace bellebonnesage { namespace painters
+namespace BELLE_NAMESPACE { namespace painters
 {
   /**Preliminary support for outputting Portable Document Files. The PDF class
   supports multiple pages and layers, and currently conforms to the
@@ -48,7 +48,7 @@ namespace bellebonnesage { namespace painters
   {
     public:
     
-    class JPEGImage : public bellebonnesage::Image
+    class JPEGImage : public Image
     {
       friend class PDF;
       
@@ -77,25 +77,25 @@ namespace bellebonnesage { namespace painters
       
       /**Creates a placeholder image given a resource ID. Use Load to import the
       image.*/
-      JPEGImage(Resource& ResourceID) : bellebonnesage::Image(ResourceID) {}
+      JPEGImage(Resource& ResourceID) : Image(ResourceID) {}
       
       ///Creates an image given a resource ID and the filename of a JPEG.
       JPEGImage(Resource& ResourceID, prim::String JPEGFile) : 
-        bellebonnesage::Image(ResourceID)
+        Image(ResourceID)
       {
         Load(JPEGFile);
       }
       
       ///Creates an image given a resource ID and raw JPEG data.
       JPEGImage(Resource& ResourceID, const prim::Array<prim::byte>& JPEGData) : 
-        bellebonnesage::Image(ResourceID)
+        Image(ResourceID)
       {
         Load(JPEGData);
       }
       
       ///Creates an image given a resource ID and raw JPEG data.
       JPEGImage(Resource& ResourceID, const prim::byte* Data,
-        prim::count Bytes) : bellebonnesage::Image(ResourceID)
+        prim::count Bytes) : Image(ResourceID)
       {
         Load(Data, Bytes);
       }
@@ -185,7 +185,7 @@ namespace bellebonnesage { namespace painters
     };
 
     private:
-#ifdef BELLEBONNESAGE_WITH_ZLIB
+#ifdef BELLE_WITH_ZLIB
     static void GetZlibMetadata(prim::String& PDFString, prim::String Prefix,
       prim::String& Out, prim::count MaxBytesToAllocate = 50000000)
     {
@@ -288,7 +288,7 @@ namespace bellebonnesage { namespace painters
       String Result;
       WholeFileString.FindBetween(Code, ")", Result);
       
-#ifdef BELLEBONNESAGE_WITH_ZLIB
+#ifdef BELLE_WITH_ZLIB
       if(!Result.n())
         GetZlibMetadata(WholeFileString, Code, Result);
 #endif
@@ -1067,7 +1067,7 @@ namespace bellebonnesage { namespace painters
     virtual void Transform(const Affine& a)
     {
       //Call the base class transform first.
-      bellebonnesage::Painter::Transform(a);
+      Painter::Transform(a);
       
       //Create the transform code.
       prim::number CTMMultiplier = PDFProperties->CTMMultiplier;
@@ -1082,7 +1082,7 @@ namespace bellebonnesage { namespace painters
     virtual void Revert(prim::count TransformationsToRevert)
     {
       //Call the base class revert first.
-      bellebonnesage::Painter::Revert(TransformationsToRevert);
+      Painter::Revert(TransformationsToRevert);
       
       //Create the revert code.
       prim::String t;

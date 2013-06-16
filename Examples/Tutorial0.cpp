@@ -52,16 +52,16 @@ For more information related to building, see the README.
 /*Step 1: Including Belle, Bonne, Sage
 There are two main rules to including Belle, Bonne Sage:
 
-1. Include BelleBonneSage.h in each .cpp that needs it. Here ../Belle... is used
+1. Include Belle.h in each .cpp that needs it. Here ../Belle... is used
 because the file happens to be in the parent directory; however, the relative
 path will differ depending on how your project has been set up.
 
-/BelleBonneSage.h includes the whole library which is located in /Source and its
+/Belle.h includes the whole library which is located in /Source and its
 subdirectories.
 
-2. #define BELLEBONNESAGE_COMPILE_INLINE in one and only one .cpp file, such as
+2. #define BELLE_COMPILE_INLINE in one and only one .cpp file, such as
 the main .cpp file or the file that contains int main(), above the
-BelleBonneSage.h include.
+Belle.h include.
 
 If you look at the files in /Source you will notice something which may look a
 little peculiar at first: there are no .cpp files. This is done primarily for
@@ -73,7 +73,7 @@ you use the Doxygen-generated reference material to get an overview of a class.
 While most of the code is perfectly happy to keep definition with declaration,
 there are times when this is impossible, for example due to mutual dependencies.
 Therefore, some code is blocked off as "inline compile":
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
+#ifdef BELLE_COMPILE_INLINE
 //code for declarations which are not with definitions
 #endif
 
@@ -81,8 +81,8 @@ The _COMPILE_INLINE paradigm is also used in the prim.cc and MICA sublibraries,
 however, Belle will automatically trigger the _COMPILE_INLINE switch for these
 sublibraries.
 */
-#define BELLEBONNESAGE_COMPILE_INLINE
-#include "BelleBonneSage.h"
+#define BELLE_COMPILE_INLINE
+#include "Belle.h"
 
 //------------------------------------------------------------------------------
 
@@ -109,8 +109,8 @@ namespace bbs
 {
   using namespace prim;
   using namespace prim::planar;
-  using namespace bellebonnesage;
-  using namespace bellebonnesage::context;
+  using namespace belle;
+  using namespace belle::painters;
 }
 
 Below is an explanation of what each namespace does:
@@ -125,14 +125,13 @@ using namespace prim;
 surfaces: Vector(Int), Rectangle(Int), Bezier, Ellipse, Line, Polygon.*/
 using namespace prim::planar;
 
-/*The core bellebonnesage namespace
-(http://bellebonnesage.sourceforge.net/docs/namespacebellebonnesage.html).
+/*The core belle namespace.
 It contains classes relevant to drawing such as Affine, Canvas, Color, Font,
 Painter, Path, Portfolio, Shapes, Text.*/
-using namespace bellebonnesage;
+using namespace belle;
 
 //Belle has output painters which are rendering targets such as PDF and JUCE.
-using namespace bellebonnesage::painters;
+using namespace belle::painters;
 
 //------------------------------------------------------------------------------
 

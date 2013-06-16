@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_PAINTERS_JUCE_H
-#define BELLEBONNESAGE_PAINTERS_JUCE_H
+#ifndef BELLE_PAINTERS_JUCE_H
+#define BELLE_PAINTERS_JUCE_H
 
-namespace bellebonnesage { namespace painters
+namespace BELLE_NAMESPACE { namespace painters
 {
 #ifdef JUCE_VERSION
   /*An painter implementation of Belle, Bonne, Sage using a JUCE component as
@@ -61,7 +61,7 @@ namespace bellebonnesage { namespace painters
       friend struct JUCE;
     };
     
-    class Image : public bellebonnesage::Image
+    class Image : public Image
     {
       friend struct JUCE;
       
@@ -71,7 +71,7 @@ namespace bellebonnesage { namespace painters
       
       ///Creates an image given a resource ID and a JUCE image reference.
       Image(Resource& ResourceID, const juce::Image& Handle) : 
-        bellebonnesage::Image(ResourceID), Handle(Handle) {}
+        Image(ResourceID), Handle(Handle) {}
 
       ///Virtual destructor
       virtual ~Image() {}

@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_UNITS_H
-#define BELLEBONNESAGE_UNITS_H
+#ifndef BELLE_CORE_UNITS_H
+#define BELLE_CORE_UNITS_H
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   ///Stores a particular unit.
   typedef prim::count Unit;
@@ -213,7 +213,7 @@ namespace bellebonnesage
     static const Millimeters C10;
   };
   
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
+#ifdef BELLE_COMPILE_INLINE
   const Inches Paper::Letter(8.5, 11.0);
   const Inches Paper::Legal(8.5, 14.0);
   const Inches Paper::Tabloid(11.0, 17.0);

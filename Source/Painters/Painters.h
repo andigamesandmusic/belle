@@ -32,8 +32,8 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_PAINTERS_H
-#define BELLEBONNESAGE_PAINTERS_H
+#ifndef BELLE_PAINTERS_H
+#define BELLE_PAINTERS_H
 
 #include "JUCE.h"
 #include "PDF.h"

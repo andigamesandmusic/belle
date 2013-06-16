@@ -32,13 +32,13 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_FONT_H
-#define BELLEBONNESAGE_FONT_H
+#ifndef BELLE_CORE_FONT_H
+#define BELLE_CORE_FONT_H
 
 #include "Path.h"
 #include "SVG.h"
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   ///A glyph stores a path as though it were a character from a typeface.
   struct Glyph : public Path
@@ -294,18 +294,18 @@ namespace bellebonnesage
       prim::integer DocumentHeight = Rows * ThumbnailSize + 2; 
       SVG = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>";
       SVG >> "<!--Created with Belle, Bonne, Sage "
-        "(bellebonnesage::Typeface)-->";
+        "(belle::Typeface)-->";
       SVG++;
       SVG >> "<svg ";
       SVG >> "  xmlns=\"http://www.w3.org/2000/svg\"";
-      SVG >> "  xmlns:bellebonnesage=\"http://bellebonnesage.sourceforge.net\"";
+      SVG >> "  xmlns:belle=\"https://github.com/burnson/Belle\"";
       SVG >> "  version=\"1.1\"";
       SVG >> "  width=\"" << DocumentWidth << "\"";
       SVG >> "  height=\"" << DocumentHeight << "\">";
       
       SVG++;
       SVG >> "<!--Font Information-->";
-      SVG >> "<bellebonnesage:font height=\"" << TypographicHeight
+      SVG >> "<belle:font height=\"" << TypographicHeight
         << "\" ascender=\"" << TypographicAscender <<
         "\" descender=\"" << TypographicDescender << "\"/>";
       
@@ -317,7 +317,7 @@ namespace bellebonnesage
         if(!g) continue;
 
         for(prim::count j = 0; j < g->Kern.n(); j++)
-          SVG >> "<bellebonnesage:kern left=\"" << (prim::integer)g->Character
+          SVG >> "<belle:kern left=\"" << (prim::integer)g->Character
             << "\" right=\"" << (prim::integer)g->Kern[j].FollowingCharacter <<
             "\" horizontal-adjustment=\"" << g->Kern[j].HorizontalAdjustment <<
             "\"/>";
@@ -418,7 +418,7 @@ namespace bellebonnesage
         //Get the unicode value.
         {
           prim::String Value;
-          PathBetween.FindBetween("bellebonnesage:unicode=\"", "\"", Value);
+          PathBetween.FindBetween("belle:unicode=\"", "\"", Value);
           if(Value)
             g.Character = (prim::count)Value.ToNumber();
         }
@@ -427,7 +427,7 @@ namespace bellebonnesage
         {
           prim::String Value;
           PathBetween.FindBetween(
-            "bellebonnesage:advance-width=\"", "\"", Value);
+            "belle:advance-width=\"", "\"", Value);
           if(Value)
             g.AdvanceWidth = Value.ToNumber();
         }
@@ -446,14 +446,14 @@ namespace bellebonnesage
       //Calculate the bounds of the font.
       Bounds(true, false);
       
-      //Retrieve kerning information from <bellebonnesage::kern ...>
+      //Retrieve kerning information from <belle:kern ...>
       prim::String::Span KernSpan(-1, -1);
       for(;;)
       {
-        //Get the next instance of a <bellebonnesage:kern ...> element.
+        //Get the next instance of a <belle:kern ...> element.
         prim::String KernBetween;
         prim::count Start = KernSpan.j() + 1;
-        KernSpan = Input.FindBetween("<bellebonnesage:kern", ">",
+        KernSpan = Input.FindBetween("<belle:kern", ">",
           KernBetween, Start);
         
         //If no more kern elements exist then stop looking for them.
@@ -494,14 +494,14 @@ namespace bellebonnesage
             g->Kern.Add() = Kern;
       }
       
-      //Retrieve font information from <bellebonnesage::font ...>
+      //Retrieve font information from <belle:font ...>
       prim::String::Span FontSpan(-1, -1);
       
       {
-        //Get the next instance of a <bellebonnesage:font ...> element.
+        //Get the next instance of a <belle:font ...> element.
         prim::String FontBetween;
         prim::count Start = FontSpan.j() + 1;
-        FontSpan = Input.FindBetween("<bellebonnesage:font", ">",
+        FontSpan = Input.FindBetween("<belle:font", ">",
           FontBetween, Start);
         
         //If there is no font information then exit.

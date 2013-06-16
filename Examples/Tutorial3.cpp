@@ -24,10 +24,6 @@
   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  The views and conclusions contained in the software and documentation are
-  those of the authors and should not be interpreted as representing official
-  policies, either expressed or implied, of William Andrew Burnson.
-
   ------------------------------------------------------------------------------
 
   This file is part of Belle, Bonne, Sage --
@@ -56,8 +52,8 @@ For more information related to building, see the README.
 
 /*Include Belle, Bonne, Sage and compile it in this .cpp file. See the previous
 tutorials for an explanation.*/
-#define BELLEBONNESAGE_COMPILE_INLINE
-#include "BelleBonneSage.h"
+#define BELLE_COMPILE_INLINE
+#include "Belle.h"
 using namespace prim;
 
 /*MICA lives in the mica namespace. There are thousands of identifiers (the

@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_OPTICS_H
-#define BELLEBONNESAGE_OPTICS_H
+#ifndef BELLE_CORE_OPTICS_H
+#define BELLE_CORE_OPTICS_H
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   struct Optics
   {

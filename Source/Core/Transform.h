@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_TRANSFORM_H
-#define BELLEBONNESAGE_TRANSFORM_H
+#ifndef BELLE_CORE_TRANSFORM_H
+#define BELLE_CORE_TRANSFORM_H
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   /**Stores a planar affine (common) transformation matrix or CTM. The matrix
   stores combinations of translation, scaling, and rotation as a set of six

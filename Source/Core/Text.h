@@ -32,13 +32,13 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_TEXT_H
-#define BELLEBONNESAGE_TEXT_H
+#ifndef BELLE_CORE_TEXT_H
+#define BELLE_CORE_TEXT_H
 
 #include "Colors.h"
 #include "Font.h"
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   struct Character
   {
@@ -628,7 +628,7 @@ namespace bellebonnesage
         j = 0;
         while(j < n && !Done)
         {
-          bellebonnesage::Character& c = Words[i][j];
+          Character& c = Words[i][j];
           prim::number x1 = c.TypesetPosition.x;
           prim::number x2 = x1 + c.TypesetSize.x;
           

@@ -32,8 +32,8 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_ABSTRACTS_H
-#define BELLEBONNESAGE_ABSTRACTS_H
+#ifndef BELLE_CORE_ABSTRACTS_H
+#define BELLE_CORE_ABSTRACTS_H
 
 #include "Colors.h"
 #include "Font.h"
@@ -42,20 +42,7 @@
 #include "Units.h"
 #include "Text.h"
 
-/**Primary namespace for the Belle, Bonne, Sage library. Note that you can
-easily create a shorter alias namespace:
-\code
-//bellebonnesage:: can now be substituted with belle::
-namespace belle
-{
-  using namespace bellebonnesage;
-}
-\endcode
-
-Or just use the namespace to put in global scope:
-using namespace bellebonnesage;
-*/
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   //Forward declarations
   struct Portfolio;

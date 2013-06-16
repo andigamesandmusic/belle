@@ -24,10 +24,6 @@
   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  The views and conclusions contained in the software and documentation are
-  those of the authors and should not be interpreted as representing official
-  policies, either expressed or implied, of William Andrew Burnson.
-
   ------------------------------------------------------------------------------
 
   This file is part of Belle, Bonne, Sage --
@@ -53,21 +49,20 @@ For more information related to building, see the README.
 //------------------------------------------------------------------------------
 
 //Include Belle, Bonne, Sage and compile it in this .cpp file.
-#define BELLEBONNESAGE_COMPILE_INLINE
-#include "BelleBonneSage.h"
+#define BELLE_COMPILE_INLINE
+#include "Belle.h"
 
 //These were discussed in Tutorial 0.
 using namespace prim;
 using namespace prim::planar;
 
-/*The core bellebonnesage namespace
-(http://bellebonnesage.sourceforge.net/docs/namespacebellebonnesage.html).
+/*The core belle namespace.
 It contains classes relevant to drawing such as Affine, Canvas, Color, Font,
 Painter, Path, Portfolio, Shapes, Text.*/
-using namespace bellebonnesage;
+using namespace belle;
 
 //Belle has output painters which are rendering targets such as PDF and JUCE.
-using namespace bellebonnesage::painters;
+using namespace belle::painters;
 
 //------------------------------------------------------------------------------
 
@@ -87,13 +82,13 @@ This example will show how to subclass both Portfolio and Canvas and how to use
 the PDF and SVG painters.
 */
 
-//Subclass Score from bellebonnesage::Portfolio
+//Subclass Score from belle::Portfolio
 struct Score : public Portfolio
 {
   //An array of rectangles to paint.
   Array<Rectangle> RectanglesToPaint;
 
-  /*Subclass Page from bellebonnesage::Canvas. Note that Page is a class inside
+  /*Subclass Page from belle::Canvas. Note that Page is a class inside
   a class, so it is really a Score::Page; however, it is not necessary to do it
   this way. It just logically groups the Page class with the Score to which it
   pertains.*/

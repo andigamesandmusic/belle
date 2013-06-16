@@ -32,8 +32,17 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_LIBRARY
-#define BELLEBONNESAGE_LIBRARY
+#ifndef BELLE_LIBRARY
+#define BELLE_LIBRARY
+
+//-----------------//
+//Default Namespace//
+//-----------------//
+
+//The belle namespace can be overridden as necessary.
+#ifndef BELLE_NAMESPACE
+#define BELLE_NAMESPACE belle
+#endif
 
 //----------------------//
 //Prerequisite Locations//
@@ -41,16 +50,16 @@
 
 /*Default locations to prim.cc and MICA (change these if necessary or push them
 as preprocessor defines to the compiler).*/
-#ifndef BELLEBONNESAGE_PRIM_LOCATION
-#define BELLEBONNESAGE_PRIM_LOCATION "Modules/prim.cc/Source/prim.h"
+#ifndef BELLE_PRIM_LOCATION
+#define BELLE_PRIM_LOCATION "Modules/prim.cc/Source/prim.h"
 #endif
 
-#ifndef BELLEBONNESAGE_MICA_H_LOCATION
-#define BELLEBONNESAGE_MICA_H_LOCATION "Modules/MICA/Ports/en-cpp/mica.h"
+#ifndef BELLE_MICA_H_LOCATION
+#define BELLE_MICA_H_LOCATION "Modules/MICA/Ports/en-cpp/mica.h"
 #endif
 
-#ifndef BELLEBONNESAGE_MICA_CPP_LOCATION
-#define BELLEBONNESAGE_MICA_CPP_LOCATION "Modules/MICA/Ports/en-cpp/mica.cpp"
+#ifndef BELLE_MICA_CPP_LOCATION
+#define BELLE_MICA_CPP_LOCATION "Modules/MICA/Ports/en-cpp/mica.cpp"
 #endif
 
 //-------------//
@@ -60,18 +69,18 @@ as preprocessor defines to the compiler).*/
 //The prim.cc library -- https://github.com/burnson/prim.cc
 #ifndef PRIM_CC_LIBRARY
 #define PRIM_WITH_TIMER
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
+#ifdef BELLE_COMPILE_INLINE
 #  define PRIM_COMPILE_INLINE
 #endif
-#include BELLEBONNESAGE_PRIM_LOCATION
+#include BELLE_PRIM_LOCATION
 #endif
 
 //The MICA library --  https://github.com/burnson/MICA
 #ifndef MICA_H
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
-#  include BELLEBONNESAGE_MICA_CPP_LOCATION
+#ifdef BELLE_COMPILE_INLINE
+#  include BELLE_MICA_CPP_LOCATION
 #endif
-#include BELLEBONNESAGE_MICA_H_LOCATION
+#include BELLE_MICA_H_LOCATION
 #endif
 
 //----//
@@ -84,7 +93,7 @@ as preprocessor defines to the compiler).*/
 //Graph//
 //-----//
 
-//#include "Graph/Graph.h"
+#include "Graph/Graph.h"
 
 //------//
 //Modern//
@@ -107,10 +116,10 @@ as preprocessor defines to the compiler).*/
 To use:
 1) Add include path to freetype2 (i.e. -I/usr/local/include/freetype2)
 2) Link to freetype (i.e. -lfreetype)
-3) Define BELLEBONNESAGE_WITH_FREETYPE
+3) Define BELLE_WITH_FREETYPE
 
 For example:
--I/usr/local/include/freetype2 -lfreetype -DBELLEBONNESAGE_WITH_FREETYPE
+-I/usr/local/include/freetype2 -lfreetype -DBELLE_WITH_FREETYPE
 
 Currently Scripts/GetFreeTypeArguments determines this for POSIX systems.*/ 
 #include "Modules/FreeType/FreeType.h"

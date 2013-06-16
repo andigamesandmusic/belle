@@ -32,8 +32,8 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_MANUAL_H
-#define BELLEBONNESAGE_MANUAL_H
+#ifndef BELLE_MANUAL_H
+#define BELLE_MANUAL_H
 
 //---------------------//
 //Doxygen Documentation//
@@ -48,23 +48,28 @@
   Thank you for trying out <i>Belle, Bonne, Sage</i>&mdash;the
   &ldquo;beautiful, good, wise&rdquo; vector-graphics
   library dedicated solely to music notation! See the
-  <a href="http://bellebonnesage.sourceforge.net">main page</a> for more prose
+  <a href="https://github.com/burnson/Belle">main page</a> for more prose
   about the goals of the project.
   
-  <b>Update (January 4, 2012)</b>: <i>The library is currently undergoing a massive
-  overhaul and change of license (from LGPL to the more permissive Simplified
-  BSD 2-clause) so many things are no longer in trunk. The original library is
-  still in the tags/0.4 directory though under LGPL. I plan to be adding a
-  basic modern music notation renderer this year with some MusicXML support.
-  Stay tuned!</i>
-  
+  <b>Update (June 16, 2013)</b>: <i>The library has moved to GitHub and makes
+  use of a new graph format as well as a new version of MICA. Due to these
+  changes the code is breaking backwards-compatibility. The old SourceForge SVN
+  is still available, but is no longer the active branch of development.</i>
+
   Quick-start:
   \code
-  svn co https://bellebonnesage.svn.sourceforge.net/svnroot/bellebonnesage/trunk bbs
-  cd bbs
+  # Clone the repo:
+  git clone git://github.com/burnson/Belle.git
+
+  # Change directory to Belle:
+  cd Belle
+
+  # Initialize and update the submodules:
+  git submodule init
+  git submodule update
+
+  # Try making all the examples:
   Scripts/MakeAll
-  cd Build
-  ./[NameOfExample]
   \endcode
 */
 #endif

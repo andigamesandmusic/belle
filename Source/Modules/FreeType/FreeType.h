@@ -32,11 +32,11 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_MODULES_FREETYPE_H
-#define BELLEBONNESAGE_MODULES_FREETYPE_H
+#ifndef BELLE_MODULES_FREETYPE_H
+#define BELLE_MODULES_FREETYPE_H
 
-#ifdef BELLEBONNESAGE_COMPILE_INLINE
-#ifdef BELLEBONNESAGE_WITH_FREETYPE
+#ifdef BELLE_COMPILE_INLINE
+#ifdef BELLE_WITH_FREETYPE
 
 #include <ft2build.h>
 #include FT_FREETYPE_H 
@@ -45,7 +45,7 @@
 #include <freetype/ftoutln.h>
 #include <freetype/ftadvanc.h>
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   struct FreeType
   {
@@ -220,7 +220,7 @@ namespace bellebonnesage
       FT_Outline *Outline = &reinterpret_cast<FT_OutlineGlyph>(FTGlyph)->outline;
       
       //New Glyph to store the converted result.
-      bellebonnesage::Glyph& ConvertedGlyph = Add();
+      Glyph& ConvertedGlyph = Add();
       
       //Set the character code.
       ConvertedGlyph.Character = CharacterCode;
@@ -305,11 +305,14 @@ namespace bellebonnesage
   }
 }
 #else
-prim::String bellebonnesage::Typeface::ImportFromFontData(
-  const prim::byte* ByteArray, prim::count LengthInBytes)
+namespace BELLE_NAMESPACE
 {
-  prim::String s(ByteArray, LengthInBytes); //Suppress unused parameter warning.
-  return "Could not load font data. FreeType extension not compiled.";
+  prim::String Typeface::ImportFromFontData(
+    const prim::byte* ByteArray, prim::count LengthInBytes)
+  {
+    prim::String s(ByteArray, LengthInBytes); //Suppress unused param warning.
+    return "Could not load font data. FreeType extension not compiled.";
+  }
 }
 #endif
 #endif

@@ -32,12 +32,12 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_PATH_H
-#define BELLEBONNESAGE_PATH_H
+#ifndef BELLE_CORE_PATH_H
+#define BELLE_CORE_PATH_H
 
 #include "Transform.h"
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   class Instruction
   {

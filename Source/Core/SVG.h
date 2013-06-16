@@ -32,10 +32,10 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_SVGHELPER_H
-#define BELLEBONNESAGE_SVGHELPER_H
+#ifndef BELLE_CORE_SVG_H
+#define BELLE_CORE_SVG_H
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   struct SVGHelper
   {
@@ -51,11 +51,11 @@ namespace bellebonnesage
       Destination >> "<path";
       
       if(Unicode)
-        Destination << " bellebonnesage:unicode=\"" <<
+        Destination << " belle:unicode=\"" <<
           (prim::integer)Unicode << "\"";
       
       if(AdvanceWidth)
-        Destination << " bellebonnesage:advance-width=\"" <<
+        Destination << " belle:advance-width=\"" <<
           AdvanceWidth << "\"";
       
       if(Transform != Affine::Unit())

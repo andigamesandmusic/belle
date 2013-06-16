@@ -32,12 +32,12 @@
   ==============================================================================
 */
 
-#ifndef BELLEBONNESAGE_SHAPES_H
-#define BELLEBONNESAGE_SHAPES_H
+#ifndef BELLE_CORE_SHAPES_H
+#define BELLE_CORE_SHAPES_H
 
 #include "Path.h"
 
-namespace bellebonnesage
+namespace BELLE_NAMESPACE
 {
   class StaffLines
   {
