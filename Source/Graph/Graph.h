@@ -38,5 +38,6 @@
 #include "Label.h"
 #include "Music.h"
 #include "Utility.h"
+#include "Transitive.h"
 
 #endif
