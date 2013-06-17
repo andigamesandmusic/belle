@@ -32,14 +32,51 @@
   ==============================================================================
 */
 
-#ifndef BELLE_GRAPH_H
-#define BELLE_GRAPH_H
+#define PRIM_WITH_TIMER
+#define BELLE_COMPILE_INLINE
+#include "Belle.h"
 
-#include "Label.h"
-#include "Music.h"
-#include "Utility.h"
-#include "Test.h"
-#include "Transitive.h"
-#include "Typesetting.h"
-
-#endif
+int main()
+{
+  using namespace belle::graph;
+  IslandGrid g;
+  //Geometry p;
+  for(prim::count i = 0; i < 4; i++)
+  {
+    switch(i)
+    {
+      case 0: g.MakeOssiaAndStaffChangeTest(); break;
+      case 1: g.MakeCrossTest(); break;
+      case 2: g.MakeSpiralTest(); break;
+      case 3: g.MakeInstantTest(); break;
+    }
+    prim::Timer t;
+    t.Start();
+    //p.Parse(g);
+    prim::c >> "Parse Time: " << (t.Stop() * 1000.0) << " ms";
+    prim::c >> "" >> "Part Assignment:";
+    g.PrintIDs(true);
+    prim::c >> "" >> "Instant Assignment:";
+    g.PrintIDs(false);
+    prim::c >> "" >> "Part Extents:";
+    /*
+    for(prim::count i = 0; i < p.GetNumberOfParts(); i++)
+      prim::c >> "Part " << i << ": " << p.GetPartRange(i);
+    
+    prim::c >> "" >> "Instant Part Membership:";
+    for(prim::count i = 0; i < p.GetNumberOfInstants(); i++)
+    {
+      prim::List<prim::count> l;
+      p.GetPartListForInstant(i, l);
+      prim::c >> "Instant " << i << ": " << l <<
+        (p.IsInstantComplete(i) ? " (complete) " : " ");
+    }
+    //g.WriteToFile("test");
+    */
+    Utility::OpenGraphVisualization(g);
+    break;
+    prim::c++;
+  }
+  TransitiveMapping::Explain();
+  return prim::c.Finish();
+}
