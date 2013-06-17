@@ -35,6 +35,7 @@
 #ifndef BELLE_GRAPH_H
 #define BELLE_GRAPH_H
 
+#include "Geometry.h"
 #include "Label.h"
 #include "Music.h"
 #include "Utility.h"

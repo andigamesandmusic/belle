@@ -75,6 +75,7 @@ namespace BELLE_NAMESPACE { namespace graph
       prim::count Rows, prim::count Columns)
     {
       IslandGrid& g = *this;
+      Music::Clear();
       
       //Read in the grid as an grid of islands.
       g.n(Rows);
@@ -97,6 +98,7 @@ namespace BELLE_NAMESPACE { namespace graph
             NewIsland = Music::Add();
             NewIsland->Label.Typesetting = new Typesetting;
             NewIsland->Set("Index") = prim::String(n++);
+            NewIsland->Set(mica::Type) = mica::Island;
             if(!Top)
               Top = NewIsland;
           }

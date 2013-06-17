@@ -40,7 +40,7 @@ int main()
 {
   using namespace belle::graph;
   IslandGrid g;
-  //Geometry p;
+  Geometry p;
   for(prim::count i = 0; i < 4; i++)
   {
     switch(i)
@@ -52,14 +52,14 @@ int main()
     }
     prim::Timer t;
     t.Start();
-    //p.Parse(g);
+    p.Parse(g);
     prim::c >> "Parse Time: " << (t.Stop() * 1000.0) << " ms";
     prim::c >> "" >> "Part Assignment:";
     g.PrintIDs(true);
     prim::c >> "" >> "Instant Assignment:";
     g.PrintIDs(false);
     prim::c >> "" >> "Part Extents:";
-    /*
+    
     for(prim::count i = 0; i < p.GetNumberOfParts(); i++)
       prim::c >> "Part " << i << ": " << p.GetPartRange(i);
     
@@ -72,9 +72,8 @@ int main()
         (p.IsInstantComplete(i) ? " (complete) " : " ");
     }
     //g.WriteToFile("test");
-    */
-    Utility::OpenGraphVisualization(g);
-    break;
+    //Utility::OpenGraphVisualization(g);
+    //break;
     prim::c++;
   }
   TransitiveMapping::Explain();
