@@ -32,13 +32,27 @@
   ==============================================================================
 */
 
-#ifndef BELLE_GRAPH_H
-#define BELLE_GRAPH_H
+#ifndef BELLE_GRAPH_TYPESETTING_H
+#define BELLE_GRAPH_TYPESETTING_H
 
-#include "Label.h"
-#include "Music.h"
-#include "Utility.h"
-#include "Transitive.h"
-#include "Typesetting.h"
+namespace BELLE_NAMESPACE { namespace graph
+{
+  //Class to store music concepts and custom strings
+  class Typesetting
+  {
+    public:
+    
+    ///Stores the part ID.
+    prim::count PartID;
 
+    ///Stores the instant ID.
+    prim::count InstantID;
+    
+    ///Default constructor to initialize elements.
+    Typesetting() : PartID(-1), InstantID(-1) {}
+    
+    ///Virtual destructor to make this class virtual.
+    virtual ~Typesetting () {}
+  };
+}}
 #endif

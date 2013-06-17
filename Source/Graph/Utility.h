@@ -37,7 +37,7 @@
 
 #include "Music.h"
 
-namespace BELLE_NAMESPACE
+namespace BELLE_NAMESPACE { namespace graph
 {
   class Utility
   {
@@ -65,5 +65,5 @@ namespace BELLE_NAMESPACE
     #endif
     }
   };
-}
+}}
 #endif

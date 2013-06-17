@@ -37,7 +37,7 @@
 
 #include "Label.h"
 
-namespace BELLE_NAMESPACE
+namespace BELLE_NAMESPACE { namespace graph
 {
   class Music : public prim::GraphT<MusicLabel>
   {
@@ -57,6 +57,7 @@ namespace BELLE_NAMESPACE
     {
       MusicNode i = Add();
       i->Set(mica::Type) = mica::Island;
+      i->Label.Typesetting = new Typesetting;
       return i;
     }
   
@@ -166,7 +167,7 @@ namespace BELLE_NAMESPACE
     returns true, and otherwise false.*/
     static bool RaiseToTopPart(MusicNode& n)
     {
-#if 0
+#if 0 /////////////////////
       //Make sure the node passed in is an island.
       if(!IsIsland(n))
       {
@@ -184,5 +185,5 @@ namespace BELLE_NAMESPACE
       return false;
     }
   };
-}
+}}
 #endif

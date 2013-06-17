@@ -35,7 +35,9 @@
 #ifndef BELLE_GRAPH_LABEL_H
 #define BELLE_GRAPH_LABEL_H
 
-namespace BELLE_NAMESPACE
+#include "Typesetting.h"
+
+namespace BELLE_NAMESPACE { namespace graph
 {
   //Class to store music concepts and custom strings
   class MusicLabel
@@ -46,6 +48,13 @@ namespace BELLE_NAMESPACE
     ///Stores the strings.
     prim::Table<prim::String> Strings;
   
+    public:
+    
+    ///Stores information related to Typesetting
+    prim::Pointer<Typesetting> Typesetting;
+  
+    private:
+    
     ///Converts a string like "Foo Bar" to "FooBar" (no case check though).
     static prim::String ToCamelCase(prim::String s)
     {
@@ -68,7 +77,7 @@ namespace BELLE_NAMESPACE
     }
 
     public:
-  
+
     ///Const key-value lookup
     const mica::Concept& Get(const mica::Concept& Key) const
     {
@@ -126,11 +135,27 @@ namespace BELLE_NAMESPACE
         return Strings.ith(i - Concepts.n()).Value;
     }
 
-    /**Indicates whether a given label is equivalent for edge traversal. The
-    default behavior here is to traverse if the data is exactly the same.*/
-    bool EdgeEquivalent(const MusicLabel& EdgeType) const
+    /**For equivalence, the label is only checked against the items in filter.
+    This differs from simply checking for the equivalence of the tables.*/
+    bool EdgeEquivalent(const MusicLabel& Filter) const
     {
-      return Concepts == EdgeType.Concepts && Strings == EdgeType.Strings;
+      //See if the filter concepts match by value.
+      for(prim::count i = 0, n = Filter.Concepts.n(); i < n; i++)
+      {
+        mica::Concept k = Filter.Concepts.ith(i).Key;
+        if(Concepts[k] != Filter.Concepts[k])
+          return false;
+      }
+      
+      //See if the filter strings match by value.
+      for(prim::count i = 0, n = Filter.Strings.n(); i < n; i++)
+      {
+        prim::String k = Filter.Strings.ith(i).Key;
+        if(Strings[k] != Filter.Strings[k])
+          return false;
+      }
+      
+      return true;
     }
   
     ///String conversion
@@ -169,5 +194,5 @@ namespace BELLE_NAMESPACE
   typedef prim::Pointer<prim::GraphT<MusicLabel>::Object> MusicNode;
   typedef prim::Pointer<const prim::GraphT<MusicLabel>::Object> ConstMusicEdge;
   typedef prim::Pointer<const prim::GraphT<MusicLabel>::Object> ConstMusicNode;
-}
+}}
 #endif
