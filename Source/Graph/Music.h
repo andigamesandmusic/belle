@@ -165,9 +165,8 @@ namespace BELLE_NAMESPACE { namespace graph
     sent or if the given node is not an island, but some other type of node,
     then the node is changed to null. If the node returned is not null, then it
     returns true, and otherwise false.*/
-    static bool RaiseToTopPart(MusicNode& n)
+    bool RaiseToTopPart(MusicNode& n)
     {
-#if 0 /////////////////////
       //Make sure the node passed in is an island.
       if(!IsIsland(n))
       {
@@ -176,13 +175,11 @@ namespace BELLE_NAMESPACE { namespace graph
       }
   
       //Go to the top part of the instant.
-      MusicNode m;
-      n->Previous()
-      while(n->Find<MusicNode>(m, ID(mica::InstantWiseLink),
-        prim::Link::Directions::Backwards))
-          n = m;
-#endif  
-      return false;
+      MusicNode m;      
+      while((m = Previous(n, MusicLabel::Instantwise())))
+        n = m;
+      
+      return true;
     }
   };
 }}

@@ -187,6 +187,13 @@ namespace BELLE_NAMESPACE { namespace graph
       L.Set(mica::Type) = mica::Partwise;
       return L;
     }
+
+    static MusicLabel Token()
+    {
+      MusicLabel L;
+      L.Set(mica::Type) = mica::Token;
+      return L;
+    }
   };
   
   //Typedefs for music graphs, nodes, and edges.

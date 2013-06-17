@@ -38,6 +38,7 @@
 #include "Geometry.h"
 #include "Label.h"
 #include "Music.h"
+#include "Properties.h"
 #include "Utility.h"
 #include "Test.h"
 #include "Transitive.h"
