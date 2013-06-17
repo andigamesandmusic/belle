@@ -42,6 +42,7 @@ int main()
   //Helper namespaces
   using namespace prim;
   using namespace belle;
+  using namespace belle::graph;
   
   //Create an empty music graph.
   Music g;
