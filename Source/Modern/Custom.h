@@ -41,7 +41,7 @@ namespace BELLE_NAMESPACE { namespace modern
 {
   struct Custom
   {
-    static void Engrave(graph::Token* Token, Stamp& s, Directory& d)
+    static void Engrave(graph::MusicNode Token, Stamp& s, Directory& d)
     {
     }
   };

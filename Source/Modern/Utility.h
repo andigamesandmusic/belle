@@ -98,17 +98,14 @@ namespace BELLE_NAMESPACE { namespace modern
         return Cache::WholeNote;
     }
     
-    static mica::UUID GetLineSpace(prim::count i)
+    static mica::Concept GetLineSpace(prim::count i)
     {
-      return mica::M(mica::LineSpaces).Item(i, mica::LS0);
+      return mica::Concept(prim::Ratio(i, 1));
     }
     
-    static prim::count GetLineSpaceIndex(mica::UUID LineSpace)
+    static prim::count GetLineSpaceIndex(mica::Concept LineSpace)
     {
-      int p = index(mica::LineSpaces, LineSpace, mica::LS0);
-      if(p == mica::Undefined)
-        return 0;
-      return p;
+      return integer(LineSpace);
     }
     
     ///Gets the line/space of the top line for a given number of staff lines.
@@ -162,18 +159,19 @@ namespace BELLE_NAMESPACE { namespace modern
       return 0;
     }
     
-    static prim::count GetNumberOfAccidentals(mica::UUID KeySignature)
+    static prim::count GetNumberOfAccidentals(mica::Concept KeySignature)
     {
-      return prim::Abs(mica::index(mica::KeySignatures, KeySignature,
-        mica::NoAccidentals));
+      return integer(index(mica::KeySignatures, mica::NoAccidentals,
+        KeySignature));
     }
     
-    static prim::count GetAccidentalPosition(mica::UUID KeySignature,
-      mica::UUID Clef, prim::count i)
+    static prim::count GetAccidentalPosition(mica::Concept KeySignature,
+      mica::Concept Clef, prim::count i)
     {
-      mica::UUID PositionSequence = mica::map(Clef,
-        mica::map(KeySignature, mica::Accidental));
-      return GetLineSpaceIndex(mica::M(PositionSequence).Item(i));
+      /*Get the sequence of accidental positions for the combination of clef
+      and accidental.*/
+      mica::Concept s = map(Clef, map(KeySignature, mica::Accidental));
+      return integer(item(s, i));
     }
   };
 }}

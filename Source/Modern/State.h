@@ -42,23 +42,22 @@ namespace BELLE_NAMESPACE { namespace modern
   //Ongoing part-wise state for the island engraver.
   struct State
   {
-    mica::UUID ActiveClef;
+    mica::Concept ActiveClef;
     Chord::State Previous;
     Chord::State Current;
-    mica::UUID NextAccidentals[7];
-    mica::UUID ActiveAccidentals[7];
-    mica::UUID KeyAccidentals[7];
+    mica::Concept NextAccidentals[7];
+    mica::Concept ActiveAccidentals[7];
+    mica::Concept KeyAccidentals[7];
     
-    mica::UUID ConsumeAccidental(prim::count s, mica::UUID a)
+    mica::Concept ConsumeAccidental(mica::Concept p, mica::Concept a)
     {
 #if 0 //For testing all accidentals
       return a;
 #endif
       //Does not take into account unisons with different accidentals yet.
-      mica::UUID Note = mica::map(ActiveClef,
-        mica::M(mica::LineSpaces).Item(s, mica::LS0));
-      mica::UUID Letter = mica::map(Note, mica::Letter);
-      prim::count LetterIndex = mica::index(mica::Letters, Letter);
+      mica::Concept Note = p;
+      mica::Concept Letter = mica::map(Note, mica::Letter);
+      prim::count LetterIndex = integer(mica::index(mica::Letters, Letter));
       
       if(ActiveAccidentals[LetterIndex] == a)
       {
@@ -75,22 +74,24 @@ namespace BELLE_NAMESPACE { namespace modern
       }
     }
     
-    void SetKeySignature(mica::UUID k)
+    void SetKeySignature(mica::Concept k)
     {
       for(prim::count i = 0; i < 7; i++)
         KeyAccidentals[i] = mica::Natural;
       
-      mica::UUID AccidentalType = mica::map(mica::Accidental, k);
+      mica::Concept AccidentalType = mica::map(mica::Accidental, k);
       prim::count NumberOfAccidentals =
-        prim::Abs(mica::index(mica::KeySignatures, k, mica::NoAccidentals));
+        prim::Abs(mica::integer(mica::index(
+          mica::KeySignatures, mica::NoAccidentals, k)));
       
       for(prim::count i = 0; i < NumberOfAccidentals; i++)
       {
-        mica::UUID KeySignatureSequence = mica::map(AccidentalType, ActiveClef);
-        mica::UUID LineSpace = mica::M(KeySignatureSequence).Item(i);
-        mica::UUID Note = mica::map(ActiveClef, LineSpace);
-        mica::UUID Letter = mica::map(Note, mica::Letter);
-        prim::count LetterIndex = mica::index(mica::Letters, Letter);
+        mica::Concept KeySignatureSequence =
+          mica::map(AccidentalType, ActiveClef);
+        mica::Concept LineSpace = mica::item(KeySignatureSequence, i);
+        mica::Concept Note = mica::map(ActiveClef, LineSpace);
+        mica::Concept Letter = mica::map(Note, mica::Letter);
+        prim::count LetterIndex = integer(mica::index(mica::Letters, Letter));
         KeyAccidentals[LetterIndex] = AccidentalType;
       }
     }

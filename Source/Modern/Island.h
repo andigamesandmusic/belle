@@ -55,21 +55,20 @@ namespace BELLE_NAMESPACE { namespace modern
     IslandEngraver(Directory& d) : DirectoryHandler(d) {}
     
     ///Engraves the island.
-    void Engrave(graph::MusicNode* n, Stamp& s)
+    void Engrave(graph::Music& g, graph::MusicNode n, Stamp& s)
     {
       //Get all the tokens belonging to the island.
-      prim::Node::Array<graph::Token> Tokens(n, graph::ID(mica::TokenLink));
-      prim::Array<graph::Token*> TokenArray;
-      n->FindAll(TokenArray, graph::ID(mica::TokenLink));
-      UpdateStemState(TokenArray);
+      prim::Array<graph::MusicNode> Tokens = g.Children(n,
+        graph::MusicLabel::Token()), TokenArray = Tokens;
+      UpdateStemState(g, TokenArray);
       
       //Engrave each token.
       for(prim::count i = 0; i < Tokens.n(); i++)
-        EngraveToken(Tokens[i], s);
+        EngraveToken(g, Tokens[i], s);
     }
     
     ///Updates the current stem state.
-    void UpdateStemState(prim::Array<graph::Token*>& Tokens)
+    void UpdateStemState(graph::Music& g, prim::Array<graph::MusicNode>& Tokens)
     {
       //Get references to the stem states.
       Chord::State& Current = d.s.Current;
@@ -80,13 +79,13 @@ namespace BELLE_NAMESPACE { namespace modern
       bool ContainsChords = false;
       for(prim::count i = 0; i < Tokens.n(); i++)
       {
-        if(graph::ChordToken* ct = dynamic_cast<graph::ChordToken*>(Tokens[i]))
+        if(Tokens[i]->Get(mica::Value) == mica::Chord)
         {
           ContainsChords = true;
-          Current.Add().c = ct;
-          Current.z().UpdateTessitura();
-          Current.z().c->Find<graph::ChordToken>(Current.z().p,
-            graph::ID(mica::ContinuityLink), prim::Link::Directions::Backwards);
+          Current.Add().c = Tokens[i];
+          Current.z().UpdateTessitura(g);
+          Current.z().p = g.Previous(Current.z().c,
+            graph::MusicLabel::Continuity());
         }
         else
         {
@@ -107,7 +106,7 @@ namespace BELLE_NAMESPACE { namespace modern
       {
         Current[i].NewVoice = true;
         NewVoices++;
-        if(graph::ChordToken* Needle = Current[i].p)
+        if(graph::MusicNode Needle = Current[i].p)
         {
           for(prim::count j = 0; j < Previous.n(); j++)
           {
@@ -149,12 +148,13 @@ namespace BELLE_NAMESPACE { namespace modern
     }
 
     ///Engraves the token.
-    void EngraveToken(graph::Token* Token, Stamp& s)
+    void EngraveToken(graph::Music& g, graph::MusicNode Token, Stamp& s)
     {
-      if(graph::ChordToken* ct = dynamic_cast<graph::ChordToken*>(Token))
+      mica::Concept TokenType = Token->Get(mica::Value);
+      if(TokenType == mica::Chord)
       {
         Chord ChordInfo;
-        ChordInfo.Import(ct);
+        ChordInfo.Import(g, Token);
         
         /*Need to detect any unisons or octaves with different accidentals and
         clear their state if they have differing accidentals. Also octaves
@@ -166,7 +166,8 @@ namespace BELLE_NAMESPACE { namespace modern
         {
           Chord::StaffNote& sn = ChordInfo.StaffNotes[j];
           sn.Accidental =
-            d.s.ConsumeAccidental(sn.LineSpace, sn.Accidental);
+            d.s.ConsumeAccidental(0, sn.Accidental); //FIX ME: Need to consume
+          //pitch instead of line space.
         }
         
         //Read in the stem state.
@@ -175,7 +176,7 @@ namespace BELLE_NAMESPACE { namespace modern
         prim::count k = -1;
         for(prim::count i = 0; i < d.s.Current.n(); i++)
         {
-          if(d.s.Current[i].c == ct)
+          if(d.s.Current[i].c == Token)
           {
             k = i;
             break;
@@ -199,30 +200,28 @@ namespace BELLE_NAMESPACE { namespace modern
         //Engrave the chord.
         ChordInfo.Engrave(s, d.h, d.c, d.t, d.f);
       }
-      else if(graph::ClefToken* ct = dynamic_cast<graph::ClefToken*>(Token))
+      else if(TokenType == mica::Clef)
       {
         prim::number ClefSize = d.s.ActiveClef == mica::Undefined ?
           1.0 : d.h.NonInitialClefSize;
         ClefSize = 1.0; //For now this is hacked after the fact.
-        d.s.ActiveClef = ct->Value;
+        d.s.ActiveClef = Token->Get(mica::Value);
         Clef::Engrave(d, s, d.s.ActiveClef, ClefSize);
       }
-      else if(graph::KeySignatureToken* kt =
-        dynamic_cast<graph::KeySignatureToken*>(Token))
+      else if(TokenType == mica::KeySignature)
       {
-        mica::UUID k = kt->GetKeySignature();
+        mica::Concept k = Token->Get(mica::Value);
         d.s.SetKeySignature(k);
         d.s.ResetActiveAccidentalsToKeySignature();
-        KeySignature::Engrave(d, s, kt);
+        KeySignature::Engrave(d, s, Token);
       }
-      else if(graph::MeterToken* mt = dynamic_cast<graph::MeterToken*>(Token))
+      else if(TokenType == mica::TimeSignature)
       {
-        Meter::Engrave(d, s, mt);
+        Meter::Engrave(d, s, Token);
       }
-      else if(graph::BarlineToken* bt =
-        dynamic_cast<graph::BarlineToken*>(Token))
+      else if(TokenType == mica::Barline)
       {
-        Barline::Engrave(d, s, bt);
+        Barline::Engrave(d, s, Token);
         d.s.ResetActiveAccidentalsToKeySignature();
       }
       else

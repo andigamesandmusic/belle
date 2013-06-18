@@ -43,21 +43,21 @@ namespace BELLE_NAMESPACE { namespace modern
   struct Barline
   {
     ///Engrave the different forms of barline.
-    static void Engrave(Directory& d, Stamp& s, graph::BarlineToken* bt)
+    static void Engrave(Directory& d, Stamp& s, graph::MusicNode bt)
     {
       if(!bt) return;
       
       //Distance to the next staff in spaces (should perhaps be passed in).
-      prim::number StaffInteriorDistance = Connects(bt) ?
+      prim::number StaffInteriorDistance = Connects(d.m, bt) ?
         (d.h.StaffDistance - 4.0) : 0.0;
       
-      if(bt->Value == mica::StandardBarline)
+      if(bt->Get(mica::Value) == mica::StandardBarline)
       {
         Shapes::AddLine(s.Add().p, prim::planar::Vector(0.0, 2.0),
           prim::planar::Vector(0.0, -2.0 - StaffInteriorDistance),
           d.h.BarlineThickness, true, false, false);
       }
-      else if(bt->Value == mica::FinalDoubleBarline)
+      else if(bt->Get(mica::Value) == mica::EndBarline)
       {
         Shapes::AddLine(s.Add().p, prim::planar::Vector(0.0, 2.0),
           prim::planar::Vector(0.0, -2.0 - StaffInteriorDistance),
@@ -66,7 +66,7 @@ namespace BELLE_NAMESPACE { namespace modern
           prim::planar::Vector(0.8, -2.0 - StaffInteriorDistance),
           d.h.BarlineThickness * 3.0, true, false, false);
       }
-      else if(bt->Value == mica::EndRepeatBarline)
+      else if(bt->Get(mica::Value) == mica::EndRepeatBarline)
       {
         Shapes::AddLine(s.Add().p, prim::planar::Vector(0.0, 2.0),
           prim::planar::Vector(0.0, -2.0 - StaffInteriorDistance),
@@ -89,24 +89,21 @@ namespace BELLE_NAMESPACE { namespace modern
     }
     
     ///Determines whether the barline connects downward.
-    static bool Connects(graph::BarlineToken* bt)
+    static bool Connects(const graph::Music& g, graph::ConstMusicNode bt)
     {
       /*In the future this might instead read for a special barline continue
       span rather than just assuming the connection.*/
       bool BarlineConnects = false;
       {
-        graph::MusicNode* ParentIsland = 0;
-        bt->Find<graph::MusicNode>(ParentIsland, graph::ID(mica::TokenLink),
-          prim::Link::Directions::Backwards);
+        graph::ConstMusicNode ParentIsland = g.Previous(bt,
+          graph::MusicLabel::Token());
         
-        graph::MusicNode* NextIsland = 0;
-        ParentIsland->Find<graph::MusicNode>(NextIsland,
-          graph::ID(mica::InstantWiseLink));
+        graph::ConstMusicNode NextIsland = g.Next(ParentIsland,
+          graph::MusicLabel::Instantwise());
         
-        graph::BarlineToken* NextBarline = 0;
-        NextIsland->Find<graph::BarlineToken>(NextBarline,
-          graph::ID(mica::TokenLink));
-        
+        graph::ConstMusicNode NextBarline = g.Next(NextIsland,
+          graph::MusicLabel::Token());
+
         if(NextBarline)
           BarlineConnects = true;
       }

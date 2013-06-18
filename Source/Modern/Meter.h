@@ -43,17 +43,15 @@ namespace BELLE_NAMESPACE { namespace modern
   struct Meter
   {
     ///Engrave the different forms of meters.
-    static void Engrave(Directory& d, Stamp& s, graph::MeterToken* mt)
+    static void Engrave(Directory& d, Stamp& s, graph::MusicNode mt)
     {
       if(!mt) return;
       
-      mica::UUID m = mt->Value;
-      if(m != mica::CommonTime && m != mica::CutTime)
+      mica::Concept v = mt->Get(mica::Value);
+      if(v != mica::CommonTime && v != mica::CutTime)
       {
-        prim::count Num = mica::M(mica::map(
-          mica::Numerator, m)).Index(mica::Numbers);
-        prim::count Den = mica::M(mica::map(
-          mica::Denominator, m)).Index(mica::Numbers);
+        prim::count Num = integer(mt->Get(mica::Beats));
+        prim::count Den = denominator(mt->Get(mica::NoteValue));
         s.Add().p2 = d.Symbol(0x0030 + Num);
         s.z().a = Affine::Translate(
             prim::planar::Vector(0.0, 0.0)) * Affine::Scale(4.0);
@@ -65,7 +63,7 @@ namespace BELLE_NAMESPACE { namespace modern
       }
       else
       {
-        prim::count C = (m == mica::CommonTime ? 76 : 77);
+        prim::count C = (v == mica::CommonTime ? 76 : 77);
         s.Add().p2 = d.Symbol(C);
         s.z().a = Affine::Scale(4.0);
         s.z().n = mt;

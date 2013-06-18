@@ -59,7 +59,7 @@ namespace BELLE_NAMESPACE { namespace modern
     prim::number StrokeWidth;
     
     ///Graph node related to the graphic.
-    graph::MusicNode* n;
+    graph::MusicNode n;
     
     ///Placement of the stamp graphic on the last paint.
     prim::planar::Rectangle PlacementOnLastPaint;
@@ -153,7 +153,7 @@ namespace BELLE_NAMESPACE { namespace modern
   };
   
   ///Graphical object with multiple items positioned relative to each other.
-  struct Stamp : public graph::Typesetting
+  struct Stamp : public graph::TypesettingInfo
   {
     ///Array of individual graphical objects with their own affine transforms.
     prim::Array<StampGraphic*> Graphics;
@@ -165,10 +165,10 @@ namespace BELLE_NAMESPACE { namespace modern
     bool NeedsTypesetting;
     
     ///Indicates the parent on which this stamp was placed.
-    graph::MusicNode* Parent;
+    graph::MusicNode Parent;
     
     ///Copy constructor to deep copy the stamp.
-    Stamp(const Stamp& Other) : graph::Typesetting(Other)
+    Stamp(const Stamp& Other) : graph::TypesettingInfo(Other)
     {
       //Make deep-copies of the stamp graphic.
       for(prim::count i = 0; i < Other.Graphics.n(); i++)
@@ -199,7 +199,7 @@ namespace BELLE_NAMESPACE { namespace modern
     }
     
     ///Resets the stamp to have no graphical objects.
-    void Clear(graph::MusicNode* WithParent = 0)
+    void Clear(graph::MusicNode WithParent = 0)
     {
       NeedsTypesetting = true;
       Graphics.ClearAndDeleteAll();
@@ -245,7 +245,7 @@ namespace BELLE_NAMESPACE { namespace modern
     }
     
     ///Constructor creates a blank stamp.
-    Stamp(graph::MusicNode* Parent) {Clear(Parent);}
+    Stamp(graph::MusicNode Parent) {Clear(Parent);}
   };
   
   ///Information relating to the stamps in a single instant.
@@ -255,7 +255,8 @@ namespace BELLE_NAMESPACE { namespace modern
     graph::Instant::Properties Properties;
     
     ///Copies the stamp references from an instant in a graph.
-    void CopyFromInstant(graph::MusicNode* IslandInInstant,
+    void CopyFromInstant(graph::Music& g,
+      graph::MusicNode IslandInInstant,
       prim::count GeometryPartCount)
     {
       //Clear this object.
@@ -263,11 +264,11 @@ namespace BELLE_NAMESPACE { namespace modern
       Clear();
 
       //Get the top of the instant.
-      graph::MusicNode* Isle = IslandInInstant;
-      if(!graph::API::RaiseToTopPart(Isle)) return;
+      graph::MusicNode Isle = IslandInInstant;
+      if(!g.RaiseToTopPart(Isle)) return;
       
       //Get the properties.
-      graph::Instant::GetProperties(Properties, Isle); 
+      graph::Instant::GetProperties(g, Properties, Isle); 
       
       //Size the array to the total number of possible stamps (the part count).
       n(GeometryPartCount);
@@ -277,11 +278,11 @@ namespace BELLE_NAMESPACE { namespace modern
       while(Isle)
       {
         //Copy the stamp pointer to the array.
-        if(prim::Pointer<Stamp> s = Isle->Typesetting)
+        if(prim::Pointer<Stamp> s = Isle->Label.Typesetting)
           ith(s->PartID) = s;
         
         //Go to the next island.
-        Isle->Find(Isle, graph::ID(mica::InstantWiseLink));
+        Isle = g.Next(Isle, graph::MusicLabel::Instantwise());
       }
     }
     
@@ -289,10 +290,10 @@ namespace BELLE_NAMESPACE { namespace modern
     StampInstant() {}
     
     ///Constructor to copy an instant.
-    StampInstant(graph::MusicNode* IslandInInstant,
+    StampInstant(graph::Music& g, graph::MusicNode IslandInInstant,
       prim::count GeometryPartCount)
     {
-      CopyFromInstant(IslandInInstant, GeometryPartCount);
+      CopyFromInstant(g, IslandInInstant, GeometryPartCount);
     }
     
     ///Deep copies the stamp instant from another.
@@ -310,7 +311,7 @@ namespace BELLE_NAMESPACE { namespace modern
   {
     /**Considers an instant for repeating. This should be called once per
     instant.*/
-    void Consider(const StampInstant& Other)
+    void Consider(graph::Music& g, const StampInstant& Other)
     {
       //If a repeating instant is encountered then add it to the list.
       if(Other.Properties.IsRepeatingInstant())
@@ -344,14 +345,15 @@ namespace BELLE_NAMESPACE { namespace modern
           }
           
           //Get the child tokens of the islands.
-          graph::Token* t1 = 0, *t2 = 0;
-          ith(i)[j]->Parent->Find(t1, graph::ID(mica::TokenLink));
-          Other[j]->Parent->Find(t2, graph::ID(mica::TokenLink));
+          graph::MusicNode t1, t2;
+          t1 = g.Next(ith(i)[j]->Parent, graph::MusicLabel::Token());
+          t2 = g.Next(Other[j]->Parent, graph::MusicLabel::Token());
+          
           if(!t1 || !t2)
             continue;
             
           //Copy the stamp reference if it is of the same type.
-          if(t1->GetType() == t2->GetType())
+          if(t1->Get(mica::Type) == t2->Get(mica::Type))
           {
             ith(i)[j] = Other[j];
             break; //Do not copy the same stamp more than once.

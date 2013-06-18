@@ -45,10 +45,10 @@ namespace BELLE_NAMESPACE { namespace modern
   struct KeySignature
   {
     ///Engraves the different forms of key signatures.
-    static void Engrave(Directory& d, Stamp& s, graph::KeySignatureToken* kt)
+    static void Engrave(Directory& d, Stamp& s, graph::MusicNode kt)
     {
       if(!kt) return;
-      mica::UUID k = kt->GetKeySignature();
+      mica::Concept k = kt->Get(mica::Value);
       prim::count n = Utility::GetNumberOfAccidentals(k);
       const Path* Accidental =
         d.Symbol((mica::map(k, mica::Accidental) == mica::Flat) ? 70 : 72);
