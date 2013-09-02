@@ -315,7 +315,7 @@ int main()
   Score MyScore;
 
   //Add a page to the score.
-  MyScore.Canvases.Add() = new Score::Page;
+  MyScore.Canvases.Add() = new Page;
 
   //Set to letter landscape.
   MyScore.Canvases.z()->Dimensions = Paper::Letter;
