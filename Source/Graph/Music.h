@@ -57,7 +57,7 @@ namespace BELLE_NAMESPACE { namespace graph
     {
       MusicNode i = Add();
       i->Set(mica::Type) = mica::Island;
-      i->Label.Typesetting = new Typesetting;
+      //i->Label.Typesetting = new Typesetting;
       return i;
     }
   

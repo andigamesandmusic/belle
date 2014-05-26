@@ -99,7 +99,7 @@ as preprocessor defines to the compiler).*/
 //Modern//
 //------//
 
-//#include "Modern/Modern.h"
+#include "Modern/Modern.h"
 
 //--------//
 //Painters//

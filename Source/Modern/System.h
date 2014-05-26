@@ -78,7 +78,7 @@ namespace BELLE_NAMESPACE { namespace modern
     
     /**Distribute the staves. If the system width is zero, then it is left at
     minimum spacing.*/
-    void CalculateSpacing(prim::number SpaceBetweenSystems,
+    void CalculateSpacing(graph::Music& g, prim::number SpaceBetweenSystems,
       prim::number SystemWidth = 0.0)
     {
       //If there are no instants then return.
@@ -134,7 +134,7 @@ namespace BELLE_NAMESPACE { namespace modern
               InstantPositions[i], StaffHeights[j]));
       
       //Adjust stamps which are different due to repeating or non-repeating.
-      AdjustStamps();
+      AdjustStamps(g);
       
       //Calculate the bounds of the system.
       prim::planar::Rectangle NewBounds;
@@ -146,7 +146,7 @@ namespace BELLE_NAMESPACE { namespace modern
     }
     
     ///Gets the line-space of a coordinate given in spaces.
-    mica::UUID CoordinateToLineSpace(prim::count StaffOnSystem,
+    mica::Concept CoordinateToLineSpace(prim::count StaffOnSystem,
       prim::planar::Vector SpacesRelativeToSystem)
     {
       //Get the relative line space position.
@@ -158,11 +158,11 @@ namespace BELLE_NAMESPACE { namespace modern
       condensed.*/
       prim::integer LSIndex = prim::Round(LSPosition * 2.0);
       
-      return mica::item(mica::LineSpaces, LSIndex, mica::LS0);
+      return mica::integer(LSIndex);
     }
     
     ///Gets the line space of a coordinate in inches.
-    mica::UUID CoordinateToLineSpace(prim::count StaffOnSystem,
+    mica::Concept CoordinateToLineSpace(prim::count StaffOnSystem,
       Inches RelativeToSystem, const House& h)
     {
       return CoordinateToLineSpace(StaffOnSystem, RelativeToSystem /
@@ -170,20 +170,21 @@ namespace BELLE_NAMESPACE { namespace modern
     }
     
     ///Gets the line space of a coordinate in inches.
-    mica::UUID CoordinateToLineSpace(graph::NoteNode* nn,
+    mica::Concept CoordinateToLineSpace(graph::Music& g, graph::MusicNode nn,
       Inches RelativeToSystem, const House& h)
     {
       if(!nn) return mica::Undefined;
-      graph::Island* i = nn->ParentIsland();
-      if(!i || !i->Typesetting) return mica::Undefined;
-      return CoordinateToLineSpace(i->Typesetting->PartID, RelativeToSystem,
-        h);
+      graph::MusicNode i = g.Previous(g.Previous(nn, graph::MusicLabel::Note()),
+        graph::MusicLabel::Token());
+      if(!i || !i->Label.Typesetting) return mica::Undefined;
+      return CoordinateToLineSpace(i->Label.Typesetting->PartID,
+        RelativeToSystem, h);
     }
     
     private:
     
     ///Temporary hacks to adjust differences in repeated/non-repeated stamps.
-    void AdjustStamps()
+    void AdjustStamps(graph::Music& g)
     {
       //If there are no instants, then just return.
       if(!Instants.n()) return;
@@ -199,8 +200,8 @@ namespace BELLE_NAMESPACE { namespace modern
         {
           if(prim::Pointer<Stamp> s = Instants[i][j])
           {
-            graph::ClefToken* ct = 0;
-            if(s->Parent->Find(ct, graph::ID(mica::TokenLink)))
+            graph::MusicNode ct = g.Next(s->Parent, graph::MusicLabel::Token());
+            if(ct)
             {
               //Hack: constant should come from house style.
               for(prim::count k = 0; k < s->Graphics.n(); k++)
@@ -219,8 +220,8 @@ namespace BELLE_NAMESPACE { namespace modern
         {
           if(prim::Pointer<Stamp> s = Instants[i][j])
           {
-            graph::ChordToken* ct = 0;
-            if(s->Parent->Find(ct, graph::ID(mica::TokenLink)))
+            graph::MusicNode ct = g.Next(s->Parent, graph::MusicLabel::Token());
+            if(ct)
             {
               HasStaffLines[j] = true;
               break;

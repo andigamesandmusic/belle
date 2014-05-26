@@ -38,7 +38,7 @@
 namespace BELLE_NAMESPACE { namespace graph
 {
   //Class to store music concepts and custom strings
-  class Typesetting
+  class TypesettingInfo
   {
     public:
     
@@ -49,10 +49,10 @@ namespace BELLE_NAMESPACE { namespace graph
     prim::count InstantID;
     
     ///Default constructor to initialize elements.
-    Typesetting() : PartID(-1), InstantID(-1) {}
+    TypesettingInfo() : PartID(-1), InstantID(-1) {}
     
     ///Virtual destructor to make this class virtual.
-    virtual ~Typesetting () {}
+    virtual ~TypesettingInfo () {}
   };
 }}
 #endif

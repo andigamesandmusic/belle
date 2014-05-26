@@ -52,14 +52,14 @@ namespace BELLE_NAMESPACE { namespace modern
   {
     //Objects and references in the directory.
     State& s;
-    const graph::MusicGraph& m;
+    graph::Music& m;
     const House& h;
     const Cache& c;
     const Typeface& t;
     const Font& f;
     
     ///Constructor initializes the references to each object.
-    Directory(State& s, const graph::MusicGraph& m, const House& h,
+    Directory(State& s, graph::Music& m, const House& h,
       const Cache& c, const Typeface& t, const Font& f) : s(s), m(m), h(h),
       c(c), t(t), f(f) {}
 

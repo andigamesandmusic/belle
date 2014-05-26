@@ -51,7 +51,7 @@ namespace BELLE_NAMESPACE { namespace graph
     public:
     
     ///Stores information related to Typesetting
-    prim::Pointer<Typesetting> Typesetting;
+    prim::Pointer<TypesettingInfo> Typesetting;
   
     private:
     
@@ -192,6 +192,20 @@ namespace BELLE_NAMESPACE { namespace graph
     {
       MusicLabel L;
       L.Set(mica::Type) = mica::Token;
+      return L;
+    }
+
+    static MusicLabel Note()
+    {
+      MusicLabel L;
+      L.Set(mica::Type) = mica::Note;
+      return L;
+    }
+    
+    static MusicLabel Continuity()
+    {
+      MusicLabel L;
+      L.Set(mica::Type) = mica::Continuity;
       return L;
     }
   };

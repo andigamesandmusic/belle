@@ -46,7 +46,7 @@ namespace BELLE_NAMESPACE { namespace modern
   struct Piece : public ClickThroughManager
   {
     ///Stores the music graph.
-    graph::MusicGraph* Music;
+    graph::Music* Music;
     
     //Objects for typesetting.
     const House* h;
@@ -61,7 +61,7 @@ namespace BELLE_NAMESPACE { namespace modern
     Piece() : Music(0), h(0), c(0), t(0), f(0) {}
     
     ///Constructor to initialize typesetting objects.
-    Piece(graph::MusicGraph* Music, const House& h, const Cache& c,
+    Piece(graph::Music* Music, const House& h, const Cache& c,
       const Typeface& t, const Font& f) : Music(Music), h(&h), c(&c), t(&t),
       f(&f) {}
     
@@ -74,7 +74,7 @@ namespace BELLE_NAMESPACE { namespace modern
     bool Initialized() {return Music && h && c && t && f;}
     
     ///Initialize the typesetting objects.
-    void Initialize(graph::MusicGraph* Music, const House& h, const Cache& c,
+    void Initialize(graph::Music* Music, const House& h, const Cache& c,
       const Typeface& t, const Font& f)
     {
       Piece::Music = Music;
@@ -93,11 +93,10 @@ namespace BELLE_NAMESPACE { namespace modern
         return;
       }
             
-      graph::MusicNode* m =
-        dynamic_cast<graph::MusicNode*>(Music->GetTop());
+      graph::MusicNode m = Music->Root();
       while(m)
       {
-        graph::MusicNode* n = m;
+        graph::MusicNode n = m;
         State EngraverState;
         Directory d(EngraverState, *Music, *h, *c, *t, *f);
         IslandEngraver Engraver(d);
@@ -105,15 +104,15 @@ namespace BELLE_NAMESPACE { namespace modern
         {
           /*Clefs must always retypeset due to a current limitation having to
           do with the small form of the clef.*/
-          graph::ClefToken* ct = 0;
-          if(n->Find(ct, graph::ID(mica::TokenLink)))
-            n->Typesetting = new Stamp(n);
+          graph::MusicNode ct = Music->Next(n, graph::MusicLabel::Token());
+          if(ct)
+            n->Label.Typesetting = new Stamp(n);
 
-          if(prim::Pointer<Stamp> s = n->Typesetting)
+          if(prim::Pointer<Stamp> s = n->Label.Typesetting)
           {
             if(s->NeedsTypesetting)
             {
-              Engraver.Engrave(n, *s);
+              Engraver.Engrave(*Music, n, *s);
               d.s.AdvanceAccidentalState();
               s->NeedsTypesetting = false;
             }
@@ -121,55 +120,53 @@ namespace BELLE_NAMESPACE { namespace modern
           else
             prim::c >> "Warning: Stamp not created for MusicNode.";
           
-          n->Find<graph::MusicNode>(n, graph::ID(mica::PartWiseLink));
+          n = Music->Next(n, graph::MusicLabel::Partwise());
         }
-        m->Find<graph::MusicNode>(m, graph::ID(mica::InstantWiseLink));
+        m = Music->Next(m, graph::MusicLabel::Instantwise());
       }
     }
     
     ///Clears typesetting data for all islands.
     void ClearTypesetting()
     { 
-      graph::MusicNode* m =
-        dynamic_cast<graph::MusicNode*>(Music->GetTop());
+      graph::MusicNode m = Music->Root();
       while(m)
       {
-        graph::MusicNode* n = m;
+        graph::MusicNode n = m;
         while(n)
         {
           //Create a new stamp if it is not there, or clear an existing one.
-          if(!n->Typesetting)
-            n->Typesetting = new Stamp(n);
-          else if(prim::Pointer<Stamp> s = n->Typesetting)
+          if(!n->Label.Typesetting)
+            n->Label.Typesetting = new Stamp(n);
+          else if(prim::Pointer<Stamp> s = n->Label.Typesetting)
             s->Clear(n);
           else
             prim::c >> "Error: Non-Stamp class detected while clearing.";
           
-          n->Find<graph::MusicNode>(n, graph::ID(mica::PartWiseLink));
+          n = Music->Next(n, graph::MusicLabel::Partwise());
         }
-        m->Find<graph::MusicNode>(m, graph::ID(mica::InstantWiseLink));
+        m = Music->Next(m, graph::MusicLabel::Instantwise());
       }
     }
     
     ///Clears typesetting data for all islands.
     void InitializeTypesetting()
     { 
-      graph::MusicNode* m =
-        dynamic_cast<graph::MusicNode*>(Music->GetTop());
+      graph::MusicNode m = Music->Root();
       while(m)
       {
-        graph::MusicNode* n = m;
+        graph::MusicNode n = m;
         while(n)
         {
           //Create a new stamp if it is not there, or clear an existing one.
-          if(!n->Typesetting)
-            n->Typesetting = new Stamp(n);
-          else if(!prim::Pointer<Stamp>(n->Typesetting))
+          if(!n->Label.Typesetting)
+            n->Label.Typesetting = new Stamp(n);
+          else if(!prim::Pointer<Stamp>(n->Label.Typesetting))
             prim::c >> "Error: Non-Stamp class detected while clearing.";
           
-          n->Find<graph::MusicNode>(n, graph::ID(mica::PartWiseLink));
+          n = Music->Next(n, graph::MusicLabel::Partwise());
         }
-        m->Find<graph::MusicNode>(m, graph::ID(mica::InstantWiseLink));
+        m = Music->Next(m, graph::MusicLabel::Instantwise());
       }
     }
     
@@ -218,19 +215,18 @@ namespace BELLE_NAMESPACE { namespace modern
     ///Displays the instant properties.
     void DisplayInstantProperties()
     {
-      graph::MusicNode* n = dynamic_cast<graph::MusicNode*>(Music->GetTop());
+      graph::MusicNode n = Music->Root();
       prim::count i = 0;
       while(n)
       {
-        graph::Token* m = 0;
-        n->Find<graph::Token>(m, graph::ID(mica::TokenLink));
+        graph::MusicNode m = Music->Next(n, graph::MusicLabel::Token());
         prim::c >> i << ": ";
         if(m)
-          prim::c << m->ToString();
-        graph::Instant::PrintProperties(n);
+          prim::c << *m;
+        graph::Instant::PrintProperties(*Music, n);
         prim::c++;
         i++;
-        n->Find<graph::MusicNode>(n, graph::ID(mica::PartWiseLink));
+        n = Music->Next(n, graph::MusicLabel::Partwise());
       }
     }
     
@@ -324,7 +320,7 @@ namespace BELLE_NAMESPACE { namespace modern
           for(prim::count i = 0; i < Systems.z().Instants.n(); i++)
           {
             prim::Debug >> "Considering for repeat: " << i;
-            Repeated.Consider(Systems.z().Instants[i]);
+            Repeated.Consider(*Music, Systems.z().Instants[i]);
           }
         }
         
@@ -355,7 +351,7 @@ namespace BELLE_NAMESPACE { namespace modern
         for(prim::count i = StartInstant; i < InstantCount; i++)
         {
           //Create the stamp instant from the graph instant.
-          Current.Instants.Add() = StampInstant(
+          Current.Instants.Add() = StampInstant(*Music,
             GraphGeometry.TopMostIslandInInstant(i), PartCount);
           
           //Advance leading edge.
@@ -370,16 +366,16 @@ namespace BELLE_NAMESPACE { namespace modern
           {
             if(Current.Instants.z()[j])
             {
-              graph::MusicNode* p = Current.Instants.z()[j]->Parent;
+              graph::MusicNode p = Current.Instants.z()[j]->Parent;
               if(!p)
               {
                 prim::c >> "Warning: Stamp with no parent";
                 continue;
               }
-              prim::Array<graph::Token*> t;
-              p->FindAll(t, graph::ID(mica::TokenLink));
+              prim::Array<graph::MusicNode> t = Music->Children(p,
+                graph::MusicLabel::Token());
               for(prim::count k = 0; k < t.n(); k++)
-                prim::Debug >> "  " << j << ": " << t[k]->ToString();
+                prim::Debug >> "  " << j << ": " << *t[k];
             }
           }
           
@@ -447,11 +443,12 @@ namespace BELLE_NAMESPACE { namespace modern
         else
           DesiredSystemWidth = 0.0; //Use minimum spacing
         
-        Systems[i].CalculateSpacing(h->StaffDistance, DesiredSystemWidth);
+        Systems[i].CalculateSpacing(*Music,
+          h->StaffDistance, DesiredSystemWidth);
         
         if(i == Systems.n() - 1)
-          Systems[i].CalculateSpacing(h->StaffDistance,
-            Systems[i].Bounds.Width() * BreathingRoom);
+          Systems[i].CalculateSpacing(*Music,
+            h->StaffDistance, Systems[i].Bounds.Width() * BreathingRoom);
       }
     }
   };

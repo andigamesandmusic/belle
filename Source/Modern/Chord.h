@@ -54,11 +54,11 @@ namespace BELLE_NAMESPACE { namespace modern
       };
       
       //Updates the tessitura of the chord for calculating stem directions.
-      void UpdateTessitura()
+      void UpdateTessitura(graph::Music& g)
       {
         if(!c) return;
         Chord ThisChord;
-        ThisChord.Import(c);
+        ThisChord.Import(g, c);
         Tessitura = ThisChord.CalculateTessitura();
       }
       
@@ -77,13 +77,13 @@ namespace BELLE_NAMESPACE { namespace modern
       prim::number Tessitura;
 
       ///Chord token node of the chord
-      graph::ChordToken* c;
+      graph::MusicNode c;
       
       ///Current direction of the stem
       StemDirection d;
       
       ///Chord token of previous chord by continuity
-      graph::ChordToken* p;
+      graph::MusicNode p;
       
       ///Previous direction of the stem
       StemDirection pd;
@@ -100,31 +100,33 @@ namespace BELLE_NAMESPACE { namespace modern
     typedef prim::Sortable::Array<StateInfo> State;
 
     ///Imports the chord data from a graph-based chord token.
-    void Import(prim::Node* ChordToken)
+    void Import(graph::Music& g, graph::MusicNode ChordToken)
     {
-      graph::ChordToken* c = dynamic_cast<graph::ChordToken*>(ChordToken);
-      if(!c) return;
+      graph::MusicNode c = ChordToken;
+      if(c->Get(mica::Kind) != mica::Chord) return;
       
-      prim::Array<graph::NoteNode*> a;
-      c->FindAll(a, graph::ID(mica::NoteLink));
+      prim::Array<graph::MusicNode> a = g.Children(c,
+        graph::MusicLabel::Note());
       for(prim::count i = 0; i < a.n(); i++)
       {
         //If rest is detected, then read the rest value and stop importing.
-        if(a[i]->Modifier == mica::Rest)
+        if(a[i]->Get(mica::Rest) == mica::Rest)
         {
           IsRest = true;
           StaffNotes.RemoveAll(); //In case notes and rests were mixed.
           StaffNotes.Add().LineSpace =
-            Utility::GetLineSpaceIndex(a[i]->Position);
+            integer(a[i]->Get(mica::StaffPosition));
           StaffNotes.z().OriginalNode = a[i];
           break;
         }
-        StaffNotes.Add().LineSpace = Utility::GetLineSpaceIndex(a[i]->Position);
-        StaffNotes.z().Accidental = a[i]->Modifier;
+        StaffNotes.Add().LineSpace = integer(mica::map(mica::TrebleClef,
+          a[i]->Get(mica::Value))); //FIX ME: need clef from staff
+        StaffNotes.z().Accidental = mica::map(mica::Accidental,
+          a[i]->Get(mica::Value));
         StaffNotes.z().OriginalNode = a[i];
       }
       
-      Duration = c->Duration;
+      Duration = c->Get(mica::NoteValue);
       OriginalNode = c;
     }
     
@@ -394,9 +396,10 @@ namespace BELLE_NAMESPACE { namespace modern
       //Lookup the accidentals to use.
       for(prim::count i = 0; i < AccidentalPaths.n(); i++)
       {
-        prim::count a = mica::index(mica::AccidentalsBySemitone,
-          StaffNotes[i].Accidental);
-        prim::count b = mica::index(mica::AccidentalsBySemitone, mica::Natural);
+        prim::count a = mica::integer(mica::index(mica::Accidentals,
+          StaffNotes[i].Accidental));
+        prim::count b = mica::integer(mica::index(mica::Accidentals,
+          mica::Natural));
         if(a >= 0)
           AccidentalPaths[i] = c[Cache::AccidentalNatural + (a - b)];
         else
@@ -694,14 +697,13 @@ namespace BELLE_NAMESPACE { namespace modern
       
       /**The accidental pertaining to the staff note. This property helps
       determine the order of staff notes in the case of imperfect unisons.*/
-      mica::UUID Accidental;
+      mica::Concept Accidental;
       
       ///Pointer back to the original node.
-      graph::MusicNode* OriginalNode;
+      graph::MusicNode OriginalNode;
       
       ///Default constructor
-      StaffNote() : LineSpace(0), Accidental(mica::Undefined), OriginalNode(0)
-        {}
+      StaffNote() : LineSpace(0), Accidental(mica::Undefined) {}
       
       /**Returns whether this staff note is clustered with another. This occurs
       when the note is either at a distance of a unison or a second.*/
@@ -720,13 +722,13 @@ namespace BELLE_NAMESPACE { namespace modern
       bool operator < (const StaffNote& Other) const
       {
         return LineSpace < Other.LineSpace || (LineSpace == Other.LineSpace &&
-          index(mica::AccidentalsBySemitone, Accidental, Other.Accidental) < 0);
+          integer(index(mica::Accidentals, Other.Accidental, Accidental)) < 0);
       }
       
       bool operator > (const StaffNote& Other) const
       {
         return LineSpace > Other.LineSpace || (LineSpace == Other.LineSpace &&
-          index(mica::AccidentalsBySemitone, Accidental, Other.Accidental) > 0);
+          integer(index(mica::Accidentals, Other.Accidental, Accidental)) > 0);
       }
   
       bool operator == (const StaffNote& Other) const
@@ -766,7 +768,7 @@ namespace BELLE_NAMESPACE { namespace modern
     StaffNoteList StaffNotes;
     
     ///Pointer back to the original chord token.
-    graph::MusicNode* OriginalNode;
+    graph::MusicNode OriginalNode;
   };
 }}
 #endif

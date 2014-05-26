@@ -96,7 +96,7 @@ namespace BELLE_NAMESPACE { namespace graph
           {
             MusicNode& NewIsland = g[i][j];
             NewIsland = Music::Add();
-            NewIsland->Label.Typesetting = new Typesetting;
+            NewIsland->Label.Typesetting = new TypesettingInfo;
             NewIsland->Set("Index") = prim::String(n++);
             NewIsland->Set(mica::Type) = mica::Island;
             if(!Top)
