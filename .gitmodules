@@ -1,6 +1,3 @@
 [submodule "Source/Modules/prim.cc"]
 	path = Source/Modules/prim.cc
 	url = git://github.com/burnson/prim.cc.git
-[submodule "Source/Modules/MICA"]
-	path = Source/Modules/MICA
-	url = git://github.com/burnson/MICA.git
