@@ -11,4 +11,4 @@ cd $processed
 rm -rf ../Build/$1
 ./MakeDebug $1
 cd ../Build
-gdb $1
+lldb $1

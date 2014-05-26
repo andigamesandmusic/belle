@@ -13,7 +13,7 @@ cd $processed
 for f in ../Examples/*.cpp
 do
   g=`echo $f | sed 's/^...Examples.//g' | sed 's/.cpp//g'`
-  ./Make $g &
+  ./Make $g
 done
 wait
 

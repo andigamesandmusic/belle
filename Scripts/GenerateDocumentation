@@ -11,13 +11,6 @@ cd $processed
 echo "Making documentation"
 rm -rf ../Documentation/*
 /Applications/Doxygen.app/Contents/Resources/doxygen \
-  ../Resources/Doxyfile > /dev/null
+  ../Resources/Doxyfile > /dev/null 2>&1
 mv ../Documentation/html/* ../Documentation/
 rm -rf ../Documentation/html
-cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebelle/g' > \
-  ../Documentation/namespaces.html
-cp ../Documentation/namespaces.html ../Documentation/namespacemembers.html
-
-cat ../Resources/Redirect.html | sed 's/RedirectURL/namespacebelle/g' | \
-  sed 's/html/html\#nested-classes/g'> \
-  ../Documentation/annotated.html
