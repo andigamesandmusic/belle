@@ -41,9 +41,9 @@
 #include <ft2build.h>
 #include FT_FREETYPE_H 
 
-#include <freetype/ftglyph.h>
-#include <freetype/ftoutln.h>
-#include <freetype/ftadvanc.h>
+#include <ftglyph.h>
+#include <ftoutln.h>
+#include <ftadvanc.h>
 
 namespace BELLE_NAMESPACE
 {
