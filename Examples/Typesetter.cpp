@@ -204,6 +204,18 @@ struct Score : public Portfolio
 
 int main()
 {
+  c++;
+  c>>"NOTE: this typesetter example makes use of the Belle proto-engraver.";
+  c>>"This engraver can not do anything meaningful in terms of printing music;";
+  c>>"rather, it was only created to determine how graphs may be useful as a";
+  c>>"data structure for music. As such, the following code directories are";
+  c>>"considered deprecated:";
+  c++;
+  c>>"  Belle/Source/Graph";
+  c>>"  Belle/Source/Modern";
+  c++;
+  c++;
+
   //Create a score.
   Score MyScore;
 
