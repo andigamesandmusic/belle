@@ -80,9 +80,9 @@ namespace BELLE_NAMESPACE { namespace graph
     MusicNode CreateAndAddBarline(mica::Concept BarlineType =
         mica::StandardBarline)
     {
+      MusicNode i = CreateIsland();
       MusicNode t = CreateToken(mica::Barline);
       t->Set(mica::Value) = BarlineType;
-      MusicNode i = CreateIsland();
       AddTokenToIsland(i, t);
       return i;
     }
