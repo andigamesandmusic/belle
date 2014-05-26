@@ -65,10 +65,7 @@ namespace BELLE_NAMESPACE { namespace modern
       const Typeface& t, const Font& f) : Music(Music), h(&h), c(&c), t(&t),
       f(&f) {}
     
-    ~Piece()
-    {
-      delete Music;
-    }
+    ~Piece() {}
     
     ///Returns whether the class is initialized.
     bool Initialized() {return Music && h && c && t && f;}

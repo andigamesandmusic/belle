@@ -150,7 +150,7 @@ namespace BELLE_NAMESPACE { namespace modern
     ///Engraves the token.
     void EngraveToken(graph::Music& g, graph::MusicNode Token, Stamp& s)
     {
-      mica::Concept TokenType = Token->Get(mica::Value);
+      mica::Concept TokenType = Token->Get(mica::Kind);
       if(TokenType == mica::Chord)
       {
         Chord ChordInfo;
@@ -194,7 +194,7 @@ namespace BELLE_NAMESPACE { namespace modern
         }
         else
         {
-          prim::c >> "ChordState not found";
+          //prim::c >> "ChordState not found";
         }
         
         //Engrave the chord.
