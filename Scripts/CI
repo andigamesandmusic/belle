@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+Dir.chdir(File.expand_path(File.dirname(__FILE__)))
+Dir.chdir('..')
+
+def verbose(command)
+  puts "--> #{command}"
+  system(command) or raise "Failed: #{command}"
+end
+
+verbose('git submodule init')
+verbose('git submodule update')
+verbose('Scripts/MakeAll')
+
+Dir.glob('Build/*') {|file|
+  puts "Running #{file}..."
+  verbose(file)
+}
