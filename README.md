@@ -1,8 +1,10 @@
-Welcome to the repository of Belle, Bonne, Sage, an experimental music engraver in C++. Currently the project is inactive since June 2012. At this time, the author forked the repository to work on a proprietary project called MusicPal (<http://museami.com/musicpal>). Meanwhile, the project has also been forked by Illiac Software (<http://illiacsoftware.com>) to develop Harmonia.
+[![Build Status](https://travis-ci.org/burnson/Belle.svg)](https://travis-ci.org/burnson/Belle)
+
+Welcome to the repository of Belle, Bonne, Sage, an experimental music engraver in C++. Currently the project is inactive since June 2013. At this time, the author forked the repository to work on a proprietary project called MusicPal (<http://museami.com/musicpal>). Meanwhile, the project has also been forked by Illiac Software (<http://illiacsoftware.com>) to develop Harmonia.
 
 The goals of Belle, Bonne, Sage are described here: <http://bellebonnesage.sourceforge.net/> ([backup link](https://web.archive.org/web/20140110014642/http://bellebonnesage.sourceforge.net/))
 
-**For newcomers**, I would say this: if you are interested in playing around with music-related vector graphics, then Belle is a great way to do that. If you are looking for a full on engraver, you'll need to keep looking as the current typesetter for open source Belle was just one in a long line of experimental and incomplete typesetters.
+**For newcomers**: if you are interested in playing around with music-related vector graphics, then Belle is a great way to do that. If you are looking for a full on engraver, you'll need to keep looking as the current typesetter for open source Belle was just one in a long line of experimental and incomplete typesetters.
 
 If all the above doesn't deter you, here is how you can get started with this project (Mac OS X version):
 
