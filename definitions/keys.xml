@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Key">Contains key.
+    </definition>
+    
+    <concept uuid="en:Key">
+      <identifier lang="en">Key</identifier>
+      <definition lang="en" name="Key">Represents the concept of a key.
+      </definition>
+    </concept>
+
+    <concept uuid="en:CIonian">
+      <identifier lang="en">CIonian</identifier>
+      <definition lang="en" name="C Ionian">Represents the key C Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:CMajor">
+      <identifier lang="en">CMajor</identifier>
+      <definition lang="en" name="C Major">Represents the key C Major.
+      </definition>
+    </concept>
+    <concept uuid="en:CDorian">
+      <identifier lang="en">CDorian</identifier>
+      <definition lang="en" name="C Dorian">Represents the key C Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:CPhrygian">
+      <identifier lang="en">CPhrygian</identifier>
+      <definition lang="en" name="C Phrygian">Represents the key C Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:CLydian">
+      <identifier lang="en">CLydian</identifier>
+      <definition lang="en" name="C Lydian">Represents the key C Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:CMixolydian">
+      <identifier lang="en">CMixolydian</identifier>
+      <definition lang="en" name="C Mixolydian">Represents the key C Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:CAeolian">
+      <identifier lang="en">CAeolian</identifier>
+      <definition lang="en" name="C Aeolian">Represents the key C Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:CMinor">
+      <identifier lang="en">CMinor</identifier>
+      <definition lang="en" name="C Minor">Represents the key C Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:CLocrian">
+      <identifier lang="en">CLocrian</identifier>
+      <definition lang="en" name="C Locrian">Represents the key C Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:CSharpIonian">
+      <identifier lang="en">CSharpIonian</identifier>
+      <definition lang="en" name="C-sharp Ionian">Represents the key C-sharp Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpMajor">
+      <identifier lang="en">CSharpMajor</identifier>
+      <definition lang="en" name="C-sharp Major">Represents the key C-sharp Major.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpDorian">
+      <identifier lang="en">CSharpDorian</identifier>
+      <definition lang="en" name="C-sharp Dorian">Represents the key C-sharp Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpPhrygian">
+      <identifier lang="en">CSharpPhrygian</identifier>
+      <definition lang="en" name="C-sharp Phrygian">Represents the key C-sharp Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpMixolydian">
+      <identifier lang="en">CSharpMixolydian</identifier>
+      <definition lang="en" name="C-sharp Mixolydian">Represents the key C-sharp Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpAeolian">
+      <identifier lang="en">CSharpAeolian</identifier>
+      <definition lang="en" name="C-sharp Aeolian">Represents the key C-sharp Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpMinor">
+      <identifier lang="en">CSharpMinor</identifier>
+      <definition lang="en" name="C-sharp Minor">Represents the key C-sharp Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:CSharpLocrian">
+      <identifier lang="en">CSharpLocrian</identifier>
+      <definition lang="en" name="C-sharp Locrian">Represents the key C-sharp Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:DFlatIonian">
+      <identifier lang="en">DFlatIonian</identifier>
+      <definition lang="en" name="D-flat Ionian">Represents the key D-flat Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:DFlatMajor">
+      <identifier lang="en">DFlatMajor</identifier>
+      <definition lang="en" name="D-flat Major">Represents the key D-flat Major.
+      </definition>
+    </concept>
+    <concept uuid="en:DFlatDorian">
+      <identifier lang="en">DFlatDorian</identifier>
+      <definition lang="en" name="D-flat Dorian">Represents the key D-flat Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:DFlatLydian">
+      <identifier lang="en">DFlatLydian</identifier>
+      <definition lang="en" name="D-flat Lydian">Represents the key D-flat Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:DFlatMixolydian">
+      <identifier lang="en">DFlatMixolydian</identifier>
+      <definition lang="en" name="D-flat Mixolydian">Represents the key D-flat Mixolydian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:DIonian">
+      <identifier lang="en">DIonian</identifier>
+      <definition lang="en" name="D Ionian">Represents the key D Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:DMajor">
+      <identifier lang="en">DMajor</identifier>
+      <definition lang="en" name="D Major">Represents the key D Major.
+      </definition>
+    </concept>
+    <concept uuid="en:DDorian">
+      <identifier lang="en">DDorian</identifier>
+      <definition lang="en" name="D Dorian">Represents the key D Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:DPhrygian">
+      <identifier lang="en">DPhrygian</identifier>
+      <definition lang="en" name="D Phrygian">Represents the key D Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:DLydian">
+      <identifier lang="en">DLydian</identifier>
+      <definition lang="en" name="D Lydian">Represents the key D Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:DMixolydian">
+      <identifier lang="en">DMixolydian</identifier>
+      <definition lang="en" name="D Mixolydian">Represents the key D Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:DAeolian">
+      <identifier lang="en">DAeolian</identifier>
+      <definition lang="en" name="D Aeolian">Represents the key D Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:DMinor">
+      <identifier lang="en">DMinor</identifier>
+      <definition lang="en" name="D Minor">Represents the key D Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:DLocrian">
+      <identifier lang="en">DLocrian</identifier>
+      <definition lang="en" name="D Locrian">Represents the key D Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:DSharpDorian">
+      <identifier lang="en">DSharpDorian</identifier>
+      <definition lang="en" name="D-sharp Dorian">Represents the key D-sharp Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:DSharpPhrygian">
+      <identifier lang="en">DSharpPhrygian</identifier>
+      <definition lang="en" name="D-sharp Phrygian">Represents the key D-sharp Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:DSharpAeolian">
+      <identifier lang="en">DSharpAeolian</identifier>
+      <definition lang="en" name="D-sharp Aeolian">Represents the key D-sharp Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:DSharpMinor">
+      <identifier lang="en">DSharpMinor</identifier>
+      <definition lang="en" name="D-sharp Minor">Represents the key D-sharp Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:DSharpLocrian">
+      <identifier lang="en">DSharpLocrian</identifier>
+      <definition lang="en" name="D-sharp Locrian">Represents the key D-sharp Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:EFlatIonian">
+      <identifier lang="en">EFlatIonian</identifier>
+      <definition lang="en" name="E-flat Ionian">Represents the key E-flat Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatMajor">
+      <identifier lang="en">EFlatMajor</identifier>
+      <definition lang="en" name="E-flat Major">Represents the key E-flat Major.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatDorian">
+      <identifier lang="en">EFlatDorian</identifier>
+      <definition lang="en" name="E-flat Dorian">Represents the key E-flat Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatPhrygian">
+      <identifier lang="en">EFlatPhrygian</identifier>
+      <definition lang="en" name="E-flat Phrygian">Represents the key E-flat Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatLydian">
+      <identifier lang="en">EFlatLydian</identifier>
+      <definition lang="en" name="E-flat Lydian">Represents the key E-flat Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatMixolydian">
+      <identifier lang="en">EFlatMixolydian</identifier>
+      <definition lang="en" name="E-flat Mixolydian">Represents the key E-flat Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatAeolian">
+      <identifier lang="en">EFlatAeolian</identifier>
+      <definition lang="en" name="E-flat Aeolian">Represents the key E-flat Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:EFlatMinor">
+      <identifier lang="en">EFlatMinor</identifier>
+      <definition lang="en" name="E-flat Minor">Represents the key E-flat Minor.
+      </definition>
+    </concept>
+
+    <concept uuid="en:EIonian">
+      <identifier lang="en">EIonian</identifier>
+      <definition lang="en" name="E Ionian">Represents the key E Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:EMajor">
+      <identifier lang="en">EMajor</identifier>
+      <definition lang="en" name="E Major">Represents the key E Major.
+      </definition>
+    </concept>
+    <concept uuid="en:EDorian">
+      <identifier lang="en">EDorian</identifier>
+      <definition lang="en" name="E Dorian">Represents the key E Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:EPhrygian">
+      <identifier lang="en">EPhrygian</identifier>
+      <definition lang="en" name="E Phrygian">Represents the key E Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:ELydian">
+      <identifier lang="en">ELydian</identifier>
+      <definition lang="en" name="E Lydian">Represents the key E Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:EMixolydian">
+      <identifier lang="en">EMixolydian</identifier>
+      <definition lang="en" name="E Mixolydian">Represents the key E Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:EAeolian">
+      <identifier lang="en">EAeolian</identifier>
+      <definition lang="en" name="E Aeolian">Represents the key E Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:EMinor">
+      <identifier lang="en">EMinor</identifier>
+      <definition lang="en" name="E Minor">Represents the key E Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:ELocrian">
+      <identifier lang="en">ELocrian</identifier>
+      <definition lang="en" name="E Locrian">Represents the key E Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:FIonian">
+      <identifier lang="en">FIonian</identifier>
+      <definition lang="en" name="F Ionian">Represents the key F Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:FMajor">
+      <identifier lang="en">FMajor</identifier>
+      <definition lang="en" name="F Major">Represents the key F Major.
+      </definition>
+    </concept>
+    <concept uuid="en:FDorian">
+      <identifier lang="en">FDorian</identifier>
+      <definition lang="en" name="F Dorian">Represents the key F Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:FPhrygian">
+      <identifier lang="en">FPhrygian</identifier>
+      <definition lang="en" name="F Phrygian">Represents the key F Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:FLydian">
+      <identifier lang="en">FLydian</identifier>
+      <definition lang="en" name="F Lydian">Represents the key F Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:FMixolydian">
+      <identifier lang="en">FMixolydian</identifier>
+      <definition lang="en" name="F Mixolydian">Represents the key F Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:FAeolian">
+      <identifier lang="en">FAeolian</identifier>
+      <definition lang="en" name="F Aeolian">Represents the key F Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:FMinor">
+      <identifier lang="en">FMinor</identifier>
+      <definition lang="en" name="F Minor">Represents the key F Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:FLocrian">
+      <identifier lang="en">FLocrian</identifier>
+      <definition lang="en" name="F Locrian">Represents the key F Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:FSharpIonian">
+      <identifier lang="en">FSharpIonian</identifier>
+      <definition lang="en" name="F-sharp Ionian">Represents the key F-sharp Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpMajor">
+      <identifier lang="en">FSharpMajor</identifier>
+      <definition lang="en" name="F-sharp Major">Represents the key F-sharp Major.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpDorian">
+      <identifier lang="en">FSharpDorian</identifier>
+      <definition lang="en" name="F-sharp Dorian">Represents the key F-sharp Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpPhrygian">
+      <identifier lang="en">FSharpPhrygian</identifier>
+      <definition lang="en" name="F-sharp Phrygian">Represents the key F-sharp Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpLydian">
+      <identifier lang="en">FSharpLydian</identifier>
+      <definition lang="en" name="F-sharp Lydian">Represents the key F-sharp Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpMixolydian">
+      <identifier lang="en">FSharpMixolydian</identifier>
+      <definition lang="en" name="F-sharp Mixolydian">Represents the key F-sharp Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpAeolian">
+      <identifier lang="en">FSharpAeolian</identifier>
+      <definition lang="en" name="F-sharp Aeolian">Represents the key F-sharp Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpMinor">
+      <identifier lang="en">FSharpMinor</identifier>
+      <definition lang="en" name="F-sharp Minor">Represents the key F-sharp Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:FSharpLocrian">
+      <identifier lang="en">FSharpLocrian</identifier>
+      <definition lang="en" name="F-sharp Locrian">Represents the key F-sharp Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:GFlatIonian">
+      <identifier lang="en">GFlatIonian</identifier>
+      <definition lang="en" name="G-flat Ionian">Represents the key G-flat Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:GFlatMajor">
+      <identifier lang="en">GFlatMajor</identifier>
+      <definition lang="en" name="G-flat Major">Represents the key G-flat Major.
+      </definition>
+    </concept>
+    <concept uuid="en:GFlatLydian">
+      <identifier lang="en">GFlatLydian</identifier>
+      <definition lang="en" name="G-flat Lydian">Represents the key G-flat Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:GFlatMixolydian">
+      <identifier lang="en">GFlatMixolydian</identifier>
+      <definition lang="en" name="G-flat Mixolydian">Represents the key G-flat Mixolydian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:GIonian">
+      <identifier lang="en">GIonian</identifier>
+      <definition lang="en" name="G Ionian">Represents the key G Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:GMajor">
+      <identifier lang="en">GMajor</identifier>
+      <definition lang="en" name="G Major">Represents the key G Major.
+      </definition>
+    </concept>
+    <concept uuid="en:GDorian">
+      <identifier lang="en">GDorian</identifier>
+      <definition lang="en" name="G Dorian">Represents the key G Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:GPhrygian">
+      <identifier lang="en">GPhrygian</identifier>
+      <definition lang="en" name="G Phrygian">Represents the key G Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:GLydian">
+      <identifier lang="en">GLydian</identifier>
+      <definition lang="en" name="G Lydian">Represents the key G Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:GMixolydian">
+      <identifier lang="en">GMixolydian</identifier>
+      <definition lang="en" name="G Mixolydian">Represents the key G Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:GAeolian">
+      <identifier lang="en">GAeolian</identifier>
+      <definition lang="en" name="G Aeolian">Represents the key G Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:GMinor">
+      <identifier lang="en">GMinor</identifier>
+      <definition lang="en" name="G Minor">Represents the key G Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:GLocrian">
+      <identifier lang="en">GLocrian</identifier>
+      <definition lang="en" name="G Locrian">Represents the key G Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:GSharpDorian">
+      <identifier lang="en">GSharpDorian</identifier>
+      <definition lang="en" name="G-sharp Dorian">Represents the key G-sharp Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:GSharpPhrygian">
+      <identifier lang="en">GSharpPhrygian</identifier>
+      <definition lang="en" name="G-sharp Phrygian">Represents the key G-sharp Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:GSharpMixolydian">
+      <identifier lang="en">GSharpMixolydian</identifier>
+      <definition lang="en" name="G-sharp Mixolydian">Represents the key G-sharp Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:GSharpAeolian">
+      <identifier lang="en">GSharpAeolian</identifier>
+      <definition lang="en" name="G-sharp Aeolian">Represents the key G-sharp Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:GSharpMinor">
+      <identifier lang="en">GSharpMinor</identifier>
+      <definition lang="en" name="G-sharp Minor">Represents the key G-sharp Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:GSharpLocrian">
+      <identifier lang="en">GSharpLocrian</identifier>
+      <definition lang="en" name="G-sharp Locrian">Represents the key G-sharp Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:AFlatIonian">
+      <identifier lang="en">AFlatIonian</identifier>
+      <definition lang="en" name="A-flat Ionian">Represents the key A-flat Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatMajor">
+      <identifier lang="en">AFlatMajor</identifier>
+      <definition lang="en" name="A-flat Major">Represents the key A-flat Major.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatDorian">
+      <identifier lang="en">AFlatDorian</identifier>
+      <definition lang="en" name="A-flat Dorian">Represents the key A-flat Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatLydian">
+      <identifier lang="en">AFlatLydian</identifier>
+      <definition lang="en" name="A-flat Lydian">Represents the key A-flat Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatMixolydian">
+      <identifier lang="en">AFlatMixolydian</identifier>
+      <definition lang="en" name="A-flat Mixolydian">Represents the key A-flat Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatAeolian">
+      <identifier lang="en">AFlatAeolian</identifier>
+      <definition lang="en" name="A-flat Aeolian">Represents the key A-flat Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:AFlatMinor">
+      <identifier lang="en">AFlatMinor</identifier>
+      <definition lang="en" name="A-flat Minor">Represents the key A-flat Minor.
+      </definition>
+    </concept>
+
+    <concept uuid="en:AIonian">
+      <identifier lang="en">AIonian</identifier>
+      <definition lang="en" name="A Ionian">Represents the key A Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:AMajor">
+      <identifier lang="en">AMajor</identifier>
+      <definition lang="en" name="A Major">Represents the key A Major.
+      </definition>
+    </concept>
+    <concept uuid="en:ADorian">
+      <identifier lang="en">ADorian</identifier>
+      <definition lang="en" name="A Dorian">Represents the key A Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:APhrygian">
+      <identifier lang="en">APhrygian</identifier>
+      <definition lang="en" name="A Phrygian">Represents the key A Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:ALydian">
+      <identifier lang="en">ALydian</identifier>
+      <definition lang="en" name="A Lydian">Represents the key A Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:AMixolydian">
+      <identifier lang="en">AMixolydian</identifier>
+      <definition lang="en" name="A Mixolydian">Represents the key A Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:AAeolian">
+      <identifier lang="en">AAeolian</identifier>
+      <definition lang="en" name="A Aeolian">Represents the key A Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:AMinor">
+      <identifier lang="en">AMinor</identifier>
+      <definition lang="en" name="A Minor">Represents the key A Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:ALocrian">
+      <identifier lang="en">ALocrian</identifier>
+      <definition lang="en" name="A Locrian">Represents the key A Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:ASharpPhrygian">
+      <identifier lang="en">ASharpPhrygian</identifier>
+      <definition lang="en" name="A-sharp Phrygian">Represents the key A-sharp Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:ASharpAeolian">
+      <identifier lang="en">ASharpAeolian</identifier>
+      <definition lang="en" name="A-sharp Aeolian">Represents the key A-sharp Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:ASharpMinor">
+      <identifier lang="en">ASharpMinor</identifier>
+      <definition lang="en" name="A-sharp Minor">Represents the key A-sharp Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:ASharpLocrian">
+      <identifier lang="en">ASharpLocrian</identifier>
+      <definition lang="en" name="A-sharp Locrian">Represents the key A-sharp Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:BFlatIonian">
+      <identifier lang="en">BFlatIonian</identifier>
+      <definition lang="en" name="B-flat Ionian">Represents the key B-flat Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatMajor">
+      <identifier lang="en">BFlatMajor</identifier>
+      <definition lang="en" name="B-flat Major">Represents the key B-flat Major.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatDorian">
+      <identifier lang="en">BFlatDorian</identifier>
+      <definition lang="en" name="B-flat Dorian">Represents the key B-flat Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatPhrygian">
+      <identifier lang="en">BFlatPhrygian</identifier>
+      <definition lang="en" name="B-flat Phrygian">Represents the key B-flat Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatLydian">
+      <identifier lang="en">BFlatLydian</identifier>
+      <definition lang="en" name="B-flat Lydian">Represents the key B-flat Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatMixolydian">
+      <identifier lang="en">BFlatMixolydian</identifier>
+      <definition lang="en" name="B-flat Mixolydian">Represents the key B-flat Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatAeolian">
+      <identifier lang="en">BFlatAeolian</identifier>
+      <definition lang="en" name="B-flat Aeolian">Represents the key B-flat Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatMinor">
+      <identifier lang="en">BFlatMinor</identifier>
+      <definition lang="en" name="B-flat Minor">Represents the key B-flat Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:BFlatLocrian">
+      <identifier lang="en">BFlatLocrian</identifier>
+      <definition lang="en" name="B-flat Locrian">Represents the key B-flat Locrian.
+      </definition>
+    </concept>
+
+    <concept uuid="en:BIonian">
+      <identifier lang="en">BIonian</identifier>
+      <definition lang="en" name="B Ionian">Represents the key B Ionian.
+      </definition>
+    </concept>
+    <concept uuid="en:BMajor">
+      <identifier lang="en">BMajor</identifier>
+      <definition lang="en" name="B Major">Represents the key B Major.
+      </definition>
+    </concept>
+    <concept uuid="en:BDorian">
+      <identifier lang="en">BDorian</identifier>
+      <definition lang="en" name="B Dorian">Represents the key B Dorian.
+      </definition>
+    </concept>
+    <concept uuid="en:BPhrygian">
+      <identifier lang="en">BPhrygian</identifier>
+      <definition lang="en" name="B Phrygian">Represents the key B Phrygian.
+      </definition>
+    </concept>
+    <concept uuid="en:BLydian">
+      <identifier lang="en">BLydian</identifier>
+      <definition lang="en" name="B Lydian">Represents the key B Lydian.
+      </definition>
+    </concept>
+    <concept uuid="en:BMixolydian">
+      <identifier lang="en">BMixolydian</identifier>
+      <definition lang="en" name="B Mixolydian">Represents the key B Mixolydian.
+      </definition>
+    </concept>
+    <concept uuid="en:BAeolian">
+      <identifier lang="en">BAeolian</identifier>
+      <definition lang="en" name="B Aeolian">Represents the key B Aeolian.
+      </definition>
+    </concept>
+    <concept uuid="en:BMinor">
+      <identifier lang="en">BMinor</identifier>
+      <definition lang="en" name="B Minor">Represents the key B Minor.
+      </definition>
+    </concept>
+    <concept uuid="en:BLocrian">
+      <identifier lang="en">BLocrian</identifier>
+      <definition lang="en" name="B Locrian">Represents the key B Locrian.
+      </definition>
+    </concept>
+  </category>
+</mica>

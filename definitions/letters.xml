@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Letters">Contains the note letters.</definition>
+
+    <concept uuid="en:A">
+      <sequence cyclic="true">en:A en:B en:C en:D en:E en:F en:G</sequence>
+      <identifier lang="en">A</identifier>
+      <definition lang="en" name="A">Represents the pitch class A, which is the
+      sixth pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:B">
+      <sequence cyclic="true">en:B en:C en:D en:E en:F en:G en:A</sequence>
+      <identifier lang="en">B</identifier>
+      <definition lang="en" name="B">Represents the pitch class B, which is the
+      seventh pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:C">
+      <sequence cyclic="true">en:C en:D en:E en:F en:G en:A en:B</sequence>
+      <identifier lang="en">C</identifier>
+      <definition lang="en" name="C">Represents the pitch class C, which is the
+      first pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:D">
+      <sequence cyclic="true">en:D en:E en:F en:G en:A en:B en:C</sequence>
+      <identifier lang="en">D</identifier>
+      <definition lang="en" name="D">Represents the pitch class D, which is the
+      second pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:E">
+      <sequence cyclic="true">en:E en:F en:G en:A en:B en:C en:D</sequence>
+      <identifier lang="en">E</identifier>
+      <definition lang="en" name="E">Represents the pitch class E, which is the
+      third pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:F">
+      <sequence cyclic="true">en:F en:G en:A en:B en:C en:D en:E</sequence>
+      <identifier lang="en">F</identifier>
+      <definition lang="en" name="F">Represents the pitch class F, which is the
+      fourth pitch of C major.</definition>
+    </concept>
+    
+    <concept uuid="en:G">
+      <sequence cyclic="true">en:G en:A en:B en:C en:D en:E en:F</sequence>
+      <identifier lang="en">G</identifier>
+      <definition lang="en" name="G">Represents the pitch class G, which is the
+      fifth pitch of C major.</definition>
+    </concept>
+
+    <concept uuid="en:Letters">
+      <sequence cyclic="true">en:A en:B en:C en:D en:E en:F en:G</sequence>
+      <identifier lang="en">Letters</identifier>
+      <definition lang="en" name="Letters">Represents the ordered set of all
+      note letters.</definition>
+    </concept>
+  </category>
+</mica>

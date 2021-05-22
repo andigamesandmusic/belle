@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Clef Symbols">Contains clef symbols.
+    </definition>
+
+    <concept uuid="en:GClef">
+      <identifier lang="en">GClef</identifier>
+      <definition lang="en" name="G Clef">
+      http://en.wikipedia.org/wiki/File:GClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:GSuper8Clef">
+      <identifier lang="en">GSuper8Clef</identifier>
+      <definition lang="en" name="G Super 8 Clef">
+      http://en.wikipedia.org/wiki/File:GClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:GSuper15Clef">
+      <identifier lang="en">GSuper15Clef</identifier>
+      <definition lang="en" name="G Super 15 Clef">
+      http://en.wikipedia.org/wiki/File:GClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:FClef">
+      <identifier lang="en">FClef</identifier>
+      <definition lang="en" name="F Clef">
+      http://en.wikipedia.org/wiki/File:FClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:FSub8Clef">
+      <identifier lang="en">FSub8Clef</identifier>
+      <definition lang="en" name="F Sub 8 Clef">
+      http://en.wikipedia.org/wiki/File:FClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:FSub15Clef">
+      <identifier lang="en">FSub15Clef</identifier>
+      <definition lang="en" name="F Sub 15 Clef">
+      http://en.wikipedia.org/wiki/File:FClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:FSuper8Clef">
+      <identifier lang="en">FSuper8Clef</identifier>
+      <definition lang="en" name="F Super 8 Clef">
+      http://en.wikipedia.org/wiki/File:FClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:FSuper15Clef">
+      <identifier lang="en">FSuper15Clef</identifier>
+      <definition lang="en" name="F Super 15 Clef">
+      http://en.wikipedia.org/wiki/File:FClef.svg</definition>
+    </concept>
+
+    <concept uuid="en:CClef">
+      <identifier lang="en">CClef</identifier>
+      <definition lang="en" name="C Clef">
+      http://en.wikipedia.org/wiki/File:CClef.svg</definition>
+    </concept>
+    
+    <concept uuid="en:BarredNeutralClef">
+      <identifier lang="en">BarredNeutralClef</identifier>
+      <definition lang="en" name="Barred Neutral Clef">
+      http://en.wikipedia.org/wiki/File:Music-neutralclef.png</definition>
+    </concept>
+    
+    <concept uuid="en:BoxedNeutralClef">
+      <identifier lang="en">BoxedNeutralClef</identifier>
+      <definition lang="en" name="Boxed Neutral Clef">
+      http://en.wikipedia.org/wiki/File:Music-neutralclef.png</definition>
+    </concept>
+    
+    <concept uuid="en:TABClef">
+      <identifier lang="en">TABClef</identifier>
+      <definition lang="en" name="TAB Clef">
+      http://en.wikipedia.org/wiki/File:Tablature.svg</definition>
+    </concept>
+    
+    <concept uuid="en:GregorianCClef">
+      <identifier lang="en">GregorianCClef</identifier>
+      <definition lang="en" name="Gregorian C Clef">
+      http://en.wikipedia.org/wiki/File:C_clef_neume.gif</definition>
+    </concept>
+    
+    <concept uuid="en:GregorianFClef">
+      <identifier lang="en">GregorianFClef</identifier>
+      <definition lang="en" name="Gregorian F Clef">
+      http://en.wikipedia.org/wiki/File:F_clef_neume.gif</definition>
+    </concept>
+    
+    <concept uuid="en:DoubleGClef">
+      <identifier lang="en">DoubleGClef</identifier>
+      <definition lang="en" name="Double G Clef">
+      http://en.wikipedia.org/wiki/File:Tenorclefs.png</definition>
+    </concept>
+    
+    <concept uuid="en:GSub8Clef">
+      <identifier lang="en">GSub8Clef</identifier>
+      <definition lang="en" name="G Sub 8 Clef">
+      http://en.wikipedia.org/wiki/File:Tenorclefs.png</definition>
+    </concept>
+
+    <concept uuid="en:ReversedFClef">
+      <identifier lang="en">ReversedFClef</identifier>
+      <definition lang="en" name="Reversed F Clef">
+      http://en.wikipedia.org/wiki/File:Oldbassclef.svg</definition>
+    </concept>
+
+    <concept uuid="en:BracketedCClef">
+      <identifier lang="en">BracketedCClef</identifier>
+      <definition lang="en" name="Bracketed C Clef">
+      http://en.wikipedia.org/wiki/File:Old_C-clef.png</definition>
+    </concept>
+
+    <concept uuid="en:ParrallelogramCClef">
+      <identifier lang="en">ParrallelogramCClef</identifier>
+      <definition lang="en" name="Parrallelogram C Clef">
+      http://en.wikipedia.org/wiki/File:Britannica_Horn_Nozze_C_Clef_Note_A.png
+      </definition>
+    </concept>
+
+    <concept uuid="en:ScriptGClef">
+      <identifier lang="en">ScriptGClef</identifier>
+      <definition lang="en" name="Script G Clef">
+      http://en.wikipedia.org/wiki/File:G-Schluessel.png</definition>
+    </concept>
+
+    <concept uuid="en:ScriptLittleGClef">
+      <identifier lang="en">ScriptLittleGClef</identifier>
+      <definition lang="en" name="Script Little G Clef">
+      http://en.wikipedia.org/wiki/File:G-Schluessel.png</definition>
+    </concept>
+
+    <concept uuid="en:ScriptDGClef">
+      <identifier lang="en">ScriptDGClef</identifier>
+      <definition lang="en" name="Script D-G Clef">
+      http://en.wikipedia.org/wiki/File:G-Schluessel.png</definition>
+    </concept>
+
+    <concept uuid="en:ScriptDGCombinedClef">
+      <identifier lang="en">ScriptDGCombinedClef</identifier>
+      <definition lang="en" name="Script D-G Combined Clef">
+      http://en.wikipedia.org/wiki/File:G-Schluessel.png</definition>
+    </concept>
+
+  </category>
+</mica>

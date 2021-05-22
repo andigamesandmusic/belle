@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Meter">Contains meter concepts.</definition>
+    
+    <concept uuid="en:SimpleMeter">
+      <identifier lang="en">SimpleMeter</identifier>
+      <definition lang="en" name="Simple Meter">Indicates a simple meter which uses an undotted note for its beat.</definition>
+    </concept>
+
+    <concept uuid="en:CompoundMeter">
+      <identifier lang="en">CompoundMeter</identifier>
+      <definition lang="en" name="Compound Meter">Indicates a compound meter which uses an dotted note for its beat.</definition>
+    </concept>
+
+    <concept uuid="en:ComplexMeter">
+      <identifier lang="en">ComplexMeter</identifier>
+      <definition lang="en" name="Complex Meter">Indicates a meter which divides into uneven parts.</definition>
+    </concept>
+
+    <concept uuid="en:IrrationalMeter">
+      <identifier lang="en">IrrationalMeter</identifier>
+      <definition lang="en" name="Irrational Meter">Indicates a meter which has a denominator that is not a power of two such as 4 over 5.</definition>
+    </concept>
+
+  </category>
+</mica>

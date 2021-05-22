@@ -1,0 +1,12 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Chord,NoteValue:1/4;B4
+0,2;Kind:Chord,NoteValue:1/4;B4
+0,3;Kind:Chord,NoteValue:1/4;B4
+0,4;Kind:Chord,NoteValue:1/4;B4
+0,8;Kind:Barline,Value:Standard Barline
+
+1,0;Kind:Barline,Value:Standard Barline,data-Brace:Brace
+1,5;Kind:Chord,NoteValue:1/2;B4
+1,6;Kind:Clef,Value:Bass Clef
+1,7;Kind:Chord,NoteValue:1/2;D3
+1,8;Kind:Barline,Value:Standard Barline

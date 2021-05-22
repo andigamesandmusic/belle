@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="SMuFL">Symbols defined according to the SMuFL standard and respective mappings.
+    </definition>
+    
+    <concept uuid="en:SMuFL">
+      <identifier lang="en">SMuFL</identifier>
+      <definition lang="en" name="SMuFL">The SMuFL codepoint of a concept.</definition>
+    </concept>
+    
+    <concept uuid="en:MaximaNotehead">
+      <identifier lang="en">MaximaNotehead</identifier>
+      <definition lang="en" name="Maxima Notehead">Notehead for maxima note, which is four, six, or nine times as long as a double whole note.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:LongaNotehead">
+      <identifier lang="en">LongaNotehead</identifier>
+      <definition lang="en" name="Longa Notehead">Notehead for longa note, which is twice or three times as long as a double whole note.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:DoubleWholeNotehead">
+      <identifier lang="en">DoubleWholeNotehead</identifier>
+      <definition lang="en" name="Double Whole Notehead">Double whole notehead</definition>
+    </concept>
+    
+    <concept uuid="en:DoubleWholeNoteheadSquare">
+      <identifier lang="en">DoubleWholeNoteheadSquare</identifier>
+      <definition lang="en" name="Double Whole Notehead Square">Double whole notehead square</definition>
+    </concept>
+    
+    <concept uuid="en:WholeNotehead">
+      <identifier lang="en">WholeNotehead</identifier>
+      <definition lang="en" name="Whole Notehead">Whole notehead</definition>
+    </concept>
+    
+    <concept uuid="en:HalfNotehead">
+      <identifier lang="en">HalfNotehead</identifier>
+      <definition lang="en" name="Half Notehead">White elliptical notehead</definition>
+    </concept>
+    
+    <concept uuid="en:BlackNotehead">
+      <identifier lang="en">BlackNotehead</identifier>
+      <definition lang="en" name="Black Notehead">Black elliptical notehead</definition>
+    </concept>
+    
+    <concept uuid="en:EighthFlag">
+      <identifier lang="en">EighthFlag</identifier>
+      <definition lang="en" name="Eighth Flag">8th flag</definition>
+    </concept>
+    <concept uuid="en:SixteenthFlag">
+      <identifier lang="en">SixteenthFlag</identifier>
+      <definition lang="en" name="Sixteenth Flag">16th flag</definition>
+    </concept>
+    <concept uuid="en:ThirtySecondFlag">
+      <identifier lang="en">ThirtySecondFlag</identifier>
+      <definition lang="en" name="Thirty-Second Flag">32nd flag</definition>
+    </concept>
+    <concept uuid="en:SixtyFourthFlag">
+      <identifier lang="en">SixtyFourthFlag</identifier>
+      <definition lang="en" name="Sixty-Fourth Flag">64th flag</definition>
+    </concept>
+    <concept uuid="en:OneTwentyEighthFlag">
+      <identifier lang="en">OneTwentyEighthFlag</identifier>
+      <definition lang="en" name="One-Twenty-Eighth Flag">128th flag</definition>
+    </concept>
+    <concept uuid="en:TwoFiftySixthFlag">
+      <identifier lang="en">TwoFiftySixthFlag</identifier>
+      <definition lang="en" name="Two-Fifty-Sixth Flag">256th flag</definition>
+    </concept>
+    <concept uuid="en:FiveTwelfthFlag">
+      <identifier lang="en">FiveTwelfthFlag</identifier>
+      <definition lang="en" name="Five-Twelfth Flag">512th flag</definition>
+    </concept>
+    <concept uuid="en:TenTwentyFourthFlag">
+      <identifier lang="en">TenTwentyFourthFlag</identifier>
+      <definition lang="en" name="Ten-Twenty-Fourth Flag">1024th flag</definition>
+    </concept>
+    
+    <concept uuid="en:Flags">
+      <sequence>en:EighthFlag en:SixteenthFlag en:ThirtySecondFlag en:SixtyFourthFlag en:OneTwentyEighthFlag
+      en:TwoFiftySixthFlag en:FiveTwelfthFlag en:TenTwentyFourthFlag</sequence>
+      <identifier lang="en">Flags</identifier>
+      <definition lang="en" name="Flags">Sequence of flags from 8th to 1024th.</definition>
+    </concept>
+    
+    
+    <concept uuid="en:LongaRest">
+      <identifier lang="en">LongaRest</identifier>
+      <definition lang="en" name="Longa Rest">Longa rest</definition>
+    </concept>
+    <concept uuid="en:DoubleWholeRest">
+      <identifier lang="en">DoubleWholeRest</identifier>
+      <definition lang="en" name="Double Whole Rest">Double whole rest</definition>
+    </concept>
+    <concept uuid="en:WholeRest">
+      <identifier lang="en">WholeRest</identifier>
+      <definition lang="en" name="Whole Rest">Whole rest</definition>
+    </concept>
+    <concept uuid="en:HalfRest">
+      <identifier lang="en">HalfRest</identifier>
+      <definition lang="en" name="Half Rest">Half rest</definition>
+    </concept>
+    <concept uuid="en:QuarterRest">
+      <identifier lang="en">QuarterRest</identifier>
+      <definition lang="en" name="Quarter Rest">Quarter rest</definition>
+    </concept>
+    <concept uuid="en:EighthRest">
+      <identifier lang="en">EighthRest</identifier>
+      <definition lang="en" name="Eighth Rest">Eighth rest</definition>
+    </concept>
+    <concept uuid="en:SixteenthRest">
+      <identifier lang="en">SixteenthRest</identifier>
+      <definition lang="en" name="Sixteenth Rest">Sixteenth rest</definition>
+    </concept>
+    <concept uuid="en:ThirtySecondRest">
+      <identifier lang="en">ThirtySecondRest</identifier>
+      <definition lang="en" name="Thirty-Second Rest">32nd rest</definition>
+    </concept>
+    <concept uuid="en:SixtyFourthRest">
+      <identifier lang="en">SixtyFourthRest</identifier>
+      <definition lang="en" name="Sixty-Fourth Rest">64th rest</definition>
+    </concept>
+    <concept uuid="en:OneTwentyEighthRest">
+      <identifier lang="en">OneTwentyEighthRest</identifier>
+      <definition lang="en" name="One-Twenty-Eighth Rest">128th rest</definition>
+    </concept>
+    <concept uuid="en:TwoFiftySixthRest">
+      <identifier lang="en">TwoFiftySixthRest</identifier>
+      <definition lang="en" name="Two-Fifty-Sixth Rest">256th rest</definition>
+    </concept>
+    <concept uuid="en:FiveTwelfthRest">
+      <identifier lang="en">FiveTwelfthRest</identifier>
+      <definition lang="en" name="Five-Twelfth Rest">512th rest</definition>
+    </concept>
+    <concept uuid="en:TenTwentyFourthRest">
+      <identifier lang="en">TenTwentyFourthRest</identifier>
+      <definition lang="en" name="Ten-Twenty-Fourth Rest">1024th rest</definition>
+    </concept>
+    
+    <concept uuid="en:Rests">
+      <sequence>en:LongaRest en:DoubleWholeRest en:WholeRest en:HalfRest
+        en:QuarterRest en:EighthRest en:SixteenthRest en:ThirtySecondRest
+        en:SixtyFourthRest en:OneTwentyEighthRest en:TwoFiftySixthRest
+        en:FiveTwelfthRest en:TenTwentyFourthRest
+      </sequence>
+      <identifier lang="en">Rests</identifier>
+      <definition lang="en" name="Rests">Sequence of rests from longa to 1024th.</definition>
+    </concept>
+    
+    
+    <concept uuid="en:StaccatoWedge">
+      <identifier lang="en">StaccatoWedge</identifier>
+      <definition lang="en" name="Staccato Wedge">StaccatoWedge</definition>
+    </concept>
+    <concept uuid="en:Staccato">
+      <identifier lang="en">Staccato</identifier>
+      <definition lang="en" name="Staccato">Staccato</definition>
+    </concept>
+    <concept uuid="en:Tenuto">
+      <identifier lang="en">Tenuto</identifier>
+      <definition lang="en" name="Tenuto">Tenuto</definition>
+    </concept>
+    <concept uuid="en:StandardAccent">
+      <identifier lang="en">StandardAccent</identifier>
+      <definition lang="en" name="Standard Accent">Standard accent</definition>
+    </concept>
+    <concept uuid="en:StrongAccent">
+      <identifier lang="en">StrongAccent</identifier>
+      <definition lang="en" name="Strong Accent">Strong accent</definition>
+    </concept>
+    <concept uuid="en:Articulations">
+      <sequence>en:StaccatoWedge en:Staccato en:Tenuto en:StandardAccent en:StrongAccent</sequence>
+      <identifier lang="en">Articulations</identifier>
+      <definition lang="en" name="Articulations">Sequence of articulations from closest to notehead to furthest from chord</definition>
+    </concept>
+    <concept uuid="en:ArticulationPlacement">
+      <identifier lang="en">ArticulationPlacement</identifier>
+      <definition lang="en" name="Articulation Placement">Placement of an articulation mark either above or below a chord.</definition>
+    </concept>
+
+    <concept uuid="en:BracketBottom">
+      <identifier lang="en">BracketBottom</identifier>
+      <definition lang="en" name="Bracket Bottom">The bottom wing of a system bracket</definition>
+    </concept>
+    <concept uuid="en:BracketTop">
+      <identifier lang="en">BracketTop</identifier>
+      <definition lang="en" name="Bracket Top">The top wing of a system bracket</definition>
+    </concept>
+
+    <concept uuid="en:TimeSignature0">
+      <identifier lang="en">TimeSignature0</identifier>
+      <definition lang="en" name="Time Signature 0">Heavy 0 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature1">
+      <identifier lang="en">TimeSignature1</identifier>
+      <definition lang="en" name="Time Signature 1">Heavy 1 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature2">
+      <identifier lang="en">TimeSignature2</identifier>
+      <definition lang="en" name="Time Signature 2">Heavy 2 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature3">
+      <identifier lang="en">TimeSignature3</identifier>
+      <definition lang="en" name="Time Signature 3">Heavy 3 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature4">
+      <identifier lang="en">TimeSignature4</identifier>
+      <definition lang="en" name="Time Signature 4">Heavy 4 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature5">
+      <identifier lang="en">TimeSignature5</identifier>
+      <definition lang="en" name="Time Signature 5">Heavy 5 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature6">
+      <identifier lang="en">TimeSignature6</identifier>
+      <definition lang="en" name="Time Signature 6">Heavy 6 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature7">
+      <identifier lang="en">TimeSignature7</identifier>
+      <definition lang="en" name="Time Signature 7">Heavy 7 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature8">
+      <identifier lang="en">TimeSignature8</identifier>
+      <definition lang="en" name="Time Signature 8">Heavy 8 shown in time signature numbers</definition>
+    </concept>
+    <concept uuid="en:TimeSignature9">
+      <identifier lang="en">TimeSignature9</identifier>
+      <definition lang="en" name="Time Signature 9">Heavy 9 shown in time signature numbers</definition>
+    </concept>
+
+
+  <concept uuid="en:DynamicMarkPiano">
+    <identifier lang="en">DynamicMarkPiano</identifier>
+    <definition lang="en" name="Dynamic Mark Piano">DynamicMarkPiano</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkMezzo">
+    <identifier lang="en">DynamicMarkMezzo</identifier>
+    <definition lang="en" name="Dynamic Mark Mezzo">DynamicMarkMezzo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkForte">
+    <identifier lang="en">DynamicMarkForte</identifier>
+    <definition lang="en" name="Dynamic Mark Forte">DynamicMarkForte</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkRinforzando">
+    <identifier lang="en">DynamicMarkRinforzando</identifier>
+    <definition lang="en" name="Dynamic Mark Rinforzando">DynamicMarkRinforzando</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzandoS">
+    <identifier lang="en">DynamicMarkSforzandoS</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzando S">DynamicMarkSforzandoS</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkZ">
+    <identifier lang="en">DynamicMarkZ</identifier>
+    <definition lang="en" name="Dynamic Mark Z">DynamicMarkZ</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkNiente">
+    <identifier lang="en">DynamicMarkNiente</identifier>
+    <definition lang="en" name="Dynamic Mark Niente">DynamicMarkNiente</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoissississississimo">
+    <identifier lang="en">DynamicMarkPianoissississississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoissississississimo">DynamicMarkPianoissississississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoississississimo">
+    <identifier lang="en">DynamicMarkPianoississississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoississississimo">DynamicMarkPianoississississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoissississimo">
+    <identifier lang="en">DynamicMarkPianoissississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoissississimo">DynamicMarkPianoissississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoississimo">
+    <identifier lang="en">DynamicMarkPianoississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoississimo">DynamicMarkPianoississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoissimo">
+    <identifier lang="en">DynamicMarkPianoissimo</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoissimo">DynamicMarkPianoissimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkMezzopiano">
+    <identifier lang="en">DynamicMarkMezzopiano</identifier>
+    <definition lang="en" name="Dynamic Mark Mezzopiano">DynamicMarkMezzopiano</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkMezzoforte">
+    <identifier lang="en">DynamicMarkMezzoforte</identifier>
+    <definition lang="en" name="Dynamic Mark Mezzoforte">DynamicMarkMezzoforte</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkPianoforte">
+    <identifier lang="en">DynamicMarkPianoforte</identifier>
+    <definition lang="en" name="Dynamic Mark Pianoforte">DynamicMarkPianoforte</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortissimo">
+    <identifier lang="en">DynamicMarkFortissimo</identifier>
+    <definition lang="en" name="Dynamic Mark Fortissimo">DynamicMarkFortissimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortississimo">
+    <identifier lang="en">DynamicMarkFortississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Fortississimo">DynamicMarkFortississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortissississimo">
+    <identifier lang="en">DynamicMarkFortissississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Fortissississimo">DynamicMarkFortissississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortississississimo">
+    <identifier lang="en">DynamicMarkFortississississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Fortississississimo">DynamicMarkFortississississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortissississississimo">
+    <identifier lang="en">DynamicMarkFortissississississimo</identifier>
+    <definition lang="en" name="Dynamic Mark Fortissississississimo">DynamicMarkFortissississississimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkFortepiano">
+    <identifier lang="en">DynamicMarkFortepiano</identifier>
+    <definition lang="en" name="Dynamic Mark Fortepiano">DynamicMarkFortepiano</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkForzando">
+    <identifier lang="en">DynamicMarkForzando</identifier>
+    <definition lang="en" name="Dynamic Mark Forzando">DynamicMarkForzando</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzandoSF">
+    <identifier lang="en">DynamicMarkSforzandoSF</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzando SF">DynamicMarkSforzandoSF</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzandoPiano">
+    <identifier lang="en">DynamicMarkSforzandoPiano</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzando Piano">DynamicMarkSforzandoPiano</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzandoPianissimo">
+    <identifier lang="en">DynamicMarkSforzandoPianissimo</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzando Pianissimo">DynamicMarkSforzandoPianissimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzato">
+    <identifier lang="en">DynamicMarkSforzato</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzato">DynamicMarkSforzato</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzatoPiano">
+    <identifier lang="en">DynamicMarkSforzatoPiano</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzato Piano">DynamicMarkSforzatoPiano</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkSforzatoFortissimo">
+    <identifier lang="en">DynamicMarkSforzatoFortissimo</identifier>
+    <definition lang="en" name="Dynamic Mark Sforzato Fortissimo">DynamicMarkSforzatoFortissimo</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkRinforzandoRF">
+    <identifier lang="en">DynamicMarkRinforzandoRF</identifier>
+    <definition lang="en" name="Dynamic Mark Rinforzando RF">DynamicMarkRinforzandoRF</definition>
+  </concept>
+  <concept uuid="en:DynamicMarkRinforzandoRFZ">
+    <identifier lang="en">DynamicMarkRinforzandoRFZ</identifier>
+    <definition lang="en" name="Dynamic Mark Rinforzando RFZ">DynamicMarkRinforzandoRFZ</definition>
+  </concept>
+  <concept uuid="en:Ottava">
+    <identifier lang="en">Ottava</identifier>
+    <definition lang="en" name="Ottava">Ottava</definition>
+  </concept>
+  <concept uuid="en:OttavaAlta">
+    <identifier lang="en">OttavaAlta</identifier>
+    <definition lang="en" name="Ottava Alta">OttavaAlta</definition>
+  </concept>
+  <concept uuid="en:OttavaBassa">
+    <identifier lang="en">OttavaBassa</identifier>
+    <definition lang="en" name="Ottava Bassa">OttavaBassa</definition>
+  </concept>
+  <concept uuid="en:OttavaBassaBa">
+    <identifier lang="en">OttavaBassaBa</identifier>
+    <definition lang="en" name="Ottava Bassa ba">OttavaBassaBa</definition>
+  </concept>
+  <concept uuid="en:Quindicesima">
+    <identifier lang="en">Quindicesima</identifier>
+    <definition lang="en" name="Quindicesima">Quindicesima</definition>
+  </concept>
+  <concept uuid="en:QuindicesimaAlta">
+    <identifier lang="en">QuindicesimaAlta</identifier>
+    <definition lang="en" name="Quindicesima Alta">QuindicesimaAlta</definition>
+  </concept>
+  <concept uuid="en:QuindicesimaBassa">
+    <identifier lang="en">QuindicesimaBassa</identifier>
+    <definition lang="en" name="Quindicesima Bassa">QuindicesimaBassa</definition>
+  </concept>
+  <concept uuid="en:Ventiduesima">
+    <identifier lang="en">Ventiduesima</identifier>
+    <definition lang="en" name="Ventiduesima">Ventiduesima</definition>
+  </concept>
+  <concept uuid="en:VentiduesimaAlta">
+    <identifier lang="en">VentiduesimaAlta</identifier>
+    <definition lang="en" name="Ventiduesima Alta">VentiduesimaAlta</definition>
+  </concept>
+  <concept uuid="en:VentiduesimaBassa">
+    <identifier lang="en">VentiduesimaBassa</identifier>
+    <definition lang="en" name="Ventiduesima Bassa">VentiduesimaBassa</definition>
+  </concept>
+  <concept uuid="en:PedalMarkPed">
+    <identifier lang="en">PedalMarkPed</identifier>
+    <definition lang="en" name="Pedal Mark Ped">PedalMarkPed</definition>
+  </concept>
+  <concept uuid="en:PedalMarkRelease">
+    <identifier lang="en">PedalMarkRelease</identifier>
+    <definition lang="en" name="Pedal Mark Release">PedalMarkRelease</definition>
+  </concept>
+  <concept uuid="en:TimeSignaturePlus">
+    <identifier lang="en">TimeSignaturePlus</identifier>
+    <definition lang="en" name="Time Signature Plus">TimeSignaturePlus</definition>
+  </concept>
+  <concept uuid="en:TimeSignaturePlusSmall">
+    <identifier lang="en">TimeSignaturePlusSmall</identifier>
+    <definition lang="en" name="Time Signature Plus Small">TimeSignaturePlusSmall</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionalSlash">
+    <identifier lang="en">TimeSignatureFractionalSlash</identifier>
+    <definition lang="en" name="Time Signature Fractional Slash">TimeSignatureFractionalSlash</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureEquals">
+    <identifier lang="en">TimeSignatureEquals</identifier>
+    <definition lang="en" name="Time Signature Equals">TimeSignatureEquals</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureMinus">
+    <identifier lang="en">TimeSignatureMinus</identifier>
+    <definition lang="en" name="Time Signature Minus">TimeSignatureMinus</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureMultiply">
+    <identifier lang="en">TimeSignatureMultiply</identifier>
+    <definition lang="en" name="Time Signature Multiply">TimeSignatureMultiply</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureParenthesisLeft">
+    <identifier lang="en">TimeSignatureParenthesisLeft</identifier>
+    <definition lang="en" name="Time Signature Parenthesis Left">TimeSignatureParenthesisLeft</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureParenthesisLeftSmall">
+    <identifier lang="en">TimeSignatureParenthesisLeftSmall</identifier>
+    <definition lang="en" name="Time Signature Parenthesis Left Small">TimeSignatureParenthesisLeftSmall</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureParenthesisRight">
+    <identifier lang="en">TimeSignatureParenthesisRight</identifier>
+    <definition lang="en" name="Time Signature Parenthesis Right">TimeSignatureParenthesisRight</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureParenthesisRightSmall">
+    <identifier lang="en">TimeSignatureParenthesisRightSmall</identifier>
+    <definition lang="en" name="Time Signature Parenthesis Right Small">TimeSignatureParenthesisRightSmall</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureComma">
+    <identifier lang="en">TimeSignatureComma</identifier>
+    <definition lang="en" name="Time Signature Comma">TimeSignatureComma</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionQuarter">
+    <identifier lang="en">TimeSignatureFractionQuarter</identifier>
+    <definition lang="en" name="Time Signature Fraction Quarter">TimeSignatureFractionQuarter</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionHalf">
+    <identifier lang="en">TimeSignatureFractionHalf</identifier>
+    <definition lang="en" name="Time Signature Fraction Half">TimeSignatureFractionHalf</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionThreeQuarters">
+    <identifier lang="en">TimeSignatureFractionThreeQuarters</identifier>
+    <definition lang="en" name="Time Signature Fraction Three-Quarters">TimeSignatureFractionThreeQuarters</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionThird">
+    <identifier lang="en">TimeSignatureFractionThird</identifier>
+    <definition lang="en" name="Time Signature Fraction Third">TimeSignatureFractionThird</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureFractionTwoThirds">
+    <identifier lang="en">TimeSignatureFractionTwoThirds</identifier>
+    <definition lang="en" name="Time Signature Fraction Two-Thirds">TimeSignatureFractionTwoThirds</definition>
+  </concept>
+  <concept uuid="en:TimeSignatureX">
+    <identifier lang="en">TimeSignatureX</identifier>
+    <definition lang="en" name="Time Signature X">TimeSignatureX</definition>
+  </concept>
+  </category>
+  
+  <!--As of SMuFL 1.20 -->
+  <map>en:SMuFL en:StaccatoWedge 0xe4b0</map>
+  <map>en:SMuFL en:StaccatoWedge en:Above 0xe4b0</map>
+  <map>en:SMuFL en:StaccatoWedge en:Below 0xe4b1</map>
+  <map>en:SMuFL en:Staccato 0xe4a2</map>
+  <map>en:SMuFL en:Staccato en:Above 0xe4a2</map>
+  <map>en:SMuFL en:Staccato en:Below 0xe4a3</map>
+  <map>en:SMuFL en:Tenuto 0xe4a4</map>
+  <map>en:SMuFL en:Tenuto en:Above 0xe4a4</map>
+  <map>en:SMuFL en:Tenuto en:Below 0xe4a5</map>
+  <map>en:SMuFL en:StandardAccent 0xe4a0</map>
+  <map>en:SMuFL en:StandardAccent en:Above 0xe4a0</map>
+  <map>en:SMuFL en:StandardAccent en:Below 0xe4a1</map>
+  <map>en:SMuFL en:StrongAccent 0xe4ac</map>
+  <map>en:SMuFL en:StrongAccent en:Above 0xe4ac</map>
+  <map>en:SMuFL en:StrongAccent en:Below 0xe4ad</map>
+  <map>en:SMuFL en:MaximaNotehead 0xe950</map>
+  <map>en:SMuFL en:LongaNotehead 0xe951</map>
+  <map>en:SMuFL en:DoubleWholeNotehead 0xe0a0</map>
+  <map>en:SMuFL en:DoubleWholeNoteheadSquare 0xe0a1</map>
+  <map>en:SMuFL en:WholeNotehead 0xe0a2</map>
+  <map>en:SMuFL en:HalfNotehead 0xe0a3</map>
+  <map>en:SMuFL en:BlackNotehead 0xe0a4</map>
+  <map>en:SMuFL en:Flat 0xe260</map>
+  <map>en:SMuFL en:Natural 0xe261</map>
+  <map>en:SMuFL en:Sharp 0xe262</map>
+  <map>en:SMuFL en:DoubleSharp 0xe263</map>
+  <map>en:SMuFL en:DoubleFlat 0xe264</map>
+  <map>en:SMuFL en:TripleSharp 0xe265</map>
+  <map>en:SMuFL en:TripleFlat 0xe266</map>
+  <map>en:SMuFL en:HalfFlat 0xe270</map>
+  <map>en:SMuFL en:FlatAndAHalf 0xe271</map>
+  <map>en:SMuFL en:HalfSharp 0xe272</map>
+  <map>en:SMuFL en:SharpAndAHalf 0xe273</map>
+  <map>en:SMuFL en:Up en:EighthFlag 0xe240</map>
+  <map>en:SMuFL en:Down en:EighthFlag 0xe241</map>
+  <map>en:SMuFL en:Up en:SixteenthFlag 0xe242</map>
+  <map>en:SMuFL en:Down en:SixteenthFlag 0xe243</map>
+  <map>en:SMuFL en:Up en:ThirtySecondFlag 0xe244</map>
+  <map>en:SMuFL en:Down en:ThirtySecondFlag 0xe245</map>
+  <map>en:SMuFL en:Up en:SixtyFourthFlag 0xe246</map>
+  <map>en:SMuFL en:Down en:SixtyFourthFlag 0xe247</map>
+  <map>en:SMuFL en:Up en:OneTwentyEighthFlag 0xe248</map>
+  <map>en:SMuFL en:Down en:OneTwentyEighthFlag 0xe249</map>
+  <map>en:SMuFL en:Up en:TwoFiftySixthFlag 0xe24a</map>
+  <map>en:SMuFL en:Down en:TwoFiftySixthFlag 0xe24b</map>
+  <map>en:SMuFL en:Up en:FiveTwelfthFlag 0xe24c</map>
+  <map>en:SMuFL en:Down en:FiveTwelfthFlag 0xe24d</map>
+  <map>en:SMuFL en:Up en:TenTwentyFourthFlag 0xe24e</map>
+  <map>en:SMuFL en:Down en:TenTwentyFourthFlag 0xe24f</map>
+  <map>en:SMuFL en:LongaRest 0xe4e1</map>
+  <map>en:SMuFL en:DoubleWholeRest 0xe4e2</map>
+  <map>en:SMuFL en:WholeRest 0xe4e3</map>
+  <map>en:SMuFL en:HalfRest 0xe4e4</map>
+  <map>en:SMuFL en:QuarterRest 0xe4e5</map>
+  <map>en:SMuFL en:EighthRest 0xe4e6</map>
+  <map>en:SMuFL en:SixteenthRest 0xe4e7</map>
+  <map>en:SMuFL en:ThirtySecondRest 0xe4e8</map>
+  <map>en:SMuFL en:SixtyFourthRest 0xe4e9</map>
+  <map>en:SMuFL en:OneTwentyEighthRest 0xe4ea</map>
+  <map>en:SMuFL en:TwoFiftySixthRest 0xe4eb</map>
+  <map>en:SMuFL en:FiveTwelfthRest 0xe4ec</map>
+  <map>en:SMuFL en:TenTwentyFourthRest 0xe4ed</map>
+  <map>en:SMuFL en:CClef 0xe05c</map>
+  <map>en:SMuFL en:FClef 0xe062</map>
+  <map>en:SMuFL en:GClef 0xe050</map>
+  <map>en:SMuFL en:BracketBottom 0xe004</map>
+  <map>en:SMuFL en:BracketTop 0xe003</map>
+  <map>en:SMuFL en:CommonTime 0xe08a</map>
+  <map>en:SMuFL en:CutTime 0xe08b</map>
+  <map>en:SMuFL en:TimeSignature0 0xe080</map>
+  <map>en:SMuFL en:TimeSignature1 0xe081</map>
+  <map>en:SMuFL en:TimeSignature2 0xe082</map>
+  <map>en:SMuFL en:TimeSignature3 0xe083</map>
+  <map>en:SMuFL en:TimeSignature4 0xe084</map>
+  <map>en:SMuFL en:TimeSignature5 0xe085</map>
+  <map>en:SMuFL en:TimeSignature6 0xe086</map>
+  <map>en:SMuFL en:TimeSignature7 0xe087</map>
+  <map>en:SMuFL en:TimeSignature8 0xe088</map>
+  <map>en:SMuFL en:TimeSignature9 0xe089</map>
+  <map>en:SMuFL en:TimeSignaturePlus 0xe08c</map>
+  <map>en:SMuFL en:TimeSignaturePlusSmall 0xe08d</map>
+  <map>en:SMuFL en:TimeSignatureFractionalSlash 0xe08e</map>
+  <map>en:SMuFL en:TimeSignatureEquals 0xe08f</map>
+  <map>en:SMuFL en:TimeSignatureMinus 0xe090</map>
+  <map>en:SMuFL en:TimeSignatureMultiply 0xe091</map>
+  <map>en:SMuFL en:TimeSignatureParenthesisLeftSmall 0xe092</map>
+  <map>en:SMuFL en:TimeSignatureParenthesisRightSmall 0xe093</map>
+  <map>en:SMuFL en:TimeSignatureParenthesisLeft 0xe094</map>
+  <map>en:SMuFL en:TimeSignatureParenthesisRight 0xe095</map>
+  <map>en:SMuFL en:TimeSignatureComma 0xe096</map>
+  <map>en:SMuFL en:TimeSignatureFractionQuarter 0xe097</map>
+  <map>en:SMuFL en:TimeSignatureFractionHalf 0xe098</map>
+  <map>en:SMuFL en:TimeSignatureFractionThreeQuarters 0xe099</map>
+  <map>en:SMuFL en:TimeSignatureFractionThird 0xe09a</map>
+  <map>en:SMuFL en:TimeSignatureFractionTwoThirds 0xe09b</map>
+  <map>en:SMuFL en:TimeSignatureX 0xe09c</map>
+  <map>en:SMuFL en:OpenTimeSignature 0xe09d</map>
+  <map>en:SMuFL en:DynamicMarkPiano 0xe520</map>
+  <map>en:SMuFL en:DynamicMarkMezzo 0xe521</map>
+  <map>en:SMuFL en:DynamicMarkForte 0xe522</map>
+  <map>en:SMuFL en:DynamicMarkRinforzando 0xe523</map>
+  <map>en:SMuFL en:DynamicMarkSforzandoS 0xe524</map>
+  <map>en:SMuFL en:DynamicMarkZ 0xe525</map>
+  <map>en:SMuFL en:DynamicMarkNiente 0xe526</map>
+  <map>en:SMuFL en:DynamicMarkPianoissississississimo 0xe527</map>
+  <map>en:SMuFL en:DynamicMarkPianoississississimo 0xe528</map>
+  <map>en:SMuFL en:DynamicMarkPianoissississimo 0xe529</map>
+  <map>en:SMuFL en:DynamicMarkPianoississimo 0xe52a</map>
+  <map>en:SMuFL en:DynamicMarkPianoissimo 0xe52b</map>
+  <map>en:SMuFL en:DynamicMarkMezzopiano 0xe52c</map>
+  <map>en:SMuFL en:DynamicMarkMezzoforte 0xe52d</map>
+  <map>en:SMuFL en:DynamicMarkPianoforte 0xe52e</map>
+  <map>en:SMuFL en:DynamicMarkFortissimo 0xe52f</map>
+  <map>en:SMuFL en:DynamicMarkFortississimo 0xe530</map>
+  <map>en:SMuFL en:DynamicMarkFortissississimo 0xe531</map>
+  <map>en:SMuFL en:DynamicMarkFortississississimo 0xe532</map>
+  <map>en:SMuFL en:DynamicMarkFortissississississimo 0xe533</map>
+  <map>en:SMuFL en:DynamicMarkFortepiano 0xe534</map>
+  <map>en:SMuFL en:DynamicMarkForzando 0xe535</map>
+  <map>en:SMuFL en:DynamicMarkSforzandoSF 0xe536</map>
+  <map>en:SMuFL en:DynamicMarkSforzandoPiano 0xe537</map>
+  <map>en:SMuFL en:DynamicMarkSforzandoPianissimo 0xe538</map>
+  <map>en:SMuFL en:DynamicMarkSforzato 0xe539</map>
+  <map>en:SMuFL en:DynamicMarkSforzatoPiano 0xe53a</map>
+  <map>en:SMuFL en:DynamicMarkSforzatoFortissimo 0xe53b</map>
+  <map>en:SMuFL en:DynamicMarkRinforzandoRF 0xe53c</map>
+  <map>en:SMuFL en:DynamicMarkRinforzandoRFZ 0xe53d</map>
+  <map>en:SMuFL en:Ottava 0xe510</map>
+  <map>en:SMuFL en:OttavaAlta 0xe511</map>
+  <map>en:SMuFL en:OttavaBassa 0xe512</map>
+  <map>en:SMuFL en:OttavaBassaBa 0xe513</map>
+  <map>en:SMuFL en:Quindicesima 0xe514</map>
+  <map>en:SMuFL en:QuindicesimaAlta 0xe515</map>
+  <map>en:SMuFL en:QuindicesimaBassa 0xe516</map>
+  <map>en:SMuFL en:Ventiduesima 0xe517</map>
+  <map>en:SMuFL en:VentiduesimaAlta 0xe518</map>
+  <map>en:SMuFL en:VentiduesimaBassa 0xe519</map>
+  <map>en:SMuFL en:PedalMarkPed 0xe650</map>
+  <map>en:SMuFL en:PedalMarkRelease 0xe655</map>
+</mica>

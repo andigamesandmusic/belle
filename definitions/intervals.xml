@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+  <definition lang="en" name="Intervals">Contains intervals.</definition>
+  <concept uuid="en:PerfectUnison">
+    <identifier lang="en">PerfectUnison</identifier>
+    <definition lang="en" name="Perfect Unison">Represents the
+      interval of a perfect unison.</definition>
+  </concept>
+  <concept uuid="en:AugmentedUnison">
+    <identifier lang="en">AugmentedUnison</identifier>
+    <definition lang="en" name="Augmented Unison">Represents the
+      interval of an augmented unison.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedUnison">
+    <identifier lang="en">DoublyAugmentedUnison</identifier>
+    <definition lang="en" name="Doubly-Augmented Unison">Represents the
+      interval of a doubly-augmented unison.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedSecond">
+    <identifier lang="en">DoublyDiminishedSecond</identifier>
+    <definition lang="en" name="Doubly-Diminished Second">Represents the
+      interval of a doubly-diminished second.</definition>
+  </concept>
+  <concept uuid="en:DiminishedSecond">
+    <identifier lang="en">DiminishedSecond</identifier>
+    <definition lang="en" name="Diminished Second">Represents the
+      interval of a diminished second.</definition>
+  </concept>
+  <concept uuid="en:MinorSecond">
+    <identifier lang="en">MinorSecond</identifier>
+    <definition lang="en" name="Minor Second">Represents the
+      interval of a minor second.</definition>
+  </concept>
+  <concept uuid="en:MajorSecond">
+    <identifier lang="en">MajorSecond</identifier>
+    <definition lang="en" name="Major Second">Represents the
+      interval of a major second.</definition>
+  </concept>
+  <concept uuid="en:AugmentedSecond">
+    <identifier lang="en">AugmentedSecond</identifier>
+    <definition lang="en" name="Augmented Second">Represents the
+      interval of an augmented second.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedSecond">
+    <identifier lang="en">DoublyAugmentedSecond</identifier>
+    <definition lang="en" name="Doubly-Augmented Second">Represents the
+      interval of a doubly-augmented second.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedThird">
+    <identifier lang="en">DoublyDiminishedThird</identifier>
+    <definition lang="en" name="Doubly-Diminished Third">Represents the
+      interval of a doubly-diminished third.</definition>
+  </concept>
+  <concept uuid="en:DiminishedThird">
+    <identifier lang="en">DiminishedThird</identifier>
+    <definition lang="en" name="Diminished Third">Represents the
+      interval of a diminished third.</definition>
+  </concept>
+  <concept uuid="en:MinorThird">
+    <identifier lang="en">MinorThird</identifier>
+    <definition lang="en" name="Minor Third">Represents the
+      interval of a minor third.</definition>
+  </concept>
+  <concept uuid="en:MajorThird">
+    <identifier lang="en">MajorThird</identifier>
+    <definition lang="en" name="Major Third">Represents the
+      interval of a major third.</definition>
+  </concept>
+  <concept uuid="en:AugmentedThird">
+    <identifier lang="en">AugmentedThird</identifier>
+    <definition lang="en" name="Augmented Third">Represents the
+      interval of an augmented third.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedThird">
+    <identifier lang="en">DoublyAugmentedThird</identifier>
+    <definition lang="en" name="Doubly-Augmented Third">Represents the
+      interval of a doubly-augmented third.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedFourth">
+    <identifier lang="en">DoublyDiminishedFourth</identifier>
+    <definition lang="en" name="Doubly-Diminished Fourth">Represents the
+      interval of a doubly-diminished fourth.</definition>
+  </concept>
+  <concept uuid="en:DiminishedFourth">
+    <identifier lang="en">DiminishedFourth</identifier>
+    <definition lang="en" name="Diminished Fourth">Represents the
+      interval of a diminished fourth.</definition>
+  </concept>
+  <concept uuid="en:PerfectFourth">
+    <identifier lang="en">PerfectFourth</identifier>
+    <definition lang="en" name="Perfect Fourth">Represents the
+      interval of a perfect fourth.</definition>
+  </concept>
+  <concept uuid="en:AugmentedFourth">
+    <identifier lang="en">AugmentedFourth</identifier>
+    <definition lang="en" name="Augmented Fourth">Represents the
+      interval of an augmented fourth.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedFourth">
+    <identifier lang="en">DoublyAugmentedFourth</identifier>
+    <definition lang="en" name="Doubly-Augmented Fourth">Represents the
+      interval of a doubly-augmented fourth.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedFifth">
+    <identifier lang="en">DoublyDiminishedFifth</identifier>
+    <definition lang="en" name="Doubly-Diminished Fifth">Represents the
+      interval of a doubly-diminished fifth.</definition>
+  </concept>
+  <concept uuid="en:DiminishedFifth">
+    <identifier lang="en">DiminishedFifth</identifier>
+    <definition lang="en" name="Diminished Fifth">Represents the
+      interval of a diminished fifth.</definition>
+  </concept>
+  <concept uuid="en:PerfectFifth">
+    <identifier lang="en">PerfectFifth</identifier>
+    <definition lang="en" name="Perfect Fifth">Represents the
+      interval of a perfect fifth.</definition>
+  </concept>
+  <concept uuid="en:AugmentedFifth">
+    <identifier lang="en">AugmentedFifth</identifier>
+    <definition lang="en" name="Augmented Fifth">Represents the
+      interval of an augmented fifth.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedFifth">
+    <identifier lang="en">DoublyAugmentedFifth</identifier>
+    <definition lang="en" name="Doubly-Augmented Fifth">Represents the
+      interval of a doubly-augmented fifth.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedSixth">
+    <identifier lang="en">DoublyDiminishedSixth</identifier>
+    <definition lang="en" name="Doubly-Diminished Sixth">Represents the
+      interval of a doubly-diminished sixth.</definition>
+  </concept>
+  <concept uuid="en:DiminishedSixth">
+    <identifier lang="en">DiminishedSixth</identifier>
+    <definition lang="en" name="Diminished Sixth">Represents the
+      interval of a diminished sixth.</definition>
+  </concept>
+  <concept uuid="en:MinorSixth">
+    <identifier lang="en">MinorSixth</identifier>
+    <definition lang="en" name="Minor Sixth">Represents the
+      interval of a minor sixth.</definition>
+  </concept>
+  <concept uuid="en:MajorSixth">
+    <identifier lang="en">MajorSixth</identifier>
+    <definition lang="en" name="Major Sixth">Represents the
+      interval of a major sixth.</definition>
+  </concept>
+  <concept uuid="en:AugmentedSixth">
+    <identifier lang="en">AugmentedSixth</identifier>
+    <definition lang="en" name="Augmented Sixth">Represents the
+      interval of an augmented sixth.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedSixth">
+    <identifier lang="en">DoublyAugmentedSixth</identifier>
+    <definition lang="en" name="Doubly-Augmented Sixth">Represents the
+      interval of a doubly-augmented sixth.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedSeventh">
+    <identifier lang="en">DoublyDiminishedSeventh</identifier>
+    <definition lang="en" name="Doubly-Diminished Seventh">Represents the
+      interval of a doubly-diminished seventh.</definition>
+  </concept>
+  <concept uuid="en:DiminishedSeventh">
+    <identifier lang="en">DiminishedSeventh</identifier>
+    <definition lang="en" name="Diminished Seventh">Represents the
+      interval of a diminished seventh.</definition>
+  </concept>
+  <concept uuid="en:MinorSeventh">
+    <identifier lang="en">MinorSeventh</identifier>
+    <definition lang="en" name="Minor Seventh">Represents the
+      interval of a minor seventh.</definition>
+  </concept>
+  <concept uuid="en:MajorSeventh">
+    <identifier lang="en">MajorSeventh</identifier>
+    <definition lang="en" name="Major Seventh">Represents the
+      interval of a major seventh.</definition>
+  </concept>
+  <concept uuid="en:AugmentedSeventh">
+    <identifier lang="en">AugmentedSeventh</identifier>
+    <definition lang="en" name="Augmented Seventh">Represents the
+      interval of an augmented seventh.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedSeventh">
+    <identifier lang="en">DoublyAugmentedSeventh</identifier>
+    <definition lang="en" name="Doubly-Augmented Seventh">Represents the
+      interval of a doubly-augmented seventh.</definition>
+  </concept>
+  <concept uuid="en:DoublyDiminishedOctave">
+    <identifier lang="en">DoublyDiminishedOctave</identifier>
+    <definition lang="en" name="Doubly-Diminished Octave">Represents the
+      interval of a doubly-diminished octave.</definition>
+  </concept>
+  <concept uuid="en:DiminishedOctave">
+    <identifier lang="en">DiminishedOctave</identifier>
+    <definition lang="en" name="Diminished Octave">Represents the
+      interval of a diminished octave.</definition>
+  </concept>
+  <concept uuid="en:PerfectOctave">
+    <identifier lang="en">PerfectOctave</identifier>
+    <definition lang="en" name="Perfect Octave">Represents the
+      interval of a perfect octave.</definition>
+  </concept>
+  <concept uuid="en:AugmentedOctave">
+    <identifier lang="en">AugmentedOctave</identifier>
+    <definition lang="en" name="Augmented Octave">Represents the
+      interval of an augmented octave.</definition>
+  </concept>
+  <concept uuid="en:DoublyAugmentedOctave">
+    <identifier lang="en">DoublyAugmentedOctave</identifier>
+    <definition lang="en" name="Doubly-Augmented Octave">Represents the
+      interval of a doubly-augmented octave.</definition>
+  </concept>
+  </category>
+
+  <map>en:Perfect en:Unison en:PerfectUnison</map>
+  <map>en:PerfectUnison en:Distance en:Unison</map>
+  <map>en:PerfectUnison en:Quality en:Perfect</map>
+
+  <map>en:Augmented en:Unison en:AugmentedUnison</map>
+  <map>en:AugmentedUnison en:Distance en:Unison</map>
+  <map>en:AugmentedUnison en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Unison en:DoublyAugmentedUnison</map>
+  <map>en:DoublyAugmentedUnison en:Distance en:Unison</map>
+  <map>en:DoublyAugmentedUnison en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Second en:DoublyDiminishedSecond</map>
+  <map>en:DoublyDiminishedSecond en:Distance en:Second</map>
+  <map>en:DoublyDiminishedSecond en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Second en:DiminishedSecond</map>
+  <map>en:DiminishedSecond en:Distance en:Second</map>
+  <map>en:DiminishedSecond en:Quality en:Diminished</map>
+
+  <map>en:Minor en:Second en:MinorSecond</map>
+  <map>en:MinorSecond en:Distance en:Second</map>
+  <map>en:MinorSecond en:Quality en:Minor</map>
+
+  <map>en:Major en:Second en:MajorSecond</map>
+  <map>en:MajorSecond en:Distance en:Second</map>
+  <map>en:MajorSecond en:Quality en:Major</map>
+
+  <map>en:Augmented en:Second en:AugmentedSecond</map>
+  <map>en:AugmentedSecond en:Distance en:Second</map>
+  <map>en:AugmentedSecond en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Second en:DoublyAugmentedSecond</map>
+  <map>en:DoublyAugmentedSecond en:Distance en:Second</map>
+  <map>en:DoublyAugmentedSecond en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Third en:DoublyDiminishedThird</map>
+  <map>en:DoublyDiminishedThird en:Distance en:Third</map>
+  <map>en:DoublyDiminishedThird en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Third en:DiminishedThird</map>
+  <map>en:DiminishedThird en:Distance en:Third</map>
+  <map>en:DiminishedThird en:Quality en:Diminished</map>
+
+  <map>en:Minor en:Third en:MinorThird</map>
+  <map>en:MinorThird en:Distance en:Third</map>
+  <map>en:MinorThird en:Quality en:Minor</map>
+
+  <map>en:Major en:Third en:MajorThird</map>
+  <map>en:MajorThird en:Distance en:Third</map>
+  <map>en:MajorThird en:Quality en:Major</map>
+
+  <map>en:Augmented en:Third en:AugmentedThird</map>
+  <map>en:AugmentedThird en:Distance en:Third</map>
+  <map>en:AugmentedThird en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Third en:DoublyAugmentedThird</map>
+  <map>en:DoublyAugmentedThird en:Distance en:Third</map>
+  <map>en:DoublyAugmentedThird en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Fourth en:DoublyDiminishedFourth</map>
+  <map>en:DoublyDiminishedFourth en:Distance en:Fourth</map>
+  <map>en:DoublyDiminishedFourth en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Fourth en:DiminishedFourth</map>
+  <map>en:DiminishedFourth en:Distance en:Fourth</map>
+  <map>en:DiminishedFourth en:Quality en:Diminished</map>
+
+  <map>en:Perfect en:Fourth en:PerfectFourth</map>
+  <map>en:PerfectFourth en:Distance en:Fourth</map>
+  <map>en:PerfectFourth en:Quality en:Perfect</map>
+
+  <map>en:Augmented en:Fourth en:AugmentedFourth</map>
+  <map>en:AugmentedFourth en:Distance en:Fourth</map>
+  <map>en:AugmentedFourth en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Fourth en:DoublyAugmentedFourth</map>
+  <map>en:DoublyAugmentedFourth en:Distance en:Fourth</map>
+  <map>en:DoublyAugmentedFourth en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Fifth en:DoublyDiminishedFifth</map>
+  <map>en:DoublyDiminishedFifth en:Distance en:Fifth</map>
+  <map>en:DoublyDiminishedFifth en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Fifth en:DiminishedFifth</map>
+  <map>en:DiminishedFifth en:Distance en:Fifth</map>
+  <map>en:DiminishedFifth en:Quality en:Diminished</map>
+
+  <map>en:Perfect en:Fifth en:PerfectFifth</map>
+  <map>en:PerfectFifth en:Distance en:Fifth</map>
+  <map>en:PerfectFifth en:Quality en:Perfect</map>
+
+  <map>en:Augmented en:Fifth en:AugmentedFifth</map>
+  <map>en:AugmentedFifth en:Distance en:Fifth</map>
+  <map>en:AugmentedFifth en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Fifth en:DoublyAugmentedFifth</map>
+  <map>en:DoublyAugmentedFifth en:Distance en:Fifth</map>
+  <map>en:DoublyAugmentedFifth en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Sixth en:DoublyDiminishedSixth</map>
+  <map>en:DoublyDiminishedSixth en:Distance en:Sixth</map>
+  <map>en:DoublyDiminishedSixth en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Sixth en:DiminishedSixth</map>
+  <map>en:DiminishedSixth en:Distance en:Sixth</map>
+  <map>en:DiminishedSixth en:Quality en:Diminished</map>
+
+  <map>en:Minor en:Sixth en:MinorSixth</map>
+  <map>en:MinorSixth en:Distance en:Sixth</map>
+  <map>en:MinorSixth en:Quality en:Minor</map>
+
+  <map>en:Major en:Sixth en:MajorSixth</map>
+  <map>en:MajorSixth en:Distance en:Sixth</map>
+  <map>en:MajorSixth en:Quality en:Major</map>
+
+  <map>en:Augmented en:Sixth en:AugmentedSixth</map>
+  <map>en:AugmentedSixth en:Distance en:Sixth</map>
+  <map>en:AugmentedSixth en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Sixth en:DoublyAugmentedSixth</map>
+  <map>en:DoublyAugmentedSixth en:Distance en:Sixth</map>
+  <map>en:DoublyAugmentedSixth en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Seventh en:DoublyDiminishedSeventh</map>
+  <map>en:DoublyDiminishedSeventh en:Distance en:Seventh</map>
+  <map>en:DoublyDiminishedSeventh en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Seventh en:DiminishedSeventh</map>
+  <map>en:DiminishedSeventh en:Distance en:Seventh</map>
+  <map>en:DiminishedSeventh en:Quality en:Diminished</map>
+
+  <map>en:Minor en:Seventh en:MinorSeventh</map>
+  <map>en:MinorSeventh en:Distance en:Seventh</map>
+  <map>en:MinorSeventh en:Quality en:Minor</map>
+
+  <map>en:Major en:Seventh en:MajorSeventh</map>
+  <map>en:MajorSeventh en:Distance en:Seventh</map>
+  <map>en:MajorSeventh en:Quality en:Major</map>
+
+  <map>en:Augmented en:Seventh en:AugmentedSeventh</map>
+  <map>en:AugmentedSeventh en:Distance en:Seventh</map>
+  <map>en:AugmentedSeventh en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Seventh en:DoublyAugmentedSeventh</map>
+  <map>en:DoublyAugmentedSeventh en:Distance en:Seventh</map>
+  <map>en:DoublyAugmentedSeventh en:Quality en:DoublyAugmented</map>
+
+  <map>en:DoublyDiminished en:Octave en:DoublyDiminishedOctave</map>
+  <map>en:DoublyDiminishedOctave en:Distance en:Octave</map>
+  <map>en:DoublyDiminishedOctave en:Quality en:DoublyDiminished</map>
+
+  <map>en:Diminished en:Octave en:DiminishedOctave</map>
+  <map>en:DiminishedOctave en:Distance en:Octave</map>
+  <map>en:DiminishedOctave en:Quality en:Diminished</map>
+
+  <map>en:Perfect en:Octave en:PerfectOctave</map>
+  <map>en:PerfectOctave en:Distance en:Octave</map>
+  <map>en:PerfectOctave en:Quality en:Perfect</map>
+
+  <map>en:Augmented en:Octave en:AugmentedOctave</map>
+  <map>en:AugmentedOctave en:Distance en:Octave</map>
+  <map>en:AugmentedOctave en:Quality en:Augmented</map>
+
+  <map>en:DoublyAugmented en:Octave en:DoublyAugmentedOctave</map>
+  <map>en:DoublyAugmentedOctave en:Distance en:Octave</map>
+  <map>en:DoublyAugmentedOctave en:Quality en:DoublyAugmented</map>
+
+</mica>

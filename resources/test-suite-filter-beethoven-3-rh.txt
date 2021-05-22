@@ -1,0 +1,48 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Key Signature,Value:Five Flats
+0,3;Kind:Chord,NoteValue:1/32;A4
+
+0,10;Kind:Chord,NoteValue:3/16;A5
+0,11;Kind:Chord,NoteValue:1/16,Beam:0|12,Slur:0|12;A5
+0,12;Kind:Chord,NoteValue:1/16;A5
+0,13;Kind:Chord,NoteValue:1/16,Beam:0|14,Slur:0|14;A5
+0,14;Kind:Chord,NoteValue:1/16;A5
+0,15;Kind:Chord,NoteValue:3/32;A5
+0,16;Kind:Chord,NoteValue:1/32,Slur:0|17;A5
+0,17;Kind:Chord,NoteValue:1/32,Beam:0|18,Slur:0|18;A5
+0,18;Kind:Chord,NoteValue:1/32;A5
+0,19;Kind:Chord,NoteValue:1/32,Beam:0|20,Slur:0|20;A5
+0,20;Kind:Chord,NoteValue:1/32;A5
+0,21;Kind:Chord,NoteValue:1/32,Beam:0|22,Slur:0|22;A5
+0,22;Kind:Chord,NoteValue:1/32;A5
+0,23;Kind:Chord,NoteValue:1/32,Beam:0|24,Slur:0|24;A5
+0,24;Kind:Chord,NoteValue:1/32;A5
+0,25;Kind:Chord,NoteValue:1/32,Beam:0|26,Slur:0|26;A5
+0,26;Kind:Chord,NoteValue:1/32;A5
+
+0,30;Kind:Key Signature,Value:Five Flats
+0,31;Kind:Key Signature,Value:Four Sharps
+
+0,40;Kind:Chord,NoteValue:1/32,Beam:0|41,Slur:0|41;A5
+0,41;Kind:Chord,NoteValue:1/32;A5
+0,42;Kind:Chord,NoteValue:1/32,Beam:0|43,Slur:0|43;A5
+0,43;Kind:Chord,NoteValue:1/32;A5
+0,44;Kind:Chord,NoteValue:1/32,Beam:0|45,Slur:0|45;A5
+0,45;Kind:Chord,NoteValue:1/32;A5
+0,46;Kind:Chord,NoteValue:1/32,Beam:0|47,Slur:0|47;A5
+0,47;Kind:Chord,NoteValue:1/32;A5
+0,48;Kind:Chord,NoteValue:1/32,Beam:0|49,Slur:0|49;A5
+0,49;Kind:Chord,NoteValue:1/32,Slur:0|50;A5
+
+0,50;Kind:Chord,NoteValue:1/8,Beam:0|51;A5
+0,51;Kind:Chord,NoteValue:1/8,Beam:0|52;F5 sharp
+0,52;Kind:Chord,NoteValue:1/8,Beam:0|53;D5 sharp
+0,53;Kind:Chord,NoteValue:1/8;A4
+0,54;Kind:Chord,NoteValue:1/8,Beam:0|55,Slur:0|55;C5 sharp
+0,55;Kind:Chord,NoteValue:1/8,Beam:0|56;B4
+0,56;Kind:Chord,NoteValue:1/8;A4
+
+
+0,70;Kind:Barline,Value:Standard Barline
+

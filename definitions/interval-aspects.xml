@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Interval Aspects">Contains aspects related to intervals.
+    </definition>
+    
+    <concept uuid="en:Distance">
+      <identifier lang="en">Distance</identifier>
+      <definition lang="en" name="Distance">Represents an intervallic distance.</definition>
+    </concept>
+    
+    <concept uuid="en:Unison">
+      <identifier lang="en">Unison</identifier>
+      <definition lang="en" name="Unison">[Homonym] Interval with a letter step
+      size of zero or the state of a pitch being identical to another. For
+      example, C4 is in unison with C4, but the interval of C4 to C-sharp 4 is
+      an augmented unison though it is not in unison.</definition>
+    </concept>
+    <concept uuid="en:Second">
+      <identifier lang="en">Second</identifier>
+      <definition lang="en" name="Second">Interval with a letter step size of one.</definition>
+    </concept>
+    <concept uuid="en:Third">
+      <identifier lang="en">Third</identifier>
+      <definition lang="en" name="Third">Interval with a letter step size of two.</definition>
+    </concept>
+    <concept uuid="en:Fourth">
+      <identifier lang="en">Fourth</identifier>
+      <definition lang="en" name="Fourth">Interval with a letter step size of three.</definition>
+    </concept>
+    <concept uuid="en:Fifth">
+      <identifier lang="en">Fifth</identifier>
+      <definition lang="en" name="Fifth">Interval with a letter step size of four.</definition>
+    </concept>
+    <concept uuid="en:Sixth">
+      <identifier lang="en">Sixth</identifier>
+      <definition lang="en" name="Sixth">Interval with a letter step size of five.</definition>
+    </concept>
+    <concept uuid="en:Seventh">
+      <identifier lang="en">Seventh</identifier>
+      <definition lang="en" name="Seventh">Interval with a letter step size of six.</definition>
+    </concept>
+    <!--
+    Octave is defined homonymously in Pitch/PitchTypes.xml
+    -->
+    <concept uuid="en:Distances">
+      <sequence>en:Unison en:Second en:Third en:Fourth en:Fifth en:Sixth en:Seventh en:Octave</sequence>
+      <identifier lang="en">Distances</identifier>
+      <definition lang="en" name="Distances">Interval distances from Unison to
+      Octave.</definition>
+    </concept>
+    
+    <concept uuid="en:Quality">
+      <identifier lang="en">Quality</identifier>
+      <definition lang="en" name="Quality">Represents an intervallic quality.</definition>
+    </concept>
+    
+    <concept uuid="en:DoublyAugmented">
+      <identifier lang="en">DoublyAugmented</identifier>
+      <definition lang="en" name="Doubly-Augmented">Represents the doubly-augmented quality.</definition>
+    </concept>
+    <concept uuid="en:Augmented">
+      <identifier lang="en">Augmented</identifier>
+      <definition lang="en" name="Augmented">Represents the augmented quality.</definition>
+    </concept>
+    <concept uuid="en:Major">
+      <identifier lang="en">Major</identifier>
+      <definition lang="en" name="Major">[Homonym] Represents the major quality or the major mode.</definition>
+    </concept>
+    <concept uuid="en:Perfect">
+      <identifier lang="en">Perfect</identifier>
+      <definition lang="en" name="Perfect">Represents the perfect quality.</definition>
+    </concept>
+    <concept uuid="en:Minor">
+      <identifier lang="en">Minor</identifier>
+      <definition lang="en" name="Minor">[Homonym] Represents the minor quality or the minor mode.</definition>
+    </concept>
+    <concept uuid="en:Diminished">
+      <identifier lang="en">Diminished</identifier>
+      <definition lang="en" name="Diminished">Represents the diminished quality.</definition>
+    </concept>
+    <concept uuid="en:DoublyDiminished">
+      <identifier lang="en">DoublyDiminished</identifier>
+      <definition lang="en" name="Doubly-Diminished">Represents the doubly-diminished quality.</definition>
+    </concept>
+
+    <concept uuid="en:Above">
+      <identifier lang="en">Above</identifier>
+      <definition lang="en" name="Above">Denotes the state of one pitch being
+        logically above another. For example F4 is above E4, but also F-flat 4
+        is above E-sharp 4.</definition>
+    </concept>
+    <concept uuid="en:Below">
+      <identifier lang="en">Below</identifier>
+      <definition lang="en" name="Below">Denotes the state of one pitch being
+        logically below another. For example F4 is above E4, but also F-flat 4
+        is above E-sharp 4.</definition>
+    </concept>
+    
+    <concept uuid="en:PerfectQualities">
+      <sequence>en:DoublyDiminished en:Diminished en:Perfect en:Augmented en:DoublyAugmented</sequence>
+      <identifier lang="en">PerfectQualities</identifier>
+      <definition lang="en" name="Perfect Qualities">Contains the sequence of
+      qualities surrounding a perfect interval.</definition>
+    </concept>
+    <concept uuid="en:MajorMinorQualities">
+      <sequence>en:DoublyDiminished en:Diminished en:Minor en:Major en:Augmented en:DoublyAugmented</sequence>
+      <identifier lang="en">MajorMinorQualities</identifier>
+      <definition lang="en" name="Major-Minor Qualities">Contains the sequence
+      of qualities surrounding a major or minor interval.</definition>
+    </concept>
+
+    <concept uuid="en:DistanceQualities">
+      <sequence>en:PerfectQualities en:MajorMinorQualities
+      en:MajorMinorQualities en:PerfectQualities en:PerfectQualities
+      en:MajorMinorQualities en:MajorMinorQualities en:PerfectQualities
+      </sequence>
+      <identifier lang="en">DistanceQualities</identifier>
+      <definition lang="en" name="Distance Qualities">Contains the quality
+      sequence type for each intervallic distance from unison to octave.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:AQualities">
+      <sequence>en:Perfect en:Major en:Minor en:Perfect en:Perfect en:Minor
+      en:Minor en:Perfect</sequence>
+      <identifier lang="en">AQualities</identifier>
+      <definition lang="en" name="A Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:BQualities">
+      <sequence>en:Perfect en:Minor en:Minor en:Perfect en:Diminished en:Minor
+      en:Minor en:Perfect</sequence>
+      <identifier lang="en">BQualities</identifier>
+      <definition lang="en" name="B Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:CQualities">
+      <sequence>en:Perfect en:Major en:Major en:Perfect en:Perfect en:Major
+      en:Major en:Perfect</sequence>
+      <identifier lang="en">CQualities</identifier>
+      <definition lang="en" name="C Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:DQualities">
+      <sequence>en:Perfect en:Major en:Minor en:Perfect en:Perfect en:Major
+      en:Minor en:Perfect</sequence>
+      <identifier lang="en">DQualities</identifier>
+      <definition lang="en" name="D Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:EQualities">
+      <sequence>en:Perfect en:Minor en:Minor en:Perfect en:Perfect en:Minor
+      en:Minor en:Perfect</sequence>
+      <identifier lang="en">EQualities</identifier>
+      <definition lang="en" name="E Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:FQualities">
+      <sequence>en:Perfect en:Major en:Major en:Augmented en:Perfect en:Major
+      en:Major en:Perfect</sequence>
+      <identifier lang="en">FQualities</identifier>
+      <definition lang="en" name="F Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+    <concept uuid="en:GQualities">
+      <sequence>en:Perfect en:Major en:Major en:Perfect en:Perfect en:Major
+      en:Minor en:Perfect</sequence>
+      <identifier lang="en">GQualities</identifier>
+      <definition lang="en" name="G Qualities">Contains a list of the unaltered
+      intervallic qualities from a unison to an octave above the note.
+      </definition>
+    </concept>
+
+    <concept uuid="en:QualitiesByLetter">
+      <identifier lang="en">QualitiesByLetter</identifier>
+      <definition lang="en" name="Qualities By Letter">Used to map note letters
+      to quality sequences.</definition>
+    </concept>
+  </category>
+  <map>en:A en:QualitiesByLetter en:AQualities</map>
+  <map>en:B en:QualitiesByLetter en:BQualities</map>
+  <map>en:C en:QualitiesByLetter en:CQualities</map>
+  <map>en:D en:QualitiesByLetter en:DQualities</map>
+  <map>en:E en:QualitiesByLetter en:EQualities</map>
+  <map>en:F en:QualitiesByLetter en:FQualities</map>
+  <map>en:G en:QualitiesByLetter en:GQualities</map>
+</mica>

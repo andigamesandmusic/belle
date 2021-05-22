@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="API" xml:space="preserve">
+The MICA API is a standard language-agnostic interface description that describes how specific programming language APIs should conform. Check out the [[Demo | live interactive demo]]!
+
+==Conventions==
+===General Principles===
+* Function names are written as a single unabbreviated word.
+* Function calls are safe and will accept any input. If the result is indeterminate, then [[Undefined]] is returned.
+* Arguments which filter the selection appear first. The argument indicating the thing being looked for appears last.
+====Examples====
+ index(mica::[[Letters]], mica::[[C]], mica::[[G]])
+Means: ''in [[Letters]] relative to [[C]], get index of [[G]]''
+
+Returns: 4
+
+ name("en", mica::[[Letters]])
+Means: ''in the English language, get the definitional name of [[Letters]]''
+
+Returns: "Letters"
+
+ item(mica::[[Letters]], mica::[[C]], 4)
+Means: ''in [[Letters]] relative to [[C]], get the fourth element''
+
+Returns: [[G]]
+
+===Types===
+* '''UUID''' is a 128-bit number stored as a high-low pair of 64-bit integers. It may store one of the following subtypes:
+**The ''[[Undefined]] value'', which is a UUID consisting of all zeroes that expresses the lack of a meaningful value. It is analogous to the nil, null, or empty states of other programming languages.
+**A ''unique identifier'' representing a musical concept.
+**A ''rational number'' consisting of a 64-bit signed integer numerator and a 64-bit signed, but always positive, integer denominator. The numerator is stored in the high part of the UUID and the denominator in the low part.
+* '''Integer64''' is a 64-bit signed integer.
+* '''Number''' is a 64-bit floating point number.
+* '''String''' is an immutable string expressed in UTF-8.
+* '''Boolean''' is a true or false value.
+
+==Standard API==
+===Type Information===
+{| class="wikitable"
+!width="600"|Boolean identifier(UUID concept)
+|-
+|Returns whether the value is a valid identifier. [[Undefined]] is not considered an identifier nor are numbers.
+|}
+{| class="wikitable"
+!width="600"|Boolean number(UUID concept)
+|-
+|Returns whether the UUID is a number. A number is defined by any signed numerator storable in the high portion of the UUID and a signed but positive only number in the denominator. Non-reduced rationals are still considered numbers; however, they not valid. The negative range of the denominator with the MSB turned on is reserved for identifier UUIDs according to RFC 4122.
+|}
+{| class="wikitable"
+!width="600"|Boolean integer(UUID concept)
+|-
+|Returns whether the UUID is an integer number. This is equivalent to testing whether the denominator is one. If the number is an integer, the value can be retrieved with the numerator() method. Note that this function assumes the rational is stored in reduced form and will fail to report integers with denominators other than one (i.e. 2/2).
+|}
+{| class="wikitable"
+!width="600"|Boolean undefined(UUID concept)
+|-
+|Returns whether the UUID represents the [[Undefined]] state. [[Undefined]] is the result of any operation that did not produce a meaningful value and is equivalent to the notion of nil or empty. It consists of an all-zero UUID.
+|}
+
+===Numbers===
+{| class="wikitable"
+!width="600"|Integer64 numerator(UUID concept)
+|-
+|If the concept is a number returns its numerator and zero otherwise.
+|}
+{| class="wikitable"
+!width="600"|Integer64 denominator(UUID concept)
+|-
+|If the concept is a number returns its denominator and zero otherwise.
+|}
+{| class="wikitable"
+!width="600"|UUID integer(Integer64 x)
+|-
+|Returns a UUID expressing the integer given by the argument.
+|}
+
+===Names===
+{| class="wikitable"
+!width="600"|String name(UUID concept)
+|-
+|Returns the language-localized definitional name of the concept. The default language of the API is used. To get the name in another language, use the name() function with the language filter argument.
+|}
+{| class="wikitable"
+!width="600"|String name(String language, UUID concept)
+|-
+|Returns the language-localized definitional name of the concept. Note that language is a ISO 639-1 code such as "en" (for English) with an optional region code such as "en-GB" (English in United Kingdom).
+|}
+{| class="wikitable"
+!width="600"|UUID named(String name)
+|-
+|Looks up the concept by language-localized definitional name. The lookup is case-sensitive. If the input string is null or the definitional name does not exist, then the result is [[Undefined]].
+|}
+
+===Sequences===
+====Properties====
+{| class="wikitable"
+!width="600"|Boolean sequence(UUID concept)
+|-
+|Returns whether the concept contains a sequence.
+|}
+{| class="wikitable"
+!width="600"|Integer64 length(UUID concept)
+|-
+|Returns the length of the sequence contained by the concept. For concepts that do not contain a sequence the return value is zero. If the concept is not a valid identifier, this method also returns zero.
+|}
+{| class="wikitable"
+!width="600"|Boolean cyclic(UUID concept)
+|-
+|Returns whether a concept contains a cyclic sequence.
+|}
+
+====Indexing====
+{| class="wikitable"
+!width="600"|UUID index(UUID sequence, UUID element)
+|-
+|Returns the index of a concept in a given sequence as a number. If the element is not in the sequence then [[Undefined]] is returned.
+|}
+{| class="wikitable"
+!width="600"|UUID index(UUID sequence, UUID origin, UUID element)
+|-
+|Returns the index of an element in a given sequence relative to another concept acting as the origin. If the index does not exist then [[Undefined]] is returned.
+|}
+
+====Items====
+{| class="wikitable"
+!width="600"|UUID item(UUID sequence, Integer64 index)
+|-
+|Returns the indexed concept of the given sequence.
+|}
+{| class="wikitable"
+!width="600"|UUID item(UUID sequence, UUID index)
+|-
+|Returns the indexed concept of the given sequence. In this form a UUID with an integer number is used for the index argument.
+|}
+{| class="wikitable"
+!width="600"|UUID item(UUID sequence, UUID origin, Integer64 index)
+|-
+|Returns the indexed concept in a sequence relative to an origin.
+|}
+{| class="wikitable"
+!width="600"|UUID item(UUID sequence, UUID origin, UUID index)
+|-
+|Returns the indexed concept in a sequence relative to an origin. In this form a UUID with an integer number is used for the index argument.
+|}
+
+===Maps===
+{| class="wikitable"
+!width="600"|UUID map(UUID argument1, UUID argument2, . . .)
+|-
+|Maps two or more keys to a value. Note that maps are unordered and so the order of the arguments does not matter. If there is no mapping for the elements, then [[Undefined]] is returned.
+|}
+==Extended API==
+===Intervals===
+The Intervals class contains functions for calculating intervals and transposing pitches.
+
+====Calculating Intervals====
+{| class="wikitable"
+!width="600"|UUID Intervals::direction(UUID x, UUID y)
+|-
+|Returns the direction the pitches are ordered in as Below/Unison/Above. If the result can not be determined, Undefined is returned.
+|}
+{| class="wikitable"
+!width="600"|UUID Intervals::octaves(UUID x, UUID y)
+|-
+|Calculates the number of octaves beyond the pitches' simple interval. The algorithm takes the difference of the octave number and then subtracts one if the pitches cross an octave number boundary when folded into the same octave. Note that since an octave is a simple interval, this function returns zero for pitches at a distance of an octave (and distance returns [[Octave]]).
+|}
+{| class="wikitable"
+!width="600"|UUID Intervals::distance(UUID x, UUID y)
+|-
+|Gets the simple intervallic distance. A simple interval is at most one octave in distance.
+|}
+{| class="wikitable"
+!width="600"|UUID Intervals::quality(UUID x, UUID y)
+|-
+|Returns the quality of the interval between the two pitches.
+|}
+{| class="wikitable"
+!width="600"|UUID Intervals::interval(UUID x, UUID y)
+|-
+|Gets the simple interval between two pitches.
+|}
+====Transposition====
+{| class="wikitable"
+!width="600"|UUID Intervals::transpose(UUID pitch, UUID interval, UUID direction, UUID octaves)
+|-
+|Transposes a pitch in a direction by an interval and optionally octaves.
+|}
+{| class="wikitable"
+!width="600"|UUID Intervals::transpose(UUID pitch, UUID interval, UUID direction, Integer64 octaves = 0)
+|-
+|Transposes a pitch in a direction by a simple interval and some octaves.
+|}
+====Just Intonation====
+{| class="wikitable"
+!width="600"|Number Intervals::cents(UUID interval)
+|-
+|Gets the cents value of a just interval.
+|}
+{| class="wikitable"
+!width="600"|Number Intervals::cents(String ratio)
+|-
+|Gets the cents value of a just interval ratio.
+|}
+
+==Implementation Notes==
+===C++===
+The C++ implementation is the reference implementation of this API. Specific notes on the algorithms used can be found in its comments.
+===JavaScript===
+To use JavaScript within HTML, the following files need to be imported using the src attribute on script tags and in this order:
+* mica.js
+* mica-data.js
+* mica-global.js (optional)
+
+The last file allows the API to be called in the global namespace instead of through the mica object. This creates aliases to all the API calls and MICA identifiers in the global namespace. It might not play well with other libraries or code, so use this feature at your discretion.
+
+Some API calls collide in name with built-in keywords. These calls are thus suffixed by an underscore:
+* undefined_()
+* name_()
+
+====Limitations====
+JavaScript numbers are 64-bit floating-point doubles. However due to the 53-bit
+mantissa a large range of integers are still expressible. Due to this caveat, this implementation differs from the API specification:
+* UUID integer(Integer64 x) will only accept signed or unsigned 32-bit numbers and will return Undefined if given a number that is too large.
+* The numerator(x) and denominator(x) functions will return zero if for the value x, x &lt;= -9007199254740992 or x &gt;= 9007199254740992. (This number is the first number that is not able to differentiated from the next integer by magnitude.)
+* Only rational numbers with 32-bit integers for the numerator and denominator are supported as arguments to maps.
+
+
+    </definition>
+    <concept uuid="00000000-0000-0000-0000-000000000000">
+      <identifier lang="en">Undefined</identifier>
+      <definition lang="en" name="Undefined">Indicates the state of undefined.
+      It is similar to the null, nil, or empty state in many programming
+      languages. The result of any operation that does not produce a meaningful
+      value is Undefined. The MICA API is safe in that any programmatically
+      valid inputs will produce an output without asserting. MICA fails silently
+      when the output is unknown by returning Undefined.</definition>
+    </concept>
+  </category>
+</mica>

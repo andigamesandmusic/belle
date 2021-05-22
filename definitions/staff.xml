@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Staff">Definitions for staff objects.
+    </definition>
+    <concept uuid="en:StaffBracket">
+      <identifier lang="en">StaffBracket</identifier>
+      <definition lang="en" name="Staff Bracket">A bracket used to group staves of instruments together.</definition>
+    </concept>
+    
+    <concept uuid="en:Brace">
+      <identifier lang="en">Brace</identifier>
+      <definition lang="en" name="Brace">A curly-bracket used to group adjacent
+      staves into a part.</definition>
+    </concept>
+    
+    <concept uuid="en:SquareBracket">
+      <identifier lang="en">SquareBracket</identifier>
+      <definition lang="en" name="Square Bracket">A square bracket with curved
+      ends used to join sections of instruments.</definition>
+    </concept>
+    
+    <concept uuid="en:ThinSquareBracket">
+      <identifier lang="en">ThinSquareBracket</identifier>
+      <definition lang="en" name="Thin Square Bracket">A thin square bracket used as a secondary grouping for a section of instruments.</definition>
+    </concept>
+  </category>
+</mica>

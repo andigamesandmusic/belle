@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:CTripleFlat_1 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat_1 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat_1 en:ChromaticNote en:CFlat</map>
+  <map>en:C_1 en:ChromaticNote en:C</map>
+  <map>en:CSharp_1 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp_1 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp_1 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat_1 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat_1 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat_1 en:ChromaticNote en:DFlat</map>
+  <map>en:D_1 en:ChromaticNote en:D</map>
+  <map>en:DSharp_1 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp_1 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp_1 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat_1 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat_1 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat_1 en:ChromaticNote en:EFlat</map>
+  <map>en:E_1 en:ChromaticNote en:E</map>
+  <map>en:ESharp_1 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp_1 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp_1 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat_1 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat_1 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat_1 en:ChromaticNote en:FFlat</map>
+  <map>en:F_1 en:ChromaticNote en:F</map>
+  <map>en:FSharp_1 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp_1 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp_1 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat_1 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat_1 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat_1 en:ChromaticNote en:GFlat</map>
+  <map>en:G_1 en:ChromaticNote en:G</map>
+  <map>en:GSharp_1 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp_1 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp_1 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat_1 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat_1 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat_1 en:ChromaticNote en:AFlat</map>
+  <map>en:A_1 en:ChromaticNote en:A</map>
+  <map>en:ASharp_1 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp_1 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp_1 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat_1 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat_1 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat_1 en:ChromaticNote en:BFlat</map>
+  <map>en:B_1 en:ChromaticNote en:B</map>
+  <map>en:BSharp_1 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp_1 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp_1 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat0 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat0 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat0 en:ChromaticNote en:CFlat</map>
+  <map>en:C0 en:ChromaticNote en:C</map>
+  <map>en:CSharp0 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp0 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp0 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat0 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat0 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat0 en:ChromaticNote en:DFlat</map>
+  <map>en:D0 en:ChromaticNote en:D</map>
+  <map>en:DSharp0 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp0 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp0 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat0 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat0 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat0 en:ChromaticNote en:EFlat</map>
+  <map>en:E0 en:ChromaticNote en:E</map>
+  <map>en:ESharp0 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp0 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp0 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat0 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat0 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat0 en:ChromaticNote en:FFlat</map>
+  <map>en:F0 en:ChromaticNote en:F</map>
+  <map>en:FSharp0 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp0 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp0 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat0 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat0 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat0 en:ChromaticNote en:GFlat</map>
+  <map>en:G0 en:ChromaticNote en:G</map>
+  <map>en:GSharp0 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp0 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp0 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat0 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat0 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat0 en:ChromaticNote en:AFlat</map>
+  <map>en:A0 en:ChromaticNote en:A</map>
+  <map>en:ASharp0 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp0 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp0 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat0 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat0 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat0 en:ChromaticNote en:BFlat</map>
+  <map>en:B0 en:ChromaticNote en:B</map>
+  <map>en:BSharp0 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp0 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp0 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat1 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat1 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat1 en:ChromaticNote en:CFlat</map>
+  <map>en:C1 en:ChromaticNote en:C</map>
+  <map>en:CSharp1 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp1 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp1 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat1 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat1 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat1 en:ChromaticNote en:DFlat</map>
+  <map>en:D1 en:ChromaticNote en:D</map>
+  <map>en:DSharp1 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp1 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp1 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat1 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat1 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat1 en:ChromaticNote en:EFlat</map>
+  <map>en:E1 en:ChromaticNote en:E</map>
+  <map>en:ESharp1 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp1 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp1 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat1 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat1 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat1 en:ChromaticNote en:FFlat</map>
+  <map>en:F1 en:ChromaticNote en:F</map>
+  <map>en:FSharp1 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp1 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp1 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat1 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat1 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat1 en:ChromaticNote en:GFlat</map>
+  <map>en:G1 en:ChromaticNote en:G</map>
+  <map>en:GSharp1 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp1 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp1 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat1 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat1 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat1 en:ChromaticNote en:AFlat</map>
+  <map>en:A1 en:ChromaticNote en:A</map>
+  <map>en:ASharp1 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp1 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp1 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat1 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat1 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat1 en:ChromaticNote en:BFlat</map>
+  <map>en:B1 en:ChromaticNote en:B</map>
+  <map>en:BSharp1 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp1 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp1 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat2 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat2 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat2 en:ChromaticNote en:CFlat</map>
+  <map>en:C2 en:ChromaticNote en:C</map>
+  <map>en:CSharp2 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp2 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp2 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat2 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat2 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat2 en:ChromaticNote en:DFlat</map>
+  <map>en:D2 en:ChromaticNote en:D</map>
+  <map>en:DSharp2 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp2 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp2 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat2 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat2 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat2 en:ChromaticNote en:EFlat</map>
+  <map>en:E2 en:ChromaticNote en:E</map>
+  <map>en:ESharp2 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp2 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp2 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat2 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat2 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat2 en:ChromaticNote en:FFlat</map>
+  <map>en:F2 en:ChromaticNote en:F</map>
+  <map>en:FSharp2 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp2 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp2 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat2 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat2 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat2 en:ChromaticNote en:GFlat</map>
+  <map>en:G2 en:ChromaticNote en:G</map>
+  <map>en:GSharp2 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp2 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp2 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat2 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat2 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat2 en:ChromaticNote en:AFlat</map>
+  <map>en:A2 en:ChromaticNote en:A</map>
+  <map>en:ASharp2 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp2 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp2 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat2 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat2 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat2 en:ChromaticNote en:BFlat</map>
+  <map>en:B2 en:ChromaticNote en:B</map>
+  <map>en:BSharp2 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp2 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp2 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat3 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat3 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat3 en:ChromaticNote en:CFlat</map>
+  <map>en:C3 en:ChromaticNote en:C</map>
+  <map>en:CSharp3 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp3 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp3 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat3 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat3 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat3 en:ChromaticNote en:DFlat</map>
+  <map>en:D3 en:ChromaticNote en:D</map>
+  <map>en:DSharp3 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp3 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp3 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat3 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat3 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat3 en:ChromaticNote en:EFlat</map>
+  <map>en:E3 en:ChromaticNote en:E</map>
+  <map>en:ESharp3 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp3 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp3 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat3 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat3 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat3 en:ChromaticNote en:FFlat</map>
+  <map>en:F3 en:ChromaticNote en:F</map>
+  <map>en:FSharp3 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp3 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp3 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat3 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat3 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat3 en:ChromaticNote en:GFlat</map>
+  <map>en:G3 en:ChromaticNote en:G</map>
+  <map>en:GSharp3 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp3 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp3 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat3 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat3 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat3 en:ChromaticNote en:AFlat</map>
+  <map>en:A3 en:ChromaticNote en:A</map>
+  <map>en:ASharp3 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp3 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp3 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat3 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat3 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat3 en:ChromaticNote en:BFlat</map>
+  <map>en:B3 en:ChromaticNote en:B</map>
+  <map>en:BSharp3 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp3 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp3 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat4 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat4 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat4 en:ChromaticNote en:CFlat</map>
+  <map>en:C4 en:ChromaticNote en:C</map>
+  <map>en:CSharp4 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp4 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp4 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat4 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat4 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat4 en:ChromaticNote en:DFlat</map>
+  <map>en:D4 en:ChromaticNote en:D</map>
+  <map>en:DSharp4 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp4 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp4 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat4 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat4 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat4 en:ChromaticNote en:EFlat</map>
+  <map>en:E4 en:ChromaticNote en:E</map>
+  <map>en:ESharp4 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp4 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp4 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat4 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat4 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat4 en:ChromaticNote en:FFlat</map>
+  <map>en:F4 en:ChromaticNote en:F</map>
+  <map>en:FSharp4 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp4 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp4 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat4 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat4 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat4 en:ChromaticNote en:GFlat</map>
+  <map>en:G4 en:ChromaticNote en:G</map>
+  <map>en:GSharp4 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp4 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp4 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat4 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat4 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat4 en:ChromaticNote en:AFlat</map>
+  <map>en:A4 en:ChromaticNote en:A</map>
+  <map>en:ASharp4 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp4 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp4 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat4 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat4 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat4 en:ChromaticNote en:BFlat</map>
+  <map>en:B4 en:ChromaticNote en:B</map>
+  <map>en:BSharp4 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp4 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp4 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat5 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat5 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat5 en:ChromaticNote en:CFlat</map>
+  <map>en:C5 en:ChromaticNote en:C</map>
+  <map>en:CSharp5 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp5 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp5 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat5 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat5 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat5 en:ChromaticNote en:DFlat</map>
+  <map>en:D5 en:ChromaticNote en:D</map>
+  <map>en:DSharp5 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp5 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp5 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat5 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat5 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat5 en:ChromaticNote en:EFlat</map>
+  <map>en:E5 en:ChromaticNote en:E</map>
+  <map>en:ESharp5 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp5 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp5 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat5 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat5 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat5 en:ChromaticNote en:FFlat</map>
+  <map>en:F5 en:ChromaticNote en:F</map>
+  <map>en:FSharp5 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp5 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp5 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat5 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat5 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat5 en:ChromaticNote en:GFlat</map>
+  <map>en:G5 en:ChromaticNote en:G</map>
+  <map>en:GSharp5 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp5 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp5 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat5 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat5 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat5 en:ChromaticNote en:AFlat</map>
+  <map>en:A5 en:ChromaticNote en:A</map>
+  <map>en:ASharp5 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp5 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp5 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat5 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat5 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat5 en:ChromaticNote en:BFlat</map>
+  <map>en:B5 en:ChromaticNote en:B</map>
+  <map>en:BSharp5 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp5 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp5 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat6 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat6 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat6 en:ChromaticNote en:CFlat</map>
+  <map>en:C6 en:ChromaticNote en:C</map>
+  <map>en:CSharp6 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp6 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp6 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat6 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat6 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat6 en:ChromaticNote en:DFlat</map>
+  <map>en:D6 en:ChromaticNote en:D</map>
+  <map>en:DSharp6 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp6 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp6 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat6 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat6 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat6 en:ChromaticNote en:EFlat</map>
+  <map>en:E6 en:ChromaticNote en:E</map>
+  <map>en:ESharp6 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp6 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp6 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat6 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat6 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat6 en:ChromaticNote en:FFlat</map>
+  <map>en:F6 en:ChromaticNote en:F</map>
+  <map>en:FSharp6 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp6 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp6 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat6 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat6 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat6 en:ChromaticNote en:GFlat</map>
+  <map>en:G6 en:ChromaticNote en:G</map>
+  <map>en:GSharp6 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp6 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp6 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat6 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat6 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat6 en:ChromaticNote en:AFlat</map>
+  <map>en:A6 en:ChromaticNote en:A</map>
+  <map>en:ASharp6 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp6 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp6 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat6 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat6 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat6 en:ChromaticNote en:BFlat</map>
+  <map>en:B6 en:ChromaticNote en:B</map>
+  <map>en:BSharp6 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp6 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp6 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat7 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat7 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat7 en:ChromaticNote en:CFlat</map>
+  <map>en:C7 en:ChromaticNote en:C</map>
+  <map>en:CSharp7 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp7 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp7 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat7 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat7 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat7 en:ChromaticNote en:DFlat</map>
+  <map>en:D7 en:ChromaticNote en:D</map>
+  <map>en:DSharp7 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp7 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp7 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat7 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat7 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat7 en:ChromaticNote en:EFlat</map>
+  <map>en:E7 en:ChromaticNote en:E</map>
+  <map>en:ESharp7 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp7 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp7 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat7 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat7 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat7 en:ChromaticNote en:FFlat</map>
+  <map>en:F7 en:ChromaticNote en:F</map>
+  <map>en:FSharp7 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp7 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp7 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat7 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat7 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat7 en:ChromaticNote en:GFlat</map>
+  <map>en:G7 en:ChromaticNote en:G</map>
+  <map>en:GSharp7 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp7 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp7 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat7 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat7 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat7 en:ChromaticNote en:AFlat</map>
+  <map>en:A7 en:ChromaticNote en:A</map>
+  <map>en:ASharp7 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp7 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp7 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat7 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat7 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat7 en:ChromaticNote en:BFlat</map>
+  <map>en:B7 en:ChromaticNote en:B</map>
+  <map>en:BSharp7 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp7 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp7 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat8 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat8 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat8 en:ChromaticNote en:CFlat</map>
+  <map>en:C8 en:ChromaticNote en:C</map>
+  <map>en:CSharp8 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp8 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp8 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat8 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat8 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat8 en:ChromaticNote en:DFlat</map>
+  <map>en:D8 en:ChromaticNote en:D</map>
+  <map>en:DSharp8 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp8 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp8 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat8 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat8 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat8 en:ChromaticNote en:EFlat</map>
+  <map>en:E8 en:ChromaticNote en:E</map>
+  <map>en:ESharp8 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp8 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp8 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat8 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat8 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat8 en:ChromaticNote en:FFlat</map>
+  <map>en:F8 en:ChromaticNote en:F</map>
+  <map>en:FSharp8 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp8 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp8 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat8 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat8 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat8 en:ChromaticNote en:GFlat</map>
+  <map>en:G8 en:ChromaticNote en:G</map>
+  <map>en:GSharp8 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp8 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp8 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat8 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat8 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat8 en:ChromaticNote en:AFlat</map>
+  <map>en:A8 en:ChromaticNote en:A</map>
+  <map>en:ASharp8 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp8 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp8 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat8 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat8 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat8 en:ChromaticNote en:BFlat</map>
+  <map>en:B8 en:ChromaticNote en:B</map>
+  <map>en:BSharp8 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp8 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp8 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat9 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat9 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat9 en:ChromaticNote en:CFlat</map>
+  <map>en:C9 en:ChromaticNote en:C</map>
+  <map>en:CSharp9 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp9 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp9 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat9 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat9 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat9 en:ChromaticNote en:DFlat</map>
+  <map>en:D9 en:ChromaticNote en:D</map>
+  <map>en:DSharp9 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp9 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp9 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat9 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat9 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat9 en:ChromaticNote en:EFlat</map>
+  <map>en:E9 en:ChromaticNote en:E</map>
+  <map>en:ESharp9 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp9 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp9 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat9 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat9 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat9 en:ChromaticNote en:FFlat</map>
+  <map>en:F9 en:ChromaticNote en:F</map>
+  <map>en:FSharp9 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp9 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp9 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat9 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat9 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat9 en:ChromaticNote en:GFlat</map>
+  <map>en:G9 en:ChromaticNote en:G</map>
+  <map>en:GSharp9 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp9 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp9 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat9 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat9 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat9 en:ChromaticNote en:AFlat</map>
+  <map>en:A9 en:ChromaticNote en:A</map>
+  <map>en:ASharp9 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp9 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp9 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat9 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat9 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat9 en:ChromaticNote en:BFlat</map>
+  <map>en:B9 en:ChromaticNote en:B</map>
+  <map>en:BSharp9 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp9 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp9 en:ChromaticNote en:BTripleSharp</map>
+
+  <map>en:CTripleFlat10 en:ChromaticNote en:CTripleFlat</map>
+  <map>en:CDoubleFlat10 en:ChromaticNote en:CDoubleFlat</map>
+  <map>en:CFlat10 en:ChromaticNote en:CFlat</map>
+  <map>en:C10 en:ChromaticNote en:C</map>
+  <map>en:CSharp10 en:ChromaticNote en:CSharp</map>
+  <map>en:CDoubleSharp10 en:ChromaticNote en:CDoubleSharp</map>
+  <map>en:CTripleSharp10 en:ChromaticNote en:CTripleSharp</map>
+
+  <map>en:DTripleFlat10 en:ChromaticNote en:DTripleFlat</map>
+  <map>en:DDoubleFlat10 en:ChromaticNote en:DDoubleFlat</map>
+  <map>en:DFlat10 en:ChromaticNote en:DFlat</map>
+  <map>en:D10 en:ChromaticNote en:D</map>
+  <map>en:DSharp10 en:ChromaticNote en:DSharp</map>
+  <map>en:DDoubleSharp10 en:ChromaticNote en:DDoubleSharp</map>
+  <map>en:DTripleSharp10 en:ChromaticNote en:DTripleSharp</map>
+
+  <map>en:ETripleFlat10 en:ChromaticNote en:ETripleFlat</map>
+  <map>en:EDoubleFlat10 en:ChromaticNote en:EDoubleFlat</map>
+  <map>en:EFlat10 en:ChromaticNote en:EFlat</map>
+  <map>en:E10 en:ChromaticNote en:E</map>
+  <map>en:ESharp10 en:ChromaticNote en:ESharp</map>
+  <map>en:EDoubleSharp10 en:ChromaticNote en:EDoubleSharp</map>
+  <map>en:ETripleSharp10 en:ChromaticNote en:ETripleSharp</map>
+
+  <map>en:FTripleFlat10 en:ChromaticNote en:FTripleFlat</map>
+  <map>en:FDoubleFlat10 en:ChromaticNote en:FDoubleFlat</map>
+  <map>en:FFlat10 en:ChromaticNote en:FFlat</map>
+  <map>en:F10 en:ChromaticNote en:F</map>
+  <map>en:FSharp10 en:ChromaticNote en:FSharp</map>
+  <map>en:FDoubleSharp10 en:ChromaticNote en:FDoubleSharp</map>
+  <map>en:FTripleSharp10 en:ChromaticNote en:FTripleSharp</map>
+
+  <map>en:GTripleFlat10 en:ChromaticNote en:GTripleFlat</map>
+  <map>en:GDoubleFlat10 en:ChromaticNote en:GDoubleFlat</map>
+  <map>en:GFlat10 en:ChromaticNote en:GFlat</map>
+  <map>en:G10 en:ChromaticNote en:G</map>
+  <map>en:GSharp10 en:ChromaticNote en:GSharp</map>
+  <map>en:GDoubleSharp10 en:ChromaticNote en:GDoubleSharp</map>
+  <map>en:GTripleSharp10 en:ChromaticNote en:GTripleSharp</map>
+
+  <map>en:ATripleFlat10 en:ChromaticNote en:ATripleFlat</map>
+  <map>en:ADoubleFlat10 en:ChromaticNote en:ADoubleFlat</map>
+  <map>en:AFlat10 en:ChromaticNote en:AFlat</map>
+  <map>en:A10 en:ChromaticNote en:A</map>
+  <map>en:ASharp10 en:ChromaticNote en:ASharp</map>
+  <map>en:ADoubleSharp10 en:ChromaticNote en:ADoubleSharp</map>
+  <map>en:ATripleSharp10 en:ChromaticNote en:ATripleSharp</map>
+
+  <map>en:BTripleFlat10 en:ChromaticNote en:BTripleFlat</map>
+  <map>en:BDoubleFlat10 en:ChromaticNote en:BDoubleFlat</map>
+  <map>en:BFlat10 en:ChromaticNote en:BFlat</map>
+  <map>en:B10 en:ChromaticNote en:B</map>
+  <map>en:BSharp10 en:ChromaticNote en:BSharp</map>
+  <map>en:BDoubleSharp10 en:ChromaticNote en:BDoubleSharp</map>
+  <map>en:BTripleSharp10 en:ChromaticNote en:BTripleSharp</map>
+</mica>

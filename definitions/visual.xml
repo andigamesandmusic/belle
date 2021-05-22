@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Visual">Contains concepts relating to visual
+    elements.</definition>
+    
+    <concept uuid="en:Symbol">
+      <identifier lang="en">Symbol</identifier>
+      <definition lang="en" name="Symbol">Used to specifically indicate the
+      glyph-based aspect of another concept. For example, the Symbol to
+      TrebleClef is GClef.</definition>
+    </concept>
+
+    <concept uuid="en:StaffPosition">
+      <identifier lang="en">StaffPosition</identifier>
+      <definition lang="en" name="Staff Position">An integer indicating the
+      number of lines and/or spaces away from the middle line or space of a
+      staff. An increment of one indicates the distance from a space to a
+      neighboring line or a line to a neighboring space.</definition>
+    </concept>
+    
+    <concept uuid="en:StemDirection">
+      <identifier lang="en">StemDirection</identifier>
+      <definition lang="en" name="Stem Direction">Represents a stem direction.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:Up">
+      <identifier lang="en">Up</identifier>
+      <definition lang="en" name="Up">Represents the general notion of up.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:Down">
+      <identifier lang="en">Down</identifier>
+      <definition lang="en" name="Down">Represents the general notion of down.
+      </definition>
+    </concept>
+    
+    <concept uuid="en:Beam">
+      <identifier lang="en">Beam</identifier>
+      <definition lang="en" name="Beam">Represents a rhythmic beam.</definition>
+    </concept>
+    
+    <concept uuid="en:BeamDivision">
+      <identifier lang="en">BeamDivision</identifier>
+      <definition lang="en" name="Beam Division">Represents the ratio at which a beam is divided, such as 1/8, 1/16, etc.</definition>
+    </concept>
+    
+    <concept uuid="en:AlternateDesign">
+      <identifier lang="en">AlternateDesign</identifier>
+      <definition lang="en" name="Alternate Design">Attribute of a token, in which an alternate visual design is desired. Many musical symbols have common alternate designs that are semantically identical, but visually
+      distinct enough to be selected separately.</definition>
+    </concept>
+  </category>
+</mica>

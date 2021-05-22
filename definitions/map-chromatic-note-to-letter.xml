@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:CTripleFlat en:Letter en:C</map>
+  <map>en:CDoubleFlat en:Letter en:C</map>
+  <map>en:CFlat en:Letter en:C</map>
+  <map>en:C en:Letter en:C</map>
+  <map>en:CSharp en:Letter en:C</map>
+  <map>en:CDoubleSharp en:Letter en:C</map>
+  <map>en:CTripleSharp en:Letter en:C</map>
+
+  <map>en:DTripleFlat en:Letter en:D</map>
+  <map>en:DDoubleFlat en:Letter en:D</map>
+  <map>en:DFlat en:Letter en:D</map>
+  <map>en:D en:Letter en:D</map>
+  <map>en:DSharp en:Letter en:D</map>
+  <map>en:DDoubleSharp en:Letter en:D</map>
+  <map>en:DTripleSharp en:Letter en:D</map>
+
+  <map>en:ETripleFlat en:Letter en:E</map>
+  <map>en:EDoubleFlat en:Letter en:E</map>
+  <map>en:EFlat en:Letter en:E</map>
+  <map>en:E en:Letter en:E</map>
+  <map>en:ESharp en:Letter en:E</map>
+  <map>en:EDoubleSharp en:Letter en:E</map>
+  <map>en:ETripleSharp en:Letter en:E</map>
+
+  <map>en:FTripleFlat en:Letter en:F</map>
+  <map>en:FDoubleFlat en:Letter en:F</map>
+  <map>en:FFlat en:Letter en:F</map>
+  <map>en:F en:Letter en:F</map>
+  <map>en:FSharp en:Letter en:F</map>
+  <map>en:FDoubleSharp en:Letter en:F</map>
+  <map>en:FTripleSharp en:Letter en:F</map>
+
+  <map>en:GTripleFlat en:Letter en:G</map>
+  <map>en:GDoubleFlat en:Letter en:G</map>
+  <map>en:GFlat en:Letter en:G</map>
+  <map>en:G en:Letter en:G</map>
+  <map>en:GSharp en:Letter en:G</map>
+  <map>en:GDoubleSharp en:Letter en:G</map>
+  <map>en:GTripleSharp en:Letter en:G</map>
+
+  <map>en:ATripleFlat en:Letter en:A</map>
+  <map>en:ADoubleFlat en:Letter en:A</map>
+  <map>en:AFlat en:Letter en:A</map>
+  <map>en:A en:Letter en:A</map>
+  <map>en:ASharp en:Letter en:A</map>
+  <map>en:ADoubleSharp en:Letter en:A</map>
+  <map>en:ATripleSharp en:Letter en:A</map>
+
+  <map>en:BTripleFlat en:Letter en:B</map>
+  <map>en:BDoubleFlat en:Letter en:B</map>
+  <map>en:BFlat en:Letter en:B</map>
+  <map>en:B en:Letter en:B</map>
+  <map>en:BSharp en:Letter en:B</map>
+  <map>en:BDoubleSharp en:Letter en:B</map>
+  <map>en:BTripleSharp en:Letter en:B</map>
+</mica>

@@ -1,0 +1,256 @@
+<!--
+  MICA (Music Information Concept Archive) DTD
+  
+  Version 1.0
+  
+  Copyright 2007-2013, 2017 William Andrew Burnson
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright notice,
+       this list of conditions and the following disclaimer in the documentation
+       and/or other materials provided with the distribution.
+  
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+  The mica element may contain mappings and/or concept categories. A single
+  mica XML file may thus describe a portion or all of the MICA dictionary.
+  
+	Suggested use:
+	
+	<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<!DOCTYPE mica PUBLIC
+		"-//MICA//DTD Music Information Concept Archive//EN"
+		"https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+-->
+
+<!--
+  The mica element may contain zero or more map and category elements. It has
+  no attributes.
+-->
+<!ELEMENT mica (map | category)*>
+
+<!--
+  The map element contains a whitespace-separated list of language-localized
+  identifiers. The mapping uses all but the last identifier as the input
+  multiset and the last identifier as the output.
+  
+  Example:
+  <map>en:A en:B en:C</map>           means {en:A en:B} -> en:C
+  
+  Note that the input is unordered. Therefore the following is equivalent:
+  <map>en:B en:A en:C</map>      also means {en:A en:B} -> en:C
+  
+  The language-localized identifier must refer to an identifier element found
+  elsewhere in the MICA dictionary (potentially in another XML file).
+  
+  For example, en:A refers to the concept containing the identifier tag:
+  <identifier lang="en">A</identifier>
+-->
+<!ELEMENT map (#PCDATA)>
+
+<!--
+  The category element contains one or more definition and concept elements.
+  
+  A definition element is provided for each language-localization of the
+  category name and definition. Categories are semantic groups used primarily
+  for organization and documentation. They are not necessarily encoded in the
+  programming language APIs.
+  
+  A concept element is provided to declare a concept that belongs to the given
+  category.
+  
+  The contents of a category element may not be partially specified. All
+  concepts and definitions relevant to the category must be contained in one
+  tag (a single category may not spread across multiple files).
+-->
+<!ELEMENT category (definition | concept)+>
+
+<!--
+  The concept element contains an optional sequence element (if it represents a
+  sequence) followed by one or more (programming language) identifier elements
+  followed by zero or more (natural language) definition elements.
+  
+  The uuid attribute specifies either one of the language-localized identifiers
+  specified within the concept (for example, en:QuarterNote) or a UUID in the
+  canonical hex format:
+  
+  nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn
+  
+  Where n is a digit 0-9 or lowercase letter a-f. Uppercase letters must not
+  be used (the UUID must be expressed in canonical lowercase form).
+  
+  Note that if a language-localized identifier is used, it is internally
+  converted to a UUID via the MD5 namespace algorithm. The identifier thus
+  uniquely maps to a UUID.
+  
+  ATTENTION:
+  
+  THE uuid ATTRIBUTE MUST NOT BE CHANGED TO ANOTHER IDENTIFIER AFTER IT IS SET.
+  CHANGING THE uuid IDENTIFIER CHANGES THE UNDERLYING UUID ENCODING AND WILL
+  REDEFINE THE CONCEPT TO A DIFFERENT NUMBER.
+  
+  In cases where the identifier must be changed, an error will be emitted during
+  the parse if the identifier no longer exists and the uuid attribute must then
+  be changed to use an explicit UUID representing the original UUID.
+  Backwards-compatibility is a requirement of MICA. In these cases a comment
+  should also be provided indicating the source of the original UUID.
+-->
+
+<!ELEMENT concept (sequence?, identifier+, definition*)>
+<!ATTLIST concept
+  uuid CDATA #REQUIRED>
+
+<!--
+  The identifier element provides the programming and natural language-localized
+  identifier name of a concept to be used in the context of a programming
+  language.
+  
+  The lang attribute specifies the language-localization using a two-letter
+  lowercase ISO 639-1 language code optionally followed by a hyphen and a
+  two-letter uppercase ISO 3166-2 country code optionally followed by a hyphen
+  and the commonly accepted extension of a source code file in the target
+  programming language.
+  
+  See the following examples.
+  
+  English identifier for generic programming language:  
+  <identifier lang="en">QuarterNote</identifier>
+  
+  UK English identifier for generic programming language:
+  <identifier lang="en-GB">Crotchet</identifier>
+  
+  English identifier for Python:
+  <identifier lang="en-py">quarter_note</identifier>
+  
+  UK English identifier for Python:
+  <identifier lang="en-GB-py">crotchet</identifier>
+
+  Identifiers may not contain whitespace. Specific character rules for
+  identifiers are programming-language dependent. For example, en:f may refer to
+  forte and en:F may refer to the note letter F in a case-sensitive language.
+  This would need to be overriden for a case-insensitive language such as
+  Visual Basic, as perhaps en-vb:F and en-vb:Forte.
+-->
+<!ELEMENT identifier (#PCDATA)>
+<!ATTLIST identifier
+  lang CDATA #REQUIRED>
+
+<!--
+  The definition element provides the language-localized definition of a concept
+  or category to be used in the context of documentation and reference.
+  
+  The lang attribute specifies the language-localization using a two-letter
+  lowercase ISO 639-1 language code optionally followed by a hyphen and a
+  two-letter uppercase ISO 3166-2 country code.
+  
+  The name attribute specifies the language-localized name of the concept
+  according to the lang attribute.
+  
+  See the following examples.
+  
+  English definition:
+  <definition lang="en" name="Quarter Note">A note of rhythm one-quarter shown
+  by a filled in notehead and a stem with no flag</definition>
+
+  UK English definition:
+  <definition lang="en-GB" name="Crotchet">A note of rhythm one-quarter shown
+  by a filled in notehead and a stem with no flag</definition>
+-->
+<!ELEMENT definition (#PCDATA)>
+<!ATTLIST definition
+  lang CDATA #REQUIRED
+  name CDATA #REQUIRED
+  xml:space (default | preserve) "default">
+
+<!--
+  The sequence element specifies that the concept refers to a sequence of other
+  concepts. Inside the sequence tag is given a whitespace-separated list of
+  language-localized concept identifiers.
+  
+  The cyclic attribute indicates that the sequence may be indexed modulo the
+  length of the sequence by any integer. The default value to cyclic is false,
+  thus it need only be expressed if it is being set to true.
+  
+  For example, within the Letters concept might be this sequence:
+  <sequence cyclic="true">en:A en:B en:C en:D en:E en:F en:G</sequence>
+-->
+  
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST sequence
+  cyclic (true | false) "false">
+
+
+<!--
+  The following example shows all of the elements in this DTD being used in
+  a hypothetical scenario declaring note letters and mapping the half and whole
+  steps between adjacent letters.
+
+  You can try validating the example at:
+  http://validator.w3.org#validate_by_input
+-->
+
+<!--
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Letters">Group of concepts relating to note
+      letters.</definition>
+    
+    <concept uuid="en:Letters">
+      <sequence cyclic="true">en:A en:B en:C en:D en:E en:F en:G</sequence>
+      <identifier lang="en">Letters</identifier>
+      <definition lang="en" name="Letters">Defines the cyclic sequence of
+      note letters from A to G.</definition>
+    </concept>
+    
+    <concept uuid="en:A"><identifier lang="en">A</identifier></concept>
+    <concept uuid="en:B"><identifier lang="en">B</identifier></concept>
+    <concept uuid="en:C"><identifier lang="en">C</identifier></concept>
+    <concept uuid="en:D"><identifier lang="en">D</identifier></concept>
+    <concept uuid="en:E"><identifier lang="en">E</identifier></concept>
+    <concept uuid="en:F"><identifier lang="en">F</identifier></concept>
+    <concept uuid="en:G"><identifier lang="en">G</identifier></concept>
+  </category>
+  
+  <category>
+    <definition lang="en" name="Steps">Group of concepts relating to note
+      steps.</definition>
+    
+    <concept uuid="en:HalfStep">
+      <identifier lang="en">HalfStep</identifier>
+    </concept>
+    
+    <concept uuid="en:WholeStep">
+      <identifier lang="en">WholeStep</identifier>
+    </concept>
+  </category>
+  
+  <map>en:A en:B en:WholeStep</map>
+  <map>en:B en:C en:HalfStep</map>
+  <map>en:C en:D en:WholeStep</map>
+  <map>en:D en:E en:WholeStep</map>
+  <map>en:E en:F en:HalfStep</map>
+  <map>en:F en:G en:WholeStep</map>
+  <map>en:G en:A en:WholeStep</map>
+</mica>
+-->

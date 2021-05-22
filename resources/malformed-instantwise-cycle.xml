@@ -1,0 +1,15 @@
+<graph>
+  <node id="0,0" root="root" en:Type="en:Island">
+    <edge to="0,1" en:Type="en:Partwise"/>
+    <edge to="1,0" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="0,1" en:Type="en:Island">
+    <edge to="1,1" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="1,0" en:Type="en:Island">
+    <edge to="1,1" en:Type="en:Partwise"/>
+  </node>
+  <node id="1,1" en:Type="en:Island">
+    <edge to="0,1" en:Type="en:Instant-wise"/>
+  </node>
+</graph>

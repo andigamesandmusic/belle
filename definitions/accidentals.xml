@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Accidentals">Contains common accidentals.
+    </definition>
+
+    <concept uuid="en:TripleFlat">
+      <identifier lang="en">TripleFlat</identifier>
+      <definition lang="en" name="Triple flat">Indicates a relative lowering of
+      pitch by three semitones.</definition>
+    </concept>
+
+    <concept uuid="en:DoubleFlat">
+      <identifier lang="en">DoubleFlat</identifier>
+      <definition lang="en" name="Double flat">Indicates a relative lowering of
+      pitch by two semitones.</definition>
+    </concept>
+    
+    <concept uuid="en:FlatAndAHalf">
+      <identifier lang="en">FlatAndAHalf</identifier>
+      <definition lang="en" name="Flat-and-a-half">Indicates a relative lowering of pitch by one and a half semitones.</definition>
+    </concept>
+
+    <concept uuid="en:Flat">
+      <identifier lang="en">Flat</identifier>
+      <definition lang="en" name="Flat">Indicates a relative lowering of
+      pitch by one semitone.</definition>
+    </concept>
+    
+    <concept uuid="en:HalfFlat">
+      <identifier lang="en">HalfFlat</identifier>
+      <definition lang="en" name="Half Flat">Indicates a relative lowering of pitch by a half a semitone.</definition>
+    </concept>
+
+    <concept uuid="en:Natural">
+      <identifier lang="en">Natural</identifier>
+      <definition lang="en" name="Natural">Indicates that the pitch given is not
+      raised or lowered.</definition>
+    </concept>
+    
+    <concept uuid="en:HalfSharp">
+      <identifier lang="en">HalfSharp</identifier>
+      <definition lang="en" name="Half Sharp">Indicates a relative raising of pitch by a half a semitone.</definition>
+    </concept>
+
+    <concept uuid="en:Sharp">
+      <identifier lang="en">Sharp</identifier>
+      <definition lang="en" name="Sharp">Indicates a relative raising of
+      pitch by one semitone.</definition>
+    </concept>
+    
+    <concept uuid="en:SharpAndAHalf">
+      <identifier lang="en">SharpAndAHalf</identifier>
+      <definition lang="en" name="Sharp-and-a-half">Indicates a relative raising of pitch by one and a half semitones.</definition>
+    </concept>
+
+    <concept uuid="en:DoubleSharp">
+      <identifier lang="en">DoubleSharp</identifier>
+      <definition lang="en" name="Double sharp">Indicates a relative raising of
+      pitch by two semitones.</definition>
+    </concept>
+
+    <concept uuid="en:TripleSharp">
+      <identifier lang="en">TripleSharp</identifier>
+      <definition lang="en" name="Triple sharp">Indicates a relative raising of
+      pitch by three semitones.</definition>
+    </concept>
+
+    <concept uuid="en:Accidentals">
+      <sequence>en:TripleFlat en:DoubleFlat en:Flat en:Natural en:Sharp
+      en:DoubleSharp en:TripleSharp</sequence>
+      <identifier lang="en">Accidentals</identifier>
+      <definition lang="en" name="Accidentals">Sequence of common diatonic
+      accidentals from most flat to most sharp.</definition>
+    </concept>
+    
+  </category>
+</mica>

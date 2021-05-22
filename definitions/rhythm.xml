@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Rhythm">Contains basic rhythmic values.
+    </definition>
+
+    <concept uuid="en:Rest">
+      <identifier lang="en">Rest</identifier>
+      <definition lang="en" name="Rest">Denotes a durational rest.</definition>
+    </concept>
+    <concept uuid="en:MeasureRest">
+      <identifier lang="en">MeasureRest</identifier>
+      <definition lang="en" name="MeasureRest">Denotes a measure or multi-measure rest.</definition>
+    </concept>
+    <concept uuid="en:HundredTwentyEighthNote">
+      <identifier lang="en">HundredTwentyEighthNote</identifier>
+      <definition lang="en" name="Hundred Twenty-Eighth Note">Rhythmic value indicating one hundred twenty-eighth the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Semihemidemisemiquaver">Rhythmic value indicating one hundred twenty-eighth the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:SixtyFourthNote">
+      <identifier lang="en">SixtyFourthNote</identifier>
+      <definition lang="en" name="Sixty-Fourth Note">Rhythmic value indicating one sixty-fourth the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Hemidemisemiquaver">Rhythmic value indicating one sixty-fourth the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:ThirtySecondNote">
+      <identifier lang="en">ThirtySecondNote</identifier>
+      <definition lang="en" name="Thirty-Second Note">Rhythmic value indicating one thirty-second the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Demisemiquaver">Rhythmic value indicating one thirty-second the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:SixteenthNote">
+      <identifier lang="en">SixteenthNote</identifier>
+      <definition lang="en" name="Sixteenth Note">Rhythmic value indicating one sixteenth the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Semiquaver">Rhythmic value indicating one sixteenth the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:EighthNote">
+      <identifier lang="en">EighthNote</identifier>
+      <definition lang="en" name="Eighth Note">Rhythmic value indicating one eighth the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Quaver">Rhythmic value indicating one eighth the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:QuarterNote">
+      <identifier lang="en">QuarterNote</identifier>
+      <identifier lang="en-GB">Crotchet</identifier>
+      <definition lang="en" name="Quarter Note">Rhythmic value indicating one quarter the duration of a whole note.</definition>
+      <definition lang="en-GB-cpp" name="Crotchet">Rhythmic value indicating one quarter the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:HalfNote">
+      <identifier lang="en">HalfNote</identifier>
+      <definition lang="en" name="Half Note">Rhythmic value indicating one half the duration of a whole note.</definition>
+      <definition lang="en-GB" name="Minim">Rhythmic value indicating one half the duration of a semibreve.</definition>
+    </concept>
+    <concept uuid="en:WholeNote">
+      <identifier lang="en">WholeNote</identifier>
+      <definition lang="en" name="Whole Note">Rhythmic value of length four beats in common time.</definition>
+      <definition lang="en-GB" name="Semibreve">Rhythmic value of length four beats in common time.</definition>
+    </concept>
+    <concept uuid="en:DoubleWholeNote">
+      <identifier lang="en">DoubleWholeNote</identifier>
+      <definition lang="en" name="Double Whole Note">Rhythmic value indicating the duration of two whole notes.</definition>
+      <definition lang="en-GB" name="Breve">Rhythmic value indicating the duration of two semibreves.</definition>
+    </concept>
+    <concept uuid="en:Longa">
+      <identifier lang="en">Longa</identifier>
+      <definition lang="en" name="Longa">Rhythmic value indicating the duration of four (or six) whole notes.</definition>
+      <definition lang="en-GB" name="Longa">Rhythmic value indicating the duration of four (or six) semibreves.</definition>
+    </concept>
+    
+  </category>
+</mica>

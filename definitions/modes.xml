@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Modes">Contains modes.</definition>
+    
+    <concept uuid="en:Mode">
+      <identifier lang="en">Mode</identifier>
+      <definition lang="en" name="Mode">Represents the concept of a
+      mode.</definition>
+    </concept>
+
+    <!--en:Major and en:Minor defined homonymously in IntervalAspects.xml-->
+
+    <concept uuid="en:Ionian">
+      <identifier lang="en">Ionian</identifier>
+      <definition lang="en" name="Ionian">Represents the concept of the
+      Ionian mode.</definition>
+    </concept>
+    <concept uuid="en:Dorian">
+      <identifier lang="en">Dorian</identifier>
+      <definition lang="en" name="Dorian">Represents the concept of the
+      Dorian mode.</definition>
+    </concept>
+    <concept uuid="en:Phrygian">
+      <identifier lang="en">Phrygian</identifier>
+      <definition lang="en" name="Phrygian">Represents the concept of the
+      Phrygian mode.</definition>
+    </concept>
+    <concept uuid="en:Lydian">
+      <identifier lang="en">Lydian</identifier>
+      <definition lang="en" name="Lydian">Represents the concept of the
+      Lydian mode.</definition>
+    </concept>
+    <concept uuid="en:Mixolydian">
+      <identifier lang="en">Mixolydian</identifier>
+      <definition lang="en" name="Mixolydian">Represents the concept of the
+      Mixolydian mode.</definition>
+    </concept>
+    <concept uuid="en:Aeolian">
+      <identifier lang="en">Aeolian</identifier>
+      <definition lang="en" name="Aeolian">Represents the concept of the
+      Aeolian mode.</definition>
+    </concept>
+    <concept uuid="en:Locrian">
+      <identifier lang="en">Locrian</identifier>
+      <definition lang="en" name="Locrian">Represents the concept of the
+      Locrian mode.</definition>
+    </concept>
+  </category>
+</mica>

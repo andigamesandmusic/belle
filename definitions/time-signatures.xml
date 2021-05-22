@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Time Signatures">Contains time signature types.
+    </definition>
+
+    <concept uuid="en:Beats">
+      <identifier lang="en">Beats</identifier>
+      <definition lang="en" name="Beats">Indicates the number of beats in a
+        measure.</definition>
+    </concept>
+
+    <concept uuid="en:NoteValue">
+      <identifier lang="en">NoteValue</identifier>
+      <definition lang="en" name="Note Value">Indicates a note value.</definition>
+    </concept>
+    
+    <concept uuid="en:CommonTime">
+      <identifier lang="en">CommonTime</identifier>
+      <definition lang="en" name="Common Time">Indicates a styled c normally taken to mean a time signature of 4/4.</definition>
+    </concept>
+
+    <concept uuid="en:CutTime">
+      <identifier lang="en">CutTime</identifier>
+      <definition lang="en" name="Cut Time">Indicates a styled c with vertical stroke normally taken to mean a time signature of 2/2.</definition>
+    </concept>
+
+    <concept uuid="en:RegularTimeSignature">
+      <identifier lang="en">RegularTimeSignature</identifier>
+      <definition lang="en" name="Regular Time Signature">Indicates a time signature expressed as a whole numerator over a whole denominator such as 6 over 8.</definition>
+    </concept>
+    
+    <concept uuid="en:OpenTimeSignature">
+      <identifier lang="en">OpenTimeSignature</identifier>
+      <definition lang="en" name="Open Time Signature">Indicates an open time signature (i.e. senza misura).</definition>
+    </concept>
+    
+    <concept uuid="en:SingleNumberTimeSignature">
+      <identifier lang="en">SingleNumberTimeSignature</identifier>
+      <definition lang="en" name="Single Number Time Signature">Indicates a time signature expressed with a single number numerator and no denominator.</definition>
+    </concept>
+
+    <concept uuid="en:AdditiveTimeSignature">
+      <identifier lang="en">AdditiveTimeSignature</identifier>
+      <definition lang="en" name="Additive Time Signature">Indicates a time signature expressed as a sum of whole numbers for the numerator over a whole denominator such as 3+2+3 over 8.</definition>
+    </concept>
+
+    <concept uuid="en:FractionalTimeSignature">
+      <identifier lang="en">FractionalTimeSignature</identifier>
+      <definition lang="en" name="Fractional Time Signature">Indicates a time signature expressed as a fractional number for the numerator over a whole denominator such as 3 1/2 over 8.</definition>
+    </concept>
+
+  </category>
+</mica>

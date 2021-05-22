@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:CTripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat_1 en:Accidental en:Flat</map>
+  <map>en:C_1 en:Accidental en:Natural</map>
+  <map>en:CSharp_1 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat_1 en:Accidental en:Flat</map>
+  <map>en:D_1 en:Accidental en:Natural</map>
+  <map>en:DSharp_1 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat_1 en:Accidental en:Flat</map>
+  <map>en:E_1 en:Accidental en:Natural</map>
+  <map>en:ESharp_1 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat_1 en:Accidental en:Flat</map>
+  <map>en:F_1 en:Accidental en:Natural</map>
+  <map>en:FSharp_1 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat_1 en:Accidental en:Flat</map>
+  <map>en:G_1 en:Accidental en:Natural</map>
+  <map>en:GSharp_1 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat_1 en:Accidental en:Flat</map>
+  <map>en:A_1 en:Accidental en:Natural</map>
+  <map>en:ASharp_1 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat_1 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat_1 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat_1 en:Accidental en:Flat</map>
+  <map>en:B_1 en:Accidental en:Natural</map>
+  <map>en:BSharp_1 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp_1 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp_1 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat0 en:Accidental en:Flat</map>
+  <map>en:C0 en:Accidental en:Natural</map>
+  <map>en:CSharp0 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat0 en:Accidental en:Flat</map>
+  <map>en:D0 en:Accidental en:Natural</map>
+  <map>en:DSharp0 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat0 en:Accidental en:Flat</map>
+  <map>en:E0 en:Accidental en:Natural</map>
+  <map>en:ESharp0 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat0 en:Accidental en:Flat</map>
+  <map>en:F0 en:Accidental en:Natural</map>
+  <map>en:FSharp0 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat0 en:Accidental en:Flat</map>
+  <map>en:G0 en:Accidental en:Natural</map>
+  <map>en:GSharp0 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat0 en:Accidental en:Flat</map>
+  <map>en:A0 en:Accidental en:Natural</map>
+  <map>en:ASharp0 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat0 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat0 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat0 en:Accidental en:Flat</map>
+  <map>en:B0 en:Accidental en:Natural</map>
+  <map>en:BSharp0 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp0 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp0 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat1 en:Accidental en:Flat</map>
+  <map>en:C1 en:Accidental en:Natural</map>
+  <map>en:CSharp1 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat1 en:Accidental en:Flat</map>
+  <map>en:D1 en:Accidental en:Natural</map>
+  <map>en:DSharp1 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat1 en:Accidental en:Flat</map>
+  <map>en:E1 en:Accidental en:Natural</map>
+  <map>en:ESharp1 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat1 en:Accidental en:Flat</map>
+  <map>en:F1 en:Accidental en:Natural</map>
+  <map>en:FSharp1 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat1 en:Accidental en:Flat</map>
+  <map>en:G1 en:Accidental en:Natural</map>
+  <map>en:GSharp1 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat1 en:Accidental en:Flat</map>
+  <map>en:A1 en:Accidental en:Natural</map>
+  <map>en:ASharp1 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat1 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat1 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat1 en:Accidental en:Flat</map>
+  <map>en:B1 en:Accidental en:Natural</map>
+  <map>en:BSharp1 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp1 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp1 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat2 en:Accidental en:Flat</map>
+  <map>en:C2 en:Accidental en:Natural</map>
+  <map>en:CSharp2 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat2 en:Accidental en:Flat</map>
+  <map>en:D2 en:Accidental en:Natural</map>
+  <map>en:DSharp2 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat2 en:Accidental en:Flat</map>
+  <map>en:E2 en:Accidental en:Natural</map>
+  <map>en:ESharp2 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat2 en:Accidental en:Flat</map>
+  <map>en:F2 en:Accidental en:Natural</map>
+  <map>en:FSharp2 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat2 en:Accidental en:Flat</map>
+  <map>en:G2 en:Accidental en:Natural</map>
+  <map>en:GSharp2 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat2 en:Accidental en:Flat</map>
+  <map>en:A2 en:Accidental en:Natural</map>
+  <map>en:ASharp2 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat2 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat2 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat2 en:Accidental en:Flat</map>
+  <map>en:B2 en:Accidental en:Natural</map>
+  <map>en:BSharp2 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp2 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp2 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat3 en:Accidental en:Flat</map>
+  <map>en:C3 en:Accidental en:Natural</map>
+  <map>en:CSharp3 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat3 en:Accidental en:Flat</map>
+  <map>en:D3 en:Accidental en:Natural</map>
+  <map>en:DSharp3 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat3 en:Accidental en:Flat</map>
+  <map>en:E3 en:Accidental en:Natural</map>
+  <map>en:ESharp3 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat3 en:Accidental en:Flat</map>
+  <map>en:F3 en:Accidental en:Natural</map>
+  <map>en:FSharp3 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat3 en:Accidental en:Flat</map>
+  <map>en:G3 en:Accidental en:Natural</map>
+  <map>en:GSharp3 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat3 en:Accidental en:Flat</map>
+  <map>en:A3 en:Accidental en:Natural</map>
+  <map>en:ASharp3 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat3 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat3 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat3 en:Accidental en:Flat</map>
+  <map>en:B3 en:Accidental en:Natural</map>
+  <map>en:BSharp3 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp3 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp3 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat4 en:Accidental en:Flat</map>
+  <map>en:C4 en:Accidental en:Natural</map>
+  <map>en:CSharp4 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat4 en:Accidental en:Flat</map>
+  <map>en:D4 en:Accidental en:Natural</map>
+  <map>en:DSharp4 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat4 en:Accidental en:Flat</map>
+  <map>en:E4 en:Accidental en:Natural</map>
+  <map>en:ESharp4 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat4 en:Accidental en:Flat</map>
+  <map>en:F4 en:Accidental en:Natural</map>
+  <map>en:FSharp4 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat4 en:Accidental en:Flat</map>
+  <map>en:G4 en:Accidental en:Natural</map>
+  <map>en:GSharp4 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat4 en:Accidental en:Flat</map>
+  <map>en:A4 en:Accidental en:Natural</map>
+  <map>en:ASharp4 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat4 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat4 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat4 en:Accidental en:Flat</map>
+  <map>en:B4 en:Accidental en:Natural</map>
+  <map>en:BSharp4 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp4 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp4 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat5 en:Accidental en:Flat</map>
+  <map>en:C5 en:Accidental en:Natural</map>
+  <map>en:CSharp5 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat5 en:Accidental en:Flat</map>
+  <map>en:D5 en:Accidental en:Natural</map>
+  <map>en:DSharp5 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat5 en:Accidental en:Flat</map>
+  <map>en:E5 en:Accidental en:Natural</map>
+  <map>en:ESharp5 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat5 en:Accidental en:Flat</map>
+  <map>en:F5 en:Accidental en:Natural</map>
+  <map>en:FSharp5 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat5 en:Accidental en:Flat</map>
+  <map>en:G5 en:Accidental en:Natural</map>
+  <map>en:GSharp5 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat5 en:Accidental en:Flat</map>
+  <map>en:A5 en:Accidental en:Natural</map>
+  <map>en:ASharp5 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat5 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat5 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat5 en:Accidental en:Flat</map>
+  <map>en:B5 en:Accidental en:Natural</map>
+  <map>en:BSharp5 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp5 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp5 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat6 en:Accidental en:Flat</map>
+  <map>en:C6 en:Accidental en:Natural</map>
+  <map>en:CSharp6 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat6 en:Accidental en:Flat</map>
+  <map>en:D6 en:Accidental en:Natural</map>
+  <map>en:DSharp6 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat6 en:Accidental en:Flat</map>
+  <map>en:E6 en:Accidental en:Natural</map>
+  <map>en:ESharp6 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat6 en:Accidental en:Flat</map>
+  <map>en:F6 en:Accidental en:Natural</map>
+  <map>en:FSharp6 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat6 en:Accidental en:Flat</map>
+  <map>en:G6 en:Accidental en:Natural</map>
+  <map>en:GSharp6 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat6 en:Accidental en:Flat</map>
+  <map>en:A6 en:Accidental en:Natural</map>
+  <map>en:ASharp6 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat6 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat6 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat6 en:Accidental en:Flat</map>
+  <map>en:B6 en:Accidental en:Natural</map>
+  <map>en:BSharp6 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp6 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp6 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat7 en:Accidental en:Flat</map>
+  <map>en:C7 en:Accidental en:Natural</map>
+  <map>en:CSharp7 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat7 en:Accidental en:Flat</map>
+  <map>en:D7 en:Accidental en:Natural</map>
+  <map>en:DSharp7 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat7 en:Accidental en:Flat</map>
+  <map>en:E7 en:Accidental en:Natural</map>
+  <map>en:ESharp7 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat7 en:Accidental en:Flat</map>
+  <map>en:F7 en:Accidental en:Natural</map>
+  <map>en:FSharp7 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat7 en:Accidental en:Flat</map>
+  <map>en:G7 en:Accidental en:Natural</map>
+  <map>en:GSharp7 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat7 en:Accidental en:Flat</map>
+  <map>en:A7 en:Accidental en:Natural</map>
+  <map>en:ASharp7 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat7 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat7 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat7 en:Accidental en:Flat</map>
+  <map>en:B7 en:Accidental en:Natural</map>
+  <map>en:BSharp7 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp7 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp7 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat8 en:Accidental en:Flat</map>
+  <map>en:C8 en:Accidental en:Natural</map>
+  <map>en:CSharp8 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat8 en:Accidental en:Flat</map>
+  <map>en:D8 en:Accidental en:Natural</map>
+  <map>en:DSharp8 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat8 en:Accidental en:Flat</map>
+  <map>en:E8 en:Accidental en:Natural</map>
+  <map>en:ESharp8 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat8 en:Accidental en:Flat</map>
+  <map>en:F8 en:Accidental en:Natural</map>
+  <map>en:FSharp8 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat8 en:Accidental en:Flat</map>
+  <map>en:G8 en:Accidental en:Natural</map>
+  <map>en:GSharp8 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat8 en:Accidental en:Flat</map>
+  <map>en:A8 en:Accidental en:Natural</map>
+  <map>en:ASharp8 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat8 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat8 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat8 en:Accidental en:Flat</map>
+  <map>en:B8 en:Accidental en:Natural</map>
+  <map>en:BSharp8 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp8 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp8 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat9 en:Accidental en:Flat</map>
+  <map>en:C9 en:Accidental en:Natural</map>
+  <map>en:CSharp9 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat9 en:Accidental en:Flat</map>
+  <map>en:D9 en:Accidental en:Natural</map>
+  <map>en:DSharp9 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat9 en:Accidental en:Flat</map>
+  <map>en:E9 en:Accidental en:Natural</map>
+  <map>en:ESharp9 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat9 en:Accidental en:Flat</map>
+  <map>en:F9 en:Accidental en:Natural</map>
+  <map>en:FSharp9 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat9 en:Accidental en:Flat</map>
+  <map>en:G9 en:Accidental en:Natural</map>
+  <map>en:GSharp9 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat9 en:Accidental en:Flat</map>
+  <map>en:A9 en:Accidental en:Natural</map>
+  <map>en:ASharp9 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat9 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat9 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat9 en:Accidental en:Flat</map>
+  <map>en:B9 en:Accidental en:Natural</map>
+  <map>en:BSharp9 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp9 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp9 en:Accidental en:TripleSharp</map>
+
+  <map>en:CTripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat10 en:Accidental en:Flat</map>
+  <map>en:C10 en:Accidental en:Natural</map>
+  <map>en:CSharp10 en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat10 en:Accidental en:Flat</map>
+  <map>en:D10 en:Accidental en:Natural</map>
+  <map>en:DSharp10 en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat10 en:Accidental en:Flat</map>
+  <map>en:E10 en:Accidental en:Natural</map>
+  <map>en:ESharp10 en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat10 en:Accidental en:Flat</map>
+  <map>en:F10 en:Accidental en:Natural</map>
+  <map>en:FSharp10 en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat10 en:Accidental en:Flat</map>
+  <map>en:G10 en:Accidental en:Natural</map>
+  <map>en:GSharp10 en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat10 en:Accidental en:Flat</map>
+  <map>en:A10 en:Accidental en:Natural</map>
+  <map>en:ASharp10 en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp10 en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat10 en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat10 en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat10 en:Accidental en:Flat</map>
+  <map>en:B10 en:Accidental en:Natural</map>
+  <map>en:BSharp10 en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp10 en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp10 en:Accidental en:TripleSharp</map>
+</mica>

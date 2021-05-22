@@ -1,0 +1,13 @@
+<graph>
+  <node id="0" root="root" en:Type="en:Island">
+    <edge to="3" en:Type="en:Partwise"/>
+    <edge to="1" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="1" en:Type="en:Island">
+    <edge to="2" en:Type="en:Partwise"/>
+  </node>
+  <node id="2" en:Type="en:Island">
+    <edge to="3" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="3" en:Type="en:Island"/>
+</graph>

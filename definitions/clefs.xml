@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Clefs">Contains positioned clefs.
+    </definition>
+
+    <concept uuid="en:TrebleClef">
+      <identifier lang="en">TrebleClef</identifier>
+      <definition lang="en" name="Treble Clef">G clef on staff position -2.</definition>
+    </concept>
+
+    <concept uuid="en:BassClef">
+      <identifier lang="en">BassClef</identifier>
+      <definition lang="en" name="Bass Clef">F clef on staff position 2.</definition>
+    </concept>
+
+    <concept uuid="en:AltoClef">
+      <identifier lang="en">AltoClef</identifier>
+      <definition lang="en" name="Alto Clef">C clef on staff position 0.</definition>
+    </concept>
+
+    <concept uuid="en:TenorClef">
+      <identifier lang="en">TenorClef</identifier>
+      <definition lang="en" name="Tenor Clef">C clef on staff position 2.</definition>
+    </concept>
+
+    <concept uuid="en:Treble8vaClef">
+      <identifier lang="en">Treble8vaClef</identifier>
+      <definition lang="en" name="Treble 8va Clef">G super 8 clef on staff position -2.</definition>
+    </concept>
+
+    <concept uuid="en:Treble15maClef">
+      <identifier lang="en">Treble15maClef</identifier>
+      <definition lang="en" name="Treble 15ma Clef">G super 15 clef on staff position -2.</definition>
+    </concept>
+
+    <concept uuid="en:Bass8vaClef">
+      <identifier lang="en">Bass8vaClef</identifier>
+      <definition lang="en" name="Bass 8va Clef">F sub 8 clef on staff position 2.</definition>
+    </concept>
+
+    <concept uuid="en:Bass15maClef">
+      <identifier lang="en">Bass15maClef</identifier>
+      <definition lang="en" name="Bass 15ma Clef">F sub 15 clef on staff position 2.</definition>
+    </concept>
+
+    <concept uuid="en:PercussionClef">
+      <identifier lang="en">PercussionClef</identifier>
+      <definition lang="en" name="Percussion Clef">Barred neutral clef on staff position 0.</definition>
+    </concept>
+
+    <concept uuid="en:SopranoClef">
+      <identifier lang="en">SopranoClef</identifier>
+      <definition lang="en" name="Soprano Clef">C clef on staff position -4.</definition>
+    </concept>
+
+    <concept uuid="en:MezzoSopranoClef">
+      <identifier lang="en">MezzoSopranoClef</identifier>
+      <definition lang="en" name="Mezzo-Soprano Clef">C clef on staff position -2.</definition>
+    </concept>
+
+    <concept uuid="en:TenorVoiceClef">
+      <identifier lang="en">TenorVoiceClef</identifier>
+      <definition lang="en" name="Tenor Voice Clef">G sub 8 clef on staff position -2.</definition>
+    </concept>
+
+    <concept uuid="en:BaritoneCClef">
+      <identifier lang="en">BaritoneCClef</identifier>
+      <definition lang="en" name="Baritone C Clef">C clef on staff position 4.</definition>
+    </concept>
+
+    <concept uuid="en:BaritoneFClef">
+      <identifier lang="en">BaritoneFClef</identifier>
+      <definition lang="en" name="Baritone F Clef">F clef on staff position 0.</definition>
+    </concept>
+
+    <concept uuid="en:SubBassClef">
+      <identifier lang="en">SubBassClef</identifier>
+      <definition lang="en" name="Sub-Bass Clef">F clef on staff position 4.</definition>
+    </concept>
+
+    <concept uuid="en:FrenchViolinClef">
+      <identifier lang="en">FrenchViolinClef</identifier>
+      <definition lang="en" name="French Violin Clef">G clef on staff position -4.</definition>
+    </concept>
+
+  </category>
+
+  <map>en:StaffPosition en:TrebleClef -2</map>
+  <map>en:Symbol en:TrebleClef en:GClef</map>
+  
+  <map>en:StaffPosition en:BassClef 2</map>
+  <map>en:Symbol en:BassClef en:FClef</map>
+  
+  <map>en:StaffPosition en:AltoClef 0</map>
+  <map>en:Symbol en:AltoClef en:CClef</map>
+  
+  <map>en:StaffPosition en:TenorClef 2</map>
+  <map>en:Symbol en:TenorClef en:CClef</map>
+  
+  <map>en:StaffPosition en:Treble8vaClef -2</map>
+  <map>en:Symbol en:Treble8vaClef en:GSuper8Clef</map>
+  
+  <map>en:StaffPosition en:Treble15maClef -2</map>
+  <map>en:Symbol en:Treble15maClef en:GSuper15Clef</map>
+  
+  <map>en:StaffPosition en:Bass8vaClef 2</map>
+  <map>en:Symbol en:Bass8vaClef en:FSub8Clef</map>
+  
+  <map>en:StaffPosition en:Bass15maClef 2</map>
+  <map>en:Symbol en:Bass15maClef en:FSub15Clef</map>
+  
+  <map>en:StaffPosition en:PercussionClef 0</map>
+  <map>en:Symbol en:PercussionClef en:BarredNeutralClef</map>
+  
+  <map>en:StaffPosition en:SopranoClef -4</map>
+  <map>en:Symbol en:SopranoClef en:CClef</map>
+  
+  <map>en:StaffPosition en:MezzoSopranoClef -2</map>
+  <map>en:Symbol en:MezzoSopranoClef en:CClef</map>
+  
+  <map>en:StaffPosition en:TenorVoiceClef -2</map>
+  <map>en:Symbol en:TenorVoiceClef en:GSub8Clef</map>
+  
+  <map>en:StaffPosition en:BaritoneCClef 4</map>
+  <map>en:Symbol en:BaritoneCClef en:CClef</map>
+  
+  <map>en:StaffPosition en:BaritoneFClef 0</map>
+  <map>en:Symbol en:BaritoneFClef en:FClef</map>
+  
+  <map>en:StaffPosition en:SubBassClef 4</map>
+  <map>en:Symbol en:SubBassClef en:FClef</map>
+  
+  <map>en:StaffPosition en:FrenchViolinClef -4</map>
+  <map>en:Symbol en:FrenchViolinClef en:GClef</map>
+
+</mica>

@@ -1,0 +1,7 @@
+<graph>
+  <node id="0" root="root" en:Type="en:Island">
+    <edge to="1" en:Type="en:Partwise"/>
+    <edge to="1" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="1" en:Type="en:Island"/>
+</graph>

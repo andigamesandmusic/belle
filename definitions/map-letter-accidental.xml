@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:C en:TripleFlat en:CTripleFlat</map>
+  <map>en:C en:DoubleFlat en:CDoubleFlat</map>
+  <map>en:C en:Flat en:CFlat</map>
+  <map>en:C en:Sharp en:CSharp</map>
+  <map>en:C en:DoubleSharp en:CDoubleSharp</map>
+  <map>en:C en:TripleSharp en:CTripleSharp</map>
+
+  <map>en:D en:TripleFlat en:DTripleFlat</map>
+  <map>en:D en:DoubleFlat en:DDoubleFlat</map>
+  <map>en:D en:Flat en:DFlat</map>
+  <map>en:D en:Sharp en:DSharp</map>
+  <map>en:D en:DoubleSharp en:DDoubleSharp</map>
+  <map>en:D en:TripleSharp en:DTripleSharp</map>
+
+  <map>en:E en:TripleFlat en:ETripleFlat</map>
+  <map>en:E en:DoubleFlat en:EDoubleFlat</map>
+  <map>en:E en:Flat en:EFlat</map>
+  <map>en:E en:Sharp en:ESharp</map>
+  <map>en:E en:DoubleSharp en:EDoubleSharp</map>
+  <map>en:E en:TripleSharp en:ETripleSharp</map>
+
+  <map>en:F en:TripleFlat en:FTripleFlat</map>
+  <map>en:F en:DoubleFlat en:FDoubleFlat</map>
+  <map>en:F en:Flat en:FFlat</map>
+  <map>en:F en:Sharp en:FSharp</map>
+  <map>en:F en:DoubleSharp en:FDoubleSharp</map>
+  <map>en:F en:TripleSharp en:FTripleSharp</map>
+
+  <map>en:G en:TripleFlat en:GTripleFlat</map>
+  <map>en:G en:DoubleFlat en:GDoubleFlat</map>
+  <map>en:G en:Flat en:GFlat</map>
+  <map>en:G en:Sharp en:GSharp</map>
+  <map>en:G en:DoubleSharp en:GDoubleSharp</map>
+  <map>en:G en:TripleSharp en:GTripleSharp</map>
+
+  <map>en:A en:TripleFlat en:ATripleFlat</map>
+  <map>en:A en:DoubleFlat en:ADoubleFlat</map>
+  <map>en:A en:Flat en:AFlat</map>
+  <map>en:A en:Sharp en:ASharp</map>
+  <map>en:A en:DoubleSharp en:ADoubleSharp</map>
+  <map>en:A en:TripleSharp en:ATripleSharp</map>
+
+  <map>en:B en:TripleFlat en:BTripleFlat</map>
+  <map>en:B en:DoubleFlat en:BDoubleFlat</map>
+  <map>en:B en:Flat en:BFlat</map>
+  <map>en:B en:Sharp en:BSharp</map>
+  <map>en:B en:DoubleSharp en:BDoubleSharp</map>
+  <map>en:B en:TripleSharp en:BTripleSharp</map>
+</mica>

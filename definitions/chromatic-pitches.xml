@@ -1,0 +1,3545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Chromatic Pitches">Contains chromatic
+    pitches over a large practical range.</definition>
+
+    <concept uuid="en:CTripleFlat_1">
+      <identifier lang="en">CTripleFlat_1</identifier>
+      <definition lang="en" name="C-1 triple-flat">Represents the pitch
+        C-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat_1">
+      <identifier lang="en">CDoubleFlat_1</identifier>
+      <definition lang="en" name="C-1 double-flat">Represents the pitch
+        C-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat_1">
+      <identifier lang="en">CFlat_1</identifier>
+      <definition lang="en" name="C-1 flat">Represents the pitch
+        C-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C_1">
+      <identifier lang="en">C_1</identifier>
+      <definition lang="en" name="C-1">Represents the pitch
+        C-1.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp_1">
+      <identifier lang="en">CSharp_1</identifier>
+      <definition lang="en" name="C-1 sharp">Represents the pitch
+        C-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp_1">
+      <identifier lang="en">CDoubleSharp_1</identifier>
+      <definition lang="en" name="C-1 double-sharp">Represents the pitch
+        C-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp_1">
+      <identifier lang="en">CTripleSharp_1</identifier>
+      <definition lang="en" name="C-1 triple-sharp">Represents the pitch
+        C-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat_1">
+      <identifier lang="en">DTripleFlat_1</identifier>
+      <definition lang="en" name="D-1 triple-flat">Represents the pitch
+        D-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat_1">
+      <identifier lang="en">DDoubleFlat_1</identifier>
+      <definition lang="en" name="D-1 double-flat">Represents the pitch
+        D-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat_1">
+      <identifier lang="en">DFlat_1</identifier>
+      <definition lang="en" name="D-1 flat">Represents the pitch
+        D-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D_1">
+      <identifier lang="en">D_1</identifier>
+      <definition lang="en" name="D-1">Represents the pitch
+        D-1.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp_1">
+      <identifier lang="en">DSharp_1</identifier>
+      <definition lang="en" name="D-1 sharp">Represents the pitch
+        D-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp_1">
+      <identifier lang="en">DDoubleSharp_1</identifier>
+      <definition lang="en" name="D-1 double-sharp">Represents the pitch
+        D-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp_1">
+      <identifier lang="en">DTripleSharp_1</identifier>
+      <definition lang="en" name="D-1 triple-sharp">Represents the pitch
+        D-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat_1">
+      <identifier lang="en">ETripleFlat_1</identifier>
+      <definition lang="en" name="E-1 triple-flat">Represents the pitch
+        E-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat_1">
+      <identifier lang="en">EDoubleFlat_1</identifier>
+      <definition lang="en" name="E-1 double-flat">Represents the pitch
+        E-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat_1">
+      <identifier lang="en">EFlat_1</identifier>
+      <definition lang="en" name="E-1 flat">Represents the pitch
+        E-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E_1">
+      <identifier lang="en">E_1</identifier>
+      <definition lang="en" name="E-1">Represents the pitch
+        E-1.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp_1">
+      <identifier lang="en">ESharp_1</identifier>
+      <definition lang="en" name="E-1 sharp">Represents the pitch
+        E-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp_1">
+      <identifier lang="en">EDoubleSharp_1</identifier>
+      <definition lang="en" name="E-1 double-sharp">Represents the pitch
+        E-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp_1">
+      <identifier lang="en">ETripleSharp_1</identifier>
+      <definition lang="en" name="E-1 triple-sharp">Represents the pitch
+        E-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat_1">
+      <identifier lang="en">FTripleFlat_1</identifier>
+      <definition lang="en" name="F-1 triple-flat">Represents the pitch
+        F-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat_1">
+      <identifier lang="en">FDoubleFlat_1</identifier>
+      <definition lang="en" name="F-1 double-flat">Represents the pitch
+        F-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat_1">
+      <identifier lang="en">FFlat_1</identifier>
+      <definition lang="en" name="F-1 flat">Represents the pitch
+        F-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F_1">
+      <identifier lang="en">F_1</identifier>
+      <definition lang="en" name="F-1">Represents the pitch
+        F-1.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp_1">
+      <identifier lang="en">FSharp_1</identifier>
+      <definition lang="en" name="F-1 sharp">Represents the pitch
+        F-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp_1">
+      <identifier lang="en">FDoubleSharp_1</identifier>
+      <definition lang="en" name="F-1 double-sharp">Represents the pitch
+        F-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp_1">
+      <identifier lang="en">FTripleSharp_1</identifier>
+      <definition lang="en" name="F-1 triple-sharp">Represents the pitch
+        F-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat_1">
+      <identifier lang="en">GTripleFlat_1</identifier>
+      <definition lang="en" name="G-1 triple-flat">Represents the pitch
+        G-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat_1">
+      <identifier lang="en">GDoubleFlat_1</identifier>
+      <definition lang="en" name="G-1 double-flat">Represents the pitch
+        G-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat_1">
+      <identifier lang="en">GFlat_1</identifier>
+      <definition lang="en" name="G-1 flat">Represents the pitch
+        G-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G_1">
+      <identifier lang="en">G_1</identifier>
+      <definition lang="en" name="G-1">Represents the pitch
+        G-1.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp_1">
+      <identifier lang="en">GSharp_1</identifier>
+      <definition lang="en" name="G-1 sharp">Represents the pitch
+        G-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp_1">
+      <identifier lang="en">GDoubleSharp_1</identifier>
+      <definition lang="en" name="G-1 double-sharp">Represents the pitch
+        G-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp_1">
+      <identifier lang="en">GTripleSharp_1</identifier>
+      <definition lang="en" name="G-1 triple-sharp">Represents the pitch
+        G-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat_1">
+      <identifier lang="en">ATripleFlat_1</identifier>
+      <definition lang="en" name="A-1 triple-flat">Represents the pitch
+        A-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat_1">
+      <identifier lang="en">ADoubleFlat_1</identifier>
+      <definition lang="en" name="A-1 double-flat">Represents the pitch
+        A-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat_1">
+      <identifier lang="en">AFlat_1</identifier>
+      <definition lang="en" name="A-1 flat">Represents the pitch
+        A-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A_1">
+      <identifier lang="en">A_1</identifier>
+      <definition lang="en" name="A-1">Represents the pitch
+        A-1.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp_1">
+      <identifier lang="en">ASharp_1</identifier>
+      <definition lang="en" name="A-1 sharp">Represents the pitch
+        A-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp_1">
+      <identifier lang="en">ADoubleSharp_1</identifier>
+      <definition lang="en" name="A-1 double-sharp">Represents the pitch
+        A-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp_1">
+      <identifier lang="en">ATripleSharp_1</identifier>
+      <definition lang="en" name="A-1 triple-sharp">Represents the pitch
+        A-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat_1">
+      <identifier lang="en">BTripleFlat_1</identifier>
+      <definition lang="en" name="B-1 triple-flat">Represents the pitch
+        B-1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat_1">
+      <identifier lang="en">BDoubleFlat_1</identifier>
+      <definition lang="en" name="B-1 double-flat">Represents the pitch
+        B-1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat_1">
+      <identifier lang="en">BFlat_1</identifier>
+      <definition lang="en" name="B-1 flat">Represents the pitch
+        B-1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B_1">
+      <identifier lang="en">B_1</identifier>
+      <definition lang="en" name="B-1">Represents the pitch
+        B-1.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp_1">
+      <identifier lang="en">BSharp_1</identifier>
+      <definition lang="en" name="B-1 sharp">Represents the pitch
+        B-1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp_1">
+      <identifier lang="en">BDoubleSharp_1</identifier>
+      <definition lang="en" name="B-1 double-sharp">Represents the pitch
+        B-1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp_1">
+      <identifier lang="en">BTripleSharp_1</identifier>
+      <definition lang="en" name="B-1 triple-sharp">Represents the pitch
+        B-1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat0">
+      <identifier lang="en">CTripleFlat0</identifier>
+      <definition lang="en" name="C0 triple-flat">Represents the pitch
+        C0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat0">
+      <identifier lang="en">CDoubleFlat0</identifier>
+      <definition lang="en" name="C0 double-flat">Represents the pitch
+        C0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat0">
+      <identifier lang="en">CFlat0</identifier>
+      <definition lang="en" name="C0 flat">Represents the pitch
+        C0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C0">
+      <identifier lang="en">C0</identifier>
+      <definition lang="en" name="C0">Represents the pitch
+        C0.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp0">
+      <identifier lang="en">CSharp0</identifier>
+      <definition lang="en" name="C0 sharp">Represents the pitch
+        C0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp0">
+      <identifier lang="en">CDoubleSharp0</identifier>
+      <definition lang="en" name="C0 double-sharp">Represents the pitch
+        C0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp0">
+      <identifier lang="en">CTripleSharp0</identifier>
+      <definition lang="en" name="C0 triple-sharp">Represents the pitch
+        C0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat0">
+      <identifier lang="en">DTripleFlat0</identifier>
+      <definition lang="en" name="D0 triple-flat">Represents the pitch
+        D0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat0">
+      <identifier lang="en">DDoubleFlat0</identifier>
+      <definition lang="en" name="D0 double-flat">Represents the pitch
+        D0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat0">
+      <identifier lang="en">DFlat0</identifier>
+      <definition lang="en" name="D0 flat">Represents the pitch
+        D0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D0">
+      <identifier lang="en">D0</identifier>
+      <definition lang="en" name="D0">Represents the pitch
+        D0.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp0">
+      <identifier lang="en">DSharp0</identifier>
+      <definition lang="en" name="D0 sharp">Represents the pitch
+        D0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp0">
+      <identifier lang="en">DDoubleSharp0</identifier>
+      <definition lang="en" name="D0 double-sharp">Represents the pitch
+        D0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp0">
+      <identifier lang="en">DTripleSharp0</identifier>
+      <definition lang="en" name="D0 triple-sharp">Represents the pitch
+        D0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat0">
+      <identifier lang="en">ETripleFlat0</identifier>
+      <definition lang="en" name="E0 triple-flat">Represents the pitch
+        E0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat0">
+      <identifier lang="en">EDoubleFlat0</identifier>
+      <definition lang="en" name="E0 double-flat">Represents the pitch
+        E0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat0">
+      <identifier lang="en">EFlat0</identifier>
+      <definition lang="en" name="E0 flat">Represents the pitch
+        E0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E0">
+      <identifier lang="en">E0</identifier>
+      <definition lang="en" name="E0">Represents the pitch
+        E0.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp0">
+      <identifier lang="en">ESharp0</identifier>
+      <definition lang="en" name="E0 sharp">Represents the pitch
+        E0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp0">
+      <identifier lang="en">EDoubleSharp0</identifier>
+      <definition lang="en" name="E0 double-sharp">Represents the pitch
+        E0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp0">
+      <identifier lang="en">ETripleSharp0</identifier>
+      <definition lang="en" name="E0 triple-sharp">Represents the pitch
+        E0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat0">
+      <identifier lang="en">FTripleFlat0</identifier>
+      <definition lang="en" name="F0 triple-flat">Represents the pitch
+        F0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat0">
+      <identifier lang="en">FDoubleFlat0</identifier>
+      <definition lang="en" name="F0 double-flat">Represents the pitch
+        F0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat0">
+      <identifier lang="en">FFlat0</identifier>
+      <definition lang="en" name="F0 flat">Represents the pitch
+        F0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F0">
+      <identifier lang="en">F0</identifier>
+      <definition lang="en" name="F0">Represents the pitch
+        F0.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp0">
+      <identifier lang="en">FSharp0</identifier>
+      <definition lang="en" name="F0 sharp">Represents the pitch
+        F0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp0">
+      <identifier lang="en">FDoubleSharp0</identifier>
+      <definition lang="en" name="F0 double-sharp">Represents the pitch
+        F0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp0">
+      <identifier lang="en">FTripleSharp0</identifier>
+      <definition lang="en" name="F0 triple-sharp">Represents the pitch
+        F0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat0">
+      <identifier lang="en">GTripleFlat0</identifier>
+      <definition lang="en" name="G0 triple-flat">Represents the pitch
+        G0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat0">
+      <identifier lang="en">GDoubleFlat0</identifier>
+      <definition lang="en" name="G0 double-flat">Represents the pitch
+        G0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat0">
+      <identifier lang="en">GFlat0</identifier>
+      <definition lang="en" name="G0 flat">Represents the pitch
+        G0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G0">
+      <identifier lang="en">G0</identifier>
+      <definition lang="en" name="G0">Represents the pitch
+        G0.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp0">
+      <identifier lang="en">GSharp0</identifier>
+      <definition lang="en" name="G0 sharp">Represents the pitch
+        G0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp0">
+      <identifier lang="en">GDoubleSharp0</identifier>
+      <definition lang="en" name="G0 double-sharp">Represents the pitch
+        G0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp0">
+      <identifier lang="en">GTripleSharp0</identifier>
+      <definition lang="en" name="G0 triple-sharp">Represents the pitch
+        G0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat0">
+      <identifier lang="en">ATripleFlat0</identifier>
+      <definition lang="en" name="A0 triple-flat">Represents the pitch
+        A0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat0">
+      <identifier lang="en">ADoubleFlat0</identifier>
+      <definition lang="en" name="A0 double-flat">Represents the pitch
+        A0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat0">
+      <identifier lang="en">AFlat0</identifier>
+      <definition lang="en" name="A0 flat">Represents the pitch
+        A0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A0">
+      <identifier lang="en">A0</identifier>
+      <definition lang="en" name="A0">Represents the pitch
+        A0.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp0">
+      <identifier lang="en">ASharp0</identifier>
+      <definition lang="en" name="A0 sharp">Represents the pitch
+        A0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp0">
+      <identifier lang="en">ADoubleSharp0</identifier>
+      <definition lang="en" name="A0 double-sharp">Represents the pitch
+        A0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp0">
+      <identifier lang="en">ATripleSharp0</identifier>
+      <definition lang="en" name="A0 triple-sharp">Represents the pitch
+        A0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat0">
+      <identifier lang="en">BTripleFlat0</identifier>
+      <definition lang="en" name="B0 triple-flat">Represents the pitch
+        B0 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat0">
+      <identifier lang="en">BDoubleFlat0</identifier>
+      <definition lang="en" name="B0 double-flat">Represents the pitch
+        B0 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat0">
+      <identifier lang="en">BFlat0</identifier>
+      <definition lang="en" name="B0 flat">Represents the pitch
+        B0 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B0">
+      <identifier lang="en">B0</identifier>
+      <definition lang="en" name="B0">Represents the pitch
+        B0.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp0">
+      <identifier lang="en">BSharp0</identifier>
+      <definition lang="en" name="B0 sharp">Represents the pitch
+        B0 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp0">
+      <identifier lang="en">BDoubleSharp0</identifier>
+      <definition lang="en" name="B0 double-sharp">Represents the pitch
+        B0 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp0">
+      <identifier lang="en">BTripleSharp0</identifier>
+      <definition lang="en" name="B0 triple-sharp">Represents the pitch
+        B0 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat1">
+      <identifier lang="en">CTripleFlat1</identifier>
+      <definition lang="en" name="C1 triple-flat">Represents the pitch
+        C1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat1">
+      <identifier lang="en">CDoubleFlat1</identifier>
+      <definition lang="en" name="C1 double-flat">Represents the pitch
+        C1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat1">
+      <identifier lang="en">CFlat1</identifier>
+      <definition lang="en" name="C1 flat">Represents the pitch
+        C1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C1">
+      <identifier lang="en">C1</identifier>
+      <definition lang="en" name="C1">Represents the pitch
+        C1.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp1">
+      <identifier lang="en">CSharp1</identifier>
+      <definition lang="en" name="C1 sharp">Represents the pitch
+        C1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp1">
+      <identifier lang="en">CDoubleSharp1</identifier>
+      <definition lang="en" name="C1 double-sharp">Represents the pitch
+        C1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp1">
+      <identifier lang="en">CTripleSharp1</identifier>
+      <definition lang="en" name="C1 triple-sharp">Represents the pitch
+        C1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat1">
+      <identifier lang="en">DTripleFlat1</identifier>
+      <definition lang="en" name="D1 triple-flat">Represents the pitch
+        D1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat1">
+      <identifier lang="en">DDoubleFlat1</identifier>
+      <definition lang="en" name="D1 double-flat">Represents the pitch
+        D1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat1">
+      <identifier lang="en">DFlat1</identifier>
+      <definition lang="en" name="D1 flat">Represents the pitch
+        D1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D1">
+      <identifier lang="en">D1</identifier>
+      <definition lang="en" name="D1">Represents the pitch
+        D1.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp1">
+      <identifier lang="en">DSharp1</identifier>
+      <definition lang="en" name="D1 sharp">Represents the pitch
+        D1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp1">
+      <identifier lang="en">DDoubleSharp1</identifier>
+      <definition lang="en" name="D1 double-sharp">Represents the pitch
+        D1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp1">
+      <identifier lang="en">DTripleSharp1</identifier>
+      <definition lang="en" name="D1 triple-sharp">Represents the pitch
+        D1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat1">
+      <identifier lang="en">ETripleFlat1</identifier>
+      <definition lang="en" name="E1 triple-flat">Represents the pitch
+        E1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat1">
+      <identifier lang="en">EDoubleFlat1</identifier>
+      <definition lang="en" name="E1 double-flat">Represents the pitch
+        E1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat1">
+      <identifier lang="en">EFlat1</identifier>
+      <definition lang="en" name="E1 flat">Represents the pitch
+        E1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E1">
+      <identifier lang="en">E1</identifier>
+      <definition lang="en" name="E1">Represents the pitch
+        E1.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp1">
+      <identifier lang="en">ESharp1</identifier>
+      <definition lang="en" name="E1 sharp">Represents the pitch
+        E1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp1">
+      <identifier lang="en">EDoubleSharp1</identifier>
+      <definition lang="en" name="E1 double-sharp">Represents the pitch
+        E1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp1">
+      <identifier lang="en">ETripleSharp1</identifier>
+      <definition lang="en" name="E1 triple-sharp">Represents the pitch
+        E1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat1">
+      <identifier lang="en">FTripleFlat1</identifier>
+      <definition lang="en" name="F1 triple-flat">Represents the pitch
+        F1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat1">
+      <identifier lang="en">FDoubleFlat1</identifier>
+      <definition lang="en" name="F1 double-flat">Represents the pitch
+        F1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat1">
+      <identifier lang="en">FFlat1</identifier>
+      <definition lang="en" name="F1 flat">Represents the pitch
+        F1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F1">
+      <identifier lang="en">F1</identifier>
+      <definition lang="en" name="F1">Represents the pitch
+        F1.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp1">
+      <identifier lang="en">FSharp1</identifier>
+      <definition lang="en" name="F1 sharp">Represents the pitch
+        F1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp1">
+      <identifier lang="en">FDoubleSharp1</identifier>
+      <definition lang="en" name="F1 double-sharp">Represents the pitch
+        F1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp1">
+      <identifier lang="en">FTripleSharp1</identifier>
+      <definition lang="en" name="F1 triple-sharp">Represents the pitch
+        F1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat1">
+      <identifier lang="en">GTripleFlat1</identifier>
+      <definition lang="en" name="G1 triple-flat">Represents the pitch
+        G1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat1">
+      <identifier lang="en">GDoubleFlat1</identifier>
+      <definition lang="en" name="G1 double-flat">Represents the pitch
+        G1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat1">
+      <identifier lang="en">GFlat1</identifier>
+      <definition lang="en" name="G1 flat">Represents the pitch
+        G1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G1">
+      <identifier lang="en">G1</identifier>
+      <definition lang="en" name="G1">Represents the pitch
+        G1.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp1">
+      <identifier lang="en">GSharp1</identifier>
+      <definition lang="en" name="G1 sharp">Represents the pitch
+        G1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp1">
+      <identifier lang="en">GDoubleSharp1</identifier>
+      <definition lang="en" name="G1 double-sharp">Represents the pitch
+        G1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp1">
+      <identifier lang="en">GTripleSharp1</identifier>
+      <definition lang="en" name="G1 triple-sharp">Represents the pitch
+        G1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat1">
+      <identifier lang="en">ATripleFlat1</identifier>
+      <definition lang="en" name="A1 triple-flat">Represents the pitch
+        A1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat1">
+      <identifier lang="en">ADoubleFlat1</identifier>
+      <definition lang="en" name="A1 double-flat">Represents the pitch
+        A1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat1">
+      <identifier lang="en">AFlat1</identifier>
+      <definition lang="en" name="A1 flat">Represents the pitch
+        A1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A1">
+      <identifier lang="en">A1</identifier>
+      <definition lang="en" name="A1">Represents the pitch
+        A1.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp1">
+      <identifier lang="en">ASharp1</identifier>
+      <definition lang="en" name="A1 sharp">Represents the pitch
+        A1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp1">
+      <identifier lang="en">ADoubleSharp1</identifier>
+      <definition lang="en" name="A1 double-sharp">Represents the pitch
+        A1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp1">
+      <identifier lang="en">ATripleSharp1</identifier>
+      <definition lang="en" name="A1 triple-sharp">Represents the pitch
+        A1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat1">
+      <identifier lang="en">BTripleFlat1</identifier>
+      <definition lang="en" name="B1 triple-flat">Represents the pitch
+        B1 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat1">
+      <identifier lang="en">BDoubleFlat1</identifier>
+      <definition lang="en" name="B1 double-flat">Represents the pitch
+        B1 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat1">
+      <identifier lang="en">BFlat1</identifier>
+      <definition lang="en" name="B1 flat">Represents the pitch
+        B1 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B1">
+      <identifier lang="en">B1</identifier>
+      <definition lang="en" name="B1">Represents the pitch
+        B1.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp1">
+      <identifier lang="en">BSharp1</identifier>
+      <definition lang="en" name="B1 sharp">Represents the pitch
+        B1 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp1">
+      <identifier lang="en">BDoubleSharp1</identifier>
+      <definition lang="en" name="B1 double-sharp">Represents the pitch
+        B1 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp1">
+      <identifier lang="en">BTripleSharp1</identifier>
+      <definition lang="en" name="B1 triple-sharp">Represents the pitch
+        B1 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat2">
+      <identifier lang="en">CTripleFlat2</identifier>
+      <definition lang="en" name="C2 triple-flat">Represents the pitch
+        C2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat2">
+      <identifier lang="en">CDoubleFlat2</identifier>
+      <definition lang="en" name="C2 double-flat">Represents the pitch
+        C2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat2">
+      <identifier lang="en">CFlat2</identifier>
+      <definition lang="en" name="C2 flat">Represents the pitch
+        C2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C2">
+      <identifier lang="en">C2</identifier>
+      <definition lang="en" name="C2">Represents the pitch
+        C2.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp2">
+      <identifier lang="en">CSharp2</identifier>
+      <definition lang="en" name="C2 sharp">Represents the pitch
+        C2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp2">
+      <identifier lang="en">CDoubleSharp2</identifier>
+      <definition lang="en" name="C2 double-sharp">Represents the pitch
+        C2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp2">
+      <identifier lang="en">CTripleSharp2</identifier>
+      <definition lang="en" name="C2 triple-sharp">Represents the pitch
+        C2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat2">
+      <identifier lang="en">DTripleFlat2</identifier>
+      <definition lang="en" name="D2 triple-flat">Represents the pitch
+        D2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat2">
+      <identifier lang="en">DDoubleFlat2</identifier>
+      <definition lang="en" name="D2 double-flat">Represents the pitch
+        D2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat2">
+      <identifier lang="en">DFlat2</identifier>
+      <definition lang="en" name="D2 flat">Represents the pitch
+        D2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D2">
+      <identifier lang="en">D2</identifier>
+      <definition lang="en" name="D2">Represents the pitch
+        D2.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp2">
+      <identifier lang="en">DSharp2</identifier>
+      <definition lang="en" name="D2 sharp">Represents the pitch
+        D2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp2">
+      <identifier lang="en">DDoubleSharp2</identifier>
+      <definition lang="en" name="D2 double-sharp">Represents the pitch
+        D2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp2">
+      <identifier lang="en">DTripleSharp2</identifier>
+      <definition lang="en" name="D2 triple-sharp">Represents the pitch
+        D2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat2">
+      <identifier lang="en">ETripleFlat2</identifier>
+      <definition lang="en" name="E2 triple-flat">Represents the pitch
+        E2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat2">
+      <identifier lang="en">EDoubleFlat2</identifier>
+      <definition lang="en" name="E2 double-flat">Represents the pitch
+        E2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat2">
+      <identifier lang="en">EFlat2</identifier>
+      <definition lang="en" name="E2 flat">Represents the pitch
+        E2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E2">
+      <identifier lang="en">E2</identifier>
+      <definition lang="en" name="E2">Represents the pitch
+        E2.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp2">
+      <identifier lang="en">ESharp2</identifier>
+      <definition lang="en" name="E2 sharp">Represents the pitch
+        E2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp2">
+      <identifier lang="en">EDoubleSharp2</identifier>
+      <definition lang="en" name="E2 double-sharp">Represents the pitch
+        E2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp2">
+      <identifier lang="en">ETripleSharp2</identifier>
+      <definition lang="en" name="E2 triple-sharp">Represents the pitch
+        E2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat2">
+      <identifier lang="en">FTripleFlat2</identifier>
+      <definition lang="en" name="F2 triple-flat">Represents the pitch
+        F2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat2">
+      <identifier lang="en">FDoubleFlat2</identifier>
+      <definition lang="en" name="F2 double-flat">Represents the pitch
+        F2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat2">
+      <identifier lang="en">FFlat2</identifier>
+      <definition lang="en" name="F2 flat">Represents the pitch
+        F2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F2">
+      <identifier lang="en">F2</identifier>
+      <definition lang="en" name="F2">Represents the pitch
+        F2.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp2">
+      <identifier lang="en">FSharp2</identifier>
+      <definition lang="en" name="F2 sharp">Represents the pitch
+        F2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp2">
+      <identifier lang="en">FDoubleSharp2</identifier>
+      <definition lang="en" name="F2 double-sharp">Represents the pitch
+        F2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp2">
+      <identifier lang="en">FTripleSharp2</identifier>
+      <definition lang="en" name="F2 triple-sharp">Represents the pitch
+        F2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat2">
+      <identifier lang="en">GTripleFlat2</identifier>
+      <definition lang="en" name="G2 triple-flat">Represents the pitch
+        G2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat2">
+      <identifier lang="en">GDoubleFlat2</identifier>
+      <definition lang="en" name="G2 double-flat">Represents the pitch
+        G2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat2">
+      <identifier lang="en">GFlat2</identifier>
+      <definition lang="en" name="G2 flat">Represents the pitch
+        G2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G2">
+      <identifier lang="en">G2</identifier>
+      <definition lang="en" name="G2">Represents the pitch
+        G2.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp2">
+      <identifier lang="en">GSharp2</identifier>
+      <definition lang="en" name="G2 sharp">Represents the pitch
+        G2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp2">
+      <identifier lang="en">GDoubleSharp2</identifier>
+      <definition lang="en" name="G2 double-sharp">Represents the pitch
+        G2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp2">
+      <identifier lang="en">GTripleSharp2</identifier>
+      <definition lang="en" name="G2 triple-sharp">Represents the pitch
+        G2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat2">
+      <identifier lang="en">ATripleFlat2</identifier>
+      <definition lang="en" name="A2 triple-flat">Represents the pitch
+        A2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat2">
+      <identifier lang="en">ADoubleFlat2</identifier>
+      <definition lang="en" name="A2 double-flat">Represents the pitch
+        A2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat2">
+      <identifier lang="en">AFlat2</identifier>
+      <definition lang="en" name="A2 flat">Represents the pitch
+        A2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A2">
+      <identifier lang="en">A2</identifier>
+      <definition lang="en" name="A2">Represents the pitch
+        A2.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp2">
+      <identifier lang="en">ASharp2</identifier>
+      <definition lang="en" name="A2 sharp">Represents the pitch
+        A2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp2">
+      <identifier lang="en">ADoubleSharp2</identifier>
+      <definition lang="en" name="A2 double-sharp">Represents the pitch
+        A2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp2">
+      <identifier lang="en">ATripleSharp2</identifier>
+      <definition lang="en" name="A2 triple-sharp">Represents the pitch
+        A2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat2">
+      <identifier lang="en">BTripleFlat2</identifier>
+      <definition lang="en" name="B2 triple-flat">Represents the pitch
+        B2 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat2">
+      <identifier lang="en">BDoubleFlat2</identifier>
+      <definition lang="en" name="B2 double-flat">Represents the pitch
+        B2 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat2">
+      <identifier lang="en">BFlat2</identifier>
+      <definition lang="en" name="B2 flat">Represents the pitch
+        B2 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B2">
+      <identifier lang="en">B2</identifier>
+      <definition lang="en" name="B2">Represents the pitch
+        B2.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp2">
+      <identifier lang="en">BSharp2</identifier>
+      <definition lang="en" name="B2 sharp">Represents the pitch
+        B2 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp2">
+      <identifier lang="en">BDoubleSharp2</identifier>
+      <definition lang="en" name="B2 double-sharp">Represents the pitch
+        B2 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp2">
+      <identifier lang="en">BTripleSharp2</identifier>
+      <definition lang="en" name="B2 triple-sharp">Represents the pitch
+        B2 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat3">
+      <identifier lang="en">CTripleFlat3</identifier>
+      <definition lang="en" name="C3 triple-flat">Represents the pitch
+        C3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat3">
+      <identifier lang="en">CDoubleFlat3</identifier>
+      <definition lang="en" name="C3 double-flat">Represents the pitch
+        C3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat3">
+      <identifier lang="en">CFlat3</identifier>
+      <definition lang="en" name="C3 flat">Represents the pitch
+        C3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C3">
+      <identifier lang="en">C3</identifier>
+      <definition lang="en" name="C3">Represents the pitch
+        C3.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp3">
+      <identifier lang="en">CSharp3</identifier>
+      <definition lang="en" name="C3 sharp">Represents the pitch
+        C3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp3">
+      <identifier lang="en">CDoubleSharp3</identifier>
+      <definition lang="en" name="C3 double-sharp">Represents the pitch
+        C3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp3">
+      <identifier lang="en">CTripleSharp3</identifier>
+      <definition lang="en" name="C3 triple-sharp">Represents the pitch
+        C3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat3">
+      <identifier lang="en">DTripleFlat3</identifier>
+      <definition lang="en" name="D3 triple-flat">Represents the pitch
+        D3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat3">
+      <identifier lang="en">DDoubleFlat3</identifier>
+      <definition lang="en" name="D3 double-flat">Represents the pitch
+        D3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat3">
+      <identifier lang="en">DFlat3</identifier>
+      <definition lang="en" name="D3 flat">Represents the pitch
+        D3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D3">
+      <identifier lang="en">D3</identifier>
+      <definition lang="en" name="D3">Represents the pitch
+        D3.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp3">
+      <identifier lang="en">DSharp3</identifier>
+      <definition lang="en" name="D3 sharp">Represents the pitch
+        D3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp3">
+      <identifier lang="en">DDoubleSharp3</identifier>
+      <definition lang="en" name="D3 double-sharp">Represents the pitch
+        D3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp3">
+      <identifier lang="en">DTripleSharp3</identifier>
+      <definition lang="en" name="D3 triple-sharp">Represents the pitch
+        D3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat3">
+      <identifier lang="en">ETripleFlat3</identifier>
+      <definition lang="en" name="E3 triple-flat">Represents the pitch
+        E3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat3">
+      <identifier lang="en">EDoubleFlat3</identifier>
+      <definition lang="en" name="E3 double-flat">Represents the pitch
+        E3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat3">
+      <identifier lang="en">EFlat3</identifier>
+      <definition lang="en" name="E3 flat">Represents the pitch
+        E3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E3">
+      <identifier lang="en">E3</identifier>
+      <definition lang="en" name="E3">Represents the pitch
+        E3.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp3">
+      <identifier lang="en">ESharp3</identifier>
+      <definition lang="en" name="E3 sharp">Represents the pitch
+        E3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp3">
+      <identifier lang="en">EDoubleSharp3</identifier>
+      <definition lang="en" name="E3 double-sharp">Represents the pitch
+        E3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp3">
+      <identifier lang="en">ETripleSharp3</identifier>
+      <definition lang="en" name="E3 triple-sharp">Represents the pitch
+        E3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat3">
+      <identifier lang="en">FTripleFlat3</identifier>
+      <definition lang="en" name="F3 triple-flat">Represents the pitch
+        F3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat3">
+      <identifier lang="en">FDoubleFlat3</identifier>
+      <definition lang="en" name="F3 double-flat">Represents the pitch
+        F3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat3">
+      <identifier lang="en">FFlat3</identifier>
+      <definition lang="en" name="F3 flat">Represents the pitch
+        F3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F3">
+      <identifier lang="en">F3</identifier>
+      <definition lang="en" name="F3">Represents the pitch
+        F3.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp3">
+      <identifier lang="en">FSharp3</identifier>
+      <definition lang="en" name="F3 sharp">Represents the pitch
+        F3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp3">
+      <identifier lang="en">FDoubleSharp3</identifier>
+      <definition lang="en" name="F3 double-sharp">Represents the pitch
+        F3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp3">
+      <identifier lang="en">FTripleSharp3</identifier>
+      <definition lang="en" name="F3 triple-sharp">Represents the pitch
+        F3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat3">
+      <identifier lang="en">GTripleFlat3</identifier>
+      <definition lang="en" name="G3 triple-flat">Represents the pitch
+        G3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat3">
+      <identifier lang="en">GDoubleFlat3</identifier>
+      <definition lang="en" name="G3 double-flat">Represents the pitch
+        G3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat3">
+      <identifier lang="en">GFlat3</identifier>
+      <definition lang="en" name="G3 flat">Represents the pitch
+        G3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G3">
+      <identifier lang="en">G3</identifier>
+      <definition lang="en" name="G3">Represents the pitch
+        G3.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp3">
+      <identifier lang="en">GSharp3</identifier>
+      <definition lang="en" name="G3 sharp">Represents the pitch
+        G3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp3">
+      <identifier lang="en">GDoubleSharp3</identifier>
+      <definition lang="en" name="G3 double-sharp">Represents the pitch
+        G3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp3">
+      <identifier lang="en">GTripleSharp3</identifier>
+      <definition lang="en" name="G3 triple-sharp">Represents the pitch
+        G3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat3">
+      <identifier lang="en">ATripleFlat3</identifier>
+      <definition lang="en" name="A3 triple-flat">Represents the pitch
+        A3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat3">
+      <identifier lang="en">ADoubleFlat3</identifier>
+      <definition lang="en" name="A3 double-flat">Represents the pitch
+        A3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat3">
+      <identifier lang="en">AFlat3</identifier>
+      <definition lang="en" name="A3 flat">Represents the pitch
+        A3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A3">
+      <identifier lang="en">A3</identifier>
+      <definition lang="en" name="A3">Represents the pitch
+        A3.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp3">
+      <identifier lang="en">ASharp3</identifier>
+      <definition lang="en" name="A3 sharp">Represents the pitch
+        A3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp3">
+      <identifier lang="en">ADoubleSharp3</identifier>
+      <definition lang="en" name="A3 double-sharp">Represents the pitch
+        A3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp3">
+      <identifier lang="en">ATripleSharp3</identifier>
+      <definition lang="en" name="A3 triple-sharp">Represents the pitch
+        A3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat3">
+      <identifier lang="en">BTripleFlat3</identifier>
+      <definition lang="en" name="B3 triple-flat">Represents the pitch
+        B3 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat3">
+      <identifier lang="en">BDoubleFlat3</identifier>
+      <definition lang="en" name="B3 double-flat">Represents the pitch
+        B3 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat3">
+      <identifier lang="en">BFlat3</identifier>
+      <definition lang="en" name="B3 flat">Represents the pitch
+        B3 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B3">
+      <identifier lang="en">B3</identifier>
+      <definition lang="en" name="B3">Represents the pitch
+        B3.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp3">
+      <identifier lang="en">BSharp3</identifier>
+      <definition lang="en" name="B3 sharp">Represents the pitch
+        B3 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp3">
+      <identifier lang="en">BDoubleSharp3</identifier>
+      <definition lang="en" name="B3 double-sharp">Represents the pitch
+        B3 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp3">
+      <identifier lang="en">BTripleSharp3</identifier>
+      <definition lang="en" name="B3 triple-sharp">Represents the pitch
+        B3 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat4">
+      <identifier lang="en">CTripleFlat4</identifier>
+      <definition lang="en" name="C4 triple-flat">Represents the pitch
+        C4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat4">
+      <identifier lang="en">CDoubleFlat4</identifier>
+      <definition lang="en" name="C4 double-flat">Represents the pitch
+        C4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat4">
+      <identifier lang="en">CFlat4</identifier>
+      <definition lang="en" name="C4 flat">Represents the pitch
+        C4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C4">
+      <identifier lang="en">C4</identifier>
+      <definition lang="en" name="C4">Represents the pitch
+        C4.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp4">
+      <identifier lang="en">CSharp4</identifier>
+      <definition lang="en" name="C4 sharp">Represents the pitch
+        C4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp4">
+      <identifier lang="en">CDoubleSharp4</identifier>
+      <definition lang="en" name="C4 double-sharp">Represents the pitch
+        C4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp4">
+      <identifier lang="en">CTripleSharp4</identifier>
+      <definition lang="en" name="C4 triple-sharp">Represents the pitch
+        C4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat4">
+      <identifier lang="en">DTripleFlat4</identifier>
+      <definition lang="en" name="D4 triple-flat">Represents the pitch
+        D4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat4">
+      <identifier lang="en">DDoubleFlat4</identifier>
+      <definition lang="en" name="D4 double-flat">Represents the pitch
+        D4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat4">
+      <identifier lang="en">DFlat4</identifier>
+      <definition lang="en" name="D4 flat">Represents the pitch
+        D4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D4">
+      <identifier lang="en">D4</identifier>
+      <definition lang="en" name="D4">Represents the pitch
+        D4.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp4">
+      <identifier lang="en">DSharp4</identifier>
+      <definition lang="en" name="D4 sharp">Represents the pitch
+        D4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp4">
+      <identifier lang="en">DDoubleSharp4</identifier>
+      <definition lang="en" name="D4 double-sharp">Represents the pitch
+        D4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp4">
+      <identifier lang="en">DTripleSharp4</identifier>
+      <definition lang="en" name="D4 triple-sharp">Represents the pitch
+        D4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat4">
+      <identifier lang="en">ETripleFlat4</identifier>
+      <definition lang="en" name="E4 triple-flat">Represents the pitch
+        E4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat4">
+      <identifier lang="en">EDoubleFlat4</identifier>
+      <definition lang="en" name="E4 double-flat">Represents the pitch
+        E4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat4">
+      <identifier lang="en">EFlat4</identifier>
+      <definition lang="en" name="E4 flat">Represents the pitch
+        E4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E4">
+      <identifier lang="en">E4</identifier>
+      <definition lang="en" name="E4">Represents the pitch
+        E4.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp4">
+      <identifier lang="en">ESharp4</identifier>
+      <definition lang="en" name="E4 sharp">Represents the pitch
+        E4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp4">
+      <identifier lang="en">EDoubleSharp4</identifier>
+      <definition lang="en" name="E4 double-sharp">Represents the pitch
+        E4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp4">
+      <identifier lang="en">ETripleSharp4</identifier>
+      <definition lang="en" name="E4 triple-sharp">Represents the pitch
+        E4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat4">
+      <identifier lang="en">FTripleFlat4</identifier>
+      <definition lang="en" name="F4 triple-flat">Represents the pitch
+        F4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat4">
+      <identifier lang="en">FDoubleFlat4</identifier>
+      <definition lang="en" name="F4 double-flat">Represents the pitch
+        F4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat4">
+      <identifier lang="en">FFlat4</identifier>
+      <definition lang="en" name="F4 flat">Represents the pitch
+        F4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F4">
+      <identifier lang="en">F4</identifier>
+      <definition lang="en" name="F4">Represents the pitch
+        F4.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp4">
+      <identifier lang="en">FSharp4</identifier>
+      <definition lang="en" name="F4 sharp">Represents the pitch
+        F4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp4">
+      <identifier lang="en">FDoubleSharp4</identifier>
+      <definition lang="en" name="F4 double-sharp">Represents the pitch
+        F4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp4">
+      <identifier lang="en">FTripleSharp4</identifier>
+      <definition lang="en" name="F4 triple-sharp">Represents the pitch
+        F4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat4">
+      <identifier lang="en">GTripleFlat4</identifier>
+      <definition lang="en" name="G4 triple-flat">Represents the pitch
+        G4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat4">
+      <identifier lang="en">GDoubleFlat4</identifier>
+      <definition lang="en" name="G4 double-flat">Represents the pitch
+        G4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat4">
+      <identifier lang="en">GFlat4</identifier>
+      <definition lang="en" name="G4 flat">Represents the pitch
+        G4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G4">
+      <identifier lang="en">G4</identifier>
+      <definition lang="en" name="G4">Represents the pitch
+        G4.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp4">
+      <identifier lang="en">GSharp4</identifier>
+      <definition lang="en" name="G4 sharp">Represents the pitch
+        G4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp4">
+      <identifier lang="en">GDoubleSharp4</identifier>
+      <definition lang="en" name="G4 double-sharp">Represents the pitch
+        G4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp4">
+      <identifier lang="en">GTripleSharp4</identifier>
+      <definition lang="en" name="G4 triple-sharp">Represents the pitch
+        G4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat4">
+      <identifier lang="en">ATripleFlat4</identifier>
+      <definition lang="en" name="A4 triple-flat">Represents the pitch
+        A4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat4">
+      <identifier lang="en">ADoubleFlat4</identifier>
+      <definition lang="en" name="A4 double-flat">Represents the pitch
+        A4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat4">
+      <identifier lang="en">AFlat4</identifier>
+      <definition lang="en" name="A4 flat">Represents the pitch
+        A4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A4">
+      <identifier lang="en">A4</identifier>
+      <definition lang="en" name="A4">Represents the pitch
+        A4.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp4">
+      <identifier lang="en">ASharp4</identifier>
+      <definition lang="en" name="A4 sharp">Represents the pitch
+        A4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp4">
+      <identifier lang="en">ADoubleSharp4</identifier>
+      <definition lang="en" name="A4 double-sharp">Represents the pitch
+        A4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp4">
+      <identifier lang="en">ATripleSharp4</identifier>
+      <definition lang="en" name="A4 triple-sharp">Represents the pitch
+        A4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat4">
+      <identifier lang="en">BTripleFlat4</identifier>
+      <definition lang="en" name="B4 triple-flat">Represents the pitch
+        B4 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat4">
+      <identifier lang="en">BDoubleFlat4</identifier>
+      <definition lang="en" name="B4 double-flat">Represents the pitch
+        B4 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat4">
+      <identifier lang="en">BFlat4</identifier>
+      <definition lang="en" name="B4 flat">Represents the pitch
+        B4 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B4">
+      <identifier lang="en">B4</identifier>
+      <definition lang="en" name="B4">Represents the pitch
+        B4.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp4">
+      <identifier lang="en">BSharp4</identifier>
+      <definition lang="en" name="B4 sharp">Represents the pitch
+        B4 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp4">
+      <identifier lang="en">BDoubleSharp4</identifier>
+      <definition lang="en" name="B4 double-sharp">Represents the pitch
+        B4 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp4">
+      <identifier lang="en">BTripleSharp4</identifier>
+      <definition lang="en" name="B4 triple-sharp">Represents the pitch
+        B4 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat5">
+      <identifier lang="en">CTripleFlat5</identifier>
+      <definition lang="en" name="C5 triple-flat">Represents the pitch
+        C5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat5">
+      <identifier lang="en">CDoubleFlat5</identifier>
+      <definition lang="en" name="C5 double-flat">Represents the pitch
+        C5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat5">
+      <identifier lang="en">CFlat5</identifier>
+      <definition lang="en" name="C5 flat">Represents the pitch
+        C5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C5">
+      <identifier lang="en">C5</identifier>
+      <definition lang="en" name="C5">Represents the pitch
+        C5.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp5">
+      <identifier lang="en">CSharp5</identifier>
+      <definition lang="en" name="C5 sharp">Represents the pitch
+        C5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp5">
+      <identifier lang="en">CDoubleSharp5</identifier>
+      <definition lang="en" name="C5 double-sharp">Represents the pitch
+        C5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp5">
+      <identifier lang="en">CTripleSharp5</identifier>
+      <definition lang="en" name="C5 triple-sharp">Represents the pitch
+        C5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat5">
+      <identifier lang="en">DTripleFlat5</identifier>
+      <definition lang="en" name="D5 triple-flat">Represents the pitch
+        D5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat5">
+      <identifier lang="en">DDoubleFlat5</identifier>
+      <definition lang="en" name="D5 double-flat">Represents the pitch
+        D5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat5">
+      <identifier lang="en">DFlat5</identifier>
+      <definition lang="en" name="D5 flat">Represents the pitch
+        D5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D5">
+      <identifier lang="en">D5</identifier>
+      <definition lang="en" name="D5">Represents the pitch
+        D5.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp5">
+      <identifier lang="en">DSharp5</identifier>
+      <definition lang="en" name="D5 sharp">Represents the pitch
+        D5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp5">
+      <identifier lang="en">DDoubleSharp5</identifier>
+      <definition lang="en" name="D5 double-sharp">Represents the pitch
+        D5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp5">
+      <identifier lang="en">DTripleSharp5</identifier>
+      <definition lang="en" name="D5 triple-sharp">Represents the pitch
+        D5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat5">
+      <identifier lang="en">ETripleFlat5</identifier>
+      <definition lang="en" name="E5 triple-flat">Represents the pitch
+        E5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat5">
+      <identifier lang="en">EDoubleFlat5</identifier>
+      <definition lang="en" name="E5 double-flat">Represents the pitch
+        E5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat5">
+      <identifier lang="en">EFlat5</identifier>
+      <definition lang="en" name="E5 flat">Represents the pitch
+        E5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E5">
+      <identifier lang="en">E5</identifier>
+      <definition lang="en" name="E5">Represents the pitch
+        E5.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp5">
+      <identifier lang="en">ESharp5</identifier>
+      <definition lang="en" name="E5 sharp">Represents the pitch
+        E5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp5">
+      <identifier lang="en">EDoubleSharp5</identifier>
+      <definition lang="en" name="E5 double-sharp">Represents the pitch
+        E5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp5">
+      <identifier lang="en">ETripleSharp5</identifier>
+      <definition lang="en" name="E5 triple-sharp">Represents the pitch
+        E5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat5">
+      <identifier lang="en">FTripleFlat5</identifier>
+      <definition lang="en" name="F5 triple-flat">Represents the pitch
+        F5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat5">
+      <identifier lang="en">FDoubleFlat5</identifier>
+      <definition lang="en" name="F5 double-flat">Represents the pitch
+        F5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat5">
+      <identifier lang="en">FFlat5</identifier>
+      <definition lang="en" name="F5 flat">Represents the pitch
+        F5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F5">
+      <identifier lang="en">F5</identifier>
+      <definition lang="en" name="F5">Represents the pitch
+        F5.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp5">
+      <identifier lang="en">FSharp5</identifier>
+      <definition lang="en" name="F5 sharp">Represents the pitch
+        F5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp5">
+      <identifier lang="en">FDoubleSharp5</identifier>
+      <definition lang="en" name="F5 double-sharp">Represents the pitch
+        F5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp5">
+      <identifier lang="en">FTripleSharp5</identifier>
+      <definition lang="en" name="F5 triple-sharp">Represents the pitch
+        F5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat5">
+      <identifier lang="en">GTripleFlat5</identifier>
+      <definition lang="en" name="G5 triple-flat">Represents the pitch
+        G5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat5">
+      <identifier lang="en">GDoubleFlat5</identifier>
+      <definition lang="en" name="G5 double-flat">Represents the pitch
+        G5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat5">
+      <identifier lang="en">GFlat5</identifier>
+      <definition lang="en" name="G5 flat">Represents the pitch
+        G5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G5">
+      <identifier lang="en">G5</identifier>
+      <definition lang="en" name="G5">Represents the pitch
+        G5.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp5">
+      <identifier lang="en">GSharp5</identifier>
+      <definition lang="en" name="G5 sharp">Represents the pitch
+        G5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp5">
+      <identifier lang="en">GDoubleSharp5</identifier>
+      <definition lang="en" name="G5 double-sharp">Represents the pitch
+        G5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp5">
+      <identifier lang="en">GTripleSharp5</identifier>
+      <definition lang="en" name="G5 triple-sharp">Represents the pitch
+        G5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat5">
+      <identifier lang="en">ATripleFlat5</identifier>
+      <definition lang="en" name="A5 triple-flat">Represents the pitch
+        A5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat5">
+      <identifier lang="en">ADoubleFlat5</identifier>
+      <definition lang="en" name="A5 double-flat">Represents the pitch
+        A5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat5">
+      <identifier lang="en">AFlat5</identifier>
+      <definition lang="en" name="A5 flat">Represents the pitch
+        A5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A5">
+      <identifier lang="en">A5</identifier>
+      <definition lang="en" name="A5">Represents the pitch
+        A5.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp5">
+      <identifier lang="en">ASharp5</identifier>
+      <definition lang="en" name="A5 sharp">Represents the pitch
+        A5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp5">
+      <identifier lang="en">ADoubleSharp5</identifier>
+      <definition lang="en" name="A5 double-sharp">Represents the pitch
+        A5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp5">
+      <identifier lang="en">ATripleSharp5</identifier>
+      <definition lang="en" name="A5 triple-sharp">Represents the pitch
+        A5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat5">
+      <identifier lang="en">BTripleFlat5</identifier>
+      <definition lang="en" name="B5 triple-flat">Represents the pitch
+        B5 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat5">
+      <identifier lang="en">BDoubleFlat5</identifier>
+      <definition lang="en" name="B5 double-flat">Represents the pitch
+        B5 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat5">
+      <identifier lang="en">BFlat5</identifier>
+      <definition lang="en" name="B5 flat">Represents the pitch
+        B5 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B5">
+      <identifier lang="en">B5</identifier>
+      <definition lang="en" name="B5">Represents the pitch
+        B5.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp5">
+      <identifier lang="en">BSharp5</identifier>
+      <definition lang="en" name="B5 sharp">Represents the pitch
+        B5 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp5">
+      <identifier lang="en">BDoubleSharp5</identifier>
+      <definition lang="en" name="B5 double-sharp">Represents the pitch
+        B5 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp5">
+      <identifier lang="en">BTripleSharp5</identifier>
+      <definition lang="en" name="B5 triple-sharp">Represents the pitch
+        B5 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat6">
+      <identifier lang="en">CTripleFlat6</identifier>
+      <definition lang="en" name="C6 triple-flat">Represents the pitch
+        C6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat6">
+      <identifier lang="en">CDoubleFlat6</identifier>
+      <definition lang="en" name="C6 double-flat">Represents the pitch
+        C6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat6">
+      <identifier lang="en">CFlat6</identifier>
+      <definition lang="en" name="C6 flat">Represents the pitch
+        C6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C6">
+      <identifier lang="en">C6</identifier>
+      <definition lang="en" name="C6">Represents the pitch
+        C6.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp6">
+      <identifier lang="en">CSharp6</identifier>
+      <definition lang="en" name="C6 sharp">Represents the pitch
+        C6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp6">
+      <identifier lang="en">CDoubleSharp6</identifier>
+      <definition lang="en" name="C6 double-sharp">Represents the pitch
+        C6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp6">
+      <identifier lang="en">CTripleSharp6</identifier>
+      <definition lang="en" name="C6 triple-sharp">Represents the pitch
+        C6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat6">
+      <identifier lang="en">DTripleFlat6</identifier>
+      <definition lang="en" name="D6 triple-flat">Represents the pitch
+        D6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat6">
+      <identifier lang="en">DDoubleFlat6</identifier>
+      <definition lang="en" name="D6 double-flat">Represents the pitch
+        D6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat6">
+      <identifier lang="en">DFlat6</identifier>
+      <definition lang="en" name="D6 flat">Represents the pitch
+        D6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D6">
+      <identifier lang="en">D6</identifier>
+      <definition lang="en" name="D6">Represents the pitch
+        D6.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp6">
+      <identifier lang="en">DSharp6</identifier>
+      <definition lang="en" name="D6 sharp">Represents the pitch
+        D6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp6">
+      <identifier lang="en">DDoubleSharp6</identifier>
+      <definition lang="en" name="D6 double-sharp">Represents the pitch
+        D6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp6">
+      <identifier lang="en">DTripleSharp6</identifier>
+      <definition lang="en" name="D6 triple-sharp">Represents the pitch
+        D6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat6">
+      <identifier lang="en">ETripleFlat6</identifier>
+      <definition lang="en" name="E6 triple-flat">Represents the pitch
+        E6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat6">
+      <identifier lang="en">EDoubleFlat6</identifier>
+      <definition lang="en" name="E6 double-flat">Represents the pitch
+        E6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat6">
+      <identifier lang="en">EFlat6</identifier>
+      <definition lang="en" name="E6 flat">Represents the pitch
+        E6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E6">
+      <identifier lang="en">E6</identifier>
+      <definition lang="en" name="E6">Represents the pitch
+        E6.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp6">
+      <identifier lang="en">ESharp6</identifier>
+      <definition lang="en" name="E6 sharp">Represents the pitch
+        E6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp6">
+      <identifier lang="en">EDoubleSharp6</identifier>
+      <definition lang="en" name="E6 double-sharp">Represents the pitch
+        E6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp6">
+      <identifier lang="en">ETripleSharp6</identifier>
+      <definition lang="en" name="E6 triple-sharp">Represents the pitch
+        E6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat6">
+      <identifier lang="en">FTripleFlat6</identifier>
+      <definition lang="en" name="F6 triple-flat">Represents the pitch
+        F6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat6">
+      <identifier lang="en">FDoubleFlat6</identifier>
+      <definition lang="en" name="F6 double-flat">Represents the pitch
+        F6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat6">
+      <identifier lang="en">FFlat6</identifier>
+      <definition lang="en" name="F6 flat">Represents the pitch
+        F6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F6">
+      <identifier lang="en">F6</identifier>
+      <definition lang="en" name="F6">Represents the pitch
+        F6.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp6">
+      <identifier lang="en">FSharp6</identifier>
+      <definition lang="en" name="F6 sharp">Represents the pitch
+        F6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp6">
+      <identifier lang="en">FDoubleSharp6</identifier>
+      <definition lang="en" name="F6 double-sharp">Represents the pitch
+        F6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp6">
+      <identifier lang="en">FTripleSharp6</identifier>
+      <definition lang="en" name="F6 triple-sharp">Represents the pitch
+        F6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat6">
+      <identifier lang="en">GTripleFlat6</identifier>
+      <definition lang="en" name="G6 triple-flat">Represents the pitch
+        G6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat6">
+      <identifier lang="en">GDoubleFlat6</identifier>
+      <definition lang="en" name="G6 double-flat">Represents the pitch
+        G6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat6">
+      <identifier lang="en">GFlat6</identifier>
+      <definition lang="en" name="G6 flat">Represents the pitch
+        G6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G6">
+      <identifier lang="en">G6</identifier>
+      <definition lang="en" name="G6">Represents the pitch
+        G6.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp6">
+      <identifier lang="en">GSharp6</identifier>
+      <definition lang="en" name="G6 sharp">Represents the pitch
+        G6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp6">
+      <identifier lang="en">GDoubleSharp6</identifier>
+      <definition lang="en" name="G6 double-sharp">Represents the pitch
+        G6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp6">
+      <identifier lang="en">GTripleSharp6</identifier>
+      <definition lang="en" name="G6 triple-sharp">Represents the pitch
+        G6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat6">
+      <identifier lang="en">ATripleFlat6</identifier>
+      <definition lang="en" name="A6 triple-flat">Represents the pitch
+        A6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat6">
+      <identifier lang="en">ADoubleFlat6</identifier>
+      <definition lang="en" name="A6 double-flat">Represents the pitch
+        A6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat6">
+      <identifier lang="en">AFlat6</identifier>
+      <definition lang="en" name="A6 flat">Represents the pitch
+        A6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A6">
+      <identifier lang="en">A6</identifier>
+      <definition lang="en" name="A6">Represents the pitch
+        A6.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp6">
+      <identifier lang="en">ASharp6</identifier>
+      <definition lang="en" name="A6 sharp">Represents the pitch
+        A6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp6">
+      <identifier lang="en">ADoubleSharp6</identifier>
+      <definition lang="en" name="A6 double-sharp">Represents the pitch
+        A6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp6">
+      <identifier lang="en">ATripleSharp6</identifier>
+      <definition lang="en" name="A6 triple-sharp">Represents the pitch
+        A6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat6">
+      <identifier lang="en">BTripleFlat6</identifier>
+      <definition lang="en" name="B6 triple-flat">Represents the pitch
+        B6 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat6">
+      <identifier lang="en">BDoubleFlat6</identifier>
+      <definition lang="en" name="B6 double-flat">Represents the pitch
+        B6 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat6">
+      <identifier lang="en">BFlat6</identifier>
+      <definition lang="en" name="B6 flat">Represents the pitch
+        B6 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B6">
+      <identifier lang="en">B6</identifier>
+      <definition lang="en" name="B6">Represents the pitch
+        B6.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp6">
+      <identifier lang="en">BSharp6</identifier>
+      <definition lang="en" name="B6 sharp">Represents the pitch
+        B6 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp6">
+      <identifier lang="en">BDoubleSharp6</identifier>
+      <definition lang="en" name="B6 double-sharp">Represents the pitch
+        B6 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp6">
+      <identifier lang="en">BTripleSharp6</identifier>
+      <definition lang="en" name="B6 triple-sharp">Represents the pitch
+        B6 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat7">
+      <identifier lang="en">CTripleFlat7</identifier>
+      <definition lang="en" name="C7 triple-flat">Represents the pitch
+        C7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat7">
+      <identifier lang="en">CDoubleFlat7</identifier>
+      <definition lang="en" name="C7 double-flat">Represents the pitch
+        C7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat7">
+      <identifier lang="en">CFlat7</identifier>
+      <definition lang="en" name="C7 flat">Represents the pitch
+        C7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C7">
+      <identifier lang="en">C7</identifier>
+      <definition lang="en" name="C7">Represents the pitch
+        C7.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp7">
+      <identifier lang="en">CSharp7</identifier>
+      <definition lang="en" name="C7 sharp">Represents the pitch
+        C7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp7">
+      <identifier lang="en">CDoubleSharp7</identifier>
+      <definition lang="en" name="C7 double-sharp">Represents the pitch
+        C7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp7">
+      <identifier lang="en">CTripleSharp7</identifier>
+      <definition lang="en" name="C7 triple-sharp">Represents the pitch
+        C7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat7">
+      <identifier lang="en">DTripleFlat7</identifier>
+      <definition lang="en" name="D7 triple-flat">Represents the pitch
+        D7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat7">
+      <identifier lang="en">DDoubleFlat7</identifier>
+      <definition lang="en" name="D7 double-flat">Represents the pitch
+        D7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat7">
+      <identifier lang="en">DFlat7</identifier>
+      <definition lang="en" name="D7 flat">Represents the pitch
+        D7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D7">
+      <identifier lang="en">D7</identifier>
+      <definition lang="en" name="D7">Represents the pitch
+        D7.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp7">
+      <identifier lang="en">DSharp7</identifier>
+      <definition lang="en" name="D7 sharp">Represents the pitch
+        D7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp7">
+      <identifier lang="en">DDoubleSharp7</identifier>
+      <definition lang="en" name="D7 double-sharp">Represents the pitch
+        D7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp7">
+      <identifier lang="en">DTripleSharp7</identifier>
+      <definition lang="en" name="D7 triple-sharp">Represents the pitch
+        D7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat7">
+      <identifier lang="en">ETripleFlat7</identifier>
+      <definition lang="en" name="E7 triple-flat">Represents the pitch
+        E7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat7">
+      <identifier lang="en">EDoubleFlat7</identifier>
+      <definition lang="en" name="E7 double-flat">Represents the pitch
+        E7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat7">
+      <identifier lang="en">EFlat7</identifier>
+      <definition lang="en" name="E7 flat">Represents the pitch
+        E7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E7">
+      <identifier lang="en">E7</identifier>
+      <definition lang="en" name="E7">Represents the pitch
+        E7.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp7">
+      <identifier lang="en">ESharp7</identifier>
+      <definition lang="en" name="E7 sharp">Represents the pitch
+        E7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp7">
+      <identifier lang="en">EDoubleSharp7</identifier>
+      <definition lang="en" name="E7 double-sharp">Represents the pitch
+        E7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp7">
+      <identifier lang="en">ETripleSharp7</identifier>
+      <definition lang="en" name="E7 triple-sharp">Represents the pitch
+        E7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat7">
+      <identifier lang="en">FTripleFlat7</identifier>
+      <definition lang="en" name="F7 triple-flat">Represents the pitch
+        F7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat7">
+      <identifier lang="en">FDoubleFlat7</identifier>
+      <definition lang="en" name="F7 double-flat">Represents the pitch
+        F7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat7">
+      <identifier lang="en">FFlat7</identifier>
+      <definition lang="en" name="F7 flat">Represents the pitch
+        F7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F7">
+      <identifier lang="en">F7</identifier>
+      <definition lang="en" name="F7">Represents the pitch
+        F7.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp7">
+      <identifier lang="en">FSharp7</identifier>
+      <definition lang="en" name="F7 sharp">Represents the pitch
+        F7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp7">
+      <identifier lang="en">FDoubleSharp7</identifier>
+      <definition lang="en" name="F7 double-sharp">Represents the pitch
+        F7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp7">
+      <identifier lang="en">FTripleSharp7</identifier>
+      <definition lang="en" name="F7 triple-sharp">Represents the pitch
+        F7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat7">
+      <identifier lang="en">GTripleFlat7</identifier>
+      <definition lang="en" name="G7 triple-flat">Represents the pitch
+        G7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat7">
+      <identifier lang="en">GDoubleFlat7</identifier>
+      <definition lang="en" name="G7 double-flat">Represents the pitch
+        G7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat7">
+      <identifier lang="en">GFlat7</identifier>
+      <definition lang="en" name="G7 flat">Represents the pitch
+        G7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G7">
+      <identifier lang="en">G7</identifier>
+      <definition lang="en" name="G7">Represents the pitch
+        G7.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp7">
+      <identifier lang="en">GSharp7</identifier>
+      <definition lang="en" name="G7 sharp">Represents the pitch
+        G7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp7">
+      <identifier lang="en">GDoubleSharp7</identifier>
+      <definition lang="en" name="G7 double-sharp">Represents the pitch
+        G7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp7">
+      <identifier lang="en">GTripleSharp7</identifier>
+      <definition lang="en" name="G7 triple-sharp">Represents the pitch
+        G7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat7">
+      <identifier lang="en">ATripleFlat7</identifier>
+      <definition lang="en" name="A7 triple-flat">Represents the pitch
+        A7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat7">
+      <identifier lang="en">ADoubleFlat7</identifier>
+      <definition lang="en" name="A7 double-flat">Represents the pitch
+        A7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat7">
+      <identifier lang="en">AFlat7</identifier>
+      <definition lang="en" name="A7 flat">Represents the pitch
+        A7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A7">
+      <identifier lang="en">A7</identifier>
+      <definition lang="en" name="A7">Represents the pitch
+        A7.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp7">
+      <identifier lang="en">ASharp7</identifier>
+      <definition lang="en" name="A7 sharp">Represents the pitch
+        A7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp7">
+      <identifier lang="en">ADoubleSharp7</identifier>
+      <definition lang="en" name="A7 double-sharp">Represents the pitch
+        A7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp7">
+      <identifier lang="en">ATripleSharp7</identifier>
+      <definition lang="en" name="A7 triple-sharp">Represents the pitch
+        A7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat7">
+      <identifier lang="en">BTripleFlat7</identifier>
+      <definition lang="en" name="B7 triple-flat">Represents the pitch
+        B7 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat7">
+      <identifier lang="en">BDoubleFlat7</identifier>
+      <definition lang="en" name="B7 double-flat">Represents the pitch
+        B7 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat7">
+      <identifier lang="en">BFlat7</identifier>
+      <definition lang="en" name="B7 flat">Represents the pitch
+        B7 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B7">
+      <identifier lang="en">B7</identifier>
+      <definition lang="en" name="B7">Represents the pitch
+        B7.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp7">
+      <identifier lang="en">BSharp7</identifier>
+      <definition lang="en" name="B7 sharp">Represents the pitch
+        B7 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp7">
+      <identifier lang="en">BDoubleSharp7</identifier>
+      <definition lang="en" name="B7 double-sharp">Represents the pitch
+        B7 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp7">
+      <identifier lang="en">BTripleSharp7</identifier>
+      <definition lang="en" name="B7 triple-sharp">Represents the pitch
+        B7 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat8">
+      <identifier lang="en">CTripleFlat8</identifier>
+      <definition lang="en" name="C8 triple-flat">Represents the pitch
+        C8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat8">
+      <identifier lang="en">CDoubleFlat8</identifier>
+      <definition lang="en" name="C8 double-flat">Represents the pitch
+        C8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat8">
+      <identifier lang="en">CFlat8</identifier>
+      <definition lang="en" name="C8 flat">Represents the pitch
+        C8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C8">
+      <identifier lang="en">C8</identifier>
+      <definition lang="en" name="C8">Represents the pitch
+        C8.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp8">
+      <identifier lang="en">CSharp8</identifier>
+      <definition lang="en" name="C8 sharp">Represents the pitch
+        C8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp8">
+      <identifier lang="en">CDoubleSharp8</identifier>
+      <definition lang="en" name="C8 double-sharp">Represents the pitch
+        C8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp8">
+      <identifier lang="en">CTripleSharp8</identifier>
+      <definition lang="en" name="C8 triple-sharp">Represents the pitch
+        C8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat8">
+      <identifier lang="en">DTripleFlat8</identifier>
+      <definition lang="en" name="D8 triple-flat">Represents the pitch
+        D8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat8">
+      <identifier lang="en">DDoubleFlat8</identifier>
+      <definition lang="en" name="D8 double-flat">Represents the pitch
+        D8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat8">
+      <identifier lang="en">DFlat8</identifier>
+      <definition lang="en" name="D8 flat">Represents the pitch
+        D8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D8">
+      <identifier lang="en">D8</identifier>
+      <definition lang="en" name="D8">Represents the pitch
+        D8.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp8">
+      <identifier lang="en">DSharp8</identifier>
+      <definition lang="en" name="D8 sharp">Represents the pitch
+        D8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp8">
+      <identifier lang="en">DDoubleSharp8</identifier>
+      <definition lang="en" name="D8 double-sharp">Represents the pitch
+        D8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp8">
+      <identifier lang="en">DTripleSharp8</identifier>
+      <definition lang="en" name="D8 triple-sharp">Represents the pitch
+        D8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat8">
+      <identifier lang="en">ETripleFlat8</identifier>
+      <definition lang="en" name="E8 triple-flat">Represents the pitch
+        E8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat8">
+      <identifier lang="en">EDoubleFlat8</identifier>
+      <definition lang="en" name="E8 double-flat">Represents the pitch
+        E8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat8">
+      <identifier lang="en">EFlat8</identifier>
+      <definition lang="en" name="E8 flat">Represents the pitch
+        E8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E8">
+      <identifier lang="en">E8</identifier>
+      <definition lang="en" name="E8">Represents the pitch
+        E8.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp8">
+      <identifier lang="en">ESharp8</identifier>
+      <definition lang="en" name="E8 sharp">Represents the pitch
+        E8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp8">
+      <identifier lang="en">EDoubleSharp8</identifier>
+      <definition lang="en" name="E8 double-sharp">Represents the pitch
+        E8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp8">
+      <identifier lang="en">ETripleSharp8</identifier>
+      <definition lang="en" name="E8 triple-sharp">Represents the pitch
+        E8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat8">
+      <identifier lang="en">FTripleFlat8</identifier>
+      <definition lang="en" name="F8 triple-flat">Represents the pitch
+        F8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat8">
+      <identifier lang="en">FDoubleFlat8</identifier>
+      <definition lang="en" name="F8 double-flat">Represents the pitch
+        F8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat8">
+      <identifier lang="en">FFlat8</identifier>
+      <definition lang="en" name="F8 flat">Represents the pitch
+        F8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F8">
+      <identifier lang="en">F8</identifier>
+      <definition lang="en" name="F8">Represents the pitch
+        F8.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp8">
+      <identifier lang="en">FSharp8</identifier>
+      <definition lang="en" name="F8 sharp">Represents the pitch
+        F8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp8">
+      <identifier lang="en">FDoubleSharp8</identifier>
+      <definition lang="en" name="F8 double-sharp">Represents the pitch
+        F8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp8">
+      <identifier lang="en">FTripleSharp8</identifier>
+      <definition lang="en" name="F8 triple-sharp">Represents the pitch
+        F8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat8">
+      <identifier lang="en">GTripleFlat8</identifier>
+      <definition lang="en" name="G8 triple-flat">Represents the pitch
+        G8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat8">
+      <identifier lang="en">GDoubleFlat8</identifier>
+      <definition lang="en" name="G8 double-flat">Represents the pitch
+        G8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat8">
+      <identifier lang="en">GFlat8</identifier>
+      <definition lang="en" name="G8 flat">Represents the pitch
+        G8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G8">
+      <identifier lang="en">G8</identifier>
+      <definition lang="en" name="G8">Represents the pitch
+        G8.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp8">
+      <identifier lang="en">GSharp8</identifier>
+      <definition lang="en" name="G8 sharp">Represents the pitch
+        G8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp8">
+      <identifier lang="en">GDoubleSharp8</identifier>
+      <definition lang="en" name="G8 double-sharp">Represents the pitch
+        G8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp8">
+      <identifier lang="en">GTripleSharp8</identifier>
+      <definition lang="en" name="G8 triple-sharp">Represents the pitch
+        G8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat8">
+      <identifier lang="en">ATripleFlat8</identifier>
+      <definition lang="en" name="A8 triple-flat">Represents the pitch
+        A8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat8">
+      <identifier lang="en">ADoubleFlat8</identifier>
+      <definition lang="en" name="A8 double-flat">Represents the pitch
+        A8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat8">
+      <identifier lang="en">AFlat8</identifier>
+      <definition lang="en" name="A8 flat">Represents the pitch
+        A8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A8">
+      <identifier lang="en">A8</identifier>
+      <definition lang="en" name="A8">Represents the pitch
+        A8.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp8">
+      <identifier lang="en">ASharp8</identifier>
+      <definition lang="en" name="A8 sharp">Represents the pitch
+        A8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp8">
+      <identifier lang="en">ADoubleSharp8</identifier>
+      <definition lang="en" name="A8 double-sharp">Represents the pitch
+        A8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp8">
+      <identifier lang="en">ATripleSharp8</identifier>
+      <definition lang="en" name="A8 triple-sharp">Represents the pitch
+        A8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat8">
+      <identifier lang="en">BTripleFlat8</identifier>
+      <definition lang="en" name="B8 triple-flat">Represents the pitch
+        B8 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat8">
+      <identifier lang="en">BDoubleFlat8</identifier>
+      <definition lang="en" name="B8 double-flat">Represents the pitch
+        B8 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat8">
+      <identifier lang="en">BFlat8</identifier>
+      <definition lang="en" name="B8 flat">Represents the pitch
+        B8 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B8">
+      <identifier lang="en">B8</identifier>
+      <definition lang="en" name="B8">Represents the pitch
+        B8.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp8">
+      <identifier lang="en">BSharp8</identifier>
+      <definition lang="en" name="B8 sharp">Represents the pitch
+        B8 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp8">
+      <identifier lang="en">BDoubleSharp8</identifier>
+      <definition lang="en" name="B8 double-sharp">Represents the pitch
+        B8 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp8">
+      <identifier lang="en">BTripleSharp8</identifier>
+      <definition lang="en" name="B8 triple-sharp">Represents the pitch
+        B8 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat9">
+      <identifier lang="en">CTripleFlat9</identifier>
+      <definition lang="en" name="C9 triple-flat">Represents the pitch
+        C9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat9">
+      <identifier lang="en">CDoubleFlat9</identifier>
+      <definition lang="en" name="C9 double-flat">Represents the pitch
+        C9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat9">
+      <identifier lang="en">CFlat9</identifier>
+      <definition lang="en" name="C9 flat">Represents the pitch
+        C9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C9">
+      <identifier lang="en">C9</identifier>
+      <definition lang="en" name="C9">Represents the pitch
+        C9.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp9">
+      <identifier lang="en">CSharp9</identifier>
+      <definition lang="en" name="C9 sharp">Represents the pitch
+        C9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp9">
+      <identifier lang="en">CDoubleSharp9</identifier>
+      <definition lang="en" name="C9 double-sharp">Represents the pitch
+        C9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp9">
+      <identifier lang="en">CTripleSharp9</identifier>
+      <definition lang="en" name="C9 triple-sharp">Represents the pitch
+        C9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat9">
+      <identifier lang="en">DTripleFlat9</identifier>
+      <definition lang="en" name="D9 triple-flat">Represents the pitch
+        D9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat9">
+      <identifier lang="en">DDoubleFlat9</identifier>
+      <definition lang="en" name="D9 double-flat">Represents the pitch
+        D9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat9">
+      <identifier lang="en">DFlat9</identifier>
+      <definition lang="en" name="D9 flat">Represents the pitch
+        D9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D9">
+      <identifier lang="en">D9</identifier>
+      <definition lang="en" name="D9">Represents the pitch
+        D9.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp9">
+      <identifier lang="en">DSharp9</identifier>
+      <definition lang="en" name="D9 sharp">Represents the pitch
+        D9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp9">
+      <identifier lang="en">DDoubleSharp9</identifier>
+      <definition lang="en" name="D9 double-sharp">Represents the pitch
+        D9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp9">
+      <identifier lang="en">DTripleSharp9</identifier>
+      <definition lang="en" name="D9 triple-sharp">Represents the pitch
+        D9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat9">
+      <identifier lang="en">ETripleFlat9</identifier>
+      <definition lang="en" name="E9 triple-flat">Represents the pitch
+        E9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat9">
+      <identifier lang="en">EDoubleFlat9</identifier>
+      <definition lang="en" name="E9 double-flat">Represents the pitch
+        E9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat9">
+      <identifier lang="en">EFlat9</identifier>
+      <definition lang="en" name="E9 flat">Represents the pitch
+        E9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E9">
+      <identifier lang="en">E9</identifier>
+      <definition lang="en" name="E9">Represents the pitch
+        E9.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp9">
+      <identifier lang="en">ESharp9</identifier>
+      <definition lang="en" name="E9 sharp">Represents the pitch
+        E9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp9">
+      <identifier lang="en">EDoubleSharp9</identifier>
+      <definition lang="en" name="E9 double-sharp">Represents the pitch
+        E9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp9">
+      <identifier lang="en">ETripleSharp9</identifier>
+      <definition lang="en" name="E9 triple-sharp">Represents the pitch
+        E9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat9">
+      <identifier lang="en">FTripleFlat9</identifier>
+      <definition lang="en" name="F9 triple-flat">Represents the pitch
+        F9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat9">
+      <identifier lang="en">FDoubleFlat9</identifier>
+      <definition lang="en" name="F9 double-flat">Represents the pitch
+        F9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat9">
+      <identifier lang="en">FFlat9</identifier>
+      <definition lang="en" name="F9 flat">Represents the pitch
+        F9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F9">
+      <identifier lang="en">F9</identifier>
+      <definition lang="en" name="F9">Represents the pitch
+        F9.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp9">
+      <identifier lang="en">FSharp9</identifier>
+      <definition lang="en" name="F9 sharp">Represents the pitch
+        F9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp9">
+      <identifier lang="en">FDoubleSharp9</identifier>
+      <definition lang="en" name="F9 double-sharp">Represents the pitch
+        F9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp9">
+      <identifier lang="en">FTripleSharp9</identifier>
+      <definition lang="en" name="F9 triple-sharp">Represents the pitch
+        F9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat9">
+      <identifier lang="en">GTripleFlat9</identifier>
+      <definition lang="en" name="G9 triple-flat">Represents the pitch
+        G9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat9">
+      <identifier lang="en">GDoubleFlat9</identifier>
+      <definition lang="en" name="G9 double-flat">Represents the pitch
+        G9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat9">
+      <identifier lang="en">GFlat9</identifier>
+      <definition lang="en" name="G9 flat">Represents the pitch
+        G9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G9">
+      <identifier lang="en">G9</identifier>
+      <definition lang="en" name="G9">Represents the pitch
+        G9.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp9">
+      <identifier lang="en">GSharp9</identifier>
+      <definition lang="en" name="G9 sharp">Represents the pitch
+        G9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp9">
+      <identifier lang="en">GDoubleSharp9</identifier>
+      <definition lang="en" name="G9 double-sharp">Represents the pitch
+        G9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp9">
+      <identifier lang="en">GTripleSharp9</identifier>
+      <definition lang="en" name="G9 triple-sharp">Represents the pitch
+        G9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat9">
+      <identifier lang="en">ATripleFlat9</identifier>
+      <definition lang="en" name="A9 triple-flat">Represents the pitch
+        A9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat9">
+      <identifier lang="en">ADoubleFlat9</identifier>
+      <definition lang="en" name="A9 double-flat">Represents the pitch
+        A9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat9">
+      <identifier lang="en">AFlat9</identifier>
+      <definition lang="en" name="A9 flat">Represents the pitch
+        A9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A9">
+      <identifier lang="en">A9</identifier>
+      <definition lang="en" name="A9">Represents the pitch
+        A9.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp9">
+      <identifier lang="en">ASharp9</identifier>
+      <definition lang="en" name="A9 sharp">Represents the pitch
+        A9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp9">
+      <identifier lang="en">ADoubleSharp9</identifier>
+      <definition lang="en" name="A9 double-sharp">Represents the pitch
+        A9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp9">
+      <identifier lang="en">ATripleSharp9</identifier>
+      <definition lang="en" name="A9 triple-sharp">Represents the pitch
+        A9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat9">
+      <identifier lang="en">BTripleFlat9</identifier>
+      <definition lang="en" name="B9 triple-flat">Represents the pitch
+        B9 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat9">
+      <identifier lang="en">BDoubleFlat9</identifier>
+      <definition lang="en" name="B9 double-flat">Represents the pitch
+        B9 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat9">
+      <identifier lang="en">BFlat9</identifier>
+      <definition lang="en" name="B9 flat">Represents the pitch
+        B9 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B9">
+      <identifier lang="en">B9</identifier>
+      <definition lang="en" name="B9">Represents the pitch
+        B9.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp9">
+      <identifier lang="en">BSharp9</identifier>
+      <definition lang="en" name="B9 sharp">Represents the pitch
+        B9 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp9">
+      <identifier lang="en">BDoubleSharp9</identifier>
+      <definition lang="en" name="B9 double-sharp">Represents the pitch
+        B9 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp9">
+      <identifier lang="en">BTripleSharp9</identifier>
+      <definition lang="en" name="B9 triple-sharp">Represents the pitch
+        B9 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleFlat10">
+      <identifier lang="en">CTripleFlat10</identifier>
+      <definition lang="en" name="C10 triple-flat">Represents the pitch
+        C10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleFlat10">
+      <identifier lang="en">CDoubleFlat10</identifier>
+      <definition lang="en" name="C10 double-flat">Represents the pitch
+        C10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:CFlat10">
+      <identifier lang="en">CFlat10</identifier>
+      <definition lang="en" name="C10 flat">Represents the pitch
+        C10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:C10">
+      <identifier lang="en">C10</identifier>
+      <definition lang="en" name="C10">Represents the pitch
+        C10.</definition>
+    </concept>
+
+    <concept uuid="en:CSharp10">
+      <identifier lang="en">CSharp10</identifier>
+      <definition lang="en" name="C10 sharp">Represents the pitch
+        C10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CDoubleSharp10">
+      <identifier lang="en">CDoubleSharp10</identifier>
+      <definition lang="en" name="C10 double-sharp">Represents the pitch
+        C10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:CTripleSharp10">
+      <identifier lang="en">CTripleSharp10</identifier>
+      <definition lang="en" name="C10 triple-sharp">Represents the pitch
+        C10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleFlat10">
+      <identifier lang="en">DTripleFlat10</identifier>
+      <definition lang="en" name="D10 triple-flat">Represents the pitch
+        D10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleFlat10">
+      <identifier lang="en">DDoubleFlat10</identifier>
+      <definition lang="en" name="D10 double-flat">Represents the pitch
+        D10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:DFlat10">
+      <identifier lang="en">DFlat10</identifier>
+      <definition lang="en" name="D10 flat">Represents the pitch
+        D10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:D10">
+      <identifier lang="en">D10</identifier>
+      <definition lang="en" name="D10">Represents the pitch
+        D10.</definition>
+    </concept>
+
+    <concept uuid="en:DSharp10">
+      <identifier lang="en">DSharp10</identifier>
+      <definition lang="en" name="D10 sharp">Represents the pitch
+        D10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DDoubleSharp10">
+      <identifier lang="en">DDoubleSharp10</identifier>
+      <definition lang="en" name="D10 double-sharp">Represents the pitch
+        D10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:DTripleSharp10">
+      <identifier lang="en">DTripleSharp10</identifier>
+      <definition lang="en" name="D10 triple-sharp">Represents the pitch
+        D10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleFlat10">
+      <identifier lang="en">ETripleFlat10</identifier>
+      <definition lang="en" name="E10 triple-flat">Represents the pitch
+        E10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleFlat10">
+      <identifier lang="en">EDoubleFlat10</identifier>
+      <definition lang="en" name="E10 double-flat">Represents the pitch
+        E10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:EFlat10">
+      <identifier lang="en">EFlat10</identifier>
+      <definition lang="en" name="E10 flat">Represents the pitch
+        E10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:E10">
+      <identifier lang="en">E10</identifier>
+      <definition lang="en" name="E10">Represents the pitch
+        E10.</definition>
+    </concept>
+
+    <concept uuid="en:ESharp10">
+      <identifier lang="en">ESharp10</identifier>
+      <definition lang="en" name="E10 sharp">Represents the pitch
+        E10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:EDoubleSharp10">
+      <identifier lang="en">EDoubleSharp10</identifier>
+      <definition lang="en" name="E10 double-sharp">Represents the pitch
+        E10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ETripleSharp10">
+      <identifier lang="en">ETripleSharp10</identifier>
+      <definition lang="en" name="E10 triple-sharp">Represents the pitch
+        E10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleFlat10">
+      <identifier lang="en">FTripleFlat10</identifier>
+      <definition lang="en" name="F10 triple-flat">Represents the pitch
+        F10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleFlat10">
+      <identifier lang="en">FDoubleFlat10</identifier>
+      <definition lang="en" name="F10 double-flat">Represents the pitch
+        F10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:FFlat10">
+      <identifier lang="en">FFlat10</identifier>
+      <definition lang="en" name="F10 flat">Represents the pitch
+        F10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:F10">
+      <identifier lang="en">F10</identifier>
+      <definition lang="en" name="F10">Represents the pitch
+        F10.</definition>
+    </concept>
+
+    <concept uuid="en:FSharp10">
+      <identifier lang="en">FSharp10</identifier>
+      <definition lang="en" name="F10 sharp">Represents the pitch
+        F10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FDoubleSharp10">
+      <identifier lang="en">FDoubleSharp10</identifier>
+      <definition lang="en" name="F10 double-sharp">Represents the pitch
+        F10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:FTripleSharp10">
+      <identifier lang="en">FTripleSharp10</identifier>
+      <definition lang="en" name="F10 triple-sharp">Represents the pitch
+        F10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleFlat10">
+      <identifier lang="en">GTripleFlat10</identifier>
+      <definition lang="en" name="G10 triple-flat">Represents the pitch
+        G10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleFlat10">
+      <identifier lang="en">GDoubleFlat10</identifier>
+      <definition lang="en" name="G10 double-flat">Represents the pitch
+        G10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:GFlat10">
+      <identifier lang="en">GFlat10</identifier>
+      <definition lang="en" name="G10 flat">Represents the pitch
+        G10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:G10">
+      <identifier lang="en">G10</identifier>
+      <definition lang="en" name="G10">Represents the pitch
+        G10.</definition>
+    </concept>
+
+    <concept uuid="en:GSharp10">
+      <identifier lang="en">GSharp10</identifier>
+      <definition lang="en" name="G10 sharp">Represents the pitch
+        G10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GDoubleSharp10">
+      <identifier lang="en">GDoubleSharp10</identifier>
+      <definition lang="en" name="G10 double-sharp">Represents the pitch
+        G10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:GTripleSharp10">
+      <identifier lang="en">GTripleSharp10</identifier>
+      <definition lang="en" name="G10 triple-sharp">Represents the pitch
+        G10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleFlat10">
+      <identifier lang="en">ATripleFlat10</identifier>
+      <definition lang="en" name="A10 triple-flat">Represents the pitch
+        A10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleFlat10">
+      <identifier lang="en">ADoubleFlat10</identifier>
+      <definition lang="en" name="A10 double-flat">Represents the pitch
+        A10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:AFlat10">
+      <identifier lang="en">AFlat10</identifier>
+      <definition lang="en" name="A10 flat">Represents the pitch
+        A10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:A10">
+      <identifier lang="en">A10</identifier>
+      <definition lang="en" name="A10">Represents the pitch
+        A10.</definition>
+    </concept>
+
+    <concept uuid="en:ASharp10">
+      <identifier lang="en">ASharp10</identifier>
+      <definition lang="en" name="A10 sharp">Represents the pitch
+        A10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ADoubleSharp10">
+      <identifier lang="en">ADoubleSharp10</identifier>
+      <definition lang="en" name="A10 double-sharp">Represents the pitch
+        A10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:ATripleSharp10">
+      <identifier lang="en">ATripleSharp10</identifier>
+      <definition lang="en" name="A10 triple-sharp">Represents the pitch
+        A10 raised by a triple sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleFlat10">
+      <identifier lang="en">BTripleFlat10</identifier>
+      <definition lang="en" name="B10 triple-flat">Represents the pitch
+        B10 lowered by a triple flat.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleFlat10">
+      <identifier lang="en">BDoubleFlat10</identifier>
+      <definition lang="en" name="B10 double-flat">Represents the pitch
+        B10 lowered by a double flat.</definition>
+    </concept>
+
+    <concept uuid="en:BFlat10">
+      <identifier lang="en">BFlat10</identifier>
+      <definition lang="en" name="B10 flat">Represents the pitch
+        B10 lowered by a flat.</definition>
+    </concept>
+
+    <concept uuid="en:B10">
+      <identifier lang="en">B10</identifier>
+      <definition lang="en" name="B10">Represents the pitch
+        B10.</definition>
+    </concept>
+
+    <concept uuid="en:BSharp10">
+      <identifier lang="en">BSharp10</identifier>
+      <definition lang="en" name="B10 sharp">Represents the pitch
+        B10 raised by a sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BDoubleSharp10">
+      <identifier lang="en">BDoubleSharp10</identifier>
+      <definition lang="en" name="B10 double-sharp">Represents the pitch
+        B10 raised by a double sharp.</definition>
+    </concept>
+
+    <concept uuid="en:BTripleSharp10">
+      <identifier lang="en">BTripleSharp10</identifier>
+      <definition lang="en" name="B10 triple-sharp">Represents the pitch
+        B10 raised by a triple sharp.</definition>
+    </concept>
+
+  <concept uuid="en:Pitches">
+    <sequence>en:CTripleFlat_1 en:CDoubleFlat_1 en:CFlat_1 en:C_1 en:CSharp_1 en:CDoubleSharp_1 en:CTripleSharp_1 en:DTripleFlat_1 en:DDoubleFlat_1 en:DFlat_1 en:D_1 en:DSharp_1 en:DDoubleSharp_1 en:DTripleSharp_1 en:ETripleFlat_1 en:EDoubleFlat_1 en:EFlat_1 en:E_1 en:ESharp_1 en:EDoubleSharp_1 en:ETripleSharp_1 en:FTripleFlat_1 en:FDoubleFlat_1 en:FFlat_1 en:F_1 en:FSharp_1 en:FDoubleSharp_1 en:FTripleSharp_1 en:GTripleFlat_1 en:GDoubleFlat_1 en:GFlat_1 en:G_1 en:GSharp_1 en:GDoubleSharp_1 en:GTripleSharp_1 en:ATripleFlat_1 en:ADoubleFlat_1 en:AFlat_1 en:A_1 en:ASharp_1 en:ADoubleSharp_1 en:ATripleSharp_1 en:BTripleFlat_1 en:BDoubleFlat_1 en:BFlat_1 en:B_1 en:BSharp_1 en:BDoubleSharp_1 en:BTripleSharp_1 en:CTripleFlat0 en:CDoubleFlat0 en:CFlat0 en:C0 en:CSharp0 en:CDoubleSharp0 en:CTripleSharp0 en:DTripleFlat0 en:DDoubleFlat0 en:DFlat0 en:D0 en:DSharp0 en:DDoubleSharp0 en:DTripleSharp0 en:ETripleFlat0 en:EDoubleFlat0 en:EFlat0 en:E0 en:ESharp0 en:EDoubleSharp0 en:ETripleSharp0 en:FTripleFlat0 en:FDoubleFlat0 en:FFlat0 en:F0 en:FSharp0 en:FDoubleSharp0 en:FTripleSharp0 en:GTripleFlat0 en:GDoubleFlat0 en:GFlat0 en:G0 en:GSharp0 en:GDoubleSharp0 en:GTripleSharp0 en:ATripleFlat0 en:ADoubleFlat0 en:AFlat0 en:A0 en:ASharp0 en:ADoubleSharp0 en:ATripleSharp0 en:BTripleFlat0 en:BDoubleFlat0 en:BFlat0 en:B0 en:BSharp0 en:BDoubleSharp0 en:BTripleSharp0 en:CTripleFlat1 en:CDoubleFlat1 en:CFlat1 en:C1 en:CSharp1 en:CDoubleSharp1 en:CTripleSharp1 en:DTripleFlat1 en:DDoubleFlat1 en:DFlat1 en:D1 en:DSharp1 en:DDoubleSharp1 en:DTripleSharp1 en:ETripleFlat1 en:EDoubleFlat1 en:EFlat1 en:E1 en:ESharp1 en:EDoubleSharp1 en:ETripleSharp1 en:FTripleFlat1 en:FDoubleFlat1 en:FFlat1 en:F1 en:FSharp1 en:FDoubleSharp1 en:FTripleSharp1 en:GTripleFlat1 en:GDoubleFlat1 en:GFlat1 en:G1 en:GSharp1 en:GDoubleSharp1 en:GTripleSharp1 en:ATripleFlat1 en:ADoubleFlat1 en:AFlat1 en:A1 en:ASharp1 en:ADoubleSharp1 en:ATripleSharp1 en:BTripleFlat1 en:BDoubleFlat1 en:BFlat1 en:B1 en:BSharp1 en:BDoubleSharp1 en:BTripleSharp1 en:CTripleFlat2 en:CDoubleFlat2 en:CFlat2 en:C2 en:CSharp2 en:CDoubleSharp2 en:CTripleSharp2 en:DTripleFlat2 en:DDoubleFlat2 en:DFlat2 en:D2 en:DSharp2 en:DDoubleSharp2 en:DTripleSharp2 en:ETripleFlat2 en:EDoubleFlat2 en:EFlat2 en:E2 en:ESharp2 en:EDoubleSharp2 en:ETripleSharp2 en:FTripleFlat2 en:FDoubleFlat2 en:FFlat2 en:F2 en:FSharp2 en:FDoubleSharp2 en:FTripleSharp2 en:GTripleFlat2 en:GDoubleFlat2 en:GFlat2 en:G2 en:GSharp2 en:GDoubleSharp2 en:GTripleSharp2 en:ATripleFlat2 en:ADoubleFlat2 en:AFlat2 en:A2 en:ASharp2 en:ADoubleSharp2 en:ATripleSharp2 en:BTripleFlat2 en:BDoubleFlat2 en:BFlat2 en:B2 en:BSharp2 en:BDoubleSharp2 en:BTripleSharp2 en:CTripleFlat3 en:CDoubleFlat3 en:CFlat3 en:C3 en:CSharp3 en:CDoubleSharp3 en:CTripleSharp3 en:DTripleFlat3 en:DDoubleFlat3 en:DFlat3 en:D3 en:DSharp3 en:DDoubleSharp3 en:DTripleSharp3 en:ETripleFlat3 en:EDoubleFlat3 en:EFlat3 en:E3 en:ESharp3 en:EDoubleSharp3 en:ETripleSharp3 en:FTripleFlat3 en:FDoubleFlat3 en:FFlat3 en:F3 en:FSharp3 en:FDoubleSharp3 en:FTripleSharp3 en:GTripleFlat3 en:GDoubleFlat3 en:GFlat3 en:G3 en:GSharp3 en:GDoubleSharp3 en:GTripleSharp3 en:ATripleFlat3 en:ADoubleFlat3 en:AFlat3 en:A3 en:ASharp3 en:ADoubleSharp3 en:ATripleSharp3 en:BTripleFlat3 en:BDoubleFlat3 en:BFlat3 en:B3 en:BSharp3 en:BDoubleSharp3 en:BTripleSharp3 en:CTripleFlat4 en:CDoubleFlat4 en:CFlat4 en:C4 en:CSharp4 en:CDoubleSharp4 en:CTripleSharp4 en:DTripleFlat4 en:DDoubleFlat4 en:DFlat4 en:D4 en:DSharp4 en:DDoubleSharp4 en:DTripleSharp4 en:ETripleFlat4 en:EDoubleFlat4 en:EFlat4 en:E4 en:ESharp4 en:EDoubleSharp4 en:ETripleSharp4 en:FTripleFlat4 en:FDoubleFlat4 en:FFlat4 en:F4 en:FSharp4 en:FDoubleSharp4 en:FTripleSharp4 en:GTripleFlat4 en:GDoubleFlat4 en:GFlat4 en:G4 en:GSharp4 en:GDoubleSharp4 en:GTripleSharp4 en:ATripleFlat4 en:ADoubleFlat4 en:AFlat4 en:A4 en:ASharp4 en:ADoubleSharp4 en:ATripleSharp4 en:BTripleFlat4 en:BDoubleFlat4 en:BFlat4 en:B4 en:BSharp4 en:BDoubleSharp4 en:BTripleSharp4 en:CTripleFlat5 en:CDoubleFlat5 en:CFlat5 en:C5 en:CSharp5 en:CDoubleSharp5 en:CTripleSharp5 en:DTripleFlat5 en:DDoubleFlat5 en:DFlat5 en:D5 en:DSharp5 en:DDoubleSharp5 en:DTripleSharp5 en:ETripleFlat5 en:EDoubleFlat5 en:EFlat5 en:E5 en:ESharp5 en:EDoubleSharp5 en:ETripleSharp5 en:FTripleFlat5 en:FDoubleFlat5 en:FFlat5 en:F5 en:FSharp5 en:FDoubleSharp5 en:FTripleSharp5 en:GTripleFlat5 en:GDoubleFlat5 en:GFlat5 en:G5 en:GSharp5 en:GDoubleSharp5 en:GTripleSharp5 en:ATripleFlat5 en:ADoubleFlat5 en:AFlat5 en:A5 en:ASharp5 en:ADoubleSharp5 en:ATripleSharp5 en:BTripleFlat5 en:BDoubleFlat5 en:BFlat5 en:B5 en:BSharp5 en:BDoubleSharp5 en:BTripleSharp5 en:CTripleFlat6 en:CDoubleFlat6 en:CFlat6 en:C6 en:CSharp6 en:CDoubleSharp6 en:CTripleSharp6 en:DTripleFlat6 en:DDoubleFlat6 en:DFlat6 en:D6 en:DSharp6 en:DDoubleSharp6 en:DTripleSharp6 en:ETripleFlat6 en:EDoubleFlat6 en:EFlat6 en:E6 en:ESharp6 en:EDoubleSharp6 en:ETripleSharp6 en:FTripleFlat6 en:FDoubleFlat6 en:FFlat6 en:F6 en:FSharp6 en:FDoubleSharp6 en:FTripleSharp6 en:GTripleFlat6 en:GDoubleFlat6 en:GFlat6 en:G6 en:GSharp6 en:GDoubleSharp6 en:GTripleSharp6 en:ATripleFlat6 en:ADoubleFlat6 en:AFlat6 en:A6 en:ASharp6 en:ADoubleSharp6 en:ATripleSharp6 en:BTripleFlat6 en:BDoubleFlat6 en:BFlat6 en:B6 en:BSharp6 en:BDoubleSharp6 en:BTripleSharp6 en:CTripleFlat7 en:CDoubleFlat7 en:CFlat7 en:C7 en:CSharp7 en:CDoubleSharp7 en:CTripleSharp7 en:DTripleFlat7 en:DDoubleFlat7 en:DFlat7 en:D7 en:DSharp7 en:DDoubleSharp7 en:DTripleSharp7 en:ETripleFlat7 en:EDoubleFlat7 en:EFlat7 en:E7 en:ESharp7 en:EDoubleSharp7 en:ETripleSharp7 en:FTripleFlat7 en:FDoubleFlat7 en:FFlat7 en:F7 en:FSharp7 en:FDoubleSharp7 en:FTripleSharp7 en:GTripleFlat7 en:GDoubleFlat7 en:GFlat7 en:G7 en:GSharp7 en:GDoubleSharp7 en:GTripleSharp7 en:ATripleFlat7 en:ADoubleFlat7 en:AFlat7 en:A7 en:ASharp7 en:ADoubleSharp7 en:ATripleSharp7 en:BTripleFlat7 en:BDoubleFlat7 en:BFlat7 en:B7 en:BSharp7 en:BDoubleSharp7 en:BTripleSharp7 en:CTripleFlat8 en:CDoubleFlat8 en:CFlat8 en:C8 en:CSharp8 en:CDoubleSharp8 en:CTripleSharp8 en:DTripleFlat8 en:DDoubleFlat8 en:DFlat8 en:D8 en:DSharp8 en:DDoubleSharp8 en:DTripleSharp8 en:ETripleFlat8 en:EDoubleFlat8 en:EFlat8 en:E8 en:ESharp8 en:EDoubleSharp8 en:ETripleSharp8 en:FTripleFlat8 en:FDoubleFlat8 en:FFlat8 en:F8 en:FSharp8 en:FDoubleSharp8 en:FTripleSharp8 en:GTripleFlat8 en:GDoubleFlat8 en:GFlat8 en:G8 en:GSharp8 en:GDoubleSharp8 en:GTripleSharp8 en:ATripleFlat8 en:ADoubleFlat8 en:AFlat8 en:A8 en:ASharp8 en:ADoubleSharp8 en:ATripleSharp8 en:BTripleFlat8 en:BDoubleFlat8 en:BFlat8 en:B8 en:BSharp8 en:BDoubleSharp8 en:BTripleSharp8 en:CTripleFlat9 en:CDoubleFlat9 en:CFlat9 en:C9 en:CSharp9 en:CDoubleSharp9 en:CTripleSharp9 en:DTripleFlat9 en:DDoubleFlat9 en:DFlat9 en:D9 en:DSharp9 en:DDoubleSharp9 en:DTripleSharp9 en:ETripleFlat9 en:EDoubleFlat9 en:EFlat9 en:E9 en:ESharp9 en:EDoubleSharp9 en:ETripleSharp9 en:FTripleFlat9 en:FDoubleFlat9 en:FFlat9 en:F9 en:FSharp9 en:FDoubleSharp9 en:FTripleSharp9 en:GTripleFlat9 en:GDoubleFlat9 en:GFlat9 en:G9 en:GSharp9 en:GDoubleSharp9 en:GTripleSharp9 en:ATripleFlat9 en:ADoubleFlat9 en:AFlat9 en:A9 en:ASharp9 en:ADoubleSharp9 en:ATripleSharp9 en:BTripleFlat9 en:BDoubleFlat9 en:BFlat9 en:B9 en:BSharp9 en:BDoubleSharp9 en:BTripleSharp9 en:CTripleFlat10 en:CDoubleFlat10 en:CFlat10 en:C10 en:CSharp10 en:CDoubleSharp10 en:CTripleSharp10 en:DTripleFlat10 en:DDoubleFlat10 en:DFlat10 en:D10 en:DSharp10 en:DDoubleSharp10 en:DTripleSharp10 en:ETripleFlat10 en:EDoubleFlat10 en:EFlat10 en:E10 en:ESharp10 en:EDoubleSharp10 en:ETripleSharp10 en:FTripleFlat10 en:FDoubleFlat10 en:FFlat10 en:F10 en:FSharp10 en:FDoubleSharp10 en:FTripleSharp10 en:GTripleFlat10 en:GDoubleFlat10 en:GFlat10 en:G10 en:GSharp10 en:GDoubleSharp10 en:GTripleSharp10 en:ATripleFlat10 en:ADoubleFlat10 en:AFlat10 en:A10 en:ASharp10 en:ADoubleSharp10 en:ATripleSharp10 en:BTripleFlat10 en:BDoubleFlat10 en:BFlat10 en:B10 en:BSharp10 en:BDoubleSharp10 en:BTripleSharp10</sequence>
+    <identifier lang="en">Pitches</identifier>
+    <definition lang="en" name="Pitches">Ordered sequence of all the
+      defined chromatic pitches.</definition>
+  </concept>
+  </category>
+</mica>

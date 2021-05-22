@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:C_1 en:TripleFlat en:CTripleFlat_1</map>
+  <map>en:C_1 en:DoubleFlat en:CDoubleFlat_1</map>
+  <map>en:C_1 en:Flat en:CFlat_1</map>
+  <map>en:C_1 en:Natural en:C_1</map>
+  <map>en:C_1 en:Sharp en:CSharp_1</map>
+  <map>en:C_1 en:DoubleSharp en:CDoubleSharp_1</map>
+  <map>en:C_1 en:TripleSharp en:CTripleSharp_1</map>
+
+  <map>en:D_1 en:TripleFlat en:DTripleFlat_1</map>
+  <map>en:D_1 en:DoubleFlat en:DDoubleFlat_1</map>
+  <map>en:D_1 en:Flat en:DFlat_1</map>
+  <map>en:D_1 en:Natural en:D_1</map>
+  <map>en:D_1 en:Sharp en:DSharp_1</map>
+  <map>en:D_1 en:DoubleSharp en:DDoubleSharp_1</map>
+  <map>en:D_1 en:TripleSharp en:DTripleSharp_1</map>
+
+  <map>en:E_1 en:TripleFlat en:ETripleFlat_1</map>
+  <map>en:E_1 en:DoubleFlat en:EDoubleFlat_1</map>
+  <map>en:E_1 en:Flat en:EFlat_1</map>
+  <map>en:E_1 en:Natural en:E_1</map>
+  <map>en:E_1 en:Sharp en:ESharp_1</map>
+  <map>en:E_1 en:DoubleSharp en:EDoubleSharp_1</map>
+  <map>en:E_1 en:TripleSharp en:ETripleSharp_1</map>
+
+  <map>en:F_1 en:TripleFlat en:FTripleFlat_1</map>
+  <map>en:F_1 en:DoubleFlat en:FDoubleFlat_1</map>
+  <map>en:F_1 en:Flat en:FFlat_1</map>
+  <map>en:F_1 en:Natural en:F_1</map>
+  <map>en:F_1 en:Sharp en:FSharp_1</map>
+  <map>en:F_1 en:DoubleSharp en:FDoubleSharp_1</map>
+  <map>en:F_1 en:TripleSharp en:FTripleSharp_1</map>
+
+  <map>en:G_1 en:TripleFlat en:GTripleFlat_1</map>
+  <map>en:G_1 en:DoubleFlat en:GDoubleFlat_1</map>
+  <map>en:G_1 en:Flat en:GFlat_1</map>
+  <map>en:G_1 en:Natural en:G_1</map>
+  <map>en:G_1 en:Sharp en:GSharp_1</map>
+  <map>en:G_1 en:DoubleSharp en:GDoubleSharp_1</map>
+  <map>en:G_1 en:TripleSharp en:GTripleSharp_1</map>
+
+  <map>en:A_1 en:TripleFlat en:ATripleFlat_1</map>
+  <map>en:A_1 en:DoubleFlat en:ADoubleFlat_1</map>
+  <map>en:A_1 en:Flat en:AFlat_1</map>
+  <map>en:A_1 en:Natural en:A_1</map>
+  <map>en:A_1 en:Sharp en:ASharp_1</map>
+  <map>en:A_1 en:DoubleSharp en:ADoubleSharp_1</map>
+  <map>en:A_1 en:TripleSharp en:ATripleSharp_1</map>
+
+  <map>en:B_1 en:TripleFlat en:BTripleFlat_1</map>
+  <map>en:B_1 en:DoubleFlat en:BDoubleFlat_1</map>
+  <map>en:B_1 en:Flat en:BFlat_1</map>
+  <map>en:B_1 en:Natural en:B_1</map>
+  <map>en:B_1 en:Sharp en:BSharp_1</map>
+  <map>en:B_1 en:DoubleSharp en:BDoubleSharp_1</map>
+  <map>en:B_1 en:TripleSharp en:BTripleSharp_1</map>
+
+  <map>en:C0 en:TripleFlat en:CTripleFlat0</map>
+  <map>en:C0 en:DoubleFlat en:CDoubleFlat0</map>
+  <map>en:C0 en:Flat en:CFlat0</map>
+  <map>en:C0 en:Natural en:C0</map>
+  <map>en:C0 en:Sharp en:CSharp0</map>
+  <map>en:C0 en:DoubleSharp en:CDoubleSharp0</map>
+  <map>en:C0 en:TripleSharp en:CTripleSharp0</map>
+
+  <map>en:D0 en:TripleFlat en:DTripleFlat0</map>
+  <map>en:D0 en:DoubleFlat en:DDoubleFlat0</map>
+  <map>en:D0 en:Flat en:DFlat0</map>
+  <map>en:D0 en:Natural en:D0</map>
+  <map>en:D0 en:Sharp en:DSharp0</map>
+  <map>en:D0 en:DoubleSharp en:DDoubleSharp0</map>
+  <map>en:D0 en:TripleSharp en:DTripleSharp0</map>
+
+  <map>en:E0 en:TripleFlat en:ETripleFlat0</map>
+  <map>en:E0 en:DoubleFlat en:EDoubleFlat0</map>
+  <map>en:E0 en:Flat en:EFlat0</map>
+  <map>en:E0 en:Natural en:E0</map>
+  <map>en:E0 en:Sharp en:ESharp0</map>
+  <map>en:E0 en:DoubleSharp en:EDoubleSharp0</map>
+  <map>en:E0 en:TripleSharp en:ETripleSharp0</map>
+
+  <map>en:F0 en:TripleFlat en:FTripleFlat0</map>
+  <map>en:F0 en:DoubleFlat en:FDoubleFlat0</map>
+  <map>en:F0 en:Flat en:FFlat0</map>
+  <map>en:F0 en:Natural en:F0</map>
+  <map>en:F0 en:Sharp en:FSharp0</map>
+  <map>en:F0 en:DoubleSharp en:FDoubleSharp0</map>
+  <map>en:F0 en:TripleSharp en:FTripleSharp0</map>
+
+  <map>en:G0 en:TripleFlat en:GTripleFlat0</map>
+  <map>en:G0 en:DoubleFlat en:GDoubleFlat0</map>
+  <map>en:G0 en:Flat en:GFlat0</map>
+  <map>en:G0 en:Natural en:G0</map>
+  <map>en:G0 en:Sharp en:GSharp0</map>
+  <map>en:G0 en:DoubleSharp en:GDoubleSharp0</map>
+  <map>en:G0 en:TripleSharp en:GTripleSharp0</map>
+
+  <map>en:A0 en:TripleFlat en:ATripleFlat0</map>
+  <map>en:A0 en:DoubleFlat en:ADoubleFlat0</map>
+  <map>en:A0 en:Flat en:AFlat0</map>
+  <map>en:A0 en:Natural en:A0</map>
+  <map>en:A0 en:Sharp en:ASharp0</map>
+  <map>en:A0 en:DoubleSharp en:ADoubleSharp0</map>
+  <map>en:A0 en:TripleSharp en:ATripleSharp0</map>
+
+  <map>en:B0 en:TripleFlat en:BTripleFlat0</map>
+  <map>en:B0 en:DoubleFlat en:BDoubleFlat0</map>
+  <map>en:B0 en:Flat en:BFlat0</map>
+  <map>en:B0 en:Natural en:B0</map>
+  <map>en:B0 en:Sharp en:BSharp0</map>
+  <map>en:B0 en:DoubleSharp en:BDoubleSharp0</map>
+  <map>en:B0 en:TripleSharp en:BTripleSharp0</map>
+
+  <map>en:C1 en:TripleFlat en:CTripleFlat1</map>
+  <map>en:C1 en:DoubleFlat en:CDoubleFlat1</map>
+  <map>en:C1 en:Flat en:CFlat1</map>
+  <map>en:C1 en:Natural en:C1</map>
+  <map>en:C1 en:Sharp en:CSharp1</map>
+  <map>en:C1 en:DoubleSharp en:CDoubleSharp1</map>
+  <map>en:C1 en:TripleSharp en:CTripleSharp1</map>
+
+  <map>en:D1 en:TripleFlat en:DTripleFlat1</map>
+  <map>en:D1 en:DoubleFlat en:DDoubleFlat1</map>
+  <map>en:D1 en:Flat en:DFlat1</map>
+  <map>en:D1 en:Natural en:D1</map>
+  <map>en:D1 en:Sharp en:DSharp1</map>
+  <map>en:D1 en:DoubleSharp en:DDoubleSharp1</map>
+  <map>en:D1 en:TripleSharp en:DTripleSharp1</map>
+
+  <map>en:E1 en:TripleFlat en:ETripleFlat1</map>
+  <map>en:E1 en:DoubleFlat en:EDoubleFlat1</map>
+  <map>en:E1 en:Flat en:EFlat1</map>
+  <map>en:E1 en:Natural en:E1</map>
+  <map>en:E1 en:Sharp en:ESharp1</map>
+  <map>en:E1 en:DoubleSharp en:EDoubleSharp1</map>
+  <map>en:E1 en:TripleSharp en:ETripleSharp1</map>
+
+  <map>en:F1 en:TripleFlat en:FTripleFlat1</map>
+  <map>en:F1 en:DoubleFlat en:FDoubleFlat1</map>
+  <map>en:F1 en:Flat en:FFlat1</map>
+  <map>en:F1 en:Natural en:F1</map>
+  <map>en:F1 en:Sharp en:FSharp1</map>
+  <map>en:F1 en:DoubleSharp en:FDoubleSharp1</map>
+  <map>en:F1 en:TripleSharp en:FTripleSharp1</map>
+
+  <map>en:G1 en:TripleFlat en:GTripleFlat1</map>
+  <map>en:G1 en:DoubleFlat en:GDoubleFlat1</map>
+  <map>en:G1 en:Flat en:GFlat1</map>
+  <map>en:G1 en:Natural en:G1</map>
+  <map>en:G1 en:Sharp en:GSharp1</map>
+  <map>en:G1 en:DoubleSharp en:GDoubleSharp1</map>
+  <map>en:G1 en:TripleSharp en:GTripleSharp1</map>
+
+  <map>en:A1 en:TripleFlat en:ATripleFlat1</map>
+  <map>en:A1 en:DoubleFlat en:ADoubleFlat1</map>
+  <map>en:A1 en:Flat en:AFlat1</map>
+  <map>en:A1 en:Natural en:A1</map>
+  <map>en:A1 en:Sharp en:ASharp1</map>
+  <map>en:A1 en:DoubleSharp en:ADoubleSharp1</map>
+  <map>en:A1 en:TripleSharp en:ATripleSharp1</map>
+
+  <map>en:B1 en:TripleFlat en:BTripleFlat1</map>
+  <map>en:B1 en:DoubleFlat en:BDoubleFlat1</map>
+  <map>en:B1 en:Flat en:BFlat1</map>
+  <map>en:B1 en:Natural en:B1</map>
+  <map>en:B1 en:Sharp en:BSharp1</map>
+  <map>en:B1 en:DoubleSharp en:BDoubleSharp1</map>
+  <map>en:B1 en:TripleSharp en:BTripleSharp1</map>
+
+  <map>en:C2 en:TripleFlat en:CTripleFlat2</map>
+  <map>en:C2 en:DoubleFlat en:CDoubleFlat2</map>
+  <map>en:C2 en:Flat en:CFlat2</map>
+  <map>en:C2 en:Natural en:C2</map>
+  <map>en:C2 en:Sharp en:CSharp2</map>
+  <map>en:C2 en:DoubleSharp en:CDoubleSharp2</map>
+  <map>en:C2 en:TripleSharp en:CTripleSharp2</map>
+
+  <map>en:D2 en:TripleFlat en:DTripleFlat2</map>
+  <map>en:D2 en:DoubleFlat en:DDoubleFlat2</map>
+  <map>en:D2 en:Flat en:DFlat2</map>
+  <map>en:D2 en:Natural en:D2</map>
+  <map>en:D2 en:Sharp en:DSharp2</map>
+  <map>en:D2 en:DoubleSharp en:DDoubleSharp2</map>
+  <map>en:D2 en:TripleSharp en:DTripleSharp2</map>
+
+  <map>en:E2 en:TripleFlat en:ETripleFlat2</map>
+  <map>en:E2 en:DoubleFlat en:EDoubleFlat2</map>
+  <map>en:E2 en:Flat en:EFlat2</map>
+  <map>en:E2 en:Natural en:E2</map>
+  <map>en:E2 en:Sharp en:ESharp2</map>
+  <map>en:E2 en:DoubleSharp en:EDoubleSharp2</map>
+  <map>en:E2 en:TripleSharp en:ETripleSharp2</map>
+
+  <map>en:F2 en:TripleFlat en:FTripleFlat2</map>
+  <map>en:F2 en:DoubleFlat en:FDoubleFlat2</map>
+  <map>en:F2 en:Flat en:FFlat2</map>
+  <map>en:F2 en:Natural en:F2</map>
+  <map>en:F2 en:Sharp en:FSharp2</map>
+  <map>en:F2 en:DoubleSharp en:FDoubleSharp2</map>
+  <map>en:F2 en:TripleSharp en:FTripleSharp2</map>
+
+  <map>en:G2 en:TripleFlat en:GTripleFlat2</map>
+  <map>en:G2 en:DoubleFlat en:GDoubleFlat2</map>
+  <map>en:G2 en:Flat en:GFlat2</map>
+  <map>en:G2 en:Natural en:G2</map>
+  <map>en:G2 en:Sharp en:GSharp2</map>
+  <map>en:G2 en:DoubleSharp en:GDoubleSharp2</map>
+  <map>en:G2 en:TripleSharp en:GTripleSharp2</map>
+
+  <map>en:A2 en:TripleFlat en:ATripleFlat2</map>
+  <map>en:A2 en:DoubleFlat en:ADoubleFlat2</map>
+  <map>en:A2 en:Flat en:AFlat2</map>
+  <map>en:A2 en:Natural en:A2</map>
+  <map>en:A2 en:Sharp en:ASharp2</map>
+  <map>en:A2 en:DoubleSharp en:ADoubleSharp2</map>
+  <map>en:A2 en:TripleSharp en:ATripleSharp2</map>
+
+  <map>en:B2 en:TripleFlat en:BTripleFlat2</map>
+  <map>en:B2 en:DoubleFlat en:BDoubleFlat2</map>
+  <map>en:B2 en:Flat en:BFlat2</map>
+  <map>en:B2 en:Natural en:B2</map>
+  <map>en:B2 en:Sharp en:BSharp2</map>
+  <map>en:B2 en:DoubleSharp en:BDoubleSharp2</map>
+  <map>en:B2 en:TripleSharp en:BTripleSharp2</map>
+
+  <map>en:C3 en:TripleFlat en:CTripleFlat3</map>
+  <map>en:C3 en:DoubleFlat en:CDoubleFlat3</map>
+  <map>en:C3 en:Flat en:CFlat3</map>
+  <map>en:C3 en:Natural en:C3</map>
+  <map>en:C3 en:Sharp en:CSharp3</map>
+  <map>en:C3 en:DoubleSharp en:CDoubleSharp3</map>
+  <map>en:C3 en:TripleSharp en:CTripleSharp3</map>
+
+  <map>en:D3 en:TripleFlat en:DTripleFlat3</map>
+  <map>en:D3 en:DoubleFlat en:DDoubleFlat3</map>
+  <map>en:D3 en:Flat en:DFlat3</map>
+  <map>en:D3 en:Natural en:D3</map>
+  <map>en:D3 en:Sharp en:DSharp3</map>
+  <map>en:D3 en:DoubleSharp en:DDoubleSharp3</map>
+  <map>en:D3 en:TripleSharp en:DTripleSharp3</map>
+
+  <map>en:E3 en:TripleFlat en:ETripleFlat3</map>
+  <map>en:E3 en:DoubleFlat en:EDoubleFlat3</map>
+  <map>en:E3 en:Flat en:EFlat3</map>
+  <map>en:E3 en:Natural en:E3</map>
+  <map>en:E3 en:Sharp en:ESharp3</map>
+  <map>en:E3 en:DoubleSharp en:EDoubleSharp3</map>
+  <map>en:E3 en:TripleSharp en:ETripleSharp3</map>
+
+  <map>en:F3 en:TripleFlat en:FTripleFlat3</map>
+  <map>en:F3 en:DoubleFlat en:FDoubleFlat3</map>
+  <map>en:F3 en:Flat en:FFlat3</map>
+  <map>en:F3 en:Natural en:F3</map>
+  <map>en:F3 en:Sharp en:FSharp3</map>
+  <map>en:F3 en:DoubleSharp en:FDoubleSharp3</map>
+  <map>en:F3 en:TripleSharp en:FTripleSharp3</map>
+
+  <map>en:G3 en:TripleFlat en:GTripleFlat3</map>
+  <map>en:G3 en:DoubleFlat en:GDoubleFlat3</map>
+  <map>en:G3 en:Flat en:GFlat3</map>
+  <map>en:G3 en:Natural en:G3</map>
+  <map>en:G3 en:Sharp en:GSharp3</map>
+  <map>en:G3 en:DoubleSharp en:GDoubleSharp3</map>
+  <map>en:G3 en:TripleSharp en:GTripleSharp3</map>
+
+  <map>en:A3 en:TripleFlat en:ATripleFlat3</map>
+  <map>en:A3 en:DoubleFlat en:ADoubleFlat3</map>
+  <map>en:A3 en:Flat en:AFlat3</map>
+  <map>en:A3 en:Natural en:A3</map>
+  <map>en:A3 en:Sharp en:ASharp3</map>
+  <map>en:A3 en:DoubleSharp en:ADoubleSharp3</map>
+  <map>en:A3 en:TripleSharp en:ATripleSharp3</map>
+
+  <map>en:B3 en:TripleFlat en:BTripleFlat3</map>
+  <map>en:B3 en:DoubleFlat en:BDoubleFlat3</map>
+  <map>en:B3 en:Flat en:BFlat3</map>
+  <map>en:B3 en:Natural en:B3</map>
+  <map>en:B3 en:Sharp en:BSharp3</map>
+  <map>en:B3 en:DoubleSharp en:BDoubleSharp3</map>
+  <map>en:B3 en:TripleSharp en:BTripleSharp3</map>
+
+  <map>en:C4 en:TripleFlat en:CTripleFlat4</map>
+  <map>en:C4 en:DoubleFlat en:CDoubleFlat4</map>
+  <map>en:C4 en:Flat en:CFlat4</map>
+  <map>en:C4 en:Natural en:C4</map>
+  <map>en:C4 en:Sharp en:CSharp4</map>
+  <map>en:C4 en:DoubleSharp en:CDoubleSharp4</map>
+  <map>en:C4 en:TripleSharp en:CTripleSharp4</map>
+
+  <map>en:D4 en:TripleFlat en:DTripleFlat4</map>
+  <map>en:D4 en:DoubleFlat en:DDoubleFlat4</map>
+  <map>en:D4 en:Flat en:DFlat4</map>
+  <map>en:D4 en:Natural en:D4</map>
+  <map>en:D4 en:Sharp en:DSharp4</map>
+  <map>en:D4 en:DoubleSharp en:DDoubleSharp4</map>
+  <map>en:D4 en:TripleSharp en:DTripleSharp4</map>
+
+  <map>en:E4 en:TripleFlat en:ETripleFlat4</map>
+  <map>en:E4 en:DoubleFlat en:EDoubleFlat4</map>
+  <map>en:E4 en:Flat en:EFlat4</map>
+  <map>en:E4 en:Natural en:E4</map>
+  <map>en:E4 en:Sharp en:ESharp4</map>
+  <map>en:E4 en:DoubleSharp en:EDoubleSharp4</map>
+  <map>en:E4 en:TripleSharp en:ETripleSharp4</map>
+
+  <map>en:F4 en:TripleFlat en:FTripleFlat4</map>
+  <map>en:F4 en:DoubleFlat en:FDoubleFlat4</map>
+  <map>en:F4 en:Flat en:FFlat4</map>
+  <map>en:F4 en:Natural en:F4</map>
+  <map>en:F4 en:Sharp en:FSharp4</map>
+  <map>en:F4 en:DoubleSharp en:FDoubleSharp4</map>
+  <map>en:F4 en:TripleSharp en:FTripleSharp4</map>
+
+  <map>en:G4 en:TripleFlat en:GTripleFlat4</map>
+  <map>en:G4 en:DoubleFlat en:GDoubleFlat4</map>
+  <map>en:G4 en:Flat en:GFlat4</map>
+  <map>en:G4 en:Natural en:G4</map>
+  <map>en:G4 en:Sharp en:GSharp4</map>
+  <map>en:G4 en:DoubleSharp en:GDoubleSharp4</map>
+  <map>en:G4 en:TripleSharp en:GTripleSharp4</map>
+
+  <map>en:A4 en:TripleFlat en:ATripleFlat4</map>
+  <map>en:A4 en:DoubleFlat en:ADoubleFlat4</map>
+  <map>en:A4 en:Flat en:AFlat4</map>
+  <map>en:A4 en:Natural en:A4</map>
+  <map>en:A4 en:Sharp en:ASharp4</map>
+  <map>en:A4 en:DoubleSharp en:ADoubleSharp4</map>
+  <map>en:A4 en:TripleSharp en:ATripleSharp4</map>
+
+  <map>en:B4 en:TripleFlat en:BTripleFlat4</map>
+  <map>en:B4 en:DoubleFlat en:BDoubleFlat4</map>
+  <map>en:B4 en:Flat en:BFlat4</map>
+  <map>en:B4 en:Natural en:B4</map>
+  <map>en:B4 en:Sharp en:BSharp4</map>
+  <map>en:B4 en:DoubleSharp en:BDoubleSharp4</map>
+  <map>en:B4 en:TripleSharp en:BTripleSharp4</map>
+
+  <map>en:C5 en:TripleFlat en:CTripleFlat5</map>
+  <map>en:C5 en:DoubleFlat en:CDoubleFlat5</map>
+  <map>en:C5 en:Flat en:CFlat5</map>
+  <map>en:C5 en:Natural en:C5</map>
+  <map>en:C5 en:Sharp en:CSharp5</map>
+  <map>en:C5 en:DoubleSharp en:CDoubleSharp5</map>
+  <map>en:C5 en:TripleSharp en:CTripleSharp5</map>
+
+  <map>en:D5 en:TripleFlat en:DTripleFlat5</map>
+  <map>en:D5 en:DoubleFlat en:DDoubleFlat5</map>
+  <map>en:D5 en:Flat en:DFlat5</map>
+  <map>en:D5 en:Natural en:D5</map>
+  <map>en:D5 en:Sharp en:DSharp5</map>
+  <map>en:D5 en:DoubleSharp en:DDoubleSharp5</map>
+  <map>en:D5 en:TripleSharp en:DTripleSharp5</map>
+
+  <map>en:E5 en:TripleFlat en:ETripleFlat5</map>
+  <map>en:E5 en:DoubleFlat en:EDoubleFlat5</map>
+  <map>en:E5 en:Flat en:EFlat5</map>
+  <map>en:E5 en:Natural en:E5</map>
+  <map>en:E5 en:Sharp en:ESharp5</map>
+  <map>en:E5 en:DoubleSharp en:EDoubleSharp5</map>
+  <map>en:E5 en:TripleSharp en:ETripleSharp5</map>
+
+  <map>en:F5 en:TripleFlat en:FTripleFlat5</map>
+  <map>en:F5 en:DoubleFlat en:FDoubleFlat5</map>
+  <map>en:F5 en:Flat en:FFlat5</map>
+  <map>en:F5 en:Natural en:F5</map>
+  <map>en:F5 en:Sharp en:FSharp5</map>
+  <map>en:F5 en:DoubleSharp en:FDoubleSharp5</map>
+  <map>en:F5 en:TripleSharp en:FTripleSharp5</map>
+
+  <map>en:G5 en:TripleFlat en:GTripleFlat5</map>
+  <map>en:G5 en:DoubleFlat en:GDoubleFlat5</map>
+  <map>en:G5 en:Flat en:GFlat5</map>
+  <map>en:G5 en:Natural en:G5</map>
+  <map>en:G5 en:Sharp en:GSharp5</map>
+  <map>en:G5 en:DoubleSharp en:GDoubleSharp5</map>
+  <map>en:G5 en:TripleSharp en:GTripleSharp5</map>
+
+  <map>en:A5 en:TripleFlat en:ATripleFlat5</map>
+  <map>en:A5 en:DoubleFlat en:ADoubleFlat5</map>
+  <map>en:A5 en:Flat en:AFlat5</map>
+  <map>en:A5 en:Natural en:A5</map>
+  <map>en:A5 en:Sharp en:ASharp5</map>
+  <map>en:A5 en:DoubleSharp en:ADoubleSharp5</map>
+  <map>en:A5 en:TripleSharp en:ATripleSharp5</map>
+
+  <map>en:B5 en:TripleFlat en:BTripleFlat5</map>
+  <map>en:B5 en:DoubleFlat en:BDoubleFlat5</map>
+  <map>en:B5 en:Flat en:BFlat5</map>
+  <map>en:B5 en:Natural en:B5</map>
+  <map>en:B5 en:Sharp en:BSharp5</map>
+  <map>en:B5 en:DoubleSharp en:BDoubleSharp5</map>
+  <map>en:B5 en:TripleSharp en:BTripleSharp5</map>
+
+  <map>en:C6 en:TripleFlat en:CTripleFlat6</map>
+  <map>en:C6 en:DoubleFlat en:CDoubleFlat6</map>
+  <map>en:C6 en:Flat en:CFlat6</map>
+  <map>en:C6 en:Natural en:C6</map>
+  <map>en:C6 en:Sharp en:CSharp6</map>
+  <map>en:C6 en:DoubleSharp en:CDoubleSharp6</map>
+  <map>en:C6 en:TripleSharp en:CTripleSharp6</map>
+
+  <map>en:D6 en:TripleFlat en:DTripleFlat6</map>
+  <map>en:D6 en:DoubleFlat en:DDoubleFlat6</map>
+  <map>en:D6 en:Flat en:DFlat6</map>
+  <map>en:D6 en:Natural en:D6</map>
+  <map>en:D6 en:Sharp en:DSharp6</map>
+  <map>en:D6 en:DoubleSharp en:DDoubleSharp6</map>
+  <map>en:D6 en:TripleSharp en:DTripleSharp6</map>
+
+  <map>en:E6 en:TripleFlat en:ETripleFlat6</map>
+  <map>en:E6 en:DoubleFlat en:EDoubleFlat6</map>
+  <map>en:E6 en:Flat en:EFlat6</map>
+  <map>en:E6 en:Natural en:E6</map>
+  <map>en:E6 en:Sharp en:ESharp6</map>
+  <map>en:E6 en:DoubleSharp en:EDoubleSharp6</map>
+  <map>en:E6 en:TripleSharp en:ETripleSharp6</map>
+
+  <map>en:F6 en:TripleFlat en:FTripleFlat6</map>
+  <map>en:F6 en:DoubleFlat en:FDoubleFlat6</map>
+  <map>en:F6 en:Flat en:FFlat6</map>
+  <map>en:F6 en:Natural en:F6</map>
+  <map>en:F6 en:Sharp en:FSharp6</map>
+  <map>en:F6 en:DoubleSharp en:FDoubleSharp6</map>
+  <map>en:F6 en:TripleSharp en:FTripleSharp6</map>
+
+  <map>en:G6 en:TripleFlat en:GTripleFlat6</map>
+  <map>en:G6 en:DoubleFlat en:GDoubleFlat6</map>
+  <map>en:G6 en:Flat en:GFlat6</map>
+  <map>en:G6 en:Natural en:G6</map>
+  <map>en:G6 en:Sharp en:GSharp6</map>
+  <map>en:G6 en:DoubleSharp en:GDoubleSharp6</map>
+  <map>en:G6 en:TripleSharp en:GTripleSharp6</map>
+
+  <map>en:A6 en:TripleFlat en:ATripleFlat6</map>
+  <map>en:A6 en:DoubleFlat en:ADoubleFlat6</map>
+  <map>en:A6 en:Flat en:AFlat6</map>
+  <map>en:A6 en:Natural en:A6</map>
+  <map>en:A6 en:Sharp en:ASharp6</map>
+  <map>en:A6 en:DoubleSharp en:ADoubleSharp6</map>
+  <map>en:A6 en:TripleSharp en:ATripleSharp6</map>
+
+  <map>en:B6 en:TripleFlat en:BTripleFlat6</map>
+  <map>en:B6 en:DoubleFlat en:BDoubleFlat6</map>
+  <map>en:B6 en:Flat en:BFlat6</map>
+  <map>en:B6 en:Natural en:B6</map>
+  <map>en:B6 en:Sharp en:BSharp6</map>
+  <map>en:B6 en:DoubleSharp en:BDoubleSharp6</map>
+  <map>en:B6 en:TripleSharp en:BTripleSharp6</map>
+
+  <map>en:C7 en:TripleFlat en:CTripleFlat7</map>
+  <map>en:C7 en:DoubleFlat en:CDoubleFlat7</map>
+  <map>en:C7 en:Flat en:CFlat7</map>
+  <map>en:C7 en:Natural en:C7</map>
+  <map>en:C7 en:Sharp en:CSharp7</map>
+  <map>en:C7 en:DoubleSharp en:CDoubleSharp7</map>
+  <map>en:C7 en:TripleSharp en:CTripleSharp7</map>
+
+  <map>en:D7 en:TripleFlat en:DTripleFlat7</map>
+  <map>en:D7 en:DoubleFlat en:DDoubleFlat7</map>
+  <map>en:D7 en:Flat en:DFlat7</map>
+  <map>en:D7 en:Natural en:D7</map>
+  <map>en:D7 en:Sharp en:DSharp7</map>
+  <map>en:D7 en:DoubleSharp en:DDoubleSharp7</map>
+  <map>en:D7 en:TripleSharp en:DTripleSharp7</map>
+
+  <map>en:E7 en:TripleFlat en:ETripleFlat7</map>
+  <map>en:E7 en:DoubleFlat en:EDoubleFlat7</map>
+  <map>en:E7 en:Flat en:EFlat7</map>
+  <map>en:E7 en:Natural en:E7</map>
+  <map>en:E7 en:Sharp en:ESharp7</map>
+  <map>en:E7 en:DoubleSharp en:EDoubleSharp7</map>
+  <map>en:E7 en:TripleSharp en:ETripleSharp7</map>
+
+  <map>en:F7 en:TripleFlat en:FTripleFlat7</map>
+  <map>en:F7 en:DoubleFlat en:FDoubleFlat7</map>
+  <map>en:F7 en:Flat en:FFlat7</map>
+  <map>en:F7 en:Natural en:F7</map>
+  <map>en:F7 en:Sharp en:FSharp7</map>
+  <map>en:F7 en:DoubleSharp en:FDoubleSharp7</map>
+  <map>en:F7 en:TripleSharp en:FTripleSharp7</map>
+
+  <map>en:G7 en:TripleFlat en:GTripleFlat7</map>
+  <map>en:G7 en:DoubleFlat en:GDoubleFlat7</map>
+  <map>en:G7 en:Flat en:GFlat7</map>
+  <map>en:G7 en:Natural en:G7</map>
+  <map>en:G7 en:Sharp en:GSharp7</map>
+  <map>en:G7 en:DoubleSharp en:GDoubleSharp7</map>
+  <map>en:G7 en:TripleSharp en:GTripleSharp7</map>
+
+  <map>en:A7 en:TripleFlat en:ATripleFlat7</map>
+  <map>en:A7 en:DoubleFlat en:ADoubleFlat7</map>
+  <map>en:A7 en:Flat en:AFlat7</map>
+  <map>en:A7 en:Natural en:A7</map>
+  <map>en:A7 en:Sharp en:ASharp7</map>
+  <map>en:A7 en:DoubleSharp en:ADoubleSharp7</map>
+  <map>en:A7 en:TripleSharp en:ATripleSharp7</map>
+
+  <map>en:B7 en:TripleFlat en:BTripleFlat7</map>
+  <map>en:B7 en:DoubleFlat en:BDoubleFlat7</map>
+  <map>en:B7 en:Flat en:BFlat7</map>
+  <map>en:B7 en:Natural en:B7</map>
+  <map>en:B7 en:Sharp en:BSharp7</map>
+  <map>en:B7 en:DoubleSharp en:BDoubleSharp7</map>
+  <map>en:B7 en:TripleSharp en:BTripleSharp7</map>
+
+  <map>en:C8 en:TripleFlat en:CTripleFlat8</map>
+  <map>en:C8 en:DoubleFlat en:CDoubleFlat8</map>
+  <map>en:C8 en:Flat en:CFlat8</map>
+  <map>en:C8 en:Natural en:C8</map>
+  <map>en:C8 en:Sharp en:CSharp8</map>
+  <map>en:C8 en:DoubleSharp en:CDoubleSharp8</map>
+  <map>en:C8 en:TripleSharp en:CTripleSharp8</map>
+
+  <map>en:D8 en:TripleFlat en:DTripleFlat8</map>
+  <map>en:D8 en:DoubleFlat en:DDoubleFlat8</map>
+  <map>en:D8 en:Flat en:DFlat8</map>
+  <map>en:D8 en:Natural en:D8</map>
+  <map>en:D8 en:Sharp en:DSharp8</map>
+  <map>en:D8 en:DoubleSharp en:DDoubleSharp8</map>
+  <map>en:D8 en:TripleSharp en:DTripleSharp8</map>
+
+  <map>en:E8 en:TripleFlat en:ETripleFlat8</map>
+  <map>en:E8 en:DoubleFlat en:EDoubleFlat8</map>
+  <map>en:E8 en:Flat en:EFlat8</map>
+  <map>en:E8 en:Natural en:E8</map>
+  <map>en:E8 en:Sharp en:ESharp8</map>
+  <map>en:E8 en:DoubleSharp en:EDoubleSharp8</map>
+  <map>en:E8 en:TripleSharp en:ETripleSharp8</map>
+
+  <map>en:F8 en:TripleFlat en:FTripleFlat8</map>
+  <map>en:F8 en:DoubleFlat en:FDoubleFlat8</map>
+  <map>en:F8 en:Flat en:FFlat8</map>
+  <map>en:F8 en:Natural en:F8</map>
+  <map>en:F8 en:Sharp en:FSharp8</map>
+  <map>en:F8 en:DoubleSharp en:FDoubleSharp8</map>
+  <map>en:F8 en:TripleSharp en:FTripleSharp8</map>
+
+  <map>en:G8 en:TripleFlat en:GTripleFlat8</map>
+  <map>en:G8 en:DoubleFlat en:GDoubleFlat8</map>
+  <map>en:G8 en:Flat en:GFlat8</map>
+  <map>en:G8 en:Natural en:G8</map>
+  <map>en:G8 en:Sharp en:GSharp8</map>
+  <map>en:G8 en:DoubleSharp en:GDoubleSharp8</map>
+  <map>en:G8 en:TripleSharp en:GTripleSharp8</map>
+
+  <map>en:A8 en:TripleFlat en:ATripleFlat8</map>
+  <map>en:A8 en:DoubleFlat en:ADoubleFlat8</map>
+  <map>en:A8 en:Flat en:AFlat8</map>
+  <map>en:A8 en:Natural en:A8</map>
+  <map>en:A8 en:Sharp en:ASharp8</map>
+  <map>en:A8 en:DoubleSharp en:ADoubleSharp8</map>
+  <map>en:A8 en:TripleSharp en:ATripleSharp8</map>
+
+  <map>en:B8 en:TripleFlat en:BTripleFlat8</map>
+  <map>en:B8 en:DoubleFlat en:BDoubleFlat8</map>
+  <map>en:B8 en:Flat en:BFlat8</map>
+  <map>en:B8 en:Natural en:B8</map>
+  <map>en:B8 en:Sharp en:BSharp8</map>
+  <map>en:B8 en:DoubleSharp en:BDoubleSharp8</map>
+  <map>en:B8 en:TripleSharp en:BTripleSharp8</map>
+
+  <map>en:C9 en:TripleFlat en:CTripleFlat9</map>
+  <map>en:C9 en:DoubleFlat en:CDoubleFlat9</map>
+  <map>en:C9 en:Flat en:CFlat9</map>
+  <map>en:C9 en:Natural en:C9</map>
+  <map>en:C9 en:Sharp en:CSharp9</map>
+  <map>en:C9 en:DoubleSharp en:CDoubleSharp9</map>
+  <map>en:C9 en:TripleSharp en:CTripleSharp9</map>
+
+  <map>en:D9 en:TripleFlat en:DTripleFlat9</map>
+  <map>en:D9 en:DoubleFlat en:DDoubleFlat9</map>
+  <map>en:D9 en:Flat en:DFlat9</map>
+  <map>en:D9 en:Natural en:D9</map>
+  <map>en:D9 en:Sharp en:DSharp9</map>
+  <map>en:D9 en:DoubleSharp en:DDoubleSharp9</map>
+  <map>en:D9 en:TripleSharp en:DTripleSharp9</map>
+
+  <map>en:E9 en:TripleFlat en:ETripleFlat9</map>
+  <map>en:E9 en:DoubleFlat en:EDoubleFlat9</map>
+  <map>en:E9 en:Flat en:EFlat9</map>
+  <map>en:E9 en:Natural en:E9</map>
+  <map>en:E9 en:Sharp en:ESharp9</map>
+  <map>en:E9 en:DoubleSharp en:EDoubleSharp9</map>
+  <map>en:E9 en:TripleSharp en:ETripleSharp9</map>
+
+  <map>en:F9 en:TripleFlat en:FTripleFlat9</map>
+  <map>en:F9 en:DoubleFlat en:FDoubleFlat9</map>
+  <map>en:F9 en:Flat en:FFlat9</map>
+  <map>en:F9 en:Natural en:F9</map>
+  <map>en:F9 en:Sharp en:FSharp9</map>
+  <map>en:F9 en:DoubleSharp en:FDoubleSharp9</map>
+  <map>en:F9 en:TripleSharp en:FTripleSharp9</map>
+
+  <map>en:G9 en:TripleFlat en:GTripleFlat9</map>
+  <map>en:G9 en:DoubleFlat en:GDoubleFlat9</map>
+  <map>en:G9 en:Flat en:GFlat9</map>
+  <map>en:G9 en:Natural en:G9</map>
+  <map>en:G9 en:Sharp en:GSharp9</map>
+  <map>en:G9 en:DoubleSharp en:GDoubleSharp9</map>
+  <map>en:G9 en:TripleSharp en:GTripleSharp9</map>
+
+  <map>en:A9 en:TripleFlat en:ATripleFlat9</map>
+  <map>en:A9 en:DoubleFlat en:ADoubleFlat9</map>
+  <map>en:A9 en:Flat en:AFlat9</map>
+  <map>en:A9 en:Natural en:A9</map>
+  <map>en:A9 en:Sharp en:ASharp9</map>
+  <map>en:A9 en:DoubleSharp en:ADoubleSharp9</map>
+  <map>en:A9 en:TripleSharp en:ATripleSharp9</map>
+
+  <map>en:B9 en:TripleFlat en:BTripleFlat9</map>
+  <map>en:B9 en:DoubleFlat en:BDoubleFlat9</map>
+  <map>en:B9 en:Flat en:BFlat9</map>
+  <map>en:B9 en:Natural en:B9</map>
+  <map>en:B9 en:Sharp en:BSharp9</map>
+  <map>en:B9 en:DoubleSharp en:BDoubleSharp9</map>
+  <map>en:B9 en:TripleSharp en:BTripleSharp9</map>
+
+  <map>en:C10 en:TripleFlat en:CTripleFlat10</map>
+  <map>en:C10 en:DoubleFlat en:CDoubleFlat10</map>
+  <map>en:C10 en:Flat en:CFlat10</map>
+  <map>en:C10 en:Natural en:C10</map>
+  <map>en:C10 en:Sharp en:CSharp10</map>
+  <map>en:C10 en:DoubleSharp en:CDoubleSharp10</map>
+  <map>en:C10 en:TripleSharp en:CTripleSharp10</map>
+
+  <map>en:D10 en:TripleFlat en:DTripleFlat10</map>
+  <map>en:D10 en:DoubleFlat en:DDoubleFlat10</map>
+  <map>en:D10 en:Flat en:DFlat10</map>
+  <map>en:D10 en:Natural en:D10</map>
+  <map>en:D10 en:Sharp en:DSharp10</map>
+  <map>en:D10 en:DoubleSharp en:DDoubleSharp10</map>
+  <map>en:D10 en:TripleSharp en:DTripleSharp10</map>
+
+  <map>en:E10 en:TripleFlat en:ETripleFlat10</map>
+  <map>en:E10 en:DoubleFlat en:EDoubleFlat10</map>
+  <map>en:E10 en:Flat en:EFlat10</map>
+  <map>en:E10 en:Natural en:E10</map>
+  <map>en:E10 en:Sharp en:ESharp10</map>
+  <map>en:E10 en:DoubleSharp en:EDoubleSharp10</map>
+  <map>en:E10 en:TripleSharp en:ETripleSharp10</map>
+
+  <map>en:F10 en:TripleFlat en:FTripleFlat10</map>
+  <map>en:F10 en:DoubleFlat en:FDoubleFlat10</map>
+  <map>en:F10 en:Flat en:FFlat10</map>
+  <map>en:F10 en:Natural en:F10</map>
+  <map>en:F10 en:Sharp en:FSharp10</map>
+  <map>en:F10 en:DoubleSharp en:FDoubleSharp10</map>
+  <map>en:F10 en:TripleSharp en:FTripleSharp10</map>
+
+  <map>en:G10 en:TripleFlat en:GTripleFlat10</map>
+  <map>en:G10 en:DoubleFlat en:GDoubleFlat10</map>
+  <map>en:G10 en:Flat en:GFlat10</map>
+  <map>en:G10 en:Natural en:G10</map>
+  <map>en:G10 en:Sharp en:GSharp10</map>
+  <map>en:G10 en:DoubleSharp en:GDoubleSharp10</map>
+  <map>en:G10 en:TripleSharp en:GTripleSharp10</map>
+
+  <map>en:A10 en:TripleFlat en:ATripleFlat10</map>
+  <map>en:A10 en:DoubleFlat en:ADoubleFlat10</map>
+  <map>en:A10 en:Flat en:AFlat10</map>
+  <map>en:A10 en:Natural en:A10</map>
+  <map>en:A10 en:Sharp en:ASharp10</map>
+  <map>en:A10 en:DoubleSharp en:ADoubleSharp10</map>
+  <map>en:A10 en:TripleSharp en:ATripleSharp10</map>
+
+  <map>en:B10 en:TripleFlat en:BTripleFlat10</map>
+  <map>en:B10 en:DoubleFlat en:BDoubleFlat10</map>
+  <map>en:B10 en:Flat en:BFlat10</map>
+  <map>en:B10 en:Natural en:B10</map>
+  <map>en:B10 en:Sharp en:BSharp10</map>
+  <map>en:B10 en:DoubleSharp en:BDoubleSharp10</map>
+  <map>en:B10 en:TripleSharp en:BTripleSharp10</map>
+</mica>

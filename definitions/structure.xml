@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Structure">Contains structural score elements.
+    </definition>
+    <concept uuid="en:Partwise">
+      <identifier lang="en">Partwise</identifier>
+      <definition lang="en" name="Partwise">Along a musical part (horizontally
+        across a score). Partwise links serialize horizontal elements.</definition>
+    </concept>
+    <concept uuid="en:Instantwise">
+      <identifier lang="en">Instantwise</identifier>
+      <definition lang="en" name="Instant-wise">Along a musical instant
+        (vertically down a score). Instant-wise links connect elements between parts that are vertically simultaneous.</definition>
+    </concept>
+    <concept uuid="en:Type">
+      <identifier lang="en">Type</identifier>
+      <definition lang="en" name="Type">Indicates the type of something.</definition>
+    </concept>
+    <concept uuid="en:Kind">
+      <identifier lang="en">Kind</identifier>
+      <definition lang="en" name="Kind">Indicates the kind of a typed thing.</definition>
+    </concept>
+    <concept uuid="en:Value">
+      <identifier lang="en">Value</identifier>
+      <definition lang="en" name="Value">Indicates the value of a thing.</definition>
+    </concept>
+    <concept uuid="en:Node">
+      <identifier lang="en">Node</identifier>
+      <definition lang="en" name="Node">Indicates a node.</definition>
+    </concept>    
+    <concept uuid="en:Island">
+      <identifier lang="en">Island</identifier>
+      <definition lang="en" name="Island">Indicates a music graph island.</definition>
+    </concept>
+    <concept uuid="en:Token">
+      <identifier lang="en">Token</identifier>
+      <definition lang="en" name="Token">Indicates a music graph token.</definition>
+    </concept>
+    <concept uuid="en:Note">
+      <identifier lang="en">Note</identifier>
+      <definition lang="en" name="Note">Indicates a music graph note.</definition>
+    </concept>
+    <concept uuid="en:Marking">
+      <identifier lang="en">Marking</identifier>
+      <definition lang="en" name="Marking">Indicates a music graph marking.</definition>
+    </concept>
+    <concept uuid="en:Float">
+      <identifier lang="en">Float</identifier>
+      <definition lang="en" name="Float">Indicates a music graph float.</definition>
+    </concept>
+    <concept uuid="en:Span">
+      <identifier lang="en">Span</identifier>
+      <definition lang="en" name="Span">Indicates a span designated by a link.</definition>
+    </concept>
+    <concept uuid="en:Property">
+      <identifier lang="en">Property</identifier>
+      <definition lang="en" name="Property">Indicates a music graph property.</definition>
+    </concept>
+    <concept uuid="en:Metadata">
+      <identifier lang="en">Metadata</identifier>
+      <definition lang="en" name="Metadata">Indicates music graph metadata.</definition>
+    </concept>
+    <concept uuid="en:Tuplet">
+      <identifier lang="en">Tuplet</identifier>
+      <definition lang="en" name="Tuplet">Indicates a tuplet edge or node.</definition>
+    </concept>
+    <concept uuid="en:FullRatio">
+      <identifier lang="en">FullRatio</identifier>
+      <definition lang="en" name="Full Ratio">Indicates that tuplet should show its full ratio.</definition>
+    </concept>
+    
+    <concept uuid="en:AnnotationTree">
+      <identifier lang="en">AnnotationTree</identifier>
+      <definition lang="en" name="Annotation Tree">
+        Denotes an annotation tree node or link for a system.
+      </definition>
+    </concept>
+    <concept uuid="en:Annotation">
+      <identifier lang="en">Annotation</identifier>
+      <definition lang="en" name="Annotation">
+        Denotes an annotation node or link.
+      </definition>
+    </concept>
+    <!--
+      Barline in Barlines
+    -->
+    <concept uuid="en:Chord">
+      <identifier lang="en">Chord</identifier>
+      <definition lang="en" name="Chord">Indicates a music graph chord.</definition>
+    </concept>
+    <concept uuid="en:Clef">
+      <identifier lang="en">Clef</identifier>
+      <definition lang="en" name="Clef">Indicates a music graph clef.</definition>
+    </concept>
+    <!--
+      KeySignature in KeySignatures
+    -->
+    <concept uuid="en:TimeSignature">
+      <identifier lang="en">TimeSignature</identifier>
+      <definition lang="en" name="Time Signature">Indicates a music graph time signature.</definition>
+    </concept>
+    <concept uuid="en:Analysis">
+      <identifier lang="en">Analysis</identifier>
+      <definition lang="en" name="Analysis">Indicates a music graph analysis.</definition>
+    </concept>
+    <concept uuid="en:Mark">
+      <identifier lang="en">Mark</identifier>
+      <definition lang="en" name="Mark">Indicates a music graph mark.</definition>
+    </concept>
+    <concept uuid="en:Tie">
+      <identifier lang="en">Tie</identifier>
+      <definition lang="en" name="Tie">Indicates a music graph tie.</definition>
+    </concept>
+    <concept uuid="en:PartialTieIncoming">
+      <identifier lang="en">PartialTieIncoming</identifier>
+      <definition lang="en" name="Partial Tie Incoming">Indicates a music graph tie, usually at the beginning of a system, that hangs to the left of the note without attaching to a previous note indicating that it is tied to a note on the previous system.</definition>
+    </concept>
+    <concept uuid="en:PartialTieOutgoing">
+      <identifier lang="en">PartialTieOutgoing</identifier>
+      <definition lang="en" name="Partial Tie Outgoing">Indicates a music graph tie, usually at the end of a system, that hangs to the right of the note without attaching to a next note indicating that it is tied to a note on the following system.</definition>
+    </concept>
+    <concept uuid="en:Slur">
+      <identifier lang="en">Slur</identifier>
+      <definition lang="en" name="Slur">Indicates a music graph slur.
+      </definition>
+    </concept>
+    <concept uuid="en:Articulation">
+      <identifier lang="en">Articulation</identifier>
+      <definition lang="en" name="Articulation">Indicates a music graph articulation.</definition>
+    </concept>
+    <concept uuid="en:Continuity">
+      <identifier lang="en">Continuity</identifier>
+      <definition lang="en" name="Continuity">Indicates a music graph continuity.</definition>
+    </concept>
+    <concept uuid="en:Voice">
+      <identifier lang="en">Voice</identifier>
+      <definition lang="en" name="Voice">Indicates a music graph voice.</definition>
+    </concept>
+    <concept uuid="en:Expression">
+      <identifier lang="en">Expression</identifier>
+      <definition lang="en" name="Expression">Indicates an expression mark such as a dynamic or italicized text.</definition>
+    </concept>
+    <concept uuid="en:OctaveTransposition">
+      <identifier lang="en">OctaveTransposition</identifier>
+      <definition lang="en" name="Octave Transposition">Indicates an octave-transposition line.</definition>
+    </concept>
+    <concept uuid="en:Placement">
+      <identifier lang="en">Placement</identifier>
+      <definition lang="en" name="Placement">Indicates the placement of something.</definition>
+    </concept>
+    <concept uuid="en:PedalMarking">
+      <identifier lang="en">PedalMarking</identifier>
+      <definition lang="en" name="Pedal Marking">Indicates a pedal marking.</definition>
+    </concept>
+    <concept uuid="en:DamperPedal">
+      <identifier lang="en">DamperPedal</identifier>
+      <definition lang="en" name="Damper Pedal">Indicates a damper pedal marking.</definition>
+    </concept>
+    <concept uuid="en:SostenutoPedal">
+      <identifier lang="en">SostenutoPedal</identifier>
+      <definition lang="en" name="Sostenuto Pedal">Indicates a sostenuto pedal marking.</definition>
+    </concept>
+    <concept uuid="en:UnaCordaPedal">
+      <identifier lang="en">UnaCordaPedal</identifier>
+      <definition lang="en" name="Una Corda Pedal">Indicates a una corda pedal marking.</definition>
+    </concept>
+    <concept uuid="en:PedalRelease">
+      <identifier lang="en">PedalRelease</identifier>
+      <definition lang="en" name="Pedal Release">Indicates a pedal release marking.</definition>
+    </concept>
+    <concept uuid="en:DamperPedalRelease">
+      <identifier lang="en">DamperPedalRelease</identifier>
+      <definition lang="en" name="Damper Pedal Release">Indicates a damper pedal release marking.</definition>
+    </concept>
+    <concept uuid="en:PedalRetake">
+      <identifier lang="en">PedalRetake</identifier>
+      <definition lang="en" name="Pedal Retake">Indicates a brief pedal up and back down.</definition>
+    </concept>
+    <concept uuid="en:SystemBreak">
+      <identifier lang="en">SystemBreak</identifier>
+      <definition lang="en" name="System Break">Indicates a mandantory system break.</definition>
+    </concept>
+    <concept uuid="en:OptionalBreak">
+      <identifier lang="en">OptionalBreak</identifier>
+      <definition lang="en" name="Optional Break">Indicates an optional system break as determined by the typesetter.</definition>
+    </concept>
+    <concept uuid="en:RepeatingInstant">
+      <identifier lang="en">RepeatingInstant</identifier>
+      <definition lang="en" name="Repeating Instant">Indicates an instant that repeats its glyph across a system break. An example of this would be a clef which repeats at the beginning of each system.</definition>
+     </concept>
+    <concept uuid="en:AbsorbedInstant">
+      <identifier lang="en">AbsorbedInstant</identifier>
+      <definition lang="en" name="Absorbed Instant">Indicates that an instant is absorbed by a system break. That is it appears normally if the system is not breaking, but if it immediately follows a system break, then the contents of the instant are absorbed into existing repeating instants.</definition>
+    </concept>
+  </category>
+</mica>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Steps">Contains concepts relating to step
+    distances.</definition>
+    
+    <concept uuid="en:HalfStep">
+      <identifier lang="en">HalfStep</identifier>
+      <definition lang="en" name="Half Step">A distance of one chromatic
+      semitone.</definition>
+    </concept>
+    
+    <concept uuid="en:WholeStep">
+      <identifier lang="en">WholeStep</identifier>
+      <definition lang="en" name="Whole Step">A distance of two chromatic
+      semitones.</definition>
+    </concept>
+  </category>
+  
+  <map>en:A en:B en:WholeStep</map>
+  <map>en:B en:C en:HalfStep</map>
+  <map>en:C en:D en:WholeStep</map>
+  <map>en:D en:E en:WholeStep</map>
+  <map>en:E en:F en:HalfStep</map>
+  <map>en:F en:G en:WholeStep</map>
+  <map>en:G en:A en:WholeStep</map>
+</mica>

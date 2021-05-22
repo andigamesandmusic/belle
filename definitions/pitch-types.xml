@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Pitch Types">Contains categories of pitch.</definition>
+
+    <concept uuid="en:Letter"><identifier lang="en">Letter</identifier>
+      <definition lang="en" name="Letter">Represents a pitch letter.</definition>
+    </concept>
+
+    <concept uuid="en:Accidental"><identifier lang="en">Accidental</identifier>
+      <definition lang="en" name="Accidental">Represents an accidental.</definition>
+    </concept>
+
+    <concept uuid="en:Octave"><identifier lang="en">Octave</identifier>
+      <definition lang="en" name="Octave">[Homonym] Represents either an octave
+      according to the the scientific pitch standard, or the notion of the
+      interval distance of an octave.</definition>
+    </concept>
+
+    <concept uuid="en:DiatonicPitch"><identifier lang="en">DiatonicPitch</identifier>
+      <definition lang="en" name="Diatonic Pitch">Represents a pitch with a
+      letter and octave, but no accidental (e.g. A4). It conveys the information
+      necessary to determining a staff position.</definition>
+    </concept>
+
+    <concept uuid="en:ChromaticNote"><identifier lang="en">ChromaticNote</identifier>
+      <definition lang="en" name="Chromatic Note">Represents a note with a
+      letter and an accidental, but no octave (e.g. A flat).</definition>
+    </concept>
+
+    <concept uuid="en:ChromaticPitch"><identifier lang="en">ChromaticPitch</identifier>
+      <definition lang="en" name="Chromatic Pitch">Represents a pitch containing
+      a letter, accidental, and octave (e.g. A flat 4). Some pitches are both
+      chromatic pitches and diatonic pitches such as A4.</definition>
+    </concept>
+    
+  </category>
+</mica>

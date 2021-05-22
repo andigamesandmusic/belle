@@ -1,0 +1,18 @@
+<graph>
+  <node id="0" root="root" en:Type="en:Island">
+    <edge to="1" en:Type="en:Partwise"/>
+  </node>
+  <node id="1" en:Type="en:Island"/>
+  <node id="2" en:Type="en:Island">
+    <edge to="3" en:Type="en:Partwise"/>
+  </node>
+  <node id="3" en:Type="en:Island">
+    <edge to="4" en:Type="en:Partwise"/>
+  </node>
+  <node id="4" en:Type="en:Island">
+    <edge to="5" en:Type="en:Partwise"/>
+  </node>
+  <node id="5" en:Type="en:Island">
+    <edge to="2" en:Type="en:Partwise"/>
+  </node>
+</graph>

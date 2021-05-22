@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Key Signatures">Contains key signatures.
+    </definition>
+    
+    <concept uuid="en:KeySignature">
+      <identifier lang="en">KeySignature</identifier>
+      <definition lang="en" name="Key Signature">Represents the concept of a
+      key signature.</definition>
+    </concept>
+    
+    <concept uuid="en:KeySignatures">
+      <sequence>en:SevenFlats en:SixFlats en:FiveFlats en:FourFlats
+      en:ThreeFlats en:TwoFlats en:OneFlat en:NoAccidentals en:OneSharp
+      en:TwoSharps en:ThreeSharps en:FourSharps en:FiveSharps en:SixSharps
+      en:SevenSharps</sequence>
+      <identifier lang="en">KeySignatures</identifier>
+      <definition lang="en" name="Key Signatures">Set of flat and sharp key
+      signatures.</definition>
+    </concept>
+
+    <concept uuid="en:SevenFlats">
+      <sequence>en:BFlat en:EFlat en:AFlat en:DFlat en:GFlat en:CFlat en:FFlat
+      </sequence>
+      <identifier lang="en">SevenFlats</identifier>
+      <definition lang="en" name="Seven Flats">Represents the concept of a
+      key signature containing seven flats.</definition>
+    </concept>
+    <concept uuid="en:SixFlats">
+      <sequence>en:BFlat en:EFlat en:AFlat en:DFlat en:GFlat en:CFlat
+      </sequence>
+      <identifier lang="en">SixFlats</identifier>
+      <definition lang="en" name="Six Flats">Represents the concept of a
+      key signature containing six flats.</definition>
+    </concept>
+    <concept uuid="en:FiveFlats">
+      <sequence>en:BFlat en:EFlat en:AFlat en:DFlat en:GFlat</sequence>
+      <identifier lang="en">FiveFlats</identifier>
+      <definition lang="en" name="Five Flats">Represents the concept of a
+      key signature containing five flats.</definition>
+    </concept>
+    <concept uuid="en:FourFlats">
+      <sequence>en:BFlat en:EFlat en:AFlat en:DFlat</sequence>
+      <identifier lang="en">FourFlats</identifier>
+      <definition lang="en" name="Four Flats">Represents the concept of a
+      key signature containing four flats.</definition>
+    </concept>
+    <concept uuid="en:ThreeFlats">
+      <sequence>en:BFlat en:EFlat en:AFlat</sequence>
+      <identifier lang="en">ThreeFlats</identifier>
+      <definition lang="en" name="Three Flats">Represents the concept of a
+      key signature containing three flats.</definition>
+    </concept>
+    <concept uuid="en:TwoFlats">
+      <sequence>en:BFlat en:EFlat</sequence>
+      <identifier lang="en">TwoFlats</identifier>
+      <definition lang="en" name="Two Flats">Represents the concept of a
+      key signature containing two flats.</definition>
+    </concept>
+    <concept uuid="en:OneFlat">
+      <sequence>en:BFlat</sequence>
+      <identifier lang="en">OneFlat</identifier>
+      <definition lang="en" name="One Flat">Represents the concept of a
+      key signature containing one flat.</definition>
+    </concept>
+    <concept uuid="en:NoAccidentals">
+      <identifier lang="en">NoAccidentals</identifier>
+      <definition lang="en" name="No Accidentals">Represents the concept of a
+      key signature containing no accidentals.</definition>
+    </concept>
+    <concept uuid="en:OneSharp">
+      <sequence>en:FSharp</sequence>
+      <identifier lang="en">OneSharp</identifier>
+      <definition lang="en" name="One Sharp">Represents the concept of a
+      key signature containing one sharp.</definition>
+    </concept>
+    <concept uuid="en:TwoSharps">
+      <sequence>en:FSharp en:CSharp</sequence>
+      <identifier lang="en">TwoSharps</identifier>
+      <definition lang="en" name="Two Sharps">Represents the concept of a
+      key signature containing two sharps.</definition>
+    </concept>
+    <concept uuid="en:ThreeSharps">
+      <sequence>en:FSharp en:CSharp en:GSharp</sequence>
+      <identifier lang="en">ThreeSharps</identifier>
+      <definition lang="en" name="Three Sharps">Represents the concept of a
+      key signature containing three sharps.</definition>
+    </concept>
+    <concept uuid="en:FourSharps">
+      <sequence>en:FSharp en:CSharp en:GSharp en:DSharp</sequence>
+      <identifier lang="en">FourSharps</identifier>
+      <definition lang="en" name="Four Sharps">Represents the concept of a
+      key signature containing four sharps.</definition>
+    </concept>
+    <concept uuid="en:FiveSharps">
+      <sequence>en:FSharp en:CSharp en:GSharp en:DSharp en:ASharp</sequence>
+      <identifier lang="en">FiveSharps</identifier>
+      <definition lang="en" name="Five Sharps">Represents the concept of a
+      key signature containing five sharps.</definition>
+    </concept>
+    <concept uuid="en:SixSharps">
+      <sequence>en:FSharp en:CSharp en:GSharp en:DSharp en:ASharp en:ESharp
+        </sequence>
+      <identifier lang="en">SixSharps</identifier>
+      <definition lang="en" name="Six Sharps">Represents the concept of a
+      key signature containing six sharps.</definition>
+    </concept>
+    <concept uuid="en:SevenSharps">
+      <sequence>en:FSharp en:CSharp en:GSharp en:DSharp en:ASharp en:ESharp
+        en:BSharp</sequence>
+      <identifier lang="en">SevenSharps</identifier>
+      <definition lang="en" name="Seven Sharps">Represents the concept of a
+      key signature containing seven sharps.</definition>
+    </concept>
+
+    <concept uuid="en:TrebleClefFlats">
+      <sequence>0 3 -1 2 -2 1 -3</sequence>
+      <identifier lang="en">TrebleClefFlats</identifier>
+      <definition lang="en" name="Treble Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:Treble8vaClefFlats">
+      <sequence>0 3 -1 2 -2 1 -3</sequence>
+      <identifier lang="en">Treble8vaClefFlats</identifier>
+      <definition lang="en" name="Treble 8va Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:Treble15maClefFlats">
+      <sequence>0 3 -1 2 -2 1 -3</sequence>
+      <identifier lang="en">Treble15maClefFlats</identifier>
+      <definition lang="en" name="Treble 15ma Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:BassClefFlats">
+      <sequence>-2 1 -3 0 -4 -1 -5</sequence>
+      <identifier lang="en">BassClefFlats</identifier>
+      <definition lang="en" name="Bass Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:Bass8vaClefFlats">
+      <sequence>-2 1 -3 0 -4 -1 -5</sequence>
+      <identifier lang="en">Bass8vaClefFlats</identifier>
+      <definition lang="en" name="Bass 8va Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:Bass15maClefFlats">
+      <sequence>-2 1 -3 0 -4 -1 -5</sequence>
+      <identifier lang="en">Bass15maClefFlats</identifier>
+      <definition lang="en" name="Bass 15ma Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:AltoClefFlats">
+      <sequence>-1 2 -2 1 -3 0 -4</sequence>
+      <identifier lang="en">AltoClefFlats</identifier>
+      <definition lang="en" name="Alto Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    <concept uuid="en:TenorClefFlats">
+      <sequence>1 4 0 3 -1 2 -2</sequence>
+      <identifier lang="en">TenorClefFlats</identifier>
+      <definition lang="en" name="Tenor Clef Flats">Indicates the default staff positions of the flats.</definition>
+    </concept>
+    
+    <concept uuid="en:TrebleClefSharps">
+      <sequence>4 1 5 2 -1 3 0</sequence>
+      <identifier lang="en">TrebleClefSharps</identifier>
+      <definition lang="en" name="Treble Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:Treble8vaClefSharps">
+      <sequence>4 1 5 2 -1 3 0</sequence>
+      <identifier lang="en">Treble8vaClefSharps</identifier>
+      <definition lang="en" name="Treble 8va Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:Treble15maClefSharps">
+      <sequence>4 1 5 2 -1 3 0</sequence>
+      <identifier lang="en">Treble15maClefSharps</identifier>
+      <definition lang="en" name="Treble 15ma Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:BassClefSharps">
+      <sequence>2 -1 3 0 -3 1 -2</sequence>
+      <identifier lang="en">BassClefSharps</identifier>
+      <definition lang="en" name="Bass Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:Bass8vaClefSharps">
+      <sequence>2 -1 3 0 -3 1 -2</sequence>
+      <identifier lang="en">Bass8vaClefSharps</identifier>
+      <definition lang="en" name="Bass 8va Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:Bass15maClefSharps">
+      <sequence>2 -1 3 0 -3 1 -2</sequence>
+      <identifier lang="en">Bass15maClefSharps</identifier>
+      <definition lang="en" name="Bass 15ma Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:AltoClefSharps">
+      <sequence>3 0 4 1 -2 2 -1</sequence>
+      <identifier lang="en">AltoClefSharps</identifier>
+      <definition lang="en" name="Alto Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+    <concept uuid="en:TenorClefSharps">
+      <sequence>-2 2 -1 3 0 4 1</sequence>
+      <identifier lang="en">TenorClefSharps</identifier>
+      <definition lang="en" name="Tenor Clef Sharps">Indicates the default staff positions of the sharps.</definition>
+    </concept>
+  </category>
+  
+  <map>en:OneFlat en:DiminishedFifth en:Above en:SevenFlats</map>
+  <map>en:NoAccidentals en:DiminishedFifth en:Above en:SixFlats</map>
+  <map>en:OneSharp en:DiminishedFifth en:Above en:FiveFlats</map>
+  <map>en:TwoSharps en:DiminishedFifth en:Above en:FourFlats</map>
+  <map>en:ThreeSharps en:DiminishedFifth en:Above en:ThreeFlats</map>
+  <map>en:FourSharps en:DiminishedFifth en:Above en:TwoFlats</map>
+  <map>en:FiveSharps en:DiminishedFifth en:Above en:OneFlat</map>
+  <map>en:SixSharps en:DiminishedFifth en:Above en:NoAccidentals</map>
+  <map>en:SevenSharps en:DiminishedFifth en:Above en:OneSharp</map>
+  
+  <map>en:TwoFlats en:MinorSecond en:Above en:SevenFlats</map>
+  <map>en:OneFlat en:MinorSecond en:Above en:SixFlats</map>
+  <map>en:NoAccidentals en:MinorSecond en:Above en:FiveFlats</map>
+  <map>en:OneSharp en:MinorSecond en:Above en:FourFlats</map>
+  <map>en:TwoSharps en:MinorSecond en:Above en:ThreeFlats</map>
+  <map>en:ThreeSharps en:MinorSecond en:Above en:TwoFlats</map>
+  <map>en:FourSharps en:MinorSecond en:Above en:OneFlat</map>
+  <map>en:FiveSharps en:MinorSecond en:Above en:NoAccidentals</map>
+  <map>en:SixSharps en:MinorSecond en:Above en:OneSharp</map>
+  <map>en:SevenSharps en:MinorSecond en:Above en:TwoSharps</map>
+  
+  <map>en:ThreeFlats en:MinorSixth en:Above en:SevenFlats</map>
+  <map>en:TwoFlats en:MinorSixth en:Above en:SixFlats</map>
+  <map>en:OneFlat en:MinorSixth en:Above en:FiveFlats</map>
+  <map>en:NoAccidentals en:MinorSixth en:Above en:FourFlats</map>
+  <map>en:OneSharp en:MinorSixth en:Above en:ThreeFlats</map>
+  <map>en:TwoSharps en:MinorSixth en:Above en:TwoFlats</map>
+  <map>en:ThreeSharps en:MinorSixth en:Above en:OneFlat</map>
+  <map>en:FourSharps en:MinorSixth en:Above en:NoAccidentals</map>
+  <map>en:FiveSharps en:MinorSixth en:Above en:OneSharp</map>
+  <map>en:SixSharps en:MinorSixth en:Above en:TwoSharps</map>
+  <map>en:SevenSharps en:MinorSixth en:Above en:ThreeSharps</map>
+  
+  <map>en:FourFlats en:MinorThird en:Above en:SevenFlats</map>
+  <map>en:ThreeFlats en:MinorThird en:Above en:SixFlats</map>
+  <map>en:TwoFlats en:MinorThird en:Above en:FiveFlats</map>
+  <map>en:OneFlat en:MinorThird en:Above en:FourFlats</map>
+  <map>en:NoAccidentals en:MinorThird en:Above en:ThreeFlats</map>
+  <map>en:OneSharp en:MinorThird en:Above en:TwoFlats</map>
+  <map>en:TwoSharps en:MinorThird en:Above en:OneFlat</map>
+  <map>en:ThreeSharps en:MinorThird en:Above en:NoAccidentals</map>
+  <map>en:FourSharps en:MinorThird en:Above en:OneSharp</map>
+  <map>en:FiveSharps en:MinorThird en:Above en:TwoSharps</map>
+  <map>en:SixSharps en:MinorThird en:Above en:ThreeSharps</map>
+  <map>en:SevenSharps en:MinorThird en:Above en:FourSharps</map>
+  
+  <map>en:FiveFlats en:MinorSeventh en:Above en:SevenFlats</map>
+  <map>en:FourFlats en:MinorSeventh en:Above en:SixFlats</map>
+  <map>en:ThreeFlats en:MinorSeventh en:Above en:FiveFlats</map>
+  <map>en:TwoFlats en:MinorSeventh en:Above en:FourFlats</map>
+  <map>en:OneFlat en:MinorSeventh en:Above en:ThreeFlats</map>
+  <map>en:NoAccidentals en:MinorSeventh en:Above en:TwoFlats</map>
+  <map>en:OneSharp en:MinorSeventh en:Above en:OneFlat</map>
+  <map>en:TwoSharps en:MinorSeventh en:Above en:NoAccidentals</map>
+  <map>en:ThreeSharps en:MinorSeventh en:Above en:OneSharp</map>
+  <map>en:FourSharps en:MinorSeventh en:Above en:TwoSharps</map>
+  <map>en:FiveSharps en:MinorSeventh en:Above en:ThreeSharps</map>
+  <map>en:SixSharps en:MinorSeventh en:Above en:FourSharps</map>
+  <map>en:SevenSharps en:MinorSeventh en:Above en:FiveSharps</map>
+  
+  <map>en:SixFlats en:PerfectFourth en:Above en:SevenFlats</map>
+  <map>en:FiveFlats en:PerfectFourth en:Above en:SixFlats</map>
+  <map>en:FourFlats en:PerfectFourth en:Above en:FiveFlats</map>
+  <map>en:ThreeFlats en:PerfectFourth en:Above en:FourFlats</map>
+  <map>en:TwoFlats en:PerfectFourth en:Above en:ThreeFlats</map>
+  <map>en:OneFlat en:PerfectFourth en:Above en:TwoFlats</map>
+  <map>en:NoAccidentals en:PerfectFourth en:Above en:OneFlat</map>
+  <map>en:OneSharp en:PerfectFourth en:Above en:NoAccidentals</map>
+  <map>en:TwoSharps en:PerfectFourth en:Above en:OneSharp</map>
+  <map>en:ThreeSharps en:PerfectFourth en:Above en:TwoSharps</map>
+  <map>en:FourSharps en:PerfectFourth en:Above en:ThreeSharps</map>
+  <map>en:FiveSharps en:PerfectFourth en:Above en:FourSharps</map>
+  <map>en:SixSharps en:PerfectFourth en:Above en:FiveSharps</map>
+  <map>en:SevenSharps en:PerfectFourth en:Above en:SixSharps</map>
+  
+  <map>en:SevenFlats en:PerfectUnison en:Above en:SevenFlats</map>
+  <map>en:SixFlats en:PerfectUnison en:Above en:SixFlats</map>
+  <map>en:FiveFlats en:PerfectUnison en:Above en:FiveFlats</map>
+  <map>en:FourFlats en:PerfectUnison en:Above en:FourFlats</map>
+  <map>en:ThreeFlats en:PerfectUnison en:Above en:ThreeFlats</map>
+  <map>en:TwoFlats en:PerfectUnison en:Above en:TwoFlats</map>
+  <map>en:OneFlat en:PerfectUnison en:Above en:OneFlat</map>
+  <map>en:NoAccidentals en:PerfectUnison en:Above en:NoAccidentals</map>
+  <map>en:OneSharp en:PerfectUnison en:Above en:OneSharp</map>
+  <map>en:TwoSharps en:PerfectUnison en:Above en:TwoSharps</map>
+  <map>en:ThreeSharps en:PerfectUnison en:Above en:ThreeSharps</map>
+  <map>en:FourSharps en:PerfectUnison en:Above en:FourSharps</map>
+  <map>en:FiveSharps en:PerfectUnison en:Above en:FiveSharps</map>
+  <map>en:SixSharps en:PerfectUnison en:Above en:SixSharps</map>
+  <map>en:SevenSharps en:PerfectUnison en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:PerfectFifth en:Above en:SixFlats</map>
+  <map>en:SixFlats en:PerfectFifth en:Above en:FiveFlats</map>
+  <map>en:FiveFlats en:PerfectFifth en:Above en:FourFlats</map>
+  <map>en:FourFlats en:PerfectFifth en:Above en:ThreeFlats</map>
+  <map>en:ThreeFlats en:PerfectFifth en:Above en:TwoFlats</map>
+  <map>en:TwoFlats en:PerfectFifth en:Above en:OneFlat</map>
+  <map>en:OneFlat en:PerfectFifth en:Above en:NoAccidentals</map>
+  <map>en:NoAccidentals en:PerfectFifth en:Above en:OneSharp</map>
+  <map>en:OneSharp en:PerfectFifth en:Above en:TwoSharps</map>
+  <map>en:TwoSharps en:PerfectFifth en:Above en:ThreeSharps</map>
+  <map>en:ThreeSharps en:PerfectFifth en:Above en:FourSharps</map>
+  <map>en:FourSharps en:PerfectFifth en:Above en:FiveSharps</map>
+  <map>en:FiveSharps en:PerfectFifth en:Above en:SixSharps</map>
+  <map>en:SixSharps en:PerfectFifth en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MajorSecond en:Above en:FiveFlats</map>
+  <map>en:SixFlats en:MajorSecond en:Above en:FourFlats</map>
+  <map>en:FiveFlats en:MajorSecond en:Above en:ThreeFlats</map>
+  <map>en:FourFlats en:MajorSecond en:Above en:TwoFlats</map>
+  <map>en:ThreeFlats en:MajorSecond en:Above en:OneFlat</map>
+  <map>en:TwoFlats en:MajorSecond en:Above en:NoAccidentals</map>
+  <map>en:OneFlat en:MajorSecond en:Above en:OneSharp</map>
+  <map>en:NoAccidentals en:MajorSecond en:Above en:TwoSharps</map>
+  <map>en:OneSharp en:MajorSecond en:Above en:ThreeSharps</map>
+  <map>en:TwoSharps en:MajorSecond en:Above en:FourSharps</map>
+  <map>en:ThreeSharps en:MajorSecond en:Above en:FiveSharps</map>
+  <map>en:FourSharps en:MajorSecond en:Above en:SixSharps</map>
+  <map>en:FiveSharps en:MajorSecond en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MajorSixth en:Above en:FourFlats</map>
+  <map>en:SixFlats en:MajorSixth en:Above en:ThreeFlats</map>
+  <map>en:FiveFlats en:MajorSixth en:Above en:TwoFlats</map>
+  <map>en:FourFlats en:MajorSixth en:Above en:OneFlat</map>
+  <map>en:ThreeFlats en:MajorSixth en:Above en:NoAccidentals</map>
+  <map>en:TwoFlats en:MajorSixth en:Above en:OneSharp</map>
+  <map>en:OneFlat en:MajorSixth en:Above en:TwoSharps</map>
+  <map>en:NoAccidentals en:MajorSixth en:Above en:ThreeSharps</map>
+  <map>en:OneSharp en:MajorSixth en:Above en:FourSharps</map>
+  <map>en:TwoSharps en:MajorSixth en:Above en:FiveSharps</map>
+  <map>en:ThreeSharps en:MajorSixth en:Above en:SixSharps</map>
+  <map>en:FourSharps en:MajorSixth en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MajorThird en:Above en:ThreeFlats</map>
+  <map>en:SixFlats en:MajorThird en:Above en:TwoFlats</map>
+  <map>en:FiveFlats en:MajorThird en:Above en:OneFlat</map>
+  <map>en:FourFlats en:MajorThird en:Above en:NoAccidentals</map>
+  <map>en:ThreeFlats en:MajorThird en:Above en:OneSharp</map>
+  <map>en:TwoFlats en:MajorThird en:Above en:TwoSharps</map>
+  <map>en:OneFlat en:MajorThird en:Above en:ThreeSharps</map>
+  <map>en:NoAccidentals en:MajorThird en:Above en:FourSharps</map>
+  <map>en:OneSharp en:MajorThird en:Above en:FiveSharps</map>
+  <map>en:TwoSharps en:MajorThird en:Above en:SixSharps</map>
+  <map>en:ThreeSharps en:MajorThird en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MajorSeventh en:Above en:TwoFlats</map>
+  <map>en:SixFlats en:MajorSeventh en:Above en:OneFlat</map>
+  <map>en:FiveFlats en:MajorSeventh en:Above en:NoAccidentals</map>
+  <map>en:FourFlats en:MajorSeventh en:Above en:OneSharp</map>
+  <map>en:ThreeFlats en:MajorSeventh en:Above en:TwoSharps</map>
+  <map>en:TwoFlats en:MajorSeventh en:Above en:ThreeSharps</map>
+  <map>en:OneFlat en:MajorSeventh en:Above en:FourSharps</map>
+  <map>en:NoAccidentals en:MajorSeventh en:Above en:FiveSharps</map>
+  <map>en:OneSharp en:MajorSeventh en:Above en:SixSharps</map>
+  <map>en:TwoSharps en:MajorSeventh en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:AugmentedFourth en:Above en:OneFlat</map>
+  <map>en:SixFlats en:AugmentedFourth en:Above en:NoAccidentals</map>
+  <map>en:FiveFlats en:AugmentedFourth en:Above en:OneSharp</map>
+  <map>en:FourFlats en:AugmentedFourth en:Above en:TwoSharps</map>
+  <map>en:ThreeFlats en:AugmentedFourth en:Above en:ThreeSharps</map>
+  <map>en:TwoFlats en:AugmentedFourth en:Above en:FourSharps</map>
+  <map>en:OneFlat en:AugmentedFourth en:Above en:FiveSharps</map>
+  <map>en:NoAccidentals en:AugmentedFourth en:Above en:SixSharps</map>
+  <map>en:OneSharp en:AugmentedFourth en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:AugmentedUnison en:Above en:NoAccidentals</map>
+  <map>en:SixFlats en:AugmentedUnison en:Above en:OneSharp</map>
+  <map>en:FiveFlats en:AugmentedUnison en:Above en:TwoSharps</map>
+  <map>en:FourFlats en:AugmentedUnison en:Above en:ThreeSharps</map>
+  <map>en:ThreeFlats en:AugmentedUnison en:Above en:FourSharps</map>
+  <map>en:TwoFlats en:AugmentedUnison en:Above en:FiveSharps</map>
+  <map>en:OneFlat en:AugmentedUnison en:Above en:SixSharps</map>
+  <map>en:NoAccidentals en:AugmentedUnison en:Above en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:DiminishedFifth en:Below en:OneFlat</map>
+  <map>en:SixFlats en:DiminishedFifth en:Below en:NoAccidentals</map>
+  <map>en:FiveFlats en:DiminishedFifth en:Below en:OneSharp</map>
+  <map>en:FourFlats en:DiminishedFifth en:Below en:TwoSharps</map>
+  <map>en:ThreeFlats en:DiminishedFifth en:Below en:ThreeSharps</map>
+  <map>en:TwoFlats en:DiminishedFifth en:Below en:FourSharps</map>
+  <map>en:OneFlat en:DiminishedFifth en:Below en:FiveSharps</map>
+  <map>en:NoAccidentals en:DiminishedFifth en:Below en:SixSharps</map>
+  <map>en:OneSharp en:DiminishedFifth en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MinorSecond en:Below en:TwoFlats</map>
+  <map>en:SixFlats en:MinorSecond en:Below en:OneFlat</map>
+  <map>en:FiveFlats en:MinorSecond en:Below en:NoAccidentals</map>
+  <map>en:FourFlats en:MinorSecond en:Below en:OneSharp</map>
+  <map>en:ThreeFlats en:MinorSecond en:Below en:TwoSharps</map>
+  <map>en:TwoFlats en:MinorSecond en:Below en:ThreeSharps</map>
+  <map>en:OneFlat en:MinorSecond en:Below en:FourSharps</map>
+  <map>en:NoAccidentals en:MinorSecond en:Below en:FiveSharps</map>
+  <map>en:OneSharp en:MinorSecond en:Below en:SixSharps</map>
+  <map>en:TwoSharps en:MinorSecond en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MinorSixth en:Below en:ThreeFlats</map>
+  <map>en:SixFlats en:MinorSixth en:Below en:TwoFlats</map>
+  <map>en:FiveFlats en:MinorSixth en:Below en:OneFlat</map>
+  <map>en:FourFlats en:MinorSixth en:Below en:NoAccidentals</map>
+  <map>en:ThreeFlats en:MinorSixth en:Below en:OneSharp</map>
+  <map>en:TwoFlats en:MinorSixth en:Below en:TwoSharps</map>
+  <map>en:OneFlat en:MinorSixth en:Below en:ThreeSharps</map>
+  <map>en:NoAccidentals en:MinorSixth en:Below en:FourSharps</map>
+  <map>en:OneSharp en:MinorSixth en:Below en:FiveSharps</map>
+  <map>en:TwoSharps en:MinorSixth en:Below en:SixSharps</map>
+  <map>en:ThreeSharps en:MinorSixth en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MinorThird en:Below en:FourFlats</map>
+  <map>en:SixFlats en:MinorThird en:Below en:ThreeFlats</map>
+  <map>en:FiveFlats en:MinorThird en:Below en:TwoFlats</map>
+  <map>en:FourFlats en:MinorThird en:Below en:OneFlat</map>
+  <map>en:ThreeFlats en:MinorThird en:Below en:NoAccidentals</map>
+  <map>en:TwoFlats en:MinorThird en:Below en:OneSharp</map>
+  <map>en:OneFlat en:MinorThird en:Below en:TwoSharps</map>
+  <map>en:NoAccidentals en:MinorThird en:Below en:ThreeSharps</map>
+  <map>en:OneSharp en:MinorThird en:Below en:FourSharps</map>
+  <map>en:TwoSharps en:MinorThird en:Below en:FiveSharps</map>
+  <map>en:ThreeSharps en:MinorThird en:Below en:SixSharps</map>
+  <map>en:FourSharps en:MinorThird en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:MinorSeventh en:Below en:FiveFlats</map>
+  <map>en:SixFlats en:MinorSeventh en:Below en:FourFlats</map>
+  <map>en:FiveFlats en:MinorSeventh en:Below en:ThreeFlats</map>
+  <map>en:FourFlats en:MinorSeventh en:Below en:TwoFlats</map>
+  <map>en:ThreeFlats en:MinorSeventh en:Below en:OneFlat</map>
+  <map>en:TwoFlats en:MinorSeventh en:Below en:NoAccidentals</map>
+  <map>en:OneFlat en:MinorSeventh en:Below en:OneSharp</map>
+  <map>en:NoAccidentals en:MinorSeventh en:Below en:TwoSharps</map>
+  <map>en:OneSharp en:MinorSeventh en:Below en:ThreeSharps</map>
+  <map>en:TwoSharps en:MinorSeventh en:Below en:FourSharps</map>
+  <map>en:ThreeSharps en:MinorSeventh en:Below en:FiveSharps</map>
+  <map>en:FourSharps en:MinorSeventh en:Below en:SixSharps</map>
+  <map>en:FiveSharps en:MinorSeventh en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:PerfectFourth en:Below en:SixFlats</map>
+  <map>en:SixFlats en:PerfectFourth en:Below en:FiveFlats</map>
+  <map>en:FiveFlats en:PerfectFourth en:Below en:FourFlats</map>
+  <map>en:FourFlats en:PerfectFourth en:Below en:ThreeFlats</map>
+  <map>en:ThreeFlats en:PerfectFourth en:Below en:TwoFlats</map>
+  <map>en:TwoFlats en:PerfectFourth en:Below en:OneFlat</map>
+  <map>en:OneFlat en:PerfectFourth en:Below en:NoAccidentals</map>
+  <map>en:NoAccidentals en:PerfectFourth en:Below en:OneSharp</map>
+  <map>en:OneSharp en:PerfectFourth en:Below en:TwoSharps</map>
+  <map>en:TwoSharps en:PerfectFourth en:Below en:ThreeSharps</map>
+  <map>en:ThreeSharps en:PerfectFourth en:Below en:FourSharps</map>
+  <map>en:FourSharps en:PerfectFourth en:Below en:FiveSharps</map>
+  <map>en:FiveSharps en:PerfectFourth en:Below en:SixSharps</map>
+  <map>en:SixSharps en:PerfectFourth en:Below en:SevenSharps</map>
+  
+  <map>en:SevenFlats en:PerfectUnison en:Below en:SevenFlats</map>
+  <map>en:SixFlats en:PerfectUnison en:Below en:SixFlats</map>
+  <map>en:FiveFlats en:PerfectUnison en:Below en:FiveFlats</map>
+  <map>en:FourFlats en:PerfectUnison en:Below en:FourFlats</map>
+  <map>en:ThreeFlats en:PerfectUnison en:Below en:ThreeFlats</map>
+  <map>en:TwoFlats en:PerfectUnison en:Below en:TwoFlats</map>
+  <map>en:OneFlat en:PerfectUnison en:Below en:OneFlat</map>
+  <map>en:NoAccidentals en:PerfectUnison en:Below en:NoAccidentals</map>
+  <map>en:OneSharp en:PerfectUnison en:Below en:OneSharp</map>
+  <map>en:TwoSharps en:PerfectUnison en:Below en:TwoSharps</map>
+  <map>en:ThreeSharps en:PerfectUnison en:Below en:ThreeSharps</map>
+  <map>en:FourSharps en:PerfectUnison en:Below en:FourSharps</map>
+  <map>en:FiveSharps en:PerfectUnison en:Below en:FiveSharps</map>
+  <map>en:SixSharps en:PerfectUnison en:Below en:SixSharps</map>
+  <map>en:SevenSharps en:PerfectUnison en:Below en:SevenSharps</map>
+  
+  <map>en:SixFlats en:PerfectFifth en:Below en:SevenFlats</map>
+  <map>en:FiveFlats en:PerfectFifth en:Below en:SixFlats</map>
+  <map>en:FourFlats en:PerfectFifth en:Below en:FiveFlats</map>
+  <map>en:ThreeFlats en:PerfectFifth en:Below en:FourFlats</map>
+  <map>en:TwoFlats en:PerfectFifth en:Below en:ThreeFlats</map>
+  <map>en:OneFlat en:PerfectFifth en:Below en:TwoFlats</map>
+  <map>en:NoAccidentals en:PerfectFifth en:Below en:OneFlat</map>
+  <map>en:OneSharp en:PerfectFifth en:Below en:NoAccidentals</map>
+  <map>en:TwoSharps en:PerfectFifth en:Below en:OneSharp</map>
+  <map>en:ThreeSharps en:PerfectFifth en:Below en:TwoSharps</map>
+  <map>en:FourSharps en:PerfectFifth en:Below en:ThreeSharps</map>
+  <map>en:FiveSharps en:PerfectFifth en:Below en:FourSharps</map>
+  <map>en:SixSharps en:PerfectFifth en:Below en:FiveSharps</map>
+  <map>en:SevenSharps en:PerfectFifth en:Below en:SixSharps</map>
+  
+  <map>en:FiveFlats en:MajorSecond en:Below en:SevenFlats</map>
+  <map>en:FourFlats en:MajorSecond en:Below en:SixFlats</map>
+  <map>en:ThreeFlats en:MajorSecond en:Below en:FiveFlats</map>
+  <map>en:TwoFlats en:MajorSecond en:Below en:FourFlats</map>
+  <map>en:OneFlat en:MajorSecond en:Below en:ThreeFlats</map>
+  <map>en:NoAccidentals en:MajorSecond en:Below en:TwoFlats</map>
+  <map>en:OneSharp en:MajorSecond en:Below en:OneFlat</map>
+  <map>en:TwoSharps en:MajorSecond en:Below en:NoAccidentals</map>
+  <map>en:ThreeSharps en:MajorSecond en:Below en:OneSharp</map>
+  <map>en:FourSharps en:MajorSecond en:Below en:TwoSharps</map>
+  <map>en:FiveSharps en:MajorSecond en:Below en:ThreeSharps</map>
+  <map>en:SixSharps en:MajorSecond en:Below en:FourSharps</map>
+  <map>en:SevenSharps en:MajorSecond en:Below en:FiveSharps</map>
+  
+  <map>en:FourFlats en:MajorSixth en:Below en:SevenFlats</map>
+  <map>en:ThreeFlats en:MajorSixth en:Below en:SixFlats</map>
+  <map>en:TwoFlats en:MajorSixth en:Below en:FiveFlats</map>
+  <map>en:OneFlat en:MajorSixth en:Below en:FourFlats</map>
+  <map>en:NoAccidentals en:MajorSixth en:Below en:ThreeFlats</map>
+  <map>en:OneSharp en:MajorSixth en:Below en:TwoFlats</map>
+  <map>en:TwoSharps en:MajorSixth en:Below en:OneFlat</map>
+  <map>en:ThreeSharps en:MajorSixth en:Below en:NoAccidentals</map>
+  <map>en:FourSharps en:MajorSixth en:Below en:OneSharp</map>
+  <map>en:FiveSharps en:MajorSixth en:Below en:TwoSharps</map>
+  <map>en:SixSharps en:MajorSixth en:Below en:ThreeSharps</map>
+  <map>en:SevenSharps en:MajorSixth en:Below en:FourSharps</map>
+  
+  <map>en:ThreeFlats en:MajorThird en:Below en:SevenFlats</map>
+  <map>en:TwoFlats en:MajorThird en:Below en:SixFlats</map>
+  <map>en:OneFlat en:MajorThird en:Below en:FiveFlats</map>
+  <map>en:NoAccidentals en:MajorThird en:Below en:FourFlats</map>
+  <map>en:OneSharp en:MajorThird en:Below en:ThreeFlats</map>
+  <map>en:TwoSharps en:MajorThird en:Below en:TwoFlats</map>
+  <map>en:ThreeSharps en:MajorThird en:Below en:OneFlat</map>
+  <map>en:FourSharps en:MajorThird en:Below en:NoAccidentals</map>
+  <map>en:FiveSharps en:MajorThird en:Below en:OneSharp</map>
+  <map>en:SixSharps en:MajorThird en:Below en:TwoSharps</map>
+  <map>en:SevenSharps en:MajorThird en:Below en:ThreeSharps</map>
+  
+  <map>en:TwoFlats en:MajorSeventh en:Below en:SevenFlats</map>
+  <map>en:OneFlat en:MajorSeventh en:Below en:SixFlats</map>
+  <map>en:NoAccidentals en:MajorSeventh en:Below en:FiveFlats</map>
+  <map>en:OneSharp en:MajorSeventh en:Below en:FourFlats</map>
+  <map>en:TwoSharps en:MajorSeventh en:Below en:ThreeFlats</map>
+  <map>en:ThreeSharps en:MajorSeventh en:Below en:TwoFlats</map>
+  <map>en:FourSharps en:MajorSeventh en:Below en:OneFlat</map>
+  <map>en:FiveSharps en:MajorSeventh en:Below en:NoAccidentals</map>
+  <map>en:SixSharps en:MajorSeventh en:Below en:OneSharp</map>
+  <map>en:SevenSharps en:MajorSeventh en:Below en:TwoSharps</map>
+  
+  <map>en:OneFlat en:AugmentedFourth en:Below en:SevenFlats</map>
+  <map>en:NoAccidentals en:AugmentedFourth en:Below en:SixFlats</map>
+  <map>en:OneSharp en:AugmentedFourth en:Below en:FiveFlats</map>
+  <map>en:TwoSharps en:AugmentedFourth en:Below en:FourFlats</map>
+  <map>en:ThreeSharps en:AugmentedFourth en:Below en:ThreeFlats</map>
+  <map>en:FourSharps en:AugmentedFourth en:Below en:TwoFlats</map>
+  <map>en:FiveSharps en:AugmentedFourth en:Below en:OneFlat</map>
+  <map>en:SixSharps en:AugmentedFourth en:Below en:NoAccidentals</map>
+  <map>en:SevenSharps en:AugmentedFourth en:Below en:OneSharp</map>
+  
+  <map>en:NoAccidentals en:AugmentedUnison en:Below en:SevenFlats</map>
+  <map>en:OneSharp en:AugmentedUnison en:Below en:SixFlats</map>
+  <map>en:TwoSharps en:AugmentedUnison en:Below en:FiveFlats</map>
+  <map>en:ThreeSharps en:AugmentedUnison en:Below en:FourFlats</map>
+  <map>en:FourSharps en:AugmentedUnison en:Below en:ThreeFlats</map>
+  <map>en:FiveSharps en:AugmentedUnison en:Below en:TwoFlats</map>
+  <map>en:SixSharps en:AugmentedUnison en:Below en:OneFlat</map>
+  <map>en:SevenSharps en:AugmentedUnison en:Below en:NoAccidentals</map>
+
+</mica>

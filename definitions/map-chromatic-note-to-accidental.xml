@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <map>en:CTripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:CDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:CFlat en:Accidental en:Flat</map>
+  <map>en:C en:Accidental en:Natural</map>
+  <map>en:CSharp en:Accidental en:Sharp</map>
+  <map>en:CDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:CTripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:DTripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:DDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:DFlat en:Accidental en:Flat</map>
+  <map>en:D en:Accidental en:Natural</map>
+  <map>en:DSharp en:Accidental en:Sharp</map>
+  <map>en:DDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:DTripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:ETripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:EDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:EFlat en:Accidental en:Flat</map>
+  <map>en:E en:Accidental en:Natural</map>
+  <map>en:ESharp en:Accidental en:Sharp</map>
+  <map>en:EDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:ETripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:FTripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:FDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:FFlat en:Accidental en:Flat</map>
+  <map>en:F en:Accidental en:Natural</map>
+  <map>en:FSharp en:Accidental en:Sharp</map>
+  <map>en:FDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:FTripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:GTripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:GDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:GFlat en:Accidental en:Flat</map>
+  <map>en:G en:Accidental en:Natural</map>
+  <map>en:GSharp en:Accidental en:Sharp</map>
+  <map>en:GDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:GTripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:ATripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:ADoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:AFlat en:Accidental en:Flat</map>
+  <map>en:A en:Accidental en:Natural</map>
+  <map>en:ASharp en:Accidental en:Sharp</map>
+  <map>en:ADoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:ATripleSharp en:Accidental en:TripleSharp</map>
+
+  <map>en:BTripleFlat en:Accidental en:TripleFlat</map>
+  <map>en:BDoubleFlat en:Accidental en:DoubleFlat</map>
+  <map>en:BFlat en:Accidental en:Flat</map>
+  <map>en:B en:Accidental en:Natural</map>
+  <map>en:BSharp en:Accidental en:Sharp</map>
+  <map>en:BDoubleSharp en:Accidental en:DoubleSharp</map>
+  <map>en:BTripleSharp en:Accidental en:TripleSharp</map>
+</mica>

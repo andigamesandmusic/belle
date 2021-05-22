@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="MIDI">Contains MIDI-related concepts.</definition>
+
+    <concept uuid="en:MIDIKeyNumber">
+      <identifier lang="en">MIDIKeyNumber</identifier>
+      <definition lang="en" name="MIDI Key Number">Represents a MIDI key number 0 to 127 where 60 refers to the pitch C4.</definition>
+    </concept>
+    
+  </category>
+</mica>

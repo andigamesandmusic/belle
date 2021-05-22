@@ -1,0 +1,69 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Bass Clef
+0,2;Kind:Key Signature,Value:One Flat
+0,3;Kind:Chord,NoteValue:1/2;D3
+0,7;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+0,11;Kind:Barline,Value:Standard Barline
+
+1,0;Kind:Barline,Value:Standard Barline,data-Brace:Brace
+1,1;Kind:Clef,Value:Treble Clef
+1,2;Kind:Key Signature,Value:One Flat
+1,3;Kind:Chord,NoteValue:1/8,Beam:1|4;D4
+1,4;Kind:Chord,NoteValue:1/8,Beam:1|5;F4
+1,5;Kind:Chord,NoteValue:1/8,Beam:1|6;E4
+1,6;Kind:Chord,NoteValue:1/8;D4
+1,7;Kind:Chord,NoteValue:1/8,Beam:1|8;A4
+1,8;Kind:Chord,NoteValue:1/8,Beam:1|9;G4
+1,9;Kind:Chord,NoteValue:1/8,Beam:1|10;F4
+1,10;Kind:Chord,NoteValue:1/8;E4
+1,11;Kind:Barline,Value:Standard Barline
+
+
+
+0,12;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+0,16;Kind:Clef,Value:Treble Clef
+0,17;Kind:Chord,NoteValue:1/2;D5
+0,21;Kind:Barline,Value:Standard Barline
+
+1,12;Kind:Chord,NoteValue:1/8,Beam:1|13;D4
+1,13;Kind:Chord,NoteValue:1/8,Beam:1|14;C4
+1,14;Kind:Chord,NoteValue:1/8,Beam:1|15;B3 flat
+1,15;Kind:Chord,NoteValue:1/8;A3
+1,16;Kind:Clef,Value:Bass Clef
+1,17;Kind:Chord,NoteValue:1/8,Beam:1|18;G3
+1,18;Kind:Chord,NoteValue:1/8,Beam:1|19;B3 flat
+1,19;Kind:Chord,NoteValue:1/8,Beam:1|20;A3
+1,20;Kind:Chord,NoteValue:1/8;G3
+1,21;Kind:Barline,Value:Standard Barline
+
+
+
+0,22;Kind:Chord,NoteValue:1/2;C5 sharp,E5
+0,26;Kind:Chord,NoteValue:1/2;D5,F5
+0,30;Kind:Barline,Value:Standard Barline
+
+1,22;Kind:Chord,NoteValue:1/8,Beam:1|23;A3
+1,23;Kind:Chord,NoteValue:1/8,Beam:1|24;G3
+1,24;Kind:Chord,NoteValue:1/8,Beam:1|25;F3
+1,25;Kind:Chord,NoteValue:1/8;E3
+1,26;Kind:Chord,NoteValue:1/8,Beam:1|27;D3
+1,27;Kind:Chord,NoteValue:1/8,Beam:1|28;C3
+1,28;Kind:Chord,NoteValue:1/8,Beam:1|29;B2 flat
+1,29;Kind:Chord,NoteValue:1/8;A2
+1,30;Kind:Barline,Value:Standard Barline
+
+
+
+0,31;Kind:Chord,NoteValue:1/2;B4 flat,G5
+0,35;Kind:Chord,NoteValue:1/2;C5 sharp,A5
+0,39;Kind:Barline,Value:Standard Barline
+
+1,31;Kind:Chord,NoteValue:1/8,Beam:1|32;G2
+1,32;Kind:Chord,NoteValue:1/8,Beam:1|33;B2 flat
+1,33;Kind:Chord,NoteValue:1/8,Beam:1|34;A2
+1,34;Kind:Chord,NoteValue:1/8;G2
+1,35;Kind:Chord,NoteValue:1/8,Beam:1|36;A2
+1,36;Kind:Chord,NoteValue:1/8,Beam:1|37;G2
+1,37;Kind:Chord,NoteValue:1/8,Beam:1|38;F2
+1,38;Kind:Chord,NoteValue:1/8;E2
+1,39;Kind:Barline,Value:Standard Barline

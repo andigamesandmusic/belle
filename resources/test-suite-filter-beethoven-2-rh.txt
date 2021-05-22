@@ -1,0 +1,32 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Key Signature,Value:Five Flats
+
+0,10;Kind:Chord,NoteValue:1/8;
+0,15;Kind:Chord,NoteValue:1/32,Beam:0|16,Slur:0|20;G3
+0,16;Kind:Chord,NoteValue:1/32,Beam:0|17;B3 flat
+0,17;Kind:Chord,NoteValue:1/32,Beam:0|18;D4 flat
+0,18;Kind:Chord,NoteValue:1/32,Beam:0|19;E4 flat
+0,19;Kind:Chord,NoteValue:1/32,Beam:0|20;G4
+0,20;Kind:Chord,NoteValue:1/32;B4 flat
+
+0,30;Kind:Chord,NoteValue:1/4;D5 flat-0|31|D5 flat
+0,31;Kind:Chord,NoteValue:3/16,Beam:0|32;D5 flat
+0,32;Kind:Chord,NoteValue:1/16;B4 flat
+
+0,40;Kind:Chord,NoteValue:1/8,Beam:0|41,StemDirection:Up;A4 flat
+0,41;Kind:Chord,NoteValue:1/8;G4-0|42|G4
+0,42;Kind:Chord,NoteValue:1/16,Beam:0|43;G4
+0,43;Kind:Chord,NoteValue:1/32,Beam:0|44;B4 flat
+0,44;Kind:Chord,NoteValue:1/32;D5 flat
+0,45;Kind:Chord,NoteValue:1/32,Beam:0|46;F5 flat
+0,46;Kind:Chord,NoteValue:1/16,Beam:0|47;E5 flat
+0,47;Kind:Chord,NoteValue:1/32;B4 flat
+
+0,50;Kind:Chord,NoteValue:1/16,Beam:0|51,Slur:0|51;D5 flat
+0,51;Kind:Chord,NoteValue:1/16;C5 flat
+
+0,60;Kind:Token
+
+0,70;Kind:Barline,Value:Standard Barline
+

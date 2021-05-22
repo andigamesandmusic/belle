@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mica PUBLIC
+  "-//MICA//MICA DTD//EN"
+  "https://raw.githubusercontent.com/burnson/belle/master/definitions/mica.dtd">
+<mica>
+  <category>
+    <definition lang="en" name="Barlines">Contains common barline types.
+    </definition>
+    
+    <concept uuid="en:Barline">
+      <identifier lang="en">Barline</identifier>
+      <definition lang="en" name="Barline">Indicates a barline in the context of a measure or possibly intrameasure separator.</definition>
+    </concept>
+    
+    <concept uuid="en:ThroughBarline">
+      <identifier lang="en">ThroughBarline</identifier>
+      <definition lang="en" name="Through Barline">Attribute of a barline in which it connects to the top of the staff immediately below.</definition>
+    </concept>
+
+    <concept uuid="en:StandardBarline">
+      <identifier lang="en">StandardBarline</identifier>
+      <definition lang="en" name="Standard Barline">Single thin vertical line through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+
+    <concept uuid="en:ThickBarline">
+      <identifier lang="en">ThickBarline</identifier>
+      <definition lang="en" name="Thick Barline">Thick vertical line through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:ThinDoubleBarline">
+      <identifier lang="en">ThinDoubleBarline</identifier>
+      <definition lang="en" name="Thin Double Barline">Double thin vertical line through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:ThickThinBarline">
+      <identifier lang="en">ThickThinBarline</identifier>
+      <definition lang="en" name="Thick-Thin Barline">Inverse of final barline through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:ThickDoubleBarline">
+      <identifier lang="en">ThickDoubleBarline</identifier>
+      <definition lang="en" name="Thick Double Barline">Double thick vertical line through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:ShortBarline">
+      <identifier lang="en">ShortBarline</identifier>
+      <definition lang="en" name="Short Barline">Two-space high line through middle of staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:TickBarline">
+      <identifier lang="en">TickBarline</identifier>
+      <definition lang="en" name="Tick Barline">Tick at top of staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:DottedBarline">
+      <identifier lang="en">DottedBarline</identifier>
+      <definition lang="en" name="Dotted Barline">Dashed vertical line through staff. If a through barline, line connects to top of next staff. In the alternate design, a dotted vertical line is used instead.</definition>
+    </concept>
+    
+    <concept uuid="en:DashedBarline">
+      <identifier lang="en">DashedBarline</identifier>
+      <definition lang="en" name="Dashed Barline">Dashed vertical line through staff. If a through barline, line connects to top of next staff. In the alternate design, a dashed vertical line is used instead.</definition>
+    </concept>
+
+    <concept uuid="en:FinalBarline">
+      <identifier lang="en">FinalBarline</identifier>
+      <definition lang="en" name="Final Barline">Thin-thick line through staff. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+    
+    <concept uuid="en:EndRepeatBarline">
+      <identifier lang="en">EndRepeatBarline</identifier>
+      <definition lang="en" name="End Repeat Barline">Thin-thick line through staff with two dots to the left on the middle spaces. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+
+    <concept uuid="en:BeginRepeatBarline">
+      <identifier lang="en">BeginRepeatBarline</identifier>
+      <definition lang="en" name="Begin Repeat Barline">Thick-thin line through staff with two dots to the right on the middle spaces. If a through barline, line connects to top of next staff.</definition>
+    </concept>
+
+    <concept uuid="en:BackToBackRepeatBarline">
+      <identifier lang="en">BackToBackRepeatBarline</identifier>
+      <definition lang="en" name="Back to Back Repeat Barline">Thin-thick-thin line with a pair of dots on each side. If a through barline, line connects to top of next staff. Indicates an end repeat barline and a begin repeat barline back to back. In the alternate design, a thick-thick line with a pair of dots on each side is used instead.</definition>
+    </concept>
+  </category>
+</mica>
