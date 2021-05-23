@@ -1,0 +1,761 @@
+<graph>
+  <node id="0" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="1" en:Type="en:Note"/>
+  </node>
+  <node id="1" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="2" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="3" en:Type="en:Note"/>
+  </node>
+  <node id="3" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="4" en:Type="en:Island">
+    <edge to="5" en:Type="en:Token"/>
+    <edge to="6" en:Type="en:Partwise"/>
+  </node>
+  <node id="5" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="6" en:Type="en:Island">
+    <edge to="7" en:Type="en:Token"/>
+    <edge to="8" en:Type="en:Partwise"/>
+  </node>
+  <node id="7" en:Kind="en:Key Signature" en:Value="en:Three Flats" en:Type="en:Token" en:Mode="en:Major"/>
+  <node id="8" en:Type="en:Island">
+    <edge to="9" en:Type="en:Token"/>
+    <edge to="18" en:Type="en:Partwise"/>
+  </node>
+  <node id="9" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="3" en:NoteValue="1/4"/>
+  <node id="10" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="30" en:Type="en:Note"/>
+  </node>
+  <node id="11" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4"/>
+  <node id="12" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="13" en:Type="en:Note"/>
+  </node>
+  <node id="13" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="14" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="17" en:Type="en:Note"/>
+  </node>
+  <node id="15" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="16" en:Type="en:Note"/>
+  </node>
+  <node id="16" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="17" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="18" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="11" en:Type="en:Token"/>
+    <edge to="19" en:Type="en:Partwise"/>
+  </node>
+  <node id="19" en:Type="en:Island">
+    <edge to="12" en:Type="en:Token"/>
+    <edge to="20" en:Type="en:Partwise"/>
+  </node>
+  <node id="20" en:Type="en:Island">
+    <edge to="15" en:Type="en:Token"/>
+    <edge to="23" en:Type="en:Partwise"/>
+  </node>
+  <node id="21" root="root" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="22" en:Type="en:Token"/>
+    <edge to="4" en:Type="en:Partwise"/>
+    <edge to="134" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="22" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="23" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="24" en:Type="en:Token"/>
+    <edge to="29" en:Type="en:Partwise"/>
+    <edge to="136" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="24" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="25" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="26" en:Type="en:Note"/>
+  </node>
+  <node id="26" en:Value="en:D5" en:Type="en:Note"/>
+  <node id="27" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="28" en:Type="en:Note"/>
+  </node>
+  <node id="28" en:Value="en:E5 flat" en:Type="en:Note"/>
+  <node id="29" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="0" en:Type="en:Token"/>
+    <edge to="31" en:Type="en:Partwise"/>
+    <edge to="149" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="30" en:Value="en:E5 flat" en:Type="en:Note"/>
+  <node id="31" en:Type="en:Island">
+    <edge to="2" en:Type="en:Token"/>
+    <edge to="32" en:Type="en:Partwise"/>
+  </node>
+  <node id="32" en:Type="en:Island">
+    <edge to="25" en:Type="en:Token"/>
+    <edge to="33" en:Type="en:Partwise"/>
+  </node>
+  <node id="33" en:Type="en:Island">
+    <edge to="27" en:Type="en:Token"/>
+    <edge to="34" en:Type="en:Partwise"/>
+  </node>
+  <node id="34" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="35" en:Type="en:Token"/>
+    <edge to="46" en:Type="en:Partwise"/>
+    <edge to="155" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="35" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="36" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="37" en:Type="en:Note"/>
+  </node>
+  <node id="37" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="38" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8"/>
+  <node id="39" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="41" en:Type="en:Note"/>
+  </node>
+  <node id="40" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="58" en:Type="en:Note"/>
+  </node>
+  <node id="41" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="42" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="43" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="44" en:Type="en:Note"/>
+  </node>
+  <node id="44" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="45" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="42" en:Type="en:Note"/>
+  </node>
+  <node id="46" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="10" en:Type="en:Token"/>
+    <edge to="47" en:Type="en:Partwise"/>
+    <edge to="177" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="47" en:Type="en:Island">
+    <edge to="36" en:Type="en:Token"/>
+    <edge to="48" en:Type="en:Partwise"/>
+  </node>
+  <node id="48" en:Type="en:Island">
+    <edge to="38" en:Type="en:Token"/>
+    <edge to="49" en:Type="en:Partwise"/>
+  </node>
+  <node id="49" en:Type="en:Island">
+    <edge to="39" en:Type="en:Token"/>
+    <edge to="50" en:Type="en:Partwise"/>
+  </node>
+  <node id="50" en:Type="en:Island">
+    <edge to="43" en:Type="en:Token"/>
+    <edge to="51" en:Type="en:Partwise"/>
+  </node>
+  <node id="51" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="52" en:Type="en:Token"/>
+    <edge to="59" en:Type="en:Partwise"/>
+    <edge to="185" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="52" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="53" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="65" en:Type="en:Note"/>
+  </node>
+  <node id="54" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="55" en:Type="en:Note"/>
+  </node>
+  <node id="55" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="56" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="57" en:Type="en:Note"/>
+  </node>
+  <node id="57" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="58" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="59" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="14" en:Type="en:Token"/>
+    <edge to="60" en:Type="en:Partwise"/>
+    <edge to="213" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="60" en:Type="en:Island">
+    <edge to="45" en:Type="en:Token"/>
+    <edge to="61" en:Type="en:Partwise"/>
+  </node>
+  <node id="61" en:Type="en:Island">
+    <edge to="54" en:Type="en:Token"/>
+    <edge to="62" en:Type="en:Partwise"/>
+  </node>
+  <node id="62" en:Type="en:Island">
+    <edge to="56" en:Type="en:Token"/>
+    <edge to="63" en:Type="en:Partwise"/>
+  </node>
+  <node id="63" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="64" en:Type="en:Token"/>
+    <edge to="69" en:Type="en:Partwise"/>
+    <edge to="220" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="64" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="65" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="66" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="67" en:Type="en:Note"/>
+  </node>
+  <node id="67" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="68" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="70" en:Type="en:Note"/>
+  </node>
+  <node id="69" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="53" en:Type="en:Token"/>
+    <edge to="71" en:Type="en:Partwise"/>
+    <edge to="242" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="70" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="71" en:Type="en:Island">
+    <edge to="40" en:Type="en:Token"/>
+    <edge to="72" en:Type="en:Partwise"/>
+  </node>
+  <node id="72" en:Type="en:Island">
+    <edge to="66" en:Type="en:Token"/>
+    <edge to="73" en:Type="en:Partwise"/>
+  </node>
+  <node id="73" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="74" en:Type="en:Token"/>
+    <edge to="81" en:Type="en:Partwise"/>
+    <edge to="249" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="74" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="75" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="76" en:Type="en:Note"/>
+  </node>
+  <node id="76" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="77" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="78" en:Type="en:Note"/>
+  </node>
+  <node id="78" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="79" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="80" en:Type="en:Note"/>
+  </node>
+  <node id="80" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="81" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="68" en:Type="en:Token"/>
+    <edge to="82" en:Type="en:Partwise"/>
+    <edge to="276" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="82" en:Type="en:Island">
+    <edge to="75" en:Type="en:Token"/>
+    <edge to="83" en:Type="en:Partwise"/>
+  </node>
+  <node id="83" en:Type="en:Island">
+    <edge to="77" en:Type="en:Token"/>
+    <edge to="84" en:Type="en:Partwise"/>
+  </node>
+  <node id="84" en:Type="en:Island">
+    <edge to="79" en:Type="en:Token"/>
+    <edge to="85" en:Type="en:Partwise"/>
+  </node>
+  <node id="85" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="86" en:Type="en:Token"/>
+    <edge to="283" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="86" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="87" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="88" en:Type="en:Note"/>
+    <edge to="90" en:Type="en:Note"/>
+    <edge to="91" en:Type="en:Note"/>
+  </node>
+  <node id="88" en:Value="en:G3" en:Type="en:Note"/>
+  <node id="89" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="128" en:Type="en:Note"/>
+    <edge to="159" en:Type="en:Note"/>
+    <edge to="160" en:Type="en:Note"/>
+    <edge to="161" en:Type="en:Note"/>
+  </node>
+  <node id="90" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="91" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="92" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4"/>
+  <node id="93" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="94" en:Type="en:Note"/>
+  </node>
+  <node id="94" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="95" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="96" en:Type="en:Island">
+    <edge to="97" en:Type="en:Token"/>
+    <edge to="98" en:Type="en:Instant-wise"/>
+    <edge to="100" en:Type="en:Partwise"/>
+  </node>
+  <node id="97" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="98" en:Type="en:Island">
+    <edge to="99" en:Type="en:Token"/>
+    <edge to="102" en:Type="en:Partwise"/>
+  </node>
+  <node id="99" en:Kind="en:Clef" en:Value="en:Bass Clef" en:Type="en:Token"/>
+  <node id="100" en:Type="en:Island">
+    <edge to="101" en:Type="en:Token"/>
+    <edge to="102" en:Type="en:Instant-wise"/>
+    <edge to="105" en:Type="en:Partwise"/>
+  </node>
+  <node id="101" en:Kind="en:Key Signature" en:Value="en:Three Flats" en:Type="en:Token" en:Mode="en:Major"/>
+  <node id="102" en:Type="en:Island">
+    <edge to="103" en:Type="en:Token"/>
+    <edge to="107" en:Type="en:Partwise"/>
+  </node>
+  <node id="103" en:Kind="en:Key Signature" en:Value="en:Three Flats" en:Type="en:Token" en:Mode="en:Major"/>
+  <node id="104" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="95" en:Type="en:Note"/>
+  </node>
+  <node id="105" en:Type="en:Island">
+    <edge to="106" en:Type="en:Token"/>
+    <edge to="107" en:Type="en:Instant-wise"/>
+    <edge to="127" en:Type="en:Partwise"/>
+  </node>
+  <node id="106" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="3" en:NoteValue="1/4"/>
+  <node id="107" en:Type="en:Island">
+    <edge to="108" en:Type="en:Token"/>
+    <edge to="131" en:Type="en:Partwise"/>
+  </node>
+  <node id="108" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="3" en:NoteValue="1/4"/>
+  <node id="109" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="110" en:Type="en:Note"/>
+    <edge to="111" en:Type="en:Note"/>
+    <edge to="112" en:Type="en:Note"/>
+    <edge to="113" en:Type="en:Note"/>
+  </node>
+  <node id="110" en:Value="en:B3 flat" en:Type="en:Note"/>
+  <node id="111" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="112" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="113" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="114" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="115" en:Type="en:Note"/>
+  </node>
+  <node id="115" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="116" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="117" en:Type="en:Note"/>
+  </node>
+  <node id="117" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="118" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="119" en:Type="en:Note"/>
+    <edge to="120" en:Type="en:Note"/>
+  </node>
+  <node id="119" en:Value="en:E2 flat" en:Type="en:Note"/>
+  <node id="120" en:Value="en:E3 flat" en:Type="en:Note"/>
+  <node id="121" en:Type="en:Island">
+    <edge to="122" en:Type="en:Token"/>
+    <edge to="132" en:Type="en:Partwise"/>
+  </node>
+  <node id="122" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="123" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="124" en:Type="en:Note"/>
+  </node>
+  <node id="124" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="125" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="126" en:Type="en:Note"/>
+  </node>
+  <node id="126" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="127" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="109" en:Type="en:Token"/>
+    <edge to="129" en:Type="en:Partwise"/>
+    <edge to="131" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="128" en:Value="en:G3" en:Type="en:Note"/>
+  <node id="129" en:Type="en:Island">
+    <edge to="114" en:Type="en:Token"/>
+    <edge to="130" en:Type="en:Partwise"/>
+  </node>
+  <node id="130" en:Type="en:Island">
+    <edge to="116" en:Type="en:Token"/>
+    <edge to="136" en:Type="en:Partwise"/>
+  </node>
+  <node id="131" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="118" en:Type="en:Token"/>
+    <edge to="121" en:Type="en:Partwise"/>
+  </node>
+  <node id="132" en:Type="en:Island">
+    <edge to="123" en:Type="en:Token"/>
+    <edge to="133" en:Type="en:Partwise"/>
+  </node>
+  <node id="133" en:Type="en:Island">
+    <edge to="125" en:Type="en:Token"/>
+    <edge to="140" en:Type="en:Partwise"/>
+  </node>
+  <node id="134" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="135" en:Type="en:Token"/>
+    <edge to="96" en:Type="en:Partwise"/>
+    <edge to="138" en:Type="en:Instant-wise"/>
+    <edge to="138" en:StaffBracket="en:Brace"/>
+  </node>
+  <node id="135" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="136" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="137" en:Type="en:Token"/>
+    <edge to="140" en:Type="en:Instant-wise"/>
+    <edge to="149" en:Type="en:Partwise"/>
+  </node>
+  <node id="137" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="138" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="139" en:Type="en:Token"/>
+    <edge to="98" en:Type="en:Partwise"/>
+  </node>
+  <node id="139" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="140" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="141" en:Type="en:Token"/>
+    <edge to="152" en:Type="en:Partwise"/>
+  </node>
+  <node id="141" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="142" en:Type="en:Island">
+    <edge to="143" en:Type="en:Token"/>
+    <edge to="153" en:Type="en:Partwise"/>
+  </node>
+  <node id="143" en:Kind="en:Clef" en:Value="en:Bass Clef" en:Type="en:Token"/>
+  <node id="144" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4"/>
+  <node id="145" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="146" en:Type="en:Note"/>
+    <edge to="147" en:Type="en:Note"/>
+  </node>
+  <node id="146" en:Value="en:E2 flat" en:Type="en:Note"/>
+  <node id="147" en:Value="en:E3 flat" en:Type="en:Note"/>
+  <node id="148" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4"/>
+  <node id="149" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="104" en:Type="en:Token"/>
+    <edge to="150" en:Type="en:Partwise"/>
+    <edge to="152" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="150" en:Type="en:Island">
+    <edge to="87" en:Type="en:Token"/>
+    <edge to="151" en:Type="en:Partwise"/>
+  </node>
+  <node id="151" en:Type="en:Island">
+    <edge to="92" en:Type="en:Token"/>
+    <edge to="155" en:Type="en:Partwise"/>
+  </node>
+  <node id="152" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="93" en:Type="en:Token"/>
+    <edge to="142" en:Type="en:Partwise"/>
+  </node>
+  <node id="153" en:Type="en:Island">
+    <edge to="145" en:Type="en:Token"/>
+    <edge to="154" en:Type="en:Partwise"/>
+  </node>
+  <node id="154" en:Type="en:Island">
+    <edge to="148" en:Type="en:Token"/>
+    <edge to="157" en:Type="en:Partwise"/>
+  </node>
+  <node id="155" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="156" en:Type="en:Token"/>
+    <edge to="157" en:Type="en:Instant-wise"/>
+    <edge to="177" en:Type="en:Partwise"/>
+  </node>
+  <node id="156" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="157" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="158" en:Type="en:Token"/>
+    <edge to="181" en:Type="en:Partwise"/>
+  </node>
+  <node id="158" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="159" en:Value="en:C4" en:Type="en:Note"/>
+  <node id="160" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="161" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="162" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8"/>
+  <node id="163" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="164" en:Type="en:Note"/>
+    <edge to="165" en:Type="en:Note"/>
+    <edge to="166" en:Type="en:Note"/>
+  </node>
+  <node id="164" en:Value="en:G3" en:Type="en:Note"/>
+  <node id="165" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="166" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="167" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4"/>
+  <node id="168" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="169" en:Type="en:Note"/>
+    <edge to="171" en:Type="en:Note"/>
+  </node>
+  <node id="169" en:Value="en:C2" en:Type="en:Note"/>
+  <node id="170" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="171" en:Value="en:C3" en:Type="en:Note"/>
+  <node id="172" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8"/>
+  <node id="173" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="174" en:Type="en:Note"/>
+    <edge to="176" en:Type="en:Note"/>
+  </node>
+  <node id="174" en:Value="en:B1 flat" en:Type="en:Note"/>
+  <node id="175" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="170" en:Type="en:Note"/>
+  </node>
+  <node id="176" en:Value="en:B2 flat" en:Type="en:Note"/>
+  <node id="177" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="144" en:Type="en:Token"/>
+    <edge to="178" en:Type="en:Partwise"/>
+    <edge to="181" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="178" en:Type="en:Island">
+    <edge to="89" en:Type="en:Token"/>
+    <edge to="179" en:Type="en:Partwise"/>
+  </node>
+  <node id="179" en:Type="en:Island">
+    <edge to="162" en:Type="en:Token"/>
+    <edge to="180" en:Type="en:Partwise"/>
+  </node>
+  <node id="180" en:Type="en:Island">
+    <edge to="163" en:Type="en:Token"/>
+    <edge to="185" en:Type="en:Partwise"/>
+  </node>
+  <node id="181" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="167" en:Type="en:Token"/>
+    <edge to="182" en:Type="en:Partwise"/>
+  </node>
+  <node id="182" en:Type="en:Island">
+    <edge to="168" en:Type="en:Token"/>
+    <edge to="183" en:Type="en:Partwise"/>
+  </node>
+  <node id="183" en:Type="en:Island">
+    <edge to="172" en:Type="en:Token"/>
+    <edge to="184" en:Type="en:Partwise"/>
+  </node>
+  <node id="184" en:Type="en:Island">
+    <edge to="173" en:Type="en:Token"/>
+    <edge to="187" en:Type="en:Partwise"/>
+  </node>
+  <node id="185" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="186" en:Type="en:Token"/>
+    <edge to="187" en:Type="en:Instant-wise"/>
+    <edge to="213" en:Type="en:Partwise"/>
+  </node>
+  <node id="186" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="187" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="188" en:Type="en:Token"/>
+    <edge to="217" en:Type="en:Partwise"/>
+  </node>
+  <node id="188" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="189" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="190" en:Type="en:Note"/>
+  </node>
+  <node id="190" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="191" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="192" en:Type="en:Note"/>
+  </node>
+  <node id="192" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="193" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="194" en:Type="en:Note"/>
+  </node>
+  <node id="194" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="195" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="196" en:Type="en:Note"/>
+  </node>
+  <node id="196" en:Value="en:C4" en:Type="en:Note"/>
+  <node id="197" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="198" en:Type="en:Note"/>
+    <edge to="199" en:Type="en:Note"/>
+  </node>
+  <node id="198" en:Value="en:C4" en:Type="en:Note"/>
+  <node id="199" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="200" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="201" en:Type="en:Note"/>
+    <edge to="202" en:Type="en:Note"/>
+    <edge to="203" en:Type="en:Note"/>
+  </node>
+  <node id="201" en:Value="en:C4" en:Type="en:Note"/>
+  <node id="202" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="203" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="204" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="205" en:Type="en:Note"/>
+    <edge to="206" en:Type="en:Note"/>
+  </node>
+  <node id="205" en:Value="en:A1 flat" en:Type="en:Note"/>
+  <node id="206" en:Value="en:A2 flat" en:Type="en:Note"/>
+  <node id="207" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="208" en:Type="en:Note"/>
+    <edge to="209" en:Type="en:Note"/>
+  </node>
+  <node id="208" en:Value="en:A1 flat" en:Type="en:Note"/>
+  <node id="209" en:Value="en:A2 flat" en:Type="en:Note"/>
+  <node id="210" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="211" en:Type="en:Note"/>
+    <edge to="212" en:Type="en:Note"/>
+  </node>
+  <node id="211" en:Value="en:A1" en:Type="en:Note"/>
+  <node id="212" en:Value="en:A2" en:Type="en:Note"/>
+  <node id="213" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="175" en:Type="en:Token"/>
+    <edge to="195" en:Type="en:Token"/>
+    <edge to="214" en:Type="en:Partwise"/>
+    <edge to="217" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="214" en:Type="en:Island">
+    <edge to="189" en:Type="en:Token"/>
+    <edge to="215" en:Type="en:Partwise"/>
+  </node>
+  <node id="215" en:Type="en:Island">
+    <edge to="191" en:Type="en:Token"/>
+    <edge to="197" en:Type="en:Token"/>
+    <edge to="216" en:Type="en:Partwise"/>
+  </node>
+  <node id="216" en:Type="en:Island">
+    <edge to="193" en:Type="en:Token"/>
+    <edge to="200" en:Type="en:Token"/>
+    <edge to="220" en:Type="en:Partwise"/>
+  </node>
+  <node id="217" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="204" en:Type="en:Token"/>
+    <edge to="218" en:Type="en:Partwise"/>
+  </node>
+  <node id="218" en:Type="en:Island">
+    <edge to="207" en:Type="en:Token"/>
+    <edge to="219" en:Type="en:Partwise"/>
+  </node>
+  <node id="219" en:Type="en:Island">
+    <edge to="210" en:Type="en:Token"/>
+    <edge to="222" en:Type="en:Partwise"/>
+  </node>
+  <node id="220" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="221" en:Type="en:Token"/>
+    <edge to="222" en:Type="en:Instant-wise"/>
+    <edge to="242" en:Type="en:Partwise"/>
+  </node>
+  <node id="221" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="222" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="223" en:Type="en:Token"/>
+    <edge to="246" en:Type="en:Partwise"/>
+  </node>
+  <node id="223" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="224" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="225" en:Type="en:Note"/>
+  </node>
+  <node id="225" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="226" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="227" en:Type="en:Note"/>
+  </node>
+  <node id="227" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="228" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="229" en:Type="en:Note"/>
+    <edge to="230" en:Type="en:Note"/>
+  </node>
+  <node id="229" en:Value="en:D4" en:Type="en:Note"/>
+  <node id="230" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="231" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="232" en:Type="en:Note"/>
+  </node>
+  <node id="232" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="233" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="234" en:Type="en:Note"/>
+  </node>
+  <node id="234" en:Value="en:G4" en:Type="en:Note"/>
+  <node id="235" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="236" en:Type="en:Note"/>
+    <edge to="237" en:Type="en:Note"/>
+  </node>
+  <node id="236" en:Value="en:B1 flat" en:Type="en:Note"/>
+  <node id="237" en:Value="en:B2 flat" en:Type="en:Note"/>
+  <node id="238" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="239" en:Type="en:Note"/>
+  </node>
+  <node id="239" en:Value="en:D3" en:Type="en:Note"/>
+  <node id="240" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="241" en:Type="en:Note"/>
+  </node>
+  <node id="241" en:Value="en:E3 flat" en:Type="en:Note"/>
+  <node id="242" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="228" en:Type="en:Token"/>
+    <edge to="243" en:Type="en:Partwise"/>
+    <edge to="246" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="243" en:Type="en:Island">
+    <edge to="224" en:Type="en:Token"/>
+    <edge to="231" en:Type="en:Token"/>
+    <edge to="244" en:Type="en:Partwise"/>
+  </node>
+  <node id="244" en:Type="en:Island">
+    <edge to="233" en:Type="en:Token"/>
+    <edge to="245" en:Type="en:Partwise"/>
+  </node>
+  <node id="245" en:Type="en:Island">
+    <edge to="226" en:Type="en:Token"/>
+    <edge to="249" en:Type="en:Partwise"/>
+  </node>
+  <node id="246" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="235" en:Type="en:Token"/>
+    <edge to="247" en:Type="en:Partwise"/>
+  </node>
+  <node id="247" en:Type="en:Island">
+    <edge to="238" en:Type="en:Token"/>
+    <edge to="248" en:Type="en:Partwise"/>
+  </node>
+  <node id="248" en:Type="en:Island">
+    <edge to="240" en:Type="en:Token"/>
+    <edge to="251" en:Type="en:Partwise"/>
+  </node>
+  <node id="249" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="250" en:Type="en:Token"/>
+    <edge to="251" en:Type="en:Instant-wise"/>
+    <edge to="276" en:Type="en:Partwise"/>
+  </node>
+  <node id="250" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="251" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="252" en:Type="en:Token"/>
+    <edge to="280" en:Type="en:Partwise"/>
+  </node>
+  <node id="252" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="253" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="254" en:Type="en:Note"/>
+  </node>
+  <node id="254" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="255" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="256" en:Type="en:Note"/>
+  </node>
+  <node id="256" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="257" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="258" en:Type="en:Note"/>
+  </node>
+  <node id="258" en:Value="en:A4 flat" en:Type="en:Note"/>
+  <node id="259" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="260" en:Type="en:Note"/>
+  </node>
+  <node id="260" en:Value="en:B4 flat" en:Type="en:Note"/>
+  <node id="261" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/2">
+    <edge to="262" en:Type="en:Note"/>
+    <edge to="263" en:Type="en:Note"/>
+  </node>
+  <node id="262" en:Value="en:E4 flat" en:Type="en:Note"/>
+  <node id="263" en:Value="en:G4 flat" en:Type="en:Note"/>
+  <node id="264" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="265" en:Type="en:Note"/>
+  </node>
+  <node id="265" en:Value="en:F4" en:Type="en:Note"/>
+  <node id="266" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="267" en:Type="en:Note"/>
+  </node>
+  <node id="267" en:Value="en:C3" en:Type="en:Note"/>
+  <node id="268" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="269" en:Type="en:Note"/>
+  </node>
+  <node id="269" en:Value="en:C4" en:Type="en:Note"/>
+  <node id="270" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/2">
+    <edge to="271" en:Type="en:Note"/>
+  </node>
+  <node id="271" en:Value="en:C3" en:Type="en:Note"/>
+  <node id="272" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="273" en:Type="en:Note"/>
+    <edge to="274" en:Type="en:Note"/>
+    <edge to="275" en:Type="en:Note"/>
+  </node>
+  <node id="273" en:Value="en:D3" en:Type="en:Note"/>
+  <node id="274" en:Value="en:B3 flat" en:Type="en:Note"/>
+  <node id="275" en:Value="en:D4" en:Type="en:Note"/>
+  <node id="276" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="253" en:Type="en:Token"/>
+    <edge to="261" en:Type="en:Token"/>
+    <edge to="277" en:Type="en:Partwise"/>
+    <edge to="280" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="277" en:Type="en:Island">
+    <edge to="255" en:Type="en:Token"/>
+    <edge to="278" en:Type="en:Partwise"/>
+  </node>
+  <node id="278" en:Type="en:Island">
+    <edge to="257" en:Type="en:Token"/>
+    <edge to="264" en:Type="en:Token"/>
+    <edge to="279" en:Type="en:Partwise"/>
+  </node>
+  <node id="279" en:Type="en:Island">
+    <edge to="259" en:Type="en:Token"/>
+    <edge to="283" en:Type="en:Partwise"/>
+  </node>
+  <node id="280" en:Type="en:Island" data-MusicXMLInitialChordStitch="true">
+    <edge to="266" en:Type="en:Token"/>
+    <edge to="270" en:Type="en:Token"/>
+    <edge to="281" en:Type="en:Partwise"/>
+  </node>
+  <node id="281" en:Type="en:Island">
+    <edge to="268" en:Type="en:Token"/>
+    <edge to="282" en:Type="en:Partwise"/>
+  </node>
+  <node id="282" en:Type="en:Island">
+    <edge to="272" en:Type="en:Token"/>
+    <edge to="285" en:Type="en:Partwise"/>
+  </node>
+  <node id="283" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="284" en:Type="en:Token"/>
+    <edge to="285" en:Type="en:Instant-wise"/>
+  </node>
+  <node id="284" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="285" en:Type="en:Island" data-MusicXMLBarlineStitch="true" data-StaffLines="5" data-StaffOffset="-12.0" data-StaffScale="1.0">
+    <edge to="286" en:Type="en:Token"/>
+  </node>
+  <node id="286" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+</graph>

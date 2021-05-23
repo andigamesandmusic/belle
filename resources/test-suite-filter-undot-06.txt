@@ -1,0 +1,37 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Key Signature,Value:One Flat 
+0,3;Kind:Time Signature,Value:Regular Time Signature,Beats:4,NoteValue:1/4
+
+0,10;Kind:Chord,NoteValue:3/64,Beam:0|11;A4
+0,11;Kind:Chord,NoteValue:1/64,Beam:0|12;A4
+0,12;Kind:Chord,NoteValue:3/64,Beam:0|13;A4
+0,13;Kind:Chord,NoteValue:1/64,Beam:0|14;A4
+0,14;Kind:Chord,NoteValue:1/8;A4
+
+0,20;Kind:Chord,NoteValue:3/32,Beam:0|21;A4
+0,21;Kind:Chord,NoteValue:1/32,Beam:0|22;A4
+0,22;Kind:Chord,NoteValue:1/8;A4
+
+0,23;Kind:Chord,NoteValue:1/4;A4
+
+0,30;Kind:Chord,NoteValue:1/64,Beam:0|31;A4
+0,31;Kind:Chord,NoteValue:1/64,Beam:0|32;A4
+0,32;Kind:Chord,NoteValue:1/64,Beam:0|33;A4
+0,33;Kind:Chord,NoteValue:1/64,Beam:0|40;A4
+0,40;Kind:Chord,NoteValue:1/64,Beam:0|41;A4
+0,41;Kind:Chord,NoteValue:1/64,Beam:0|42;A4
+0,42;Kind:Chord,NoteValue:1/64,Beam:0|43;A4
+0,43;Kind:Chord,NoteValue:1/64,Beam:0|44;A4
+0,44;Kind:Chord,NoteValue:3/32,Beam:0|45;A4
+0,45;Kind:Chord,NoteValue:1/32;A4
+
+0,46;Kind:Barline,Value:Standard Barline
+
+0,50;Kind:Chord,NoteValue:1/8;A4
+0,51;Kind:Chord,NoteValue:3/8;A4
+0,52;Kind:Chord,NoteValue:3/16,Beam:0|53;A4
+0,53;Kind:Chord,NoteValue:1/16;A4
+0,54;Kind:Chord,NoteValue:1/4;A4
+
+0,60;Kind:Barline,Value:Standard Barline

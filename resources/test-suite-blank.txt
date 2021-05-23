@@ -1,0 +1,3 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Chord,NoteValue:4/4;
+0,2;Kind:Barline,Value:Standard Barline

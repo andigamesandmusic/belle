@@ -1,0 +1,95 @@
+<graph>
+  <node id="0" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="1" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="2" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="3" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="4" en:Type="en:Token"/>
+    <edge to="6" en:Type="en:Partwise"/>
+  </node>
+  <node id="4" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="5" en:Type="en:Note"/>
+  </node>
+  <node id="5" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="6" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="7" en:Type="en:Token"/>
+    <edge to="8" en:Type="en:Partwise"/>
+  </node>
+  <node id="7" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="16" en:Type="en:Note"/>
+  </node>
+  <node id="8" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="9" en:Type="en:Token"/>
+    <edge to="10" en:Type="en:Partwise"/>
+  </node>
+  <node id="9" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="0" en:Type="en:Note"/>
+  </node>
+  <node id="10" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="11" en:Type="en:Token"/>
+    <edge to="12" en:Type="en:Partwise"/>
+  </node>
+  <node id="11" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="1" en:Type="en:Note"/>
+  </node>
+  <node id="12" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="13" en:Type="en:Token"/>
+  </node>
+  <node id="13" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="14" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="15" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="2" en:Type="en:Token"/>
+    <edge to="3" en:Type="en:Partwise"/>
+  </node>
+  <node id="16" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="17" root="root" en:Type="en:Island" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="18" en:Type="en:Token"/>
+    <edge to="19" en:Type="en:Partwise"/>
+  </node>
+  <node id="18" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="19" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="20" en:Type="en:Token"/>
+    <edge to="21" en:Type="en:Partwise"/>
+  </node>
+  <node id="20" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="21" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="22" en:Type="en:Token"/>
+    <edge to="23" en:Type="en:Partwise"/>
+  </node>
+  <node id="22" en:Kind="en:Key Signature" en:Type="en:Token"/>
+  <node id="23" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="24" en:Type="en:Token"/>
+    <edge to="25" en:Type="en:Partwise"/>
+  </node>
+  <node id="24" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="4" en:NoteValue="1/4"/>
+  <node id="25" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="26" en:Type="en:Token"/>
+    <edge to="29" en:Type="en:Partwise"/>
+  </node>
+  <node id="26" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="27" en:Type="en:Note"/>
+  </node>
+  <node id="27" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="28" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="29" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="30" en:Type="en:Token"/>
+    <edge to="32" en:Type="en:Partwise"/>
+  </node>
+  <node id="30" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="31" en:Type="en:Note"/>
+  </node>
+  <node id="31" en:Value="en:C5" en:Type="en:Note"/>
+  <node id="32" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="33" en:Type="en:Token"/>
+    <edge to="34" en:Type="en:Partwise"/>
+  </node>
+  <node id="33" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="28" en:Type="en:Note"/>
+  </node>
+  <node id="34" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="35" en:Type="en:Token"/>
+    <edge to="15" en:Type="en:Partwise"/>
+  </node>
+  <node id="35" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="14" en:Type="en:Note"/>
+  </node>
+</graph>

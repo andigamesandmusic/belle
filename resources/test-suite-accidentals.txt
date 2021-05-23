@@ -1,0 +1,8 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Chord,NoteValue:1/4;C4
+0,3;Kind:Chord,NoteValue:1/4;C4 sharp
+0,4;Kind:Chord,NoteValue:1/4;C4
+0,5;Kind:Chord,NoteValue:1/4;C4 sharp
+0,6;Kind:Chord,NoteValue:1/4;C4
+0,7;Kind:Barline,Value:Standard Barline

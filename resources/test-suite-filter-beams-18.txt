@@ -1,0 +1,325 @@
+<graph>
+  <node id="0" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="19" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="1" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="31" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="2" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="54" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="3" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="63" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="4" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="72" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="5" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="81" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="6" en:Value="3/2" en:Type="en:Tuplet" data-Tag="1">
+    <edge to="93" en:Type="en:Tuplet" data-Tag="1"/>
+  </node>
+  <node id="7" root="root" en:Type="en:Island" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="8" en:Type="en:Token"/>
+    <edge to="9" en:Type="en:Partwise"/>
+  </node>
+  <node id="8" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="9" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="10" en:Type="en:Token"/>
+    <edge to="11" en:Type="en:Partwise"/>
+  </node>
+  <node id="10" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="11" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="12" en:Type="en:Token"/>
+    <edge to="13" en:Type="en:Partwise"/>
+  </node>
+  <node id="12" en:Kind="en:Key Signature" en:Type="en:Token"/>
+  <node id="13" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="14" en:Type="en:Token"/>
+    <edge to="15" en:Type="en:Partwise"/>
+  </node>
+  <node id="14" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="2" en:NoteValue="1/2"/>
+  <node id="15" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="16" en:Type="en:Token"/>
+    <edge to="18" en:Type="en:Partwise"/>
+  </node>
+  <node id="16" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="19" en:Type="en:Voice"/>
+    <edge to="17" en:Type="en:Note"/>
+  </node>
+  <node id="17" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="18" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="19" en:Type="en:Token"/>
+    <edge to="21" en:Type="en:Partwise"/>
+  </node>
+  <node id="19" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="22" en:Type="en:Voice"/>
+    <edge to="22" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="20" en:Type="en:Note"/>
+  </node>
+  <node id="20" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="21" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="22" en:Type="en:Token"/>
+    <edge to="24" en:Type="en:Partwise"/>
+  </node>
+  <node id="22" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="25" en:Type="en:Voice"/>
+    <edge to="25" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="23" en:Type="en:Note"/>
+  </node>
+  <node id="23" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="24" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="25" en:Type="en:Token"/>
+    <edge to="27" en:Type="en:Partwise"/>
+  </node>
+  <node id="25" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="28" en:Type="en:Voice"/>
+    <edge to="26" en:Type="en:Note"/>
+  </node>
+  <node id="26" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="27" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="28" en:Type="en:Token"/>
+    <edge to="30" en:Type="en:Partwise"/>
+  </node>
+  <node id="28" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="31" en:Type="en:Voice"/>
+    <edge to="29" en:Type="en:Note"/>
+  </node>
+  <node id="29" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="30" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="31" en:Type="en:Token"/>
+    <edge to="33" en:Type="en:Partwise"/>
+  </node>
+  <node id="31" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="34" en:Type="en:Voice"/>
+    <edge to="34" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="32" en:Type="en:Note"/>
+  </node>
+  <node id="32" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="33" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="34" en:Type="en:Token"/>
+    <edge to="36" en:Type="en:Partwise"/>
+  </node>
+  <node id="34" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="37" en:Type="en:Voice"/>
+    <edge to="37" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="35" en:Type="en:Note"/>
+  </node>
+  <node id="35" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="36" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="37" en:Type="en:Token"/>
+    <edge to="39" en:Type="en:Partwise"/>
+  </node>
+  <node id="37" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="40" en:Type="en:Voice"/>
+    <edge to="38" en:Type="en:Note"/>
+  </node>
+  <node id="38" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="39" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="40" en:Type="en:Token"/>
+    <edge to="42" en:Type="en:Partwise"/>
+  </node>
+  <node id="40" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="43" en:Type="en:Voice"/>
+    <edge to="41" en:Type="en:Note"/>
+  </node>
+  <node id="41" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="42" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="43" en:Type="en:Token"/>
+    <edge to="45" en:Type="en:Partwise"/>
+  </node>
+  <node id="43" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="44" en:Type="en:Note"/>
+  </node>
+  <node id="44" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="45" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="46" en:Type="en:Token"/>
+    <edge to="47" en:Type="en:Partwise"/>
+  </node>
+  <node id="46" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="47" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="48" en:Type="en:Token"/>
+    <edge to="50" en:Type="en:Partwise"/>
+  </node>
+  <node id="48" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="51" en:Type="en:Voice"/>
+    <edge to="49" en:Type="en:Note"/>
+  </node>
+  <node id="49" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="50" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="51" en:Type="en:Token"/>
+    <edge to="53" en:Type="en:Partwise"/>
+  </node>
+  <node id="51" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="54" en:Type="en:Voice"/>
+    <edge to="52" en:Type="en:Note"/>
+  </node>
+  <node id="52" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="53" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="54" en:Type="en:Token"/>
+    <edge to="56" en:Type="en:Partwise"/>
+  </node>
+  <node id="54" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="57" en:Type="en:Voice"/>
+    <edge to="57" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="55" en:Type="en:Note"/>
+  </node>
+  <node id="55" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="56" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="57" en:Type="en:Token"/>
+    <edge to="59" en:Type="en:Partwise"/>
+  </node>
+  <node id="57" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="60" en:Type="en:Voice"/>
+    <edge to="60" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="58" en:Type="en:Note"/>
+  </node>
+  <node id="58" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="59" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="60" en:Type="en:Token"/>
+    <edge to="62" en:Type="en:Partwise"/>
+  </node>
+  <node id="60" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="63" en:Type="en:Voice"/>
+    <edge to="61" en:Type="en:Note"/>
+  </node>
+  <node id="61" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="62" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="63" en:Type="en:Token"/>
+    <edge to="65" en:Type="en:Partwise"/>
+  </node>
+  <node id="63" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="66" en:Type="en:Voice"/>
+    <edge to="66" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="64" en:Type="en:Note"/>
+  </node>
+  <node id="64" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="65" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="66" en:Type="en:Token"/>
+    <edge to="68" en:Type="en:Partwise"/>
+  </node>
+  <node id="66" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="69" en:Type="en:Voice"/>
+    <edge to="69" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="67" en:Type="en:Note"/>
+  </node>
+  <node id="67" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="68" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="69" en:Type="en:Token"/>
+    <edge to="71" en:Type="en:Partwise"/>
+  </node>
+  <node id="69" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="72" en:Type="en:Voice"/>
+    <edge to="70" en:Type="en:Note"/>
+  </node>
+  <node id="70" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="71" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="72" en:Type="en:Token"/>
+    <edge to="74" en:Type="en:Partwise"/>
+  </node>
+  <node id="72" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="75" en:Type="en:Voice"/>
+    <edge to="75" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="73" en:Type="en:Note"/>
+  </node>
+  <node id="73" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="74" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="75" en:Type="en:Token"/>
+    <edge to="77" en:Type="en:Partwise"/>
+  </node>
+  <node id="75" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="78" en:Type="en:Voice"/>
+    <edge to="78" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="76" en:Type="en:Note"/>
+  </node>
+  <node id="76" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="77" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="78" en:Type="en:Token"/>
+    <edge to="80" en:Type="en:Partwise"/>
+  </node>
+  <node id="78" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="81" en:Type="en:Voice"/>
+    <edge to="79" en:Type="en:Note"/>
+  </node>
+  <node id="79" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="80" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="81" en:Type="en:Token"/>
+    <edge to="83" en:Type="en:Partwise"/>
+  </node>
+  <node id="81" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="84" en:Type="en:Voice"/>
+    <edge to="84" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="82" en:Type="en:Note"/>
+  </node>
+  <node id="82" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="83" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="84" en:Type="en:Token"/>
+    <edge to="86" en:Type="en:Partwise"/>
+  </node>
+  <node id="84" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="87" en:Type="en:Voice"/>
+    <edge to="87" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="85" en:Type="en:Note"/>
+  </node>
+  <node id="85" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="86" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="87" en:Type="en:Token"/>
+    <edge to="89" en:Type="en:Partwise"/>
+  </node>
+  <node id="87" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="90" en:Type="en:Voice"/>
+    <edge to="88" en:Type="en:Note"/>
+  </node>
+  <node id="88" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="89" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="90" en:Type="en:Token"/>
+    <edge to="92" en:Type="en:Partwise"/>
+  </node>
+  <node id="90" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="93" en:Type="en:Voice"/>
+    <edge to="91" en:Type="en:Note"/>
+  </node>
+  <node id="91" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="92" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="93" en:Type="en:Token"/>
+    <edge to="95" en:Type="en:Partwise"/>
+  </node>
+  <node id="93" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="96" en:Type="en:Voice"/>
+    <edge to="96" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="94" en:Type="en:Note"/>
+  </node>
+  <node id="94" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="95" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="96" en:Type="en:Token"/>
+    <edge to="98" en:Type="en:Partwise"/>
+  </node>
+  <node id="96" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="99" en:Type="en:Voice"/>
+    <edge to="99" en:Type="en:Tuplet" data-Tag="1"/>
+    <edge to="97" en:Type="en:Note"/>
+  </node>
+  <node id="97" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="98" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="99" en:Type="en:Token"/>
+    <edge to="101" en:Type="en:Partwise"/>
+  </node>
+  <node id="99" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="102" en:Type="en:Voice"/>
+    <edge to="100" en:Type="en:Note"/>
+  </node>
+  <node id="100" en:Value="en:B4" en:Type="en:Note"/>
+  <node id="101" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="102" en:Type="en:Token"/>
+    <edge to="104" en:Type="en:Partwise"/>
+  </node>
+  <node id="102" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/16">
+    <edge to="103" en:Type="en:Note"/>
+  </node>
+  <node id="103" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="104" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="105" en:Type="en:Token"/>
+  </node>
+  <node id="105" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+</graph>

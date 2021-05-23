@@ -1,0 +1,25 @@
+<graph>
+  <node id="0" root="root" en:Type="en:Island" data-StaffConnects="true" data-StaffOffset="0.0">
+    <edge to="1" en:Type="en:Token"/>
+    <edge to="8" en:Type="en:Partwise"/>
+  </node>
+  <node id="1" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="2" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="3" en:Type="en:Note"/>
+    <edge to="4" en:Type="en:Beam"/>
+  </node>
+  <node id="3" en:Value="en:E5" en:Type="en:Note"/>
+  <node id="4" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="5" en:Type="en:Note"/>
+  </node>
+  <node id="5" en:Value="en:D5" en:Type="en:Note"/>
+  <node id="6" en:Type="en:Island" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="7" en:Type="en:Token"/>
+  </node>
+  <node id="7" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="8" en:Type="en:Island">
+    <edge to="2" en:Type="en:Token"/>
+    <edge to="4" en:Type="en:Token"/>
+    <edge to="6" en:Type="en:Partwise"/>
+  </node>
+</graph>
