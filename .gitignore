@@ -2,3 +2,4 @@ bin
 external
 include/mica.h
 include/resources.h
+.DS_Store
