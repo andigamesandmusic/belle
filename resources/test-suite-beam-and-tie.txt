@@ -1,0 +1,7 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+
+0,10;Kind:Chord,NoteValue:1/8,Beam:0|11;A4-0|11|A4
+0,11;Kind:Chord,NoteValue:1/8;A4
+
+0,30;Kind:Barline,Value:Standard Barline

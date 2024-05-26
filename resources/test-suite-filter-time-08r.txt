@@ -1,0 +1,149 @@
+<graph>
+  <node id="0" root="root" en:Type="en:Island" data-StaffConnects="true" data-StaffLines="5" data-StaffOffset="0.0" data-StaffScale="1.0">
+    <edge to="1" en:Type="en:Token"/>
+    <edge to="2" en:Type="en:Partwise"/>
+  </node>
+  <node id="1" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="2" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="3" en:Type="en:Token"/>
+    <edge to="4" en:Type="en:Partwise"/>
+  </node>
+  <node id="3" en:Kind="en:Clef" en:Value="en:Treble Clef" en:Type="en:Token"/>
+  <node id="4" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="5" en:Type="en:Token"/>
+    <edge to="6" en:Type="en:Partwise"/>
+  </node>
+  <node id="5" en:Kind="en:Key Signature" en:Type="en:Token"/>
+  <node id="6" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="7" en:Type="en:Token"/>
+    <edge to="8" en:Type="en:Partwise"/>
+  </node>
+  <node id="7" en:Kind="en:Time Signature" en:Value="en:Regular Time Signature" en:Type="en:Token" en:Beats="6" en:NoteValue="1/8"/>
+  <node id="8" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="9" en:Type="en:Token"/>
+    <edge to="11" en:Type="en:Partwise"/>
+  </node>
+  <node id="9" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="10" en:Type="en:Note"/>
+    <edge to="12" en:Type="en:Voice"/>
+  </node>
+  <node id="10" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="11" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="12" en:Type="en:Token"/>
+    <edge to="14" en:Type="en:Partwise"/>
+  </node>
+  <node id="12" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="13" en:Type="en:Note"/>
+  </node>
+  <node id="13" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="14" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="15" en:Type="en:Token"/>
+    <edge to="16" en:Type="en:Partwise"/>
+  </node>
+  <node id="15" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="16" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="19" en:Type="en:Partwise"/>
+    <edge to="17" en:Type="en:Token"/>
+  </node>
+  <node id="17" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="18" en:Type="en:Note"/>
+    <edge to="20" en:Type="en:Voice"/>
+  </node>
+  <node id="18" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="19" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="20" en:Type="en:Token"/>
+    <edge to="22" en:Type="en:Partwise"/>
+  </node>
+  <node id="20" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="21" en:Type="en:Note"/>
+    <edge to="33" en:Type="en:Voice"/>
+  </node>
+  <node id="21" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="22" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="33" en:Type="en:Token"/>
+    <edge to="35" en:Type="en:Partwise"/>
+  </node>
+  <node id="23" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="24" en:Type="en:Token"/>
+  </node>
+  <node id="24" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="25" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="26" en:Type="en:Note"/>
+    <edge to="28" en:Type="en:Voice"/>
+  </node>
+  <node id="26" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="27" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="28" en:Type="en:Token"/>
+    <edge to="30" en:Type="en:Partwise"/>
+  </node>
+  <node id="28" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="29" en:Type="en:Note"/>
+    <edge to="31" en:Type="en:Voice"/>
+  </node>
+  <node id="29" en:Value="en:A4" en:Type="en:Note">
+    <edge to="32" en:Type="en:Tie"/>
+  </node>
+  <node id="30" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="31" en:Type="en:Token"/>
+    <edge to="23" en:Type="en:Partwise"/>
+  </node>
+  <node id="31" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="3/8">
+    <edge to="32" en:Type="en:Note"/>
+  </node>
+  <node id="32" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="33" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="34" en:Type="en:Note"/>
+  </node>
+  <node id="34" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="35" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="36" en:Type="en:Token"/>
+    <edge to="37" en:Type="en:Partwise"/>
+  </node>
+  <node id="36" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="37" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="38" en:Type="en:Token"/>
+    <edge to="40" en:Type="en:Partwise"/>
+  </node>
+  <node id="38" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="39" en:Type="en:Note"/>
+    <edge to="41" en:Type="en:Voice"/>
+  </node>
+  <node id="39" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="40" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="41" en:Type="en:Token"/>
+    <edge to="43" en:Type="en:Partwise"/>
+  </node>
+  <node id="41" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="42" en:Type="en:Note"/>
+    <edge to="44" en:Type="en:Voice"/>
+  </node>
+  <node id="42" en:Value="en:A4" en:Type="en:Note">
+    <edge to="45" en:Type="en:Tie"/>
+  </node>
+  <node id="43" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="44" en:Type="en:Token"/>
+    <edge to="46" en:Type="en:Partwise"/>
+  </node>
+  <node id="44" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/4">
+    <edge to="45" en:Type="en:Note"/>
+    <edge to="47" en:Type="en:Voice"/>
+  </node>
+  <node id="45" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="46" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="47" en:Type="en:Token"/>
+    <edge to="49" en:Type="en:Partwise"/>
+  </node>
+  <node id="47" en:Kind="en:Chord" en:Type="en:Token" en:NoteValue="1/8">
+    <edge to="48" en:Type="en:Note"/>
+  </node>
+  <node id="48" en:Value="en:A4" en:Type="en:Note"/>
+  <node id="49" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="50" en:Type="en:Token"/>
+    <edge to="51" en:Type="en:Partwise"/>
+  </node>
+  <node id="50" en:Kind="en:Barline" en:Value="en:Standard Barline" en:Type="en:Token"/>
+  <node id="51" en:Type="en:Island" data-StaffConnects="true">
+    <edge to="25" en:Type="en:Token"/>
+    <edge to="27" en:Type="en:Partwise"/>
+  </node>
+</graph>

@@ -1,0 +1,5 @@
+bin
+external
+output.pdf
+include/mica.h
+include/resources.h

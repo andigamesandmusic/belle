@@ -1,0 +1,76 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Key Signature,Value:One Flat
+0,3;Kind:Time Signature,Value:Cut Time
+
+0,4;Kind:Chord,NoteValue:1/8,Beam:0|5;D5
+0,5;Kind:Chord,NoteValue:1/8,Beam:0|6;F5
+0,6;Kind:Chord,NoteValue:1/8,Beam:0|7;E5
+0,7;Kind:Chord,NoteValue:1/8;D5
+
+0,8;Kind:Chord,NoteValue:1/8,Beam:0|9;A5
+0,9;Kind:Chord,NoteValue:1/8,Beam:0|10;G5
+0,10;Kind:Chord,NoteValue:1/8,Beam:0|11;F5
+0,11;Kind:Chord,NoteValue:1/8;E5
+
+0,12;Kind:Barline,Value:Standard Barline
+
+0,13;Kind:Chord,NoteValue:1/8,Beam:0|14;D5
+0,14;Kind:Chord,NoteValue:1/8,Beam:0|15;C5
+0,15;Kind:Chord,NoteValue:1/8,Beam:0|16;B4 flat
+0,16;Kind:Chord,NoteValue:1/8;A4
+
+0,17;Kind:Chord,NoteValue:1/8,Beam:0|18;G4
+0,18;Kind:Chord,NoteValue:1/8,Beam:0|19;B4 flat
+0,19;Kind:Chord,NoteValue:1/8,Beam:0|20;A4
+0,20;Kind:Chord,NoteValue:1/8;G4
+
+0,21;Kind:Barline,Value:Standard Barline
+
+0,22;Kind:Chord,NoteValue:1/8,Beam:0|23;A4
+0,23;Kind:Chord,NoteValue:1/8,Beam:0|24;G4
+0,24;Kind:Chord,NoteValue:1/8,Beam:0|25;F4
+0,25;Kind:Chord,NoteValue:1/8;E4
+
+0,26;Kind:Chord,NoteValue:1/8,Beam:0|27;D4
+0,27;Kind:Chord,NoteValue:1/8,Beam:0|28;C4
+0,28;Kind:Chord,NoteValue:1/8,Beam:0|29;B3 flat
+0,29;Kind:Chord,NoteValue:1/8;A3
+0,30;Kind:Clef,Value:Bass Clef
+
+0,31;Kind:Barline,Value:Standard Barline
+
+0,32;Kind:Chord,NoteValue:1/8,Beam:0|33;G3
+0,33;Kind:Chord,NoteValue:1/8,Beam:0|34;B3 flat
+0,34;Kind:Chord,NoteValue:1/8,Beam:0|35;A3
+0,35;Kind:Chord,NoteValue:1/8;G3
+
+0,36;Kind:Chord,NoteValue:1/8,Beam:0|37;A3
+0,37;Kind:Chord,NoteValue:1/8,Beam:0|38;G3
+0,38;Kind:Chord,NoteValue:1/8,Beam:0|39;F3
+0,39;Kind:Chord,NoteValue:1/8;E3
+
+0,41;Kind:Barline,Value:Standard Barline
+
+1,0;Kind:Barline,Value:Standard Barline,data-Brace:Brace
+1,1;Kind:Clef,Value:Bass Clef
+1,2;Kind:Key Signature,Value:One Flat
+1,3;Kind:Time Signature,Value:Cut Time
+1,4;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+1,8;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+
+1,12;Kind:Barline,Value:Standard Barline
+1,13;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+1,17;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+
+1,21;Kind:Barline,Value:Standard Barline
+1,22;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+1,26;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+
+1,31;Kind:Barline,Value:Standard Barline
+1,32;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+1,36;Kind:Chord,NoteValue:1/2,Rest:Rest;0
+
+1,40;Kind:Clef,Value:Treble Clef
+
+1,41;Kind:Barline,Value:Standard Barline

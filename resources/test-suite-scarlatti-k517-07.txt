@@ -1,0 +1,58 @@
+0,0;Kind:Barline,Value:Standard Barline
+0,1;Kind:Clef,Value:Treble Clef
+0,2;Kind:Key Signature,Value:One Flat
+1,0;Kind:Barline,Value:Standard Barline,data-Brace:Brace
+1,1;Kind:Clef,Value:Bass Clef
+1,2;Kind:Key Signature,Value:One Flat
+
+0,10;Kind:Chord,NoteValue:1/8,Beam:0|11;E4
+0,11;Kind:Chord,NoteValue:1/8,Beam:0|12;B4
+0,12;Kind:Chord,NoteValue:1/8,Beam:0|13;G4 sharp
+0,13;Kind:Chord,NoteValue:1/8;B4
+0,14;Kind:Chord,NoteValue:1/8,Beam:0|15;E4
+0,15;Kind:Chord,NoteValue:1/8,Beam:0|16;C5
+0,16;Kind:Chord,NoteValue:1/8,Beam:0|17;A4
+0,17;Kind:Chord,NoteValue:1/8;C5
+0,18;Kind:Barline,Value:Standard Barline
+1,10;Kind:Chord,NoteValue:1/2;E2,E3
+1,14;Kind:Chord,NoteValue:1/2;E2,E3
+1,18;Kind:Barline,Value:Standard Barline
+
+0,20;Kind:Chord,NoteValue:1/8,Beam:0|21,StemDirection:Down;E4
+0,21;Kind:Chord,NoteValue:1/8,Beam:0|22;D5
+0,22;Kind:Chord,NoteValue:1/8,Beam:0|23;B4
+0,23;Kind:Chord,NoteValue:1/8;D5
+0,24;Kind:Chord,NoteValue:1/8,Beam:0|25,StemDirection:Down;E4
+0,25;Kind:Chord,NoteValue:1/8,Beam:0|26;E5
+0,26;Kind:Chord,NoteValue:1/8,Beam:0|27;C5
+0,27;Kind:Chord,NoteValue:1/8;E5
+0,28;Kind:Barline,Value:Standard Barline
+1,20;Kind:Chord,NoteValue:1/2;E2,E3
+1,24;Kind:Chord,NoteValue:1/2;E2,E3
+1,28;Kind:Barline,Value:Standard Barline
+
+1,30;Kind:Chord,NoteValue:1/8,Beam:1|31;E3
+1,31;Kind:Chord,NoteValue:1/8,Beam:1|32;B3
+1,32;Kind:Chord,NoteValue:1/8,Beam:1|33;G3 sharp
+1,33;Kind:Chord,NoteValue:1/8;B3
+1,34;Kind:Chord,NoteValue:1/8,Beam:1|35;E3
+1,35;Kind:Chord,NoteValue:1/8,Beam:1|36;C4
+1,36;Kind:Chord,NoteValue:1/8,Beam:1|37;A3
+1,37;Kind:Chord,NoteValue:1/8;C4
+1,38;Kind:Barline,Value:Standard Barline
+0,30;Kind:Chord,NoteValue:1/2;G4 sharp,B4,E5-0|34|E5
+0,34;Kind:Chord,NoteValue:1/2;A4,C5,E5
+0,38;Kind:Barline,Value:Standard Barline
+
+1,40;Kind:Chord,NoteValue:1/8,Beam:1|41;E3
+1,41;Kind:Chord,NoteValue:1/8,Beam:1|42;D4
+1,42;Kind:Chord,NoteValue:1/8,Beam:1|43;B3
+1,43;Kind:Chord,NoteValue:1/8;D4
+1,44;Kind:Chord,NoteValue:1/8,Beam:1|45;E3
+1,45;Kind:Chord,NoteValue:1/8,Beam:1|46;E4
+1,46;Kind:Chord,NoteValue:1/8,Beam:1|47;C4
+1,47;Kind:Chord,NoteValue:1/8;E4
+1,48;Kind:Barline,Value:Standard Barline
+0,40;Kind:Chord,NoteValue:1/2;G4 sharp,B4,E5-0|44|E5
+0,44;Kind:Chord,NoteValue:1/2;A4,C5,E5
+0,48;Kind:Barline,Value:Standard Barline
